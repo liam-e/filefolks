@@ -1,0 +1,228 @@
+"use client";
+
+import { useState, useCallback } from "react";
+import { Button } from "@/components/ui/button";
+import { FileDropzone } from "@/components/shared/FileDropzone";
+import { mergePdfs } from "@/lib/processors/pdf";
+import { downloadBlob, formatFileSize } from "@/lib/utils/file";
+
+type Status = "idle" | "merging" | "done" | "error";
+
+export function PdfMergerTool() {
+  const [files, setFiles] = useState<File[]>([]);
+  const [status, setStatus] = useState<Status>("idle");
+  const [error, setError] = useState<string | null>(null);
+
+  const handleFiles = useCallback((incoming: File[]) => {
+    setFiles((prev) => [...prev, ...incoming]);
+    setStatus("idle");
+    setError(null);
+  }, []);
+
+  const removeFile = useCallback((index: number) => {
+    setFiles((prev) => prev.filter((_, i) => i !== index));
+    setStatus("idle");
+  }, []);
+
+  const moveUp = useCallback((index: number) => {
+    if (index === 0) return;
+    setFiles((prev) => {
+      const next = [...prev];
+      [next[index - 1], next[index]] = [next[index], next[index - 1]];
+      return next;
+    });
+  }, []);
+
+  const moveDown = useCallback((index: number) => {
+    setFiles((prev) => {
+      if (index === prev.length - 1) return prev;
+      const next = [...prev];
+      [next[index], next[index + 1]] = [next[index + 1], next[index]];
+      return next;
+    });
+  }, []);
+
+  const handleMerge = useCallback(async () => {
+    if (files.length < 2) return;
+    setStatus("merging");
+    setError(null);
+    try {
+      const blob = await mergePdfs(files);
+      downloadBlob(blob, "merged.pdf");
+      setStatus("done");
+    } catch (err) {
+      setError(err instanceof Error ? err.message : "Merge failed");
+      setStatus("error");
+    }
+  }, [files]);
+
+  const handleReset = useCallback(() => {
+    setFiles([]);
+    setStatus("idle");
+    setError(null);
+  }, []);
+
+  return (
+    <div className="space-y-6">
+      <FileDropzone
+        accept={{ "application/pdf": [".pdf"] }}
+        multiple
+        onFiles={handleFiles}
+        label="Drop PDF files here, or click to browse"
+        sublabel="You can drop more files after the first batch"
+      />
+
+      {files.length > 0 && (
+        <>
+          <div className="rounded-lg border border-border divide-y divide-border">
+            {files.map((file, i) => (
+              <div
+                key={`${file.name}-${i}`}
+                className="flex items-center gap-3 px-4 py-3"
+              >
+                <span className="w-5 text-xs text-muted-foreground text-right shrink-0 select-none">
+                  {i + 1}
+                </span>
+                <span className="flex-1 text-sm font-medium text-foreground truncate">
+                  {file.name}
+                </span>
+                <span className="text-xs text-muted-foreground shrink-0">
+                  {formatFileSize(file.size)}
+                </span>
+                <div className="flex items-center gap-1 shrink-0">
+                  <button
+                    type="button"
+                    onClick={() => moveUp(i)}
+                    disabled={i === 0}
+                    className="p-1 text-muted-foreground hover:text-foreground disabled:opacity-25 transition-colors"
+                    aria-label="Move up"
+                  >
+                    <ChevronUpIcon />
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => moveDown(i)}
+                    disabled={i === files.length - 1}
+                    className="p-1 text-muted-foreground hover:text-foreground disabled:opacity-25 transition-colors"
+                    aria-label="Move down"
+                  >
+                    <ChevronDownIcon />
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => removeFile(i)}
+                    className="p-1 ml-1 text-muted-foreground hover:text-destructive transition-colors"
+                    aria-label="Remove file"
+                  >
+                    <XIcon />
+                  </button>
+                </div>
+              </div>
+            ))}
+          </div>
+
+          <div className="flex items-center gap-3 flex-wrap">
+            <Button
+              size="xl"
+              onClick={handleMerge}
+              disabled={files.length < 2 || status === "merging"}
+            >
+              {status === "merging"
+                ? "Merging..."
+                : `Merge ${files.length} PDF${files.length === 1 ? "" : "s"}`}
+            </Button>
+            {status === "done" && (
+              <Button size="xl" variant="outline" onClick={handleMerge}>
+                Download again
+              </Button>
+            )}
+            <button
+              type="button"
+              onClick={handleReset}
+              className="text-sm text-muted-foreground hover:text-foreground transition-colors ml-auto"
+            >
+              Clear all
+            </button>
+          </div>
+
+          {files.length < 2 && (
+            <p className="text-sm text-muted-foreground">
+              Add at least 2 PDF files to merge.
+            </p>
+          )}
+        </>
+      )}
+
+      {error && (
+        <div className="rounded-lg border border-destructive/30 bg-destructive/5 px-4 py-3">
+          <p className="text-sm font-medium text-destructive">Error</p>
+          <p className="text-sm text-destructive/80 mt-1">{error}</p>
+        </div>
+      )}
+
+      {status === "done" && (
+        <div className="rounded-lg border border-emerald-200 bg-emerald-50 px-4 py-3">
+          <p className="text-sm font-medium text-emerald-700">
+            Merged successfully. Check your downloads folder.
+          </p>
+        </div>
+      )}
+
+      <p className="text-xs text-muted-foreground text-center pt-2">
+        Your files never leave your browser. All merging happens locally on your device.
+      </p>
+    </div>
+  );
+}
+
+function ChevronUpIcon() {
+  return (
+    <svg
+      width="14"
+      height="14"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2.5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      <polyline points="18 15 12 9 6 15" />
+    </svg>
+  );
+}
+
+function ChevronDownIcon() {
+  return (
+    <svg
+      width="14"
+      height="14"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2.5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      <polyline points="6 9 12 15 18 9" />
+    </svg>
+  );
+}
+
+function XIcon() {
+  return (
+    <svg
+      width="14"
+      height="14"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2.5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      <line x1="18" y1="6" x2="6" y2="18" />
+      <line x1="6" y1="6" x2="18" y2="18" />
+    </svg>
+  );
+}
