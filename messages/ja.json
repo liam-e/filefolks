@@ -15,7 +15,8 @@
     "headlineAccent": "ツール",
     "subheadline": "すべてのツールはブラウザ上で完全に動作します。ファイルがデバイスから外に出ることはありません。",
     "privacyTitle": "ファイルはデバイス上に留まります",
-    "privacyBody": "FileFolks は WebAssembly とブラウザ API を使用してファイルをローカルで処理します。サーバーに送信されるものは何もありません。ブラウザの開発者ツールの「ネットワーク」タブを確認することで検証できます。"
+    "privacyBody": "FileFolks は WebAssembly とブラウザ API を使用してファイルをローカルで処理します。サーバーに送信されるものは何もありません。ブラウザの開発者ツールの「ネットワーク」タブを確認することで検証できます。",
+    "viewAll": "すべて見る"
   },
   "ToolPageLayout": {
     "faqTitle": "{toolName} に関するよくある質問",
@@ -253,6 +254,56 @@
           "answer": "No. Base64 is an encoding scheme, not encryption. Anyone with the Base64 string can decode it instantly. Do not use it to protect sensitive data."
         }
       ]
+    },
+    "image-to-pdf": {
+      "name": "画像を PDF に変換",
+      "description": "1枚以上の画像を単一のPDFドキュメントに変換",
+      "longDescription": "Drop PNG, JPG, or WebP images and download them combined into a single PDF. Reorder pages by dragging. Everything runs in your browser — nothing is uploaded.",
+      "seoTitle": "Image to PDF Online — Free, Private, No Upload | FileFolks",
+      "seoDescription": "Convert JPG, PNG, or WebP images to a PDF in your browser. Reorder pages, then download. No upload required.",
+      "faqs": [
+        {
+          "question": "Are my images uploaded to a server?",
+          "answer": "No. All processing uses pdf-lib in your browser. Your images never leave your device."
+        },
+        {
+          "question": "Which image formats are supported?",
+          "answer": "PNG, JPG, and WebP. Each image becomes one page in the output PDF."
+        },
+        {
+          "question": "Can I control the page order?",
+          "answer": "Yes. After adding your images, drag them into the order you want. The PDF pages will follow this order."
+        },
+        {
+          "question": "What size will the PDF pages be?",
+          "answer": "Each page matches the pixel dimensions of the source image. For very large images the PDF file size may be significant."
+        }
+      ]
+    },
+    "pdf-rotate": {
+      "name": "PDF を回転",
+      "description": "PDFのページを90°、180°、270°回転",
+      "longDescription": "Drop a PDF and choose a rotation amount. All pages are rotated and the result downloads instantly — entirely in your browser.",
+      "seoTitle": "Rotate PDF Online — Free, Private, No Upload | FileFolks",
+      "seoDescription": "Rotate all pages in a PDF by 90°, 180°, or 270°. Runs in your browser. No upload required.",
+      "faqs": [
+        {
+          "question": "Is my PDF uploaded to a server?",
+          "answer": "No. Rotation happens in your browser using pdf-lib. Your file never leaves your device."
+        },
+        {
+          "question": "Can I rotate only specific pages?",
+          "answer": "Currently the tool rotates all pages by the same amount. Per-page rotation may be added in a future update."
+        },
+        {
+          "question": "Which direction is 90° right?",
+          "answer": "90° right rotates each page clockwise. 90° left rotates counter-clockwise. 180° flips pages upside down."
+        },
+        {
+          "question": "Will the text and images be affected?",
+          "answer": "No. Only the viewing orientation of each page changes. All content is preserved exactly."
+        }
+      ]
     }
   },
   "Categories": {
@@ -334,5 +385,37 @@
     "errorTitle": "エラー",
     "invalidBase64": "無効なBase64入力",
     "privacyNote": "データはブラウザ外に送信されません。すべての処理はローカルで行われます。"
+  },
+  "ImageToPdf": {
+    "dropLabel": "Drop images here, or click to browse",
+    "dropSublabel": "PNG, JPG, or WebP — add as many as you need",
+    "convertButton": "Convert {count} image to PDF",
+    "convertButtonPlural": "Convert {count} images to PDF",
+    "converting": "Converting...",
+    "clearAll": "Clear all",
+    "success": "Converted successfully. Check your downloads folder.",
+    "errorTitle": "Error",
+    "privacyNote": "Your images never leave your browser. All processing happens locally.",
+    "moveUp": "Move up",
+    "moveDown": "Move down",
+    "removeFile": "Remove file"
+  },
+  "PdfRotator": {
+    "dropLabel": "Drop a PDF here, or click to browse",
+    "dropSublabel": "Single file — your PDF never leaves your browser",
+    "rotateLeft": "90° left",
+    "rotate180": "180°",
+    "rotateRight": "90° right",
+    "rotationLabel": "Rotation",
+    "rotateButton": "Rotate PDF",
+    "rotating": "Rotating...",
+    "downloadAgain": "Download again",
+    "clear": "Clear",
+    "errorTitle": "Error",
+    "successTitle": "Rotated successfully. Check your downloads folder.",
+    "privacyNote": "Your file never leaves your browser. All processing happens locally.",
+    "removeFile": "Remove file",
+    "loadingPages": "Loading...",
+    "pageCount": "{count} pages"
   }
 }

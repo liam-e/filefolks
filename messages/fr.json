@@ -15,7 +15,8 @@
     "headlineAccent": "pour vous",
     "subheadline": "Chaque outil s'exécute entièrement dans votre navigateur. Vos fichiers ne quittent jamais votre appareil.",
     "privacyTitle": "Vos fichiers restent sur votre appareil",
-    "privacyBody": "FileFolks utilise WebAssembly et les API du navigateur pour traiter les fichiers localement. Rien n'est jamais envoyé à un serveur. Vous pouvez le vérifier en consultant le Network tab dans les outils de développement de votre navigateur."
+    "privacyBody": "FileFolks utilise WebAssembly et les API du navigateur pour traiter les fichiers localement. Rien n'est jamais envoyé à un serveur. Vous pouvez le vérifier en consultant le Network tab dans les outils de développement de votre navigateur.",
+    "viewAll": "Voir tout"
   },
   "ToolPageLayout": {
     "faqTitle": "Questions fréquentes sur {toolName}",
@@ -253,6 +254,56 @@
           "answer": "Non. Le Base64 est un schéma d'encodage, pas un chiffrement. Toute personne disposant de la chaîne Base64 peut la décoder instantanément."
         }
       ]
+    },
+    "image-to-pdf": {
+      "name": "Image en PDF",
+      "description": "Convertir une ou plusieurs images en un seul document PDF",
+      "longDescription": "Déposez des images PNG, JPG ou WebP et téléchargez-les combinées en un PDF. Réorganisez les pages par glisser-déposer. Tout s'exécute dans votre navigateur.",
+      "seoTitle": "Image en PDF en ligne — Gratuit, Privé, Sans envoi | FileFolks",
+      "seoDescription": "Convertissez JPG, PNG ou WebP en PDF dans votre navigateur. Réorganisez les pages et téléchargez. Sans envoi.",
+      "faqs": [
+        {
+          "question": "Mes images sont-elles envoyées à un serveur ?",
+          "answer": "Non. Tout utilise pdf-lib dans votre navigateur. Vos images ne quittent jamais votre appareil."
+        },
+        {
+          "question": "Quels formats d'image sont pris en charge ?",
+          "answer": "PNG, JPG et WebP. Chaque image devient une page dans le PDF de sortie."
+        },
+        {
+          "question": "Puis-je contrôler l'ordre des pages ?",
+          "answer": "Oui. Après avoir ajouté vos images, faites-les glisser dans l'ordre souhaité."
+        },
+        {
+          "question": "Quelle sera la taille des pages PDF ?",
+          "answer": "Chaque page correspond aux dimensions en pixels de l'image source."
+        }
+      ]
+    },
+    "pdf-rotate": {
+      "name": "Faire pivoter le PDF",
+      "description": "Faire pivoter les pages d'un PDF de 90°, 180° ou 270°",
+      "longDescription": "Déposez un PDF et choisissez un angle de rotation. Toutes les pages pivotent et le résultat se télécharge instantanément, dans votre navigateur.",
+      "seoTitle": "Faire pivoter un PDF en ligne — Gratuit, Privé, Sans envoi | FileFolks",
+      "seoDescription": "Faites pivoter toutes les pages d'un PDF de 90°, 180° ou 270°. Dans votre navigateur. Sans envoi.",
+      "faqs": [
+        {
+          "question": "Mon PDF est-il envoyé à un serveur ?",
+          "answer": "Non. La rotation se fait dans votre navigateur avec pdf-lib. Votre fichier ne quitte jamais votre appareil."
+        },
+        {
+          "question": "Puis-je faire pivoter uniquement des pages spécifiques ?",
+          "answer": "Actuellement l'outil fait pivoter toutes les pages du même montant. La rotation par page pourrait être ajoutée ultérieurement."
+        },
+        {
+          "question": "Quelle direction correspond à 90° droite ?",
+          "answer": "90° droite fait pivoter chaque page dans le sens des aiguilles d'une montre. 90° gauche dans le sens contraire. 180° retourne les pages à l'envers."
+        },
+        {
+          "question": "Le texte et les images seront-ils affectés ?",
+          "answer": "Non. Seule l'orientation de visualisation change. Tout le contenu est préservé exactement."
+        }
+      ]
     }
   },
   "Categories": {
@@ -334,5 +385,37 @@
     "errorTitle": "Erreur",
     "invalidBase64": "Entrée Base64 invalide",
     "privacyNote": "Vos données ne quittent jamais votre navigateur. Tout l'encodage s'effectue localement."
+  },
+  "ImageToPdf": {
+    "dropLabel": "Déposez des images ici ou cliquez pour parcourir",
+    "dropSublabel": "PNG, JPG ou WebP — ajoutez autant que nécessaire",
+    "convertButton": "Convertir {count} image en PDF",
+    "convertButtonPlural": "Convertir {count} images en PDF",
+    "converting": "Conversion...",
+    "clearAll": "Tout effacer",
+    "success": "Converti avec succès. Vérifiez votre dossier de téléchargements.",
+    "errorTitle": "Erreur",
+    "privacyNote": "Vos images ne quittent jamais votre navigateur. Tout le traitement s'effectue localement.",
+    "moveUp": "Monter",
+    "moveDown": "Descendre",
+    "removeFile": "Supprimer le fichier"
+  },
+  "PdfRotator": {
+    "dropLabel": "Déposez un PDF ici ou cliquez pour parcourir",
+    "dropSublabel": "Fichier unique — votre PDF ne quitte jamais votre navigateur",
+    "rotateLeft": "90° gauche",
+    "rotate180": "180°",
+    "rotateRight": "90° droite",
+    "rotationLabel": "Rotation",
+    "rotateButton": "Faire pivoter le PDF",
+    "rotating": "Rotation...",
+    "downloadAgain": "Télécharger à nouveau",
+    "clear": "Effacer",
+    "errorTitle": "Erreur",
+    "successTitle": "Pivoté avec succès. Vérifiez votre dossier de téléchargements.",
+    "privacyNote": "Votre fichier ne quitte jamais votre navigateur. Tout le traitement s'effectue localement.",
+    "removeFile": "Supprimer le fichier",
+    "loadingPages": "Chargement...",
+    "pageCount": "{count} pages"
   }
 }

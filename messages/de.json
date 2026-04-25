@@ -15,7 +15,8 @@
     "headlineAccent": "für Sie arbeiten",
     "subheadline": "Jedes Tool läuft vollständig in Ihrem Browser. Ihre Dateien verlassen Ihr Gerät nie.",
     "privacyTitle": "Ihre Dateien bleiben auf Ihrem Gerät",
-    "privacyBody": "FileFolks verwendet WebAssembly und Browser-APIs, um Dateien lokal zu verarbeiten. Es wird nichts an einen Server gesendet. Sie können dies überprüfen, indem Sie den Network-Tab in den Entwicklertools Ihres Browsers öffnen."
+    "privacyBody": "FileFolks verwendet WebAssembly und Browser-APIs, um Dateien lokal zu verarbeiten. Es wird nichts an einen Server gesendet. Sie können dies überprüfen, indem Sie den Network-Tab in den Entwicklertools Ihres Browsers öffnen.",
+    "viewAll": "Alle anzeigen"
   },
   "ToolPageLayout": {
     "faqTitle": "Häufig gestellte Fragen zu {toolName}",
@@ -253,6 +254,56 @@
           "answer": "Nein. Base64 ist ein Kodierungsschema, keine Verschlüsselung. Jeder mit der Base64-Zeichenkette kann sie sofort dekodieren."
         }
       ]
+    },
+    "image-to-pdf": {
+      "name": "Bild zu PDF",
+      "description": "Ein oder mehrere Bilder in ein einziges PDF-Dokument konvertieren",
+      "longDescription": "Legen Sie PNG-, JPG- oder WebP-Bilder ab und laden Sie sie als kombiniertes PDF herunter. Seiten per Drag & Drop neu anordnen. Alles läuft in Ihrem Browser.",
+      "seoTitle": "Bild zu PDF online — Kostenlos, Privat, Kein Upload | FileFolks",
+      "seoDescription": "JPG, PNG oder WebP in PDF konvertieren in Ihrem Browser. Seiten neu anordnen und herunterladen. Kein Upload.",
+      "faqs": [
+        {
+          "question": "Werden meine Bilder auf einen Server hochgeladen?",
+          "answer": "Nein. Alles verwendet pdf-lib in Ihrem Browser. Ihre Bilder verlassen nie Ihr Gerät."
+        },
+        {
+          "question": "Welche Bildformate werden unterstützt?",
+          "answer": "PNG, JPG und WebP. Jedes Bild wird zu einer Seite im Ausgabe-PDF."
+        },
+        {
+          "question": "Kann ich die Seitenreihenfolge steuern?",
+          "answer": "Ja. Nach dem Hinzufügen Ihrer Bilder können Sie sie in die gewünschte Reihenfolge ziehen."
+        },
+        {
+          "question": "Welche Größe haben die PDF-Seiten?",
+          "answer": "Jede Seite entspricht den Pixelabmessungen des Quellbilds."
+        }
+      ]
+    },
+    "pdf-rotate": {
+      "name": "PDF drehen",
+      "description": "Seiten in einem PDF um 90°, 180° oder 270° drehen",
+      "longDescription": "Legen Sie ein PDF ab und wählen Sie einen Drehwinkel. Alle Seiten werden gedreht und das Ergebnis wird sofort heruntergeladen — vollständig in Ihrem Browser.",
+      "seoTitle": "PDF online drehen — Kostenlos, Privat, Kein Upload | FileFolks",
+      "seoDescription": "Alle Seiten eines PDFs um 90°, 180° oder 270° drehen. In Ihrem Browser. Kein Upload.",
+      "faqs": [
+        {
+          "question": "Wird mein PDF auf einen Server hochgeladen?",
+          "answer": "Nein. Die Drehung erfolgt in Ihrem Browser mit pdf-lib. Ihre Datei verlässt nie Ihr Gerät."
+        },
+        {
+          "question": "Kann ich nur bestimmte Seiten drehen?",
+          "answer": "Derzeit dreht das Tool alle Seiten um denselben Betrag. Seitenweise Drehung könnte in einem zukünftigen Update hinzugefügt werden."
+        },
+        {
+          "question": "Welche Richtung ist 90° rechts?",
+          "answer": "90° rechts dreht jede Seite im Uhrzeigersinn. 90° links dreht gegen den Uhrzeigersinn. 180° dreht Seiten auf den Kopf."
+        },
+        {
+          "question": "Werden Text und Bilder beeinflusst?",
+          "answer": "Nein. Nur die Anzeigeausrichtung jeder Seite ändert sich. Alle Inhalte bleiben genau erhalten."
+        }
+      ]
     }
   },
   "Categories": {
@@ -334,5 +385,37 @@
     "errorTitle": "Fehler",
     "invalidBase64": "Ungültige Base64-Eingabe",
     "privacyNote": "Ihre Daten verlassen nie Ihren Browser. Die gesamte Kodierung erfolgt lokal."
+  },
+  "ImageToPdf": {
+    "dropLabel": "Bilder hier ablegen oder klicken zum Durchsuchen",
+    "dropSublabel": "PNG, JPG oder WebP — fügen Sie so viele wie nötig hinzu",
+    "convertButton": "{count} Bild in PDF konvertieren",
+    "convertButtonPlural": "{count} Bilder in PDF konvertieren",
+    "converting": "Konvertierung...",
+    "clearAll": "Alles zurücksetzen",
+    "success": "Erfolgreich konvertiert. Prüfen Sie Ihren Download-Ordner.",
+    "errorTitle": "Fehler",
+    "privacyNote": "Ihre Bilder verlassen nie Ihren Browser. Die gesamte Verarbeitung erfolgt lokal.",
+    "moveUp": "Nach oben",
+    "moveDown": "Nach unten",
+    "removeFile": "Datei entfernen"
+  },
+  "PdfRotator": {
+    "dropLabel": "PDF hier ablegen oder klicken zum Durchsuchen",
+    "dropSublabel": "Einzelne Datei — Ihr PDF verlässt nie Ihren Browser",
+    "rotateLeft": "90° links",
+    "rotate180": "180°",
+    "rotateRight": "90° rechts",
+    "rotationLabel": "Drehung",
+    "rotateButton": "PDF drehen",
+    "rotating": "Drehen...",
+    "downloadAgain": "Erneut herunterladen",
+    "clear": "Zurücksetzen",
+    "errorTitle": "Fehler",
+    "successTitle": "Erfolgreich gedreht. Prüfen Sie Ihren Download-Ordner.",
+    "privacyNote": "Ihre Datei verlässt nie Ihren Browser. Die gesamte Verarbeitung erfolgt lokal.",
+    "removeFile": "Datei entfernen",
+    "loadingPages": "Laden...",
+    "pageCount": "{count} Seiten"
   }
 }

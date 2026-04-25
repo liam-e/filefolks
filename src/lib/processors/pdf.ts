@@ -39,6 +39,63 @@ export async function splitPdf(
   return new Blob([outBytes.buffer as ArrayBuffer], { type: "application/pdf" });
 }
 
+async function fileToPngBytes(file: File): Promise<Uint8Array> {
+  return new Promise((resolve, reject) => {
+    const img = new Image();
+    const url = URL.createObjectURL(file);
+    img.onload = () => {
+      URL.revokeObjectURL(url);
+      const canvas = document.createElement("canvas");
+      canvas.width = img.naturalWidth;
+      canvas.height = img.naturalHeight;
+      const ctx = canvas.getContext("2d");
+      if (!ctx) return reject(new Error("Canvas not available"));
+      ctx.drawImage(img, 0, 0);
+      canvas.toBlob(async (blob) => {
+        if (!blob) return reject(new Error("PNG conversion failed"));
+        resolve(new Uint8Array(await blob.arrayBuffer()));
+      }, "image/png");
+    };
+    img.onerror = () => { URL.revokeObjectURL(url); reject(new Error("Failed to load image")); };
+    img.src = url;
+  });
+}
+
+export async function imagesToPdf(files: File[]): Promise<Blob> {
+  const { PDFDocument } = await import("pdf-lib");
+  const doc = await PDFDocument.create();
+
+  for (const file of files) {
+    let img;
+    if (file.type === "image/jpeg") {
+      img = await doc.embedJpg(await file.arrayBuffer());
+    } else {
+      const pngBytes = await fileToPngBytes(file);
+      img = await doc.embedPng(pngBytes);
+    }
+    const page = doc.addPage([img.width, img.height]);
+    page.drawImage(img, { x: 0, y: 0, width: img.width, height: img.height });
+  }
+
+  const outBytes = await doc.save();
+  return new Blob([outBytes.buffer as ArrayBuffer], { type: "application/pdf" });
+}
+
+export async function rotatePdf(
+  file: File,
+  rotation: 90 | 180 | 270
+): Promise<Blob> {
+  const { PDFDocument, degrees } = await import("pdf-lib");
+  const bytes = await file.arrayBuffer();
+  const doc = await PDFDocument.load(bytes);
+  doc.getPages().forEach((page) => {
+    const current = page.getRotation().angle;
+    page.setRotation(degrees((current + rotation) % 360));
+  });
+  const outBytes = await doc.save();
+  return new Blob([outBytes.buffer as ArrayBuffer], { type: "application/pdf" });
+}
+
 export interface CompressResult {
   blob: Blob;
   originalSize: number;

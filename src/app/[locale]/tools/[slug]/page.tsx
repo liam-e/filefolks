@@ -13,6 +13,8 @@ import { JsonFormatterTool } from "@/components/tools/JsonFormatter";
 import { ImageCompressorTool } from "@/components/tools/ImageCompressor";
 import { ImageConverterTool } from "@/components/tools/ImageConverter";
 import { Base64Tool } from "@/components/tools/Base64Tool";
+import { ImageToPdfTool } from "@/components/tools/ImageToPdfTool";
+import { PdfRotatorTool } from "@/components/tools/PdfRotatorTool";
 
 type ToolComponentType = React.ComponentType;
 
@@ -20,6 +22,8 @@ const TOOL_COMPONENTS: Partial<Record<string, ToolComponentType>> = {
   "pdf-merge": PdfMergerTool,
   "compress-pdf": PdfCompressorTool,
   "split-pdf": PdfSplitterTool,
+  "image-to-pdf": ImageToPdfTool,
+  "pdf-rotate": PdfRotatorTool,
   "json-formatter": JsonFormatterTool,
   "compress-image": ImageCompressorTool,
   "image-convert": ImageConverterTool,

@@ -103,6 +103,31 @@ function Base64Icon({ className }: SvgProps) {
   );
 }
 
+function ImageToPdfIcon({ className }: SvgProps) {
+  return (
+    <Svg className={className}>
+      {/* image frame */}
+      <rect x="2" y="2" width="13" height="13" rx="2" />
+      <circle cx="6" cy="6" r="1.5" />
+      <path d="m15 11-3.5-3.5a1.5 1.5 0 0 0-2.1 0L4 13" />
+      {/* arrow into document */}
+      <path d="M19 8v8a2 2 0 0 1-2 2H7" />
+      <polyline points="16 5 19 8 22 5" />
+    </Svg>
+  );
+}
+
+function PdfRotateIcon({ className }: SvgProps) {
+  return (
+    <Svg className={className}>
+      <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+      <polyline points="14 2 14 8 20 8" />
+      <path d="M9 13a3 3 0 1 0 6 0" />
+      <polyline points="15 11 15 13 13 13" />
+    </Svg>
+  );
+}
+
 // ── Category fallback icons ────────────────────────────────────
 
 function PdfCategoryIcon({ className }: SvgProps) {
@@ -161,6 +186,8 @@ const TOOL_ICONS: Record<string, IconComponent> = {
   "pdf-merge": PdfMergeIcon,
   "compress-pdf": CompressPdfIcon,
   "split-pdf": SplitPdfIcon,
+  "image-to-pdf": ImageToPdfIcon,
+  "pdf-rotate": PdfRotateIcon,
   "json-formatter": JsonFormatterIcon,
   "compress-image": CompressImageIcon,
   "image-convert": ImageConvertIcon,

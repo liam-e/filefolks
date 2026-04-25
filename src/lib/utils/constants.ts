@@ -482,6 +482,52 @@ export const TOOLS: ToolMeta[] = [
     icon: "/icons/base64-encode-decode.svg",
   },
 
+  {
+    slug: "image-to-pdf",
+    name: "Image to PDF",
+    description: "Convert one or more images into a single PDF document",
+    longDescription:
+      "Drop PNG, JPG, or WebP images and download them combined into a single PDF. Reorder pages by dragging. Everything runs in your browser — nothing is uploaded.",
+    category: "pdf",
+    tags: ["convert", "merge", "no-upload"],
+    popularity: 8,
+    seoTitle: "Image to PDF Online — Free, Private, No Upload | FileFolks",
+    seoDescription:
+      "Convert JPG, PNG, or WebP images to a PDF in your browser. Reorder pages, then download. No upload required.",
+    keywords: ["image to pdf", "jpg to pdf", "png to pdf", "convert image to pdf online free", "photos to pdf", "jpg to pdf no upload"],
+    searchQueries: ["how to convert jpg to pdf online free", "combine images into pdf without uploading", "png to pdf converter online"],
+    faqs: [
+      { question: "Are my images uploaded to a server?", answer: "No. All processing uses pdf-lib in your browser. Your images never leave your device." },
+      { question: "Which image formats are supported?", answer: "PNG, JPG, and WebP. Each image becomes one page in the output PDF." },
+      { question: "Can I control the page order?", answer: "Yes. After adding your images, drag them into the order you want. The PDF pages will follow this order." },
+      { question: "What size will the PDF pages be?", answer: "Each page matches the pixel dimensions of the source image. For very large images the PDF file size may be significant." },
+    ],
+    icon: "/icons/image-to-pdf.svg",
+  },
+
+  {
+    slug: "pdf-rotate",
+    name: "Rotate PDF",
+    description: "Rotate pages in a PDF by 90°, 180°, or 270°",
+    longDescription:
+      "Drop a PDF and choose a rotation amount. All pages are rotated and the result downloads instantly — entirely in your browser.",
+    category: "pdf",
+    tags: ["no-upload"],
+    popularity: 9,
+    seoTitle: "Rotate PDF Online — Free, Private, No Upload | FileFolks",
+    seoDescription:
+      "Rotate all pages in a PDF by 90°, 180°, or 270°. Runs in your browser. No upload required.",
+    keywords: ["rotate pdf", "rotate pdf pages online", "pdf rotator online free", "rotate pdf without uploading", "turn pdf pages"],
+    searchQueries: ["how to rotate a pdf online free", "rotate pdf pages without uploading", "fix upside down pdf online"],
+    faqs: [
+      { question: "Is my PDF uploaded to a server?", answer: "No. Rotation happens in your browser using pdf-lib. Your file never leaves your device." },
+      { question: "Can I rotate only specific pages?", answer: "Currently the tool rotates all pages by the same amount. Per-page rotation may be added in a future update." },
+      { question: "Which direction is 90° right?", answer: "90° right rotates each page clockwise. 90° left rotates counter-clockwise. 180° flips pages upside down." },
+      { question: "Will the text and images be affected?", answer: "No. Only the viewing orientation of each page changes. All content is preserved exactly." },
+    ],
+    icon: "/icons/pdf-rotate.svg",
+  },
+
   // ... add more tools following this pattern
 ];
 
