@@ -42,9 +42,11 @@ export function FileDropzone({
   return (
     <div
       {...getRootProps()}
+      aria-label={label}
       className={cn(
         "border-2 border-dashed rounded-lg p-12 text-center cursor-pointer",
         "transition-colors duration-200",
+        "outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2",
         isDragActive
           ? "border-primary bg-primary/5"
           : "border-muted-foreground/25 hover:border-muted-foreground/50",
@@ -52,10 +54,19 @@ export function FileDropzone({
       )}
     >
       <input {...getInputProps()} />
-      <p className="text-lg font-medium text-muted-foreground">{label}</p>
+      {/* aria-hidden: the visual text is redundant with the container's aria-label */}
+      <p className="text-lg font-medium text-muted-foreground" aria-hidden="true">
+        {isDragActive ? label : label}
+      </p>
       {sublabel && (
-        <p className="text-sm text-muted-foreground/70 mt-2">{sublabel}</p>
+        <p className="text-sm text-muted-foreground/70 mt-2" aria-hidden="true">
+          {sublabel}
+        </p>
       )}
+      {/* Live region announces drag state to screen readers */}
+      <span role="status" aria-live="polite" className="sr-only">
+        {isDragActive ? label : ""}
+      </span>
     </div>
   );
 }

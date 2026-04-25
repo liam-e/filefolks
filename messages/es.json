@@ -1,0 +1,169 @@
+{
+  "Header": {
+    "tools": "Herramientas",
+    "guides": "Guías",
+    "switchLanguage": "Idioma",
+    "skipToContent": "Saltar al contenido principal"
+  },
+  "Footer": {
+    "tagline": "Todas las herramientas funcionan en tu navegador. Ningún archivo se sube jamás.",
+    "copyright": "© 2026 FileFolks"
+  },
+  "Home": {
+    "badge": "Sin subidas. Sin cuentas. Sin rastreo.",
+    "headline": "Herramientas que trabajan",
+    "headlineAccent": "para ti",
+    "subheadline": "Cada herramienta funciona completamente en tu navegador. Tus archivos nunca salen de tu dispositivo.",
+    "privacyTitle": "Tus archivos permanecen en tu dispositivo",
+    "privacyBody": "FileFolks utiliza WebAssembly y las APIs del navegador para procesar archivos de forma local. Nada se envía jamás a un servidor. Puedes verificarlo revisando la pestaña Network en las herramientas de desarrollo de tu navegador."
+  },
+  "ToolPageLayout": {
+    "faqTitle": "Preguntas frecuentes sobre {toolName}",
+    "relatedTitle": "Herramientas relacionadas"
+  },
+  "PdfMerger": {
+    "dropLabel": "Arrastra archivos PDF aquí, o haz clic para buscar",
+    "dropSublabel": "Puedes agregar más archivos después del primer lote",
+    "mergeButton": "Combinar {count} PDF",
+    "mergeButtonPlural": "Combinar {count} PDFs",
+    "merging": "Combinando...",
+    "downloadAgain": "Descargar de nuevo",
+    "clearAll": "Limpiar todo",
+    "addMoreFiles": "Agrega al menos 2 archivos PDF para combinar.",
+    "success": "Combinado correctamente. Revisa tu carpeta de descargas.",
+    "errorTitle": "Error",
+    "privacyNote": "Tus archivos nunca salen de tu navegador. Todo el proceso de combinación ocurre localmente en tu dispositivo.",
+    "moveUp": "Subir",
+    "moveDown": "Bajar",
+    "removeFile": "Eliminar archivo"
+  },
+  "PdfCompressor": {
+    "dropLabel": "Arrastra un PDF aquí, o haz clic para buscar",
+    "dropSublabel": "Un solo archivo — tu PDF nunca sale de tu navegador",
+    "compressButton": "Comprimir PDF",
+    "compressing": "Comprimiendo...",
+    "downloadAgain": "Descargar de nuevo",
+    "clear": "Limpiar",
+    "errorTitle": "Error",
+    "successTitle": "Comprimido correctamente. Revisa tu carpeta de descargas.",
+    "original": "Original",
+    "compressed": "Comprimido",
+    "saved": "Ahorrado",
+    "alreadyOptimizedTitle": "El archivo ya está bien optimizado.",
+    "alreadyOptimizedBody": "La versión comprimida ({compressedSize}) no es más pequeña que el original ({originalSize}). Conserva tu archivo original.",
+    "privacyNote": "Tu archivo nunca sale de tu navegador. Todo el proceso de compresión ocurre localmente en tu dispositivo.",
+    "removeFile": "Eliminar archivo"
+  },
+  "JsonFormatter": {
+    "format": "Formatear",
+    "minify": "Minificar",
+    "indentLabel": "Sangría",
+    "indent2": "2 espacios",
+    "indent4": "4 espacios",
+    "indent1": "1 tabulación (como espacios)",
+    "inputLabel": "Entrada",
+    "outputLabel": "Salida",
+    "invalidJson": "JSON no válido",
+    "validJson": "Válido",
+    "uploadJson": "Subir .json",
+    "loadSample": "Cargar ejemplo",
+    "clear": "Limpiar",
+    "copy": "Copiar",
+    "copied": "¡Copiado!",
+    "inputPlaceholder": "Pega tu JSON aquí...",
+    "outputPlaceholder": "El resultado formateado aparecerá aquí...",
+    "parseError": "Error de análisis",
+    "statsKeys": "Claves",
+    "statsDepth": "Profundidad",
+    "statsSize": "Tamaño",
+    "privacyNote": "Tus datos nunca salen de tu navegador. Todo el procesamiento ocurre localmente en tu dispositivo."
+  },
+  "tools": {
+    "pdf-merge": {
+      "name": "Combinar PDF",
+      "description": "Combina varios archivos PDF en un solo documento",
+      "longDescription": "Arrastra y suelta tus archivos PDF para combinarlos en un único documento. Reordena las páginas arrastrándolas. Todo ocurre en tu navegador — tus archivos nunca salen de tu dispositivo.",
+      "seoTitle": "Combinar archivos PDF en línea — Gratis, Privado, Sin subidas | FileFolks",
+      "seoDescription": "Combina varios PDFs en un solo archivo. Funciona en tu navegador sin necesidad de subir archivos. Arrastra, suelta, reordena y descarga.",
+      "faqs": [
+        {
+          "question": "¿Se suben mis archivos PDF a un servidor?",
+          "answer": "No. Todo el proceso de combinación ocurre localmente en tu navegador mediante la biblioteca pdf-lib. Tus archivos nunca salen de tu dispositivo."
+        },
+        {
+          "question": "¿Hay un límite en el número de PDFs que puedo combinar?",
+          "answer": "No hay un límite fijo. El límite práctico depende de la memoria disponible en tu dispositivo. La mayoría de los usuarios puede combinar más de 50 archivos sin problemas."
+        },
+        {
+          "question": "¿Puedo reordenar las páginas antes de combinar?",
+          "answer": "Sí. Después de soltar tus archivos, puedes arrastrarlos al orden que desees. El PDF combinado seguirá ese orden."
+        },
+        {
+          "question": "¿El PDF combinado conservará los marcadores y los enlaces?",
+          "answer": "El contenido básico de las páginas, las imágenes y el texto se conservan. Es posible que elementos interactivos como marcadores y campos de formulario no se transfieran en todos los casos."
+        }
+      ]
+    },
+    "compress-pdf": {
+      "name": "Comprimir PDF",
+      "description": "Reduce el tamaño del archivo PDF sin perder contenido",
+      "longDescription": "Suelta un PDF para reducir su tamaño. La herramienta elimina los metadatos integrados y optimiza la estructura interna completamente en tu navegador. Tu archivo nunca se sube.",
+      "seoTitle": "Comprimir PDF en línea — Gratis, Privado, Sin subidas | FileFolks",
+      "seoDescription": "Reduce el tamaño de un PDF en tu navegador. Sin necesidad de subir archivos. Elimina metadatos y optimiza la estructura interna para archivos más pequeños.",
+      "faqs": [
+        {
+          "question": "¿Se sube mi PDF a un servidor?",
+          "answer": "No. Todo el proceso de compresión ocurre en tu navegador mediante la biblioteca pdf-lib. Tu archivo nunca sale de tu dispositivo. Puedes confirmarlo observando la pestaña Network de tu navegador mientras usas la herramienta."
+        },
+        {
+          "question": "¿Cuánto se reducirá mi PDF?",
+          "answer": "La herramienta elimina los metadatos integrados y optimiza la estructura interna de objetos. El ahorro varía según el archivo: los PDFs con metadatos redundantes o una estructura interna no optimizada pueden reducirse entre un 10 y un 40 %. Los PDFs que ya están optimizados o que están compuestos principalmente por imágenes comprimidas verán menores beneficios."
+        },
+        {
+          "question": "¿Cambiará el contenido de mi PDF?",
+          "answer": "No. Solo se eliminan los metadatos invisibles (autor, creador, marcas de tiempo) y la sobrecarga estructural interna. El contenido de las páginas, el texto, las imágenes y el diseño se conservan exactamente."
+        },
+        {
+          "question": "¿Qué ocurre si el archivo comprimido es más grande que el original?",
+          "answer": "Esto puede ocurrir si el PDF original ya estaba optimizado al máximo. La herramienta te permitirá descargar ambas versiones, pero en ese caso recomendamos conservar el original."
+        }
+      ]
+    },
+    "json-formatter": {
+      "name": "Formateador JSON",
+      "description": "Formatea, valida y minifica datos JSON",
+      "longDescription": "Pega o suelta un archivo JSON para formatearlo, validarlo e inspeccionarlo. Consulta de un vistazo el número de claves, la profundidad de anidamiento y el tamaño del archivo. Todo funciona en tu navegador — nada se sube.",
+      "seoTitle": "Formateador y validador JSON — Gratis, Privado, Sin subidas | FileFolks",
+      "seoDescription": "Formatea, valida y minifica JSON en línea. Funciona completamente en tu navegador. Tus datos nunca salen de tu dispositivo.",
+      "faqs": [
+        {
+          "question": "¿Se envían mis datos JSON a un servidor?",
+          "answer": "No. Todo el procesamiento ocurre en tu navegador mediante JavaScript. Tus datos nunca salen de tu dispositivo. Puedes verificarlo abriendo la pestaña Network de tu navegador mientras usas la herramienta."
+        },
+        {
+          "question": "¿Cuál es el tamaño máximo de JSON que puedo formatear?",
+          "answer": "No hay un límite estricto, pero los archivos muy grandes (de más de 50 MB) pueden ralentizar la pestaña del navegador. Para un mejor rendimiento, recomendamos archivos de menos de 10 MB."
+        },
+        {
+          "question": "¿Puedo formatear JSON con comentarios (JSONC)?",
+          "answer": "El JSON estándar no admite comentarios. Si tu entrada contiene comentarios, el validador reportará un error de análisis. Puedes eliminar los comentarios manualmente antes de formatear."
+        },
+        {
+          "question": "¿Cuál es la diferencia entre formatear y minificar?",
+          "answer": "Formatear añade sangría y saltos de línea para que el JSON sea legible por personas. Minificar elimina todos los espacios en blanco innecesarios para reducir el tamaño del archivo, lo cual es útil cuando el JSON se va a enviar a través de una red."
+        }
+      ]
+    }
+  },
+  "Categories": {
+    "pdf": "Herramientas PDF",
+    "image": "Herramientas de imagen",
+    "developer": "Herramientas de desarrollador",
+    "text": "Herramientas de texto",
+    "media": "Herramientas multimedia"
+  },
+  "Privacy": {
+    "title": "Política de privacidad",
+    "metaDescription": "FileFolks processes all files locally in your browser. No data is ever uploaded or stored."
+  }
+}

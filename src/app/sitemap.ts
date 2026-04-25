@@ -1,50 +1,61 @@
-// src/app/sitemap.ts
-
-import { TOOLS, CATEGORIES, getAllUsedTags } from "@/lib/utils/constants";
+import { TOOLS, CATEGORIES, GUIDES } from "@/lib/utils/constants";
+import { routing } from "@/i18n/routing";
+import { BASE_URL } from "@/lib/utils/metadata";
 import type { MetadataRoute } from "next";
 
 export const dynamic = "force-static";
 
+function altLanguages(path: string): Record<string, string> {
+  return Object.fromEntries(
+    routing.locales.map((l) => [l, `${BASE_URL}/${l}${path}`])
+  );
+}
+
 export default function sitemap(): MetadataRoute.Sitemap {
-    const base = "https://filefolks.com";
+  const home = routing.locales.map((locale) => ({
+    url: `${BASE_URL}/${locale}`,
+    lastModified: new Date(),
+    changeFrequency: "weekly" as const,
+    priority: locale === "en" ? 1.0 : 0.9,
+    alternates: { languages: altLanguages("") },
+  }));
 
-    const tools = TOOLS.map((tool) => ({
-        url: `${base}/tools/${tool.slug}`,
-        lastModified: new Date(),
-        changeFrequency: "monthly" as const,
-        priority: 0.8,
-    }));
+  const tools = TOOLS.flatMap((tool) =>
+    routing.locales.map((locale) => ({
+      url: `${BASE_URL}/${locale}/tools/${tool.slug}`,
+      lastModified: new Date(),
+      changeFrequency: "monthly" as const,
+      priority: locale === "en" ? 0.9 : 0.8,
+      alternates: { languages: altLanguages(`/tools/${tool.slug}`) },
+    }))
+  );
 
-    const categories = Object.keys(CATEGORIES).map((slug) => ({
-        url: `${base}/tools/category/${slug}`,
-        lastModified: new Date(),
-        changeFrequency: "monthly" as const,
-        priority: 0.7,
-    }));
+  const categories = Object.keys(CATEGORIES).flatMap((slug) =>
+    routing.locales.map((locale) => ({
+      url: `${BASE_URL}/${locale}/tools/category/${slug}`,
+      lastModified: new Date(),
+      changeFrequency: "monthly" as const,
+      priority: locale === "en" ? 0.7 : 0.6,
+      alternates: { languages: altLanguages(`/tools/category/${slug}`) },
+    }))
+  );
 
-    // Only include tags that are actually used
-    const tags = getAllUsedTags().map(({ tag }) => ({
-        url: `${base}/tools/tag/${tag}`,
-        lastModified: new Date(),
-        changeFrequency: "monthly" as const,
-        priority: 0.5,
-    }));
+  const guides = GUIDES.flatMap((guide) =>
+    routing.locales.map((locale) => ({
+      url: `${BASE_URL}/${locale}/guides/${guide.slug}`,
+      lastModified: new Date(),
+      changeFrequency: "monthly" as const,
+      priority: locale === "en" ? 0.8 : 0.7,
+      alternates: { languages: altLanguages(`/guides/${guide.slug}`) },
+    }))
+  );
 
-    const guides = TOOLS
-        .filter((t) => t.guideSlug)
-        .map((t) => ({
-            url: `${base}/guides/${t.guideSlug}`,
-            lastModified: new Date(),
-            changeFrequency: "monthly" as const,
-            priority: 0.6,
-        }));
+  const privacy = routing.locales.map((locale) => ({
+    url: `${BASE_URL}/${locale}/privacy`,
+    lastModified: new Date(),
+    changeFrequency: "yearly" as const,
+    priority: 0.3,
+  }));
 
-    return [
-        { url: base, lastModified: new Date(), priority: 1.0 },
-        { url: `${base}/about`, lastModified: new Date(), priority: 0.5 },
-        ...tools,
-        ...categories,
-        ...tags,
-        ...guides,
-    ];
+  return [...home, ...tools, ...categories, ...guides, ...privacy];
 }

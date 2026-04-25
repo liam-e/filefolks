@@ -1,17 +1,17 @@
-// src/components/shared/RelatedTools.tsx
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
 import type { ToolMeta } from "@/lib/utils/constants";
 
 interface RelatedToolsProps {
     tools: ToolMeta[];
+    title?: string;
 }
 
-export function RelatedTools({ tools }: RelatedToolsProps) {
+export function RelatedTools({ tools, title }: RelatedToolsProps) {
     if (tools.length === 0) return null;
 
     return (
         <section className="mt-12">
-            <h2 className="text-xl font-semibold mb-6">Related tools</h2>
+            <h2 className="text-xl font-semibold mb-6">{title ?? "Related tools"}</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                 {tools.map((tool) => (
                     <Link

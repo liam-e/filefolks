@@ -7,15 +7,16 @@ import type { FaqItem } from "@/lib/utils/constants";
 interface ToolFaqProps {
     faqs: FaqItem[];
     toolName: string;
+    title?: string;
 }
 
-export function ToolFaq({ faqs, toolName }: ToolFaqProps) {
+export function ToolFaq({ faqs, toolName, title }: ToolFaqProps) {
     if (faqs.length === 0) return null;
 
     return (
         <section className="mt-12">
             <h2 className="text-xl font-semibold mb-6">
-                Frequently asked questions about {toolName}
+                {title ?? `Frequently asked questions about ${toolName}`}
             </h2>
             <div className="space-y-3">
                 {faqs.map((faq, i) => (

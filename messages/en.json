@@ -1,0 +1,169 @@
+{
+  "Header": {
+    "tools": "Tools",
+    "guides": "Guides",
+    "switchLanguage": "Language",
+    "skipToContent": "Skip to main content"
+  },
+  "Footer": {
+    "tagline": "All tools run in your browser. No files are ever uploaded.",
+    "copyright": "© 2026 FileFolks"
+  },
+  "Home": {
+    "badge": "No uploads. No accounts. No tracking.",
+    "headline": "Tools that work",
+    "headlineAccent": "for you",
+    "subheadline": "Every tool runs entirely in your browser. Your files never leave your device.",
+    "privacyTitle": "Your files stay on your device",
+    "privacyBody": "FileFolks uses WebAssembly and browser APIs to process files locally. Nothing is ever sent to a server. You can verify this by checking the Network tab in your browser's developer tools."
+  },
+  "ToolPageLayout": {
+    "faqTitle": "Frequently asked questions about {toolName}",
+    "relatedTitle": "Related tools"
+  },
+  "PdfMerger": {
+    "dropLabel": "Drop PDF files here, or click to browse",
+    "dropSublabel": "You can drop more files after the first batch",
+    "mergeButton": "Merge {count} PDF",
+    "mergeButtonPlural": "Merge {count} PDFs",
+    "merging": "Merging...",
+    "downloadAgain": "Download again",
+    "clearAll": "Clear all",
+    "addMoreFiles": "Add at least 2 PDF files to merge.",
+    "success": "Merged successfully. Check your downloads folder.",
+    "errorTitle": "Error",
+    "privacyNote": "Your files never leave your browser. All merging happens locally on your device.",
+    "moveUp": "Move up",
+    "moveDown": "Move down",
+    "removeFile": "Remove file"
+  },
+  "PdfCompressor": {
+    "dropLabel": "Drop a PDF here, or click to browse",
+    "dropSublabel": "Single file — your PDF never leaves your browser",
+    "compressButton": "Compress PDF",
+    "compressing": "Compressing...",
+    "downloadAgain": "Download again",
+    "clear": "Clear",
+    "errorTitle": "Error",
+    "successTitle": "Compressed successfully. Check your downloads folder.",
+    "original": "Original",
+    "compressed": "Compressed",
+    "saved": "Saved",
+    "alreadyOptimizedTitle": "File is already well-optimized.",
+    "alreadyOptimizedBody": "The compressed version ({compressedSize}) is not smaller than the original ({originalSize}). Keep your original file.",
+    "privacyNote": "Your file never leaves your browser. All compression happens locally on your device.",
+    "removeFile": "Remove file"
+  },
+  "JsonFormatter": {
+    "format": "Format",
+    "minify": "Minify",
+    "indentLabel": "Indent",
+    "indent2": "2 spaces",
+    "indent4": "4 spaces",
+    "indent1": "1 tab (as spaces)",
+    "inputLabel": "Input",
+    "outputLabel": "Output",
+    "invalidJson": "Invalid JSON",
+    "validJson": "Valid",
+    "uploadJson": "Upload .json",
+    "loadSample": "Load sample",
+    "clear": "Clear",
+    "copy": "Copy",
+    "copied": "Copied!",
+    "inputPlaceholder": "Paste your JSON here...",
+    "outputPlaceholder": "Formatted output will appear here...",
+    "parseError": "Parse error",
+    "statsKeys": "Keys",
+    "statsDepth": "Depth",
+    "statsSize": "Size",
+    "privacyNote": "Your data never leaves your browser. All processing happens locally on your device."
+  },
+  "tools": {
+    "pdf-merge": {
+      "name": "Merge PDF",
+      "description": "Combine multiple PDF files into one document",
+      "longDescription": "Drag and drop your PDF files to merge them into a single document. Reorder pages by dragging. Everything happens in your browser — your files never leave your device.",
+      "seoTitle": "Merge PDF Files Online — Free, Private, No Upload | FileFolks",
+      "seoDescription": "Combine multiple PDFs into one file. Runs in your browser with no upload. Drag, drop, reorder, and download.",
+      "faqs": [
+        {
+          "question": "Are my PDF files uploaded to a server?",
+          "answer": "No. All merging happens locally in your browser using the pdf-lib library. Your files never leave your device."
+        },
+        {
+          "question": "Is there a limit on the number of PDFs I can merge?",
+          "answer": "There is no fixed limit. The practical limit depends on your device's available memory. Most users can merge 50+ files without issues."
+        },
+        {
+          "question": "Can I reorder pages before merging?",
+          "answer": "Yes. After dropping your files, you can drag them into the order you want. The merged PDF will follow this order."
+        },
+        {
+          "question": "Will the merged PDF keep bookmarks and links?",
+          "answer": "Basic page content, images, and text are preserved. Interactive elements like bookmarks and form fields may not carry over in all cases."
+        }
+      ]
+    },
+    "compress-pdf": {
+      "name": "Compress PDF",
+      "description": "Reduce PDF file size while preserving content",
+      "longDescription": "Drop a PDF to reduce its file size. The tool strips embedded metadata and optimizes the internal structure entirely in your browser. Your file is never uploaded.",
+      "seoTitle": "Compress PDF Online — Free, Private, No Upload | FileFolks",
+      "seoDescription": "Reduce PDF file size in your browser. No upload needed. Strips metadata and optimizes internal structure for smaller files.",
+      "faqs": [
+        {
+          "question": "Is my PDF uploaded to a server?",
+          "answer": "No. All compression happens in your browser using the pdf-lib library. Your file never leaves your device. You can confirm this by watching your browser's Network tab while using the tool."
+        },
+        {
+          "question": "How much will my PDF shrink?",
+          "answer": "The tool strips embedded metadata and optimizes the internal object structure. Savings vary by file: PDFs with redundant metadata or an unoptimized internal layout can see 10-40% reduction. PDFs that are already optimized or consist mostly of compressed images will see smaller gains."
+        },
+        {
+          "question": "Will the content of my PDF change?",
+          "answer": "No. Only invisible metadata (author, creator, timestamps) and internal structural overhead are removed. Page content, text, images, and layout are preserved exactly."
+        },
+        {
+          "question": "What if the compressed file is larger than the original?",
+          "answer": "This can happen if the original PDF was already tightly optimized. The tool will still let you download both versions, but we recommend keeping your original in that case."
+        }
+      ]
+    },
+    "json-formatter": {
+      "name": "JSON Formatter",
+      "description": "Format, validate, and minify JSON data",
+      "longDescription": "Paste or drop a JSON file to format, validate, and inspect it. See key counts, nesting depth, and file size at a glance. Everything runs in your browser — nothing is uploaded.",
+      "seoTitle": "JSON Formatter and Validator — Free, Private, No Upload | FileFolks",
+      "seoDescription": "Format, validate, and minify JSON online. Runs entirely in your browser. Your data never leaves your device.",
+      "faqs": [
+        {
+          "question": "Is my JSON data sent to a server?",
+          "answer": "No. All processing happens in your browser using JavaScript. Your data never leaves your device. You can verify this by opening your browser's Network tab while using the tool."
+        },
+        {
+          "question": "What is the maximum JSON size I can format?",
+          "answer": "There is no hard limit, but very large files (over 50 MB) may cause your browser tab to slow down. For best performance, we recommend files under 10 MB."
+        },
+        {
+          "question": "Can I format JSON with comments (JSONC)?",
+          "answer": "Standard JSON does not support comments. If your input contains comments, the validator will report a parse error. You can strip comments manually before formatting."
+        },
+        {
+          "question": "What is the difference between formatting and minifying?",
+          "answer": "Formatting adds indentation and line breaks to make JSON human-readable. Minifying removes all unnecessary whitespace to reduce file size, which is useful when JSON will be sent over a network."
+        }
+      ]
+    }
+  },
+  "Categories": {
+    "pdf": "PDF tools",
+    "image": "Image tools",
+    "developer": "Developer tools",
+    "text": "Text tools",
+    "media": "Media tools"
+  },
+  "Privacy": {
+    "title": "Privacy Policy",
+    "metaDescription": "FileFolks processes all files locally in your browser. No data is ever uploaded or stored."
+  }
+}

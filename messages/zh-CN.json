@@ -1,0 +1,169 @@
+{
+  "Header": {
+    "tools": "工具",
+    "guides": "指南",
+    "switchLanguage": "语言",
+    "skipToContent": "跳转到主要内容"
+  },
+  "Footer": {
+    "tagline": "所有工具均在您的浏览器中运行。文件不会被上传。",
+    "copyright": "© 2026 FileFolks"
+  },
+  "Home": {
+    "badge": "无上传。无账户。无追踪。",
+    "headline": "真正为您服务的",
+    "headlineAccent": "工具",
+    "subheadline": "每个工具完全在您的浏览器中运行。您的文件永远不会离开您的设备。",
+    "privacyTitle": "您的文件保留在设备上",
+    "privacyBody": "FileFolks 使用 WebAssembly 和浏览器 API 在本地处理文件。任何数据都不会发送到服务器。您可以通过浏览器开发者工具中的网络标签来验证这一点。"
+  },
+  "ToolPageLayout": {
+    "faqTitle": "关于 {toolName} 的常见问题",
+    "relatedTitle": "相关工具"
+  },
+  "PdfMerger": {
+    "dropLabel": "将 PDF 文件拖放到此处，或点击浏览",
+    "dropSublabel": "首批文件上传后，您还可以继续添加更多文件",
+    "mergeButton": "合并 {count} 个 PDF",
+    "mergeButtonPlural": "合并 {count} 个 PDF",
+    "merging": "合并中...",
+    "downloadAgain": "重新下载",
+    "clearAll": "清除全部",
+    "addMoreFiles": "请至少添加 2 个 PDF 文件以进行合并。",
+    "success": "合并成功。请查看您的下载文件夹。",
+    "errorTitle": "错误",
+    "privacyNote": "您的文件不会离开您的浏览器。所有合并操作均在您的设备上本地完成。",
+    "moveUp": "上移",
+    "moveDown": "下移",
+    "removeFile": "移除文件"
+  },
+  "PdfCompressor": {
+    "dropLabel": "将 PDF 拖放到此处，或点击浏览",
+    "dropSublabel": "单个文件 — 您的 PDF 不会离开您的浏览器",
+    "compressButton": "压缩 PDF",
+    "compressing": "压缩中...",
+    "downloadAgain": "重新下载",
+    "clear": "清除",
+    "errorTitle": "错误",
+    "successTitle": "压缩成功。请查看您的下载文件夹。",
+    "original": "原始",
+    "compressed": "压缩后",
+    "saved": "已节省",
+    "alreadyOptimizedTitle": "文件已经过良好优化。",
+    "alreadyOptimizedBody": "压缩后的版本（{compressedSize}）并不小于原始文件（{originalSize}）。建议保留您的原始文件。",
+    "privacyNote": "您的文件不会离开您的浏览器。所有压缩操作均在您的设备上本地完成。",
+    "removeFile": "移除文件"
+  },
+  "JsonFormatter": {
+    "format": "格式化",
+    "minify": "压缩",
+    "indentLabel": "缩进",
+    "indent2": "2 个空格",
+    "indent4": "4 个空格",
+    "indent1": "1 个制表符（用空格表示）",
+    "inputLabel": "输入",
+    "outputLabel": "输出",
+    "invalidJson": "无效的 JSON",
+    "validJson": "有效",
+    "uploadJson": "上传 .json",
+    "loadSample": "加载示例",
+    "clear": "清除",
+    "copy": "复制",
+    "copied": "已复制！",
+    "inputPlaceholder": "在此处粘贴您的 JSON...",
+    "outputPlaceholder": "格式化后的输出将显示在此处...",
+    "parseError": "解析错误",
+    "statsKeys": "键数",
+    "statsDepth": "深度",
+    "statsSize": "大小",
+    "privacyNote": "您的数据不会离开您的浏览器。所有处理均在您的设备上本地完成。"
+  },
+  "tools": {
+    "pdf-merge": {
+      "name": "合并 PDF",
+      "description": "将多个 PDF 文件合并为一个文档",
+      "longDescription": "拖放您的 PDF 文件，将它们合并为一个文档。通过拖动重新排列页面。一切都在您的浏览器中完成 — 您的文件永远不会离开您的设备。",
+      "seoTitle": "在线合并 PDF — 免费、私密、无需上传 | FileFolks",
+      "seoDescription": "将多个 PDF 合并为一个文件。在浏览器中运行，无需上传。拖放、排序并下载。",
+      "faqs": [
+        {
+          "question": "我的 PDF 文件会上传到服务器吗？",
+          "answer": "不会。所有合并操作都在您的浏览器中使用 pdf-lib 库在本地完成。您的文件永远不会离开您的设备。"
+        },
+        {
+          "question": "我可以合并的 PDF 数量有限制吗？",
+          "answer": "没有固定限制。实际限制取决于您设备的可用内存。大多数用户可以轻松合并 50 个以上的文件。"
+        },
+        {
+          "question": "合并前可以重新排序页面吗？",
+          "answer": "可以。拖放文件后，您可以将其拖动到所需顺序。合并后的 PDF 将按此顺序排列。"
+        },
+        {
+          "question": "合并后的 PDF 会保留书签和链接吗？",
+          "answer": "基本页面内容、图像和文本会保留。书签和表单字段等交互元素在某些情况下可能无法完整保留。"
+        }
+      ]
+    },
+    "compress-pdf": {
+      "name": "压缩 PDF",
+      "description": "在保留内容的同时减小 PDF 文件大小",
+      "longDescription": "拖放 PDF 以减小其文件大小。该工具在您的浏览器中完全去除嵌入的元数据并优化内部结构。您的文件永远不会上传。",
+      "seoTitle": "在线压缩 PDF — 免费、私密、无需上传 | FileFolks",
+      "seoDescription": "在浏览器中减小 PDF 文件大小。无需上传。去除元数据并优化内部结构以获得更小的文件。",
+      "faqs": [
+        {
+          "question": "我的 PDF 会上传到服务器吗？",
+          "answer": "不会。所有压缩操作都在您的浏览器中使用 pdf-lib 库完成。您的文件永远不会离开您的设备。"
+        },
+        {
+          "question": "我的 PDF 会缩小多少？",
+          "answer": "该工具会去除嵌入的元数据并优化内部对象结构。节省量因文件而异：含有冗余元数据或未优化内部布局的 PDF 可节省 10-40%。"
+        },
+        {
+          "question": "我的 PDF 内容会改变吗？",
+          "answer": "不会。只有不可见的元数据（作者、创建者、时间戳）和内部结构开销会被移除。页面内容、文本、图像和布局完全保留。"
+        },
+        {
+          "question": "如果压缩后的文件比原始文件大怎么办？",
+          "answer": "如果原始 PDF 已经经过良好优化，则可能发生这种情况。在这种情况下，我们建议保留原始文件。"
+        }
+      ]
+    },
+    "json-formatter": {
+      "name": "JSON 格式化工具",
+      "description": "格式化、验证和压缩 JSON 数据",
+      "longDescription": "粘贴或拖放 JSON 文件以格式化、验证和检查它。一目了然地查看键数、嵌套深度和文件大小。一切都在您的浏览器中运行 — 无需上传。",
+      "seoTitle": "JSON 格式化和验证工具 — 免费、私密、无需上传 | FileFolks",
+      "seoDescription": "在线格式化、验证和压缩 JSON。完全在您的浏览器中运行。您的数据永远不会离开您的设备。",
+      "faqs": [
+        {
+          "question": "我的 JSON 数据会发送到服务器吗？",
+          "answer": "不会。所有处理都在您的浏览器中使用 JavaScript 完成。您的数据永远不会离开您的设备。"
+        },
+        {
+          "question": "我可以格式化的 JSON 大小有上限吗？",
+          "answer": "没有硬性限制，但超过 50 MB 的大型文件可能会导致浏览器标签变慢。为获得最佳性能，建议文件大小在 10 MB 以内。"
+        },
+        {
+          "question": "我可以格式化带注释的 JSON (JSONC) 吗？",
+          "answer": "标准 JSON 不支持注释。如果您的输入包含注释，验证器将报告解析错误。"
+        },
+        {
+          "question": "格式化和压缩有什么区别？",
+          "answer": "格式化会添加缩进和换行符，使 JSON 易于阅读。压缩会删除所有不必要的空白字符以减小文件大小。"
+        }
+      ]
+    }
+  },
+  "Categories": {
+    "pdf": "PDF 工具",
+    "image": "图像工具",
+    "developer": "开发者工具",
+    "text": "文本工具",
+    "media": "媒体工具"
+  },
+  "Privacy": {
+    "title": "隐私政策",
+    "metaDescription": "FileFolks processes all files locally in your browser. No data is ever uploaded or stored."
+  }
+}

@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useCallback } from "react";
+import { useTranslations } from "next-intl";
 import { Button } from "@/components/ui/button";
 import { FileDropzone } from "@/components/shared/FileDropzone";
 import { mergePdfs } from "@/lib/processors/pdf";
@@ -9,6 +10,7 @@ import { downloadBlob, formatFileSize } from "@/lib/utils/file";
 type Status = "idle" | "merging" | "done" | "error";
 
 export function PdfMergerTool() {
+  const t = useTranslations("PdfMerger");
   const [files, setFiles] = useState<File[]>([]);
   const [status, setStatus] = useState<Status>("idle");
   const [error, setError] = useState<string | null>(null);
@@ -62,14 +64,28 @@ export function PdfMergerTool() {
     setError(null);
   }, []);
 
+  const mergeLabel =
+    status === "merging"
+      ? t("merging")
+      : files.length === 1
+        ? t("mergeButton", { count: 1 })
+        : t("mergeButtonPlural", { count: files.length });
+
   return (
     <div className="space-y-6">
+      {/* Announces processing state to screen readers */}
+      <div role="status" aria-live="polite" aria-atomic="true" className="sr-only">
+        {status === "merging" ? t("merging") :
+         status === "done" ? t("success") :
+         status === "error" ? error ?? "" : ""}
+      </div>
+
       <FileDropzone
         accept={{ "application/pdf": [".pdf"] }}
         multiple
         onFiles={handleFiles}
-        label="Drop PDF files here, or click to browse"
-        sublabel="You can drop more files after the first batch"
+        label={t("dropLabel")}
+        sublabel={t("dropSublabel")}
       />
 
       {files.length > 0 && (
@@ -95,7 +111,7 @@ export function PdfMergerTool() {
                     onClick={() => moveUp(i)}
                     disabled={i === 0}
                     className="p-1 text-muted-foreground hover:text-foreground disabled:opacity-25 transition-colors"
-                    aria-label="Move up"
+                    aria-label={t("moveUp")}
                   >
                     <ChevronUpIcon />
                   </button>
@@ -104,7 +120,7 @@ export function PdfMergerTool() {
                     onClick={() => moveDown(i)}
                     disabled={i === files.length - 1}
                     className="p-1 text-muted-foreground hover:text-foreground disabled:opacity-25 transition-colors"
-                    aria-label="Move down"
+                    aria-label={t("moveDown")}
                   >
                     <ChevronDownIcon />
                   </button>
@@ -112,7 +128,7 @@ export function PdfMergerTool() {
                     type="button"
                     onClick={() => removeFile(i)}
                     className="p-1 ml-1 text-muted-foreground hover:text-destructive transition-colors"
-                    aria-label="Remove file"
+                    aria-label={t("removeFile")}
                   >
                     <XIcon />
                   </button>
@@ -127,13 +143,11 @@ export function PdfMergerTool() {
               onClick={handleMerge}
               disabled={files.length < 2 || status === "merging"}
             >
-              {status === "merging"
-                ? "Merging..."
-                : `Merge ${files.length} PDF${files.length === 1 ? "" : "s"}`}
+              {mergeLabel}
             </Button>
             {status === "done" && (
               <Button size="xl" variant="outline" onClick={handleMerge}>
-                Download again
+                {t("downloadAgain")}
               </Button>
             )}
             <button
@@ -141,35 +155,31 @@ export function PdfMergerTool() {
               onClick={handleReset}
               className="text-sm text-muted-foreground hover:text-foreground transition-colors ml-auto"
             >
-              Clear all
+              {t("clearAll")}
             </button>
           </div>
 
           {files.length < 2 && (
-            <p className="text-sm text-muted-foreground">
-              Add at least 2 PDF files to merge.
-            </p>
+            <p className="text-sm text-muted-foreground">{t("addMoreFiles")}</p>
           )}
         </>
       )}
 
       {error && (
         <div className="rounded-lg border border-destructive/30 bg-destructive/5 px-4 py-3">
-          <p className="text-sm font-medium text-destructive">Error</p>
+          <p className="text-sm font-medium text-destructive">{t("errorTitle")}</p>
           <p className="text-sm text-destructive/80 mt-1">{error}</p>
         </div>
       )}
 
       {status === "done" && (
         <div className="rounded-lg border border-emerald-200 bg-emerald-50 px-4 py-3">
-          <p className="text-sm font-medium text-emerald-700">
-            Merged successfully. Check your downloads folder.
-          </p>
+          <p className="text-sm font-medium text-emerald-700">{t("success")}</p>
         </div>
       )}
 
       <p className="text-xs text-muted-foreground text-center pt-2">
-        Your files never leave your browser. All merging happens locally on your device.
+        {t("privacyNote")}
       </p>
     </div>
   );
@@ -177,16 +187,7 @@ export function PdfMergerTool() {
 
 function ChevronUpIcon() {
   return (
-    <svg
-      width="14"
-      height="14"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2.5"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    >
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
       <polyline points="18 15 12 9 6 15" />
     </svg>
   );
@@ -194,16 +195,7 @@ function ChevronUpIcon() {
 
 function ChevronDownIcon() {
   return (
-    <svg
-      width="14"
-      height="14"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2.5"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    >
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
       <polyline points="6 9 12 15 18 9" />
     </svg>
   );
@@ -211,16 +203,7 @@ function ChevronDownIcon() {
 
 function XIcon() {
   return (
-    <svg
-      width="14"
-      height="14"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2.5"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    >
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
       <line x1="18" y1="6" x2="6" y2="18" />
       <line x1="6" y1="6" x2="18" y2="18" />
     </svg>

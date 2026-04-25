@@ -1,12 +1,18 @@
-import Link from "next/link";
+import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/navigation";
 import { TOOLS, CATEGORIES } from "@/lib/utils/constants";
 import type { ToolCategory } from "@/lib/utils/constants";
 
 export default function Footer() {
+  const t = useTranslations("Footer");
+  const tTools = useTranslations("tools");
+  const tCategories = useTranslations("Categories");
+  const tPrivacy = useTranslations("Privacy");
+
   const categoriesWithTools = (Object.keys(CATEGORIES) as ToolCategory[])
     .map((slug) => ({
       ...CATEGORIES[slug],
-      tools: TOOLS.filter((t) => t.category === slug),
+      tools: TOOLS.filter((tool) => tool.category === slug),
     }))
     .filter((cat) => cat.tools.length > 0);
 
@@ -18,7 +24,7 @@ export default function Footer() {
             {categoriesWithTools.map((cat) => (
               <div key={cat.slug}>
                 <h3 className="text-xs font-semibold text-stone-100 uppercase tracking-widest mb-3">
-                  {cat.name}
+                  {tCategories(cat.slug)}
                 </h3>
                 <ul className="space-y-2">
                   {cat.tools.map((tool) => (
@@ -27,7 +33,7 @@ export default function Footer() {
                         href={`/tools/${tool.slug}`}
                         className="text-sm text-stone-400 hover:text-orange-400 transition-colors"
                       >
-                        {tool.name}
+                        {tTools(`${tool.slug}.name`)}
                       </Link>
                     </li>
                   ))}
@@ -57,12 +63,20 @@ export default function Footer() {
           </div>
 
           <p className="text-xs text-stone-500 text-center sm:text-left">
-            All tools run in your browser. No files are ever uploaded.
+            {t("tagline")}
           </p>
 
-          <p className="text-xs text-stone-600">
-            &copy; 2026 FileFolks
-          </p>
+          <div className="flex items-center gap-4">
+            <Link
+              href="/privacy"
+              className="text-xs text-stone-500 hover:text-stone-300 transition-colors"
+            >
+              {tPrivacy("title")}
+            </Link>
+            <p className="text-xs text-stone-600">
+              {t("copyright")}
+            </p>
+          </div>
         </div>
       </div>
     </footer>

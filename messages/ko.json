@@ -1,0 +1,169 @@
+{
+  "Header": {
+    "tools": "도구",
+    "guides": "가이드",
+    "switchLanguage": "언어",
+    "skipToContent": "본문으로 건너뛰기"
+  },
+  "Footer": {
+    "tagline": "모든 도구는 브라우저에서 실행됩니다. 파일은 절대 업로드되지 않습니다.",
+    "copyright": "© 2026 FileFolks"
+  },
+  "Home": {
+    "badge": "업로드 없음. 계정 없음. 추적 없음.",
+    "headline": "당신을 위해 작동하는",
+    "headlineAccent": "도구",
+    "subheadline": "모든 도구가 완전히 브라우저에서 실행됩니다. 파일이 기기를 떠나지 않습니다.",
+    "privacyTitle": "파일이 기기에 그대로 있습니다",
+    "privacyBody": "FileFolks는 WebAssembly와 브라우저 API를 사용하여 파일을 로컬에서 처리합니다. 서버로 전송되는 것은 없습니다. 브라우저 개발자 도구의 네트워크 탭에서 확인하실 수 있습니다."
+  },
+  "ToolPageLayout": {
+    "faqTitle": "{toolName}에 대해 자주 묻는 질문",
+    "relatedTitle": "관련 도구"
+  },
+  "PdfMerger": {
+    "dropLabel": "PDF 파일을 여기에 드롭하거나 클릭하여 찾아보세요",
+    "dropSublabel": "첫 번째 배치 이후에도 더 많은 파일을 드롭할 수 있습니다",
+    "mergeButton": "PDF {count}개 병합",
+    "mergeButtonPlural": "PDF {count}개 병합",
+    "merging": "병합 중...",
+    "downloadAgain": "다시 다운로드",
+    "clearAll": "모두 지우기",
+    "addMoreFiles": "병합하려면 PDF 파일을 최소 2개 추가하세요.",
+    "success": "성공적으로 병합되었습니다. 다운로드 폴더를 확인하세요.",
+    "errorTitle": "오류",
+    "privacyNote": "파일이 브라우저를 떠나지 않습니다. 모든 병합은 기기에서 로컬로 이루어집니다.",
+    "moveUp": "위로 이동",
+    "moveDown": "아래로 이동",
+    "removeFile": "파일 제거"
+  },
+  "PdfCompressor": {
+    "dropLabel": "PDF를 여기에 드롭하거나 클릭하여 찾아보세요",
+    "dropSublabel": "단일 파일 — PDF가 브라우저를 떠나지 않습니다",
+    "compressButton": "PDF 압축",
+    "compressing": "압축 중...",
+    "downloadAgain": "다시 다운로드",
+    "clear": "지우기",
+    "errorTitle": "오류",
+    "successTitle": "성공적으로 압축되었습니다. 다운로드 폴더를 확인하세요.",
+    "original": "원본",
+    "compressed": "압축됨",
+    "saved": "절약됨",
+    "alreadyOptimizedTitle": "파일이 이미 잘 최적화되어 있습니다.",
+    "alreadyOptimizedBody": "압축 버전({compressedSize})이 원본({originalSize})보다 작지 않습니다. 원본 파일을 보관하세요.",
+    "privacyNote": "파일이 브라우저를 떠나지 않습니다. 모든 압축은 기기에서 로컬로 이루어집니다.",
+    "removeFile": "파일 제거"
+  },
+  "JsonFormatter": {
+    "format": "포맷",
+    "minify": "최소화",
+    "indentLabel": "들여쓰기",
+    "indent2": "공백 2",
+    "indent4": "공백 4",
+    "indent1": "탭 1(공백으로)",
+    "inputLabel": "입력",
+    "outputLabel": "출력",
+    "invalidJson": "잘못된 JSON",
+    "validJson": "유효함",
+    "uploadJson": ".json 업로드",
+    "loadSample": "샘플 불러오기",
+    "clear": "지우기",
+    "copy": "복사",
+    "copied": "복사됨!",
+    "inputPlaceholder": "JSON을 여기에 붙여넣으세요...",
+    "outputPlaceholder": "포맷된 출력이 여기에 나타납니다...",
+    "parseError": "파싱 오류",
+    "statsKeys": "키",
+    "statsDepth": "깊이",
+    "statsSize": "크기",
+    "privacyNote": "데이터가 브라우저를 떠나지 않습니다. 모든 처리는 기기에서 로컬로 이루어집니다."
+  },
+  "tools": {
+    "pdf-merge": {
+      "name": "PDF 병합",
+      "description": "여러 PDF 파일을 하나의 문서로 결합",
+      "longDescription": "PDF 파일을 드래그 앤 드롭하여 단일 문서로 병합합니다. 드래그하여 페이지를 재정렬할 수 있습니다. 모든 작업이 브라우저에서 이루어집니다.",
+      "seoTitle": "PDF 파일 온라인 병합 — 무료, 개인 정보 보호, 업로드 없음 | FileFolks",
+      "seoDescription": "여러 PDF를 하나의 파일로 결합합니다. 업로드 없이 브라우저에서 실행됩니다.",
+      "faqs": [
+        {
+          "question": "내 PDF 파일이 서버에 업로드됩니까?",
+          "answer": "아니요. 모든 병합은 pdf-lib 라이브러리를 사용하여 브라우저 내에서 로컬로 이루어집니다. 파일이 기기를 떠나지 않습니다."
+        },
+        {
+          "question": "병합할 수 있는 PDF 수에 제한이 있습니까?",
+          "answer": "고정된 제한이 없습니다. 실제 제한은 기기의 사용 가능한 메모리에 따라 다릅니다. 대부분의 사용자는 50개 이상의 파일을 문제없이 병합할 수 있습니다."
+        },
+        {
+          "question": "병합 전에 페이지를 재정렬할 수 있습니까?",
+          "answer": "예. 파일을 드롭한 후 원하는 순서로 드래그할 수 있습니다."
+        },
+        {
+          "question": "병합된 PDF에 북마크와 링크가 유지됩니까?",
+          "answer": "기본 페이지 콘텐츠, 이미지, 텍스트는 보존됩니다. 북마크 및 양식 필드와 같은 대화형 요소는 모든 경우에 전달되지 않을 수 있습니다."
+        }
+      ]
+    },
+    "compress-pdf": {
+      "name": "PDF 압축",
+      "description": "콘텐츠를 보존하면서 PDF 파일 크기 줄이기",
+      "longDescription": "PDF를 드롭하여 파일 크기를 줄이세요. 도구가 브라우저에서 완전히 내장된 메타데이터를 제거하고 내부 구조를 최적화합니다.",
+      "seoTitle": "PDF 온라인 압축 — 무료, 개인 정보 보호, 업로드 없음 | FileFolks",
+      "seoDescription": "브라우저에서 PDF 파일 크기를 줄이세요. 업로드 필요 없습니다.",
+      "faqs": [
+        {
+          "question": "내 PDF가 서버에 업로드됩니까?",
+          "answer": "아니요. 모든 압축은 브라우저에서 pdf-lib 라이브러리를 사용하여 이루어집니다."
+        },
+        {
+          "question": "PDF가 얼마나 줄어듭니까?",
+          "answer": "절약량은 파일에 따라 다릅니다. 메타데이터가 많은 PDF는 10-40% 감소할 수 있습니다."
+        },
+        {
+          "question": "PDF 내용이 바뀝니까?",
+          "answer": "아니요. 보이지 않는 메타데이터만 제거됩니다. 페이지 콘텐츠는 정확히 보존됩니다."
+        },
+        {
+          "question": "압축 파일이 원본보다 크면 어떻게 됩니까?",
+          "answer": "원본 PDF가 이미 잘 최적화된 경우 발생할 수 있습니다. 그 경우 원본 파일을 보관하는 것이 좋습니다."
+        }
+      ]
+    },
+    "json-formatter": {
+      "name": "JSON 포매터",
+      "description": "JSON 데이터 형식화, 유효성 검사 및 최소화",
+      "longDescription": "JSON 파일을 붙여넣거나 드롭하여 형식화, 유효성 검사 및 검사합니다. 키 수, 중첩 깊이, 파일 크기를 한눈에 볼 수 있습니다.",
+      "seoTitle": "JSON 포매터 및 검사기 — 무료, 개인 정보 보호 | FileFolks",
+      "seoDescription": "JSON을 온라인으로 형식화, 유효성 검사 및 최소화합니다. 완전히 브라우저에서 실행됩니다.",
+      "faqs": [
+        {
+          "question": "내 JSON 데이터가 서버로 전송됩니까?",
+          "answer": "아니요. 모든 처리는 JavaScript를 사용하여 브라우저에서 이루어집니다."
+        },
+        {
+          "question": "형식화할 수 있는 JSON 크기에 제한이 있습니까?",
+          "answer": "고정된 제한은 없지만 50MB를 초과하는 파일은 브라우저 탭이 느려질 수 있습니다."
+        },
+        {
+          "question": "주석이 있는 JSON(JSONC)을 형식화할 수 있습니까?",
+          "answer": "표준 JSON은 주석을 지원하지 않습니다. 입력에 주석이 포함되어 있으면 파서 오류가 발생합니다."
+        },
+        {
+          "question": "형식화와 최소화의 차이는 무엇입니까?",
+          "answer": "형식화는 들여쓰기와 줄 바꿈을 추가하여 JSON을 읽기 쉽게 만듭니다. 최소화는 파일 크기를 줄이기 위해 불필요한 공백을 모두 제거합니다."
+        }
+      ]
+    }
+  },
+  "Categories": {
+    "pdf": "PDF 도구",
+    "image": "이미지 도구",
+    "developer": "개발자 도구",
+    "text": "텍스트 도구",
+    "media": "미디어 도구"
+  },
+  "Privacy": {
+    "title": "개인정보 처리방침",
+    "metaDescription": "FileFolks processes all files locally in your browser. No data is ever uploaded or stored."
+  }
+}

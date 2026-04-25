@@ -13,3 +13,29 @@ export async function mergePdfs(files: File[]): Promise<Blob> {
   const mergedBytes = await merged.save();
   return new Blob([mergedBytes.buffer as ArrayBuffer], { type: "application/pdf" });
 }
+
+export interface CompressResult {
+  blob: Blob;
+  originalSize: number;
+  compressedSize: number;
+}
+
+export async function compressPdf(file: File): Promise<CompressResult> {
+  const originalSize = file.size;
+  const bytes = await file.arrayBuffer();
+  const doc = await PDFDocument.load(bytes);
+
+  // Strip embedded metadata — often a meaningful source of overhead
+  doc.setTitle("");
+  doc.setAuthor("");
+  doc.setSubject("");
+  doc.setKeywords([]);
+  doc.setProducer("");
+  doc.setCreator("");
+
+  // useObjectStreams packs PDF objects into compressed cross-reference streams
+  const compressedBytes = await doc.save({ useObjectStreams: true });
+  const blob = new Blob([compressedBytes.buffer as ArrayBuffer], { type: "application/pdf" });
+
+  return { blob, originalSize, compressedSize: blob.size };
+}

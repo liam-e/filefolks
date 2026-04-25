@@ -1,11 +1,14 @@
-import Link from "next/link";
+import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/navigation";
+import { LanguageSwitcher } from "@/components/shared/LanguageSwitcher";
 
 export default function Header() {
+  const t = useTranslations("Header");
+
   return (
     <header className="sticky top-0 z-50 border-b border-border bg-background/95 backdrop-blur-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 h-16 flex items-center gap-4">
         <Link href="/" className="flex items-center gap-2.5 shrink-0">
-          {/* Placeholder logo — replace with final asset */}
           <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center shadow-sm">
             <svg
               viewBox="0 0 24 24"
@@ -32,14 +35,15 @@ export default function Header() {
             href="/"
             className="text-sm text-muted-foreground hover:text-foreground transition-colors"
           >
-            Tools
+            {t("tools")}
           </Link>
           <Link
             href="/guides"
             className="text-sm text-muted-foreground hover:text-foreground transition-colors"
           >
-            Guides
+            {t("guides")}
           </Link>
+          <LanguageSwitcher />
         </nav>
       </div>
     </header>

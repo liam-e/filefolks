@@ -1,3 +1,4 @@
+import { useTranslations } from "next-intl";
 import type { ToolMeta } from "@/lib/utils/constants";
 import { CATEGORIES } from "@/lib/utils/constants";
 import {
@@ -17,6 +18,7 @@ interface ToolPageLayoutProps {
 }
 
 export function ToolPageLayout({ tool, related, children }: ToolPageLayoutProps) {
+  const t = useTranslations("ToolPageLayout");
   const category = CATEGORIES[tool.category];
   const { bg, text } = category.colors;
 
@@ -64,11 +66,12 @@ export function ToolPageLayout({ tool, related, children }: ToolPageLayoutProps)
         {/* Tool component */}
         {children}
 
-        {/* FAQ — always present for every tool */}
-        <ToolFaq faqs={tool.faqs} toolName={tool.name} />
-
-        {/* Related tools */}
-        <RelatedTools tools={related} />
+        <ToolFaq
+          faqs={tool.faqs}
+          toolName={tool.name}
+          title={t("faqTitle", { toolName: tool.name })}
+        />
+        <RelatedTools tools={related} title={t("relatedTitle")} />
       </div>
     </>
   );

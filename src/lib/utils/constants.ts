@@ -327,6 +327,69 @@ export const TOOLS: ToolMeta[] = [
     icon: "/icons/pdf-merge.svg",
   },
 
+  {
+    slug: "compress-pdf",
+    name: "Compress PDF",
+    description: "Reduce PDF file size while preserving content",
+    longDescription:
+        "Drop a PDF to reduce its file size. The tool strips embedded metadata and " +
+        "optimizes the internal structure entirely in your browser. " +
+        "Your file is never uploaded.",
+    category: "pdf",
+    tags: ["compress", "no-upload"],
+    popularity: 3,
+    seoTitle: "Compress PDF Online — Free, Private, No Upload | FileFolks",
+    seoDescription:
+        "Reduce PDF file size in your browser. No upload needed. Strips metadata and optimizes internal structure for smaller files.",
+    keywords: [
+      "compress pdf",
+      "reduce pdf size",
+      "pdf compressor online free",
+      "shrink pdf file size",
+      "compress pdf without uploading",
+      "pdf optimizer",
+    ],
+    searchQueries: [
+      "how to compress a pdf file",
+      "reduce pdf file size online free",
+      "compress pdf without uploading to server",
+      "make pdf smaller online",
+      "pdf file too large how to reduce",
+    ],
+    faqs: [
+      {
+        question: "Is my PDF uploaded to a server?",
+        answer:
+            "No. All compression happens in your browser using the pdf-lib library. " +
+            "Your file never leaves your device. You can confirm this by watching " +
+            "your browser's Network tab while using the tool.",
+      },
+      {
+        question: "How much will my PDF shrink?",
+        answer:
+            "The tool strips embedded metadata and optimizes the internal object structure. " +
+            "Savings vary by file: PDFs with redundant metadata or an unoptimized " +
+            "internal layout can see 10-40% reduction. PDFs that are already optimized " +
+            "or consist mostly of compressed images will see smaller gains.",
+      },
+      {
+        question: "Will the content of my PDF change?",
+        answer:
+            "No. Only invisible metadata (author, creator, timestamps) and internal " +
+            "structural overhead are removed. Page content, text, images, and layout " +
+            "are preserved exactly.",
+      },
+      {
+        question: "What if the compressed file is larger than the original?",
+        answer:
+            "This can happen if the original PDF was already tightly optimized. " +
+            "The tool will still let you download both versions, but we recommend " +
+            "keeping your original in that case.",
+      },
+    ],
+    icon: "/icons/compress-pdf.svg",
+  },
+
   // ... add more tools following this pattern
 ];
 
@@ -393,13 +456,6 @@ export interface PlannedTool {
 
 export const PLANNED_TOOLS: PlannedTool[] = [
   // ── PDF ──
-  {
-    slug: "compress-pdf",
-    name: "Compress PDF",
-    description: "Reduce PDF file size while preserving quality",
-    category: "pdf",
-    priority: 1,
-  },
   {
     slug: "split-pdf",
     name: "Split PDF",

@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useCallback, useRef } from "react";
+import { useTranslations } from "next-intl";
 import { formatJson, type FormatJsonResult } from "@/lib/processors/text";
 import { Button } from "@/components/ui/button";
 
@@ -17,6 +18,7 @@ const SAMPLE_JSON = `{
 }`;
 
 export function JsonFormatterTool() {
+  const t = useTranslations("JsonFormatter");
   const [input, setInput] = useState("");
   const [result, setResult] = useState<FormatJsonResult | null>(null);
   const [indent, setIndent] = useState(2);
@@ -42,7 +44,6 @@ export function JsonFormatterTool() {
       setCopied(true);
       setTimeout(() => setCopied(false), 2000);
     } catch {
-      // Fallback for older browsers
       outputRef.current?.select();
       document.execCommand("copy");
       setCopied(true);
@@ -64,7 +65,6 @@ export function JsonFormatterTool() {
     (e: React.ChangeEvent<HTMLInputElement>) => {
       const file = e.target.files?.[0];
       if (!file) return;
-
       const reader = new FileReader();
       reader.onload = (event) => {
         const text = event.target?.result;
@@ -74,7 +74,6 @@ export function JsonFormatterTool() {
         }
       };
       reader.readAsText(file);
-      // Reset the input so the same file can be selected again
       e.target.value = "";
     },
     []
@@ -82,22 +81,23 @@ export function JsonFormatterTool() {
 
   return (
     <div className="space-y-6">
+      {/* Announces format result to screen readers */}
+      <div role="status" aria-live="polite" aria-atomic="true" className="sr-only">
+        {result?.valid ? t("validJson") : result && !result.valid ? t("invalidJson") : ""}
+      </div>
+
       {/* Controls bar */}
       <div className="flex flex-wrap items-center gap-3">
         <Button onClick={handleFormat} disabled={!input.trim()}>
-          Format
+          {t("format")}
         </Button>
         <Button variant="outline" onClick={handleMinify} disabled={!input.trim()}>
-          Minify
+          {t("minify")}
         </Button>
 
-        {/* Indent selector */}
         <div className="flex items-center gap-2 ml-auto">
-          <label
-            htmlFor="indent-select"
-            className="text-sm text-muted-foreground"
-          >
-            Indent
+          <label htmlFor="indent-select" className="text-sm text-muted-foreground">
+            {t("indentLabel")}
           </label>
           <select
             id="indent-select"
@@ -105,9 +105,9 @@ export function JsonFormatterTool() {
             onChange={(e) => setIndent(Number(e.target.value))}
             className="h-9 rounded-md border border-input bg-background px-3 text-sm"
           >
-            <option value={2}>2 spaces</option>
-            <option value={4}>4 spaces</option>
-            <option value={1}>1 tab (as spaces)</option>
+            <option value={2}>{t("indent2")}</option>
+            <option value={4}>{t("indent4")}</option>
+            <option value={1}>{t("indent1")}</option>
           </select>
         </div>
       </div>
@@ -117,11 +117,11 @@ export function JsonFormatterTool() {
         {/* Input */}
         <div className="space-y-2">
           <div className="flex items-center justify-between">
-            <span className="text-sm font-medium">Input</span>
+            <span className="text-sm font-medium">{t("inputLabel")}</span>
             <div className="flex gap-2">
               <label className="inline-flex items-center gap-1.5 text-xs text-muted-foreground hover:text-foreground cursor-pointer transition-colors">
                 <UploadIcon />
-                Upload .json
+                {t("uploadJson")}
                 <input
                   type="file"
                   accept=".json,application/json"
@@ -134,7 +134,7 @@ export function JsonFormatterTool() {
                 onClick={handleLoadSample}
                 className="text-xs text-muted-foreground hover:text-foreground transition-colors"
               >
-                Load sample
+                {t("loadSample")}
               </button>
               <button
                 type="button"
@@ -142,7 +142,7 @@ export function JsonFormatterTool() {
                 className="text-xs text-muted-foreground hover:text-foreground transition-colors"
                 disabled={!input}
               >
-                Clear
+                {t("clear")}
               </button>
             </div>
           </div>
@@ -152,7 +152,7 @@ export function JsonFormatterTool() {
               setInput(e.target.value);
               setResult(null);
             }}
-            placeholder="Paste your JSON here..."
+            placeholder={t("inputPlaceholder")}
             spellCheck={false}
             className="w-full h-80 rounded-lg border border-input bg-background px-4 py-3 font-mono text-sm resize-none focus:outline-none focus:ring-2 focus:ring-ring"
           />
@@ -162,15 +162,15 @@ export function JsonFormatterTool() {
         <div className="space-y-2">
           <div className="flex items-center justify-between">
             <span className="text-sm font-medium">
-              Output
+              {t("outputLabel")}
               {result && !result.valid && (
                 <span className="ml-2 text-xs text-destructive font-normal">
-                  Invalid JSON
+                  {t("invalidJson")}
                 </span>
               )}
               {result?.valid && (
                 <span className="ml-2 text-xs text-emerald-600 dark:text-emerald-400 font-normal">
-                  Valid
+                  {t("validJson")}
                 </span>
               )}
             </span>
@@ -180,7 +180,7 @@ export function JsonFormatterTool() {
                 onClick={handleCopy}
                 className="text-xs text-muted-foreground hover:text-foreground transition-colors"
               >
-                {copied ? "Copied!" : "Copy"}
+                {copied ? t("copied") : t("copy")}
               </button>
             )}
           </div>
@@ -188,7 +188,7 @@ export function JsonFormatterTool() {
             ref={outputRef}
             value={result?.formatted ?? ""}
             readOnly
-            placeholder="Formatted output will appear here..."
+            placeholder={t("outputPlaceholder")}
             spellCheck={false}
             className="w-full h-80 rounded-lg border border-input bg-muted/30 px-4 py-3 font-mono text-sm resize-none focus:outline-none"
           />
@@ -198,26 +198,22 @@ export function JsonFormatterTool() {
       {/* Error message */}
       {result && !result.valid && result.error && (
         <div className="rounded-lg border border-destructive/30 bg-destructive/5 px-4 py-3">
-          <p className="text-sm font-medium text-destructive">Parse error</p>
-          <p className="text-sm text-destructive/80 mt-1 font-mono">
-            {result.error}
-          </p>
+          <p className="text-sm font-medium text-destructive">{t("parseError")}</p>
+          <p className="text-sm text-destructive/80 mt-1 font-mono">{result.error}</p>
         </div>
       )}
 
       {/* Stats */}
       {result?.valid && (
         <div className="grid grid-cols-3 gap-3">
-          <StatCard label="Keys" value={result.stats.keys.toLocaleString()} />
-          <StatCard label="Depth" value={result.stats.depth.toString()} />
-          <StatCard label="Size" value={formatSize(result.stats.sizeBytes)} />
+          <StatCard label={t("statsKeys")} value={result.stats.keys.toLocaleString()} />
+          <StatCard label={t("statsDepth")} value={result.stats.depth.toString()} />
+          <StatCard label={t("statsSize")} value={formatSize(result.stats.sizeBytes)} />
         </div>
       )}
 
-      {/* Privacy note */}
       <p className="text-xs text-muted-foreground text-center pt-2">
-        Your data never leaves your browser. All processing happens locally on
-        your device.
+        {t("privacyNote")}
       </p>
     </div>
   );
@@ -234,16 +230,7 @@ function StatCard({ label, value }: { label: string; value: string }) {
 
 function UploadIcon() {
   return (
-    <svg
-      width="14"
-      height="14"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    >
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
       <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
       <polyline points="17 8 12 3 7 8" />
       <line x1="12" y1="3" x2="12" y2="15" />

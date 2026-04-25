@@ -1,0 +1,169 @@
+{
+  "Header": {
+    "tools": "Hulpmiddelen",
+    "guides": "Gidsen",
+    "switchLanguage": "Taal",
+    "skipToContent": "Ga naar de hoofdinhoud"
+  },
+  "Footer": {
+    "tagline": "Alle hulpmiddelen draaien in je browser. Er worden nooit bestanden geüpload.",
+    "copyright": "© 2026 FileFolks"
+  },
+  "Home": {
+    "badge": "Geen uploads. Geen accounts. Geen tracking.",
+    "headline": "Hulpmiddelen die werken",
+    "headlineAccent": "voor jou",
+    "subheadline": "Elk hulpmiddel draait volledig in je browser. Je bestanden verlaten nooit je apparaat.",
+    "privacyTitle": "Je bestanden blijven op je apparaat",
+    "privacyBody": "FileFolks gebruikt WebAssembly en browser-API's om bestanden lokaal te verwerken. Er wordt nooit iets naar een server gestuurd. Je kunt dit verifiëren door het tabblad Netwerk in de ontwikkelaarstools van je browser te controleren."
+  },
+  "ToolPageLayout": {
+    "faqTitle": "Veelgestelde vragen over {toolName}",
+    "relatedTitle": "Gerelateerde hulpmiddelen"
+  },
+  "PdfMerger": {
+    "dropLabel": "Sleep PDF-bestanden hier naartoe, of klik om te bladeren",
+    "dropSublabel": "Je kunt meer bestanden toevoegen na de eerste batch",
+    "mergeButton": "{count} PDF samenvoegen",
+    "mergeButtonPlural": "{count} PDF's samenvoegen",
+    "merging": "Samenvoegen...",
+    "downloadAgain": "Opnieuw downloaden",
+    "clearAll": "Alles wissen",
+    "addMoreFiles": "Voeg ten minste 2 PDF-bestanden toe om samen te voegen.",
+    "success": "Succesvol samengevoegd. Controleer je downloadmap.",
+    "errorTitle": "Fout",
+    "privacyNote": "Je bestanden verlaten nooit je browser. Alle samenvoeging vindt lokaal op je apparaat plaats.",
+    "moveUp": "Omhoog",
+    "moveDown": "Omlaag",
+    "removeFile": "Bestand verwijderen"
+  },
+  "PdfCompressor": {
+    "dropLabel": "Sleep een PDF hier naartoe, of klik om te bladeren",
+    "dropSublabel": "Eén bestand — je PDF verlaat nooit je browser",
+    "compressButton": "PDF comprimeren",
+    "compressing": "Comprimeren...",
+    "downloadAgain": "Opnieuw downloaden",
+    "clear": "Wissen",
+    "errorTitle": "Fout",
+    "successTitle": "Succesvol gecomprimeerd. Controleer je downloadmap.",
+    "original": "Origineel",
+    "compressed": "Gecomprimeerd",
+    "saved": "Bespaard",
+    "alreadyOptimizedTitle": "Bestand is al goed geoptimaliseerd.",
+    "alreadyOptimizedBody": "De gecomprimeerde versie ({compressedSize}) is niet kleiner dan het origineel ({originalSize}). Bewaar je originele bestand.",
+    "privacyNote": "Je bestand verlaat nooit je browser. Alle compressie vindt lokaal op je apparaat plaats.",
+    "removeFile": "Bestand verwijderen"
+  },
+  "JsonFormatter": {
+    "format": "Opmaken",
+    "minify": "Minificeren",
+    "indentLabel": "Inspringing",
+    "indent2": "2 spaties",
+    "indent4": "4 spaties",
+    "indent1": "1 tab (als spaties)",
+    "inputLabel": "Invoer",
+    "outputLabel": "Uitvoer",
+    "invalidJson": "Ongeldige JSON",
+    "validJson": "Geldig",
+    "uploadJson": "JSON uploaden",
+    "loadSample": "Voorbeeld laden",
+    "clear": "Wissen",
+    "copy": "Kopiëren",
+    "copied": "Gekopieerd!",
+    "inputPlaceholder": "Plak hier je JSON...",
+    "outputPlaceholder": "Opgemaakt resultaat verschijnt hier...",
+    "parseError": "Parseerfout",
+    "statsKeys": "Sleutels",
+    "statsDepth": "Diepte",
+    "statsSize": "Grootte",
+    "privacyNote": "Je gegevens verlaten nooit je browser. Alle verwerking vindt lokaal op je apparaat plaats."
+  },
+  "tools": {
+    "pdf-merge": {
+      "name": "PDF's samenvoegen",
+      "description": "Combineer meerdere PDF-bestanden tot één document",
+      "longDescription": "Sleep je PDF-bestanden om ze samen te voegen tot één document. Herorden pagina's door te slepen. Alles gebeurt in je browser — je bestanden verlaten nooit je apparaat.",
+      "seoTitle": "PDF's online samenvoegen — Gratis, Privé, Geen upload | FileFolks",
+      "seoDescription": "Combineer meerdere PDF's tot één bestand. Draait in je browser zonder upload. Slepen, neerzetten, herordenen en downloaden.",
+      "faqs": [
+        {
+          "question": "Worden mijn PDF-bestanden naar een server geüpload?",
+          "answer": "Nee. Al het samenvoegen vindt lokaal in je browser plaats met behulp van de pdf-lib bibliotheek. Je bestanden verlaten nooit je apparaat."
+        },
+        {
+          "question": "Is er een limiet op het aantal PDF's dat ik kan samenvoegen?",
+          "answer": "Er is geen vaste limiet. De praktische limiet hangt af van het beschikbare geheugen van je apparaat. De meeste gebruikers kunnen probleemloos 50+ bestanden samenvoegen."
+        },
+        {
+          "question": "Kan ik pagina's herordenen voor het samenvoegen?",
+          "answer": "Ja. Na het neerzetten van je bestanden kun je ze in de gewenste volgorde slepen. De samengevoegde PDF volgt deze volgorde."
+        },
+        {
+          "question": "Behoudt de samengevoegde PDF bladwijzers en links?",
+          "answer": "Basisinhoud van pagina's, afbeeldingen en tekst worden bewaard. Interactieve elementen zoals bladwijzers en formuliervelden worden mogelijk niet in alle gevallen overgedragen."
+        }
+      ]
+    },
+    "compress-pdf": {
+      "name": "PDF comprimeren",
+      "description": "Verklein de PDF-bestandsgrootte met behoud van inhoud",
+      "longDescription": "Sleep een PDF om de bestandsgrootte te verkleinen. Het hulpmiddel verwijdert ingesloten metadata en optimaliseert de interne structuur volledig in je browser. Je bestand wordt nooit geüpload.",
+      "seoTitle": "PDF online comprimeren — Gratis, Privé, Geen upload | FileFolks",
+      "seoDescription": "Verklein de PDF-bestandsgrootte in je browser. Geen upload nodig. Verwijdert metadata en optimaliseert de interne structuur voor kleinere bestanden.",
+      "faqs": [
+        {
+          "question": "Wordt mijn PDF naar een server geüpload?",
+          "answer": "Nee. Alle compressie vindt in je browser plaats met behulp van de pdf-lib bibliotheek. Je bestand verlaat nooit je apparaat."
+        },
+        {
+          "question": "Hoeveel zal mijn PDF krimpen?",
+          "answer": "Het hulpmiddel verwijdert ingesloten metadata en optimaliseert de interne objectstructuur. Besparingen variëren per bestand: PDF's met redundante metadata of een niet-geoptimaliseerde interne indeling kunnen een reductie van 10-40% zien."
+        },
+        {
+          "question": "Zal de inhoud van mijn PDF veranderen?",
+          "answer": "Nee. Alleen onzichtbare metadata (auteur, maker, tijdstempels) en interne structuuroverhead worden verwijderd. Pagina-inhoud, tekst, afbeeldingen en lay-out worden exact bewaard."
+        },
+        {
+          "question": "Wat als het gecomprimeerde bestand groter is dan het origineel?",
+          "answer": "Dit kan gebeuren als de originele PDF al strak geoptimaliseerd was. Het hulpmiddel laat je beide versies nog steeds downloaden, maar we raden aan in dat geval je origineel te bewaren."
+        }
+      ]
+    },
+    "json-formatter": {
+      "name": "JSON-opmaker",
+      "description": "JSON-gegevens opmaken, valideren en minificeren",
+      "longDescription": "Plak of sleep een JSON-bestand om het op te maken, te valideren en te inspecteren. Bekijk sleutelaantallen, nestelingsdiepte en bestandsgrootte in één oogopslag. Alles draait in je browser — er wordt niets geüpload.",
+      "seoTitle": "JSON-opmaker en validator — Gratis, Privé, Geen upload | FileFolks",
+      "seoDescription": "JSON online opmaken, valideren en minificeren. Draait volledig in je browser. Je gegevens verlaten nooit je apparaat.",
+      "faqs": [
+        {
+          "question": "Worden mijn JSON-gegevens naar een server verzonden?",
+          "answer": "Nee. Alle verwerking vindt in je browser plaats met JavaScript. Je gegevens verlaten nooit je apparaat."
+        },
+        {
+          "question": "Wat is de maximale JSON-grootte die ik kan opmaken?",
+          "answer": "Er is geen harde limiet, maar zeer grote bestanden (meer dan 50 MB) kunnen ertoe leiden dat je browsertabblad langzamer wordt. Voor de beste prestaties raden we bestanden aan onder de 10 MB."
+        },
+        {
+          "question": "Kan ik JSON met opmerkingen (JSONC) opmaken?",
+          "answer": "Standaard JSON ondersteunt geen opmerkingen. Als je invoer opmerkingen bevat, meldt de validator een parseerfout. Je kunt opmerkingen handmatig verwijderen voor het opmaken."
+        },
+        {
+          "question": "Wat is het verschil tussen opmaken en minificeren?",
+          "answer": "Opmaken voegt inspringing en regeleinden toe om JSON leesbaar te maken voor mensen. Minificeren verwijdert alle onnodige witruimte om de bestandsgrootte te verkleinen."
+        }
+      ]
+    }
+  },
+  "Categories": {
+    "pdf": "PDF-hulpmiddelen",
+    "image": "Afbeeldingshulpmiddelen",
+    "developer": "Ontwikkelaarshulpmiddelen",
+    "text": "Teksthulpmiddelen",
+    "media": "Mediahulpmiddelen"
+  },
+  "Privacy": {
+    "title": "Privacybeleid",
+    "metaDescription": "FileFolks processes all files locally in your browser. No data is ever uploaded or stored."
+  }
+}
