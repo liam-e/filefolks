@@ -1,6 +1,7 @@
 import { useTranslations } from "next-intl";
 import type { ToolMeta } from "@/lib/utils/constants";
 import { CATEGORIES } from "@/lib/utils/constants";
+import { Link } from "@/i18n/navigation";
 import {
   generateFaqJsonLd,
   generateToolJsonLd,
@@ -19,6 +20,7 @@ interface ToolPageLayoutProps {
 
 export function ToolPageLayout({ tool, related, children }: ToolPageLayoutProps) {
   const t = useTranslations("ToolPageLayout");
+  const tCategories = useTranslations("Categories");
   const category = CATEGORIES[tool.category];
   const { bg, text } = category.colors;
 
@@ -40,6 +42,30 @@ export function ToolPageLayout({ tool, related, children }: ToolPageLayoutProps)
       />
 
       <div className="max-w-4xl mx-auto">
+        {/* Breadcrumb */}
+        <nav aria-label="Breadcrumb" className="mb-6">
+          <ol className="flex items-center gap-1.5 text-sm text-muted-foreground flex-wrap">
+            <li>
+              <Link href="/" className="hover:text-foreground transition-colors">
+                Home
+              </Link>
+            </li>
+            <li aria-hidden="true" className="select-none">/</li>
+            <li>
+              <Link
+                href={`/tools/category/${tool.category}`}
+                className="hover:text-foreground transition-colors"
+              >
+                {tCategories(tool.category)}
+              </Link>
+            </li>
+            <li aria-hidden="true" className="select-none">/</li>
+            <li className="text-foreground font-medium truncate" aria-current="page">
+              {tool.name}
+            </li>
+          </ol>
+        </nav>
+
         {/* Header */}
         <div className="flex items-start gap-4 mb-3">
           <div className={cn("shrink-0 w-11 h-11 rounded-xl flex items-center justify-center mt-0.5", bg)}>

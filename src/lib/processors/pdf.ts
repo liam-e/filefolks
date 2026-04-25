@@ -1,6 +1,5 @@
-import { PDFDocument } from "pdf-lib";
-
 export async function mergePdfs(files: File[]): Promise<Blob> {
+  const { PDFDocument } = await import("pdf-lib");
   const merged = await PDFDocument.create();
 
   for (const file of files) {
@@ -21,11 +20,11 @@ export interface CompressResult {
 }
 
 export async function compressPdf(file: File): Promise<CompressResult> {
+  const { PDFDocument } = await import("pdf-lib");
   const originalSize = file.size;
   const bytes = await file.arrayBuffer();
   const doc = await PDFDocument.load(bytes);
 
-  // Strip embedded metadata — often a meaningful source of overhead
   doc.setTitle("");
   doc.setAuthor("");
   doc.setSubject("");
@@ -33,7 +32,6 @@ export async function compressPdf(file: File): Promise<CompressResult> {
   doc.setProducer("");
   doc.setCreator("");
 
-  // useObjectStreams packs PDF objects into compressed cross-reference streams
   const compressedBytes = await doc.save({ useObjectStreams: true });
   const blob = new Blob([compressedBytes.buffer as ArrayBuffer], { type: "application/pdf" });
 
