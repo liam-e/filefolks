@@ -21,6 +21,12 @@ export interface CategoryMeta {
   metaDescription: string;
   icon: string;
   colors: CategoryColors;
+  /**
+   * Controls the display order of category sections on the home page.
+   * Lower = shown earlier. Update this as analytics show which categories
+   * attract the most users.
+   */
+  displayOrder: number;
 }
 
 export const CATEGORIES: Record<ToolCategory, CategoryMeta> = {
@@ -32,6 +38,7 @@ export const CATEGORIES: Record<ToolCategory, CategoryMeta> = {
         "Free online PDF tools that run in your browser. Merge, split, compress, and convert PDFs without uploading your files.",
     icon: "/icons/category-pdf.svg",
     colors: { bg: "bg-rose-50", text: "text-rose-600", badge: "bg-rose-100 text-rose-700" },
+    displayOrder: 1,
   },
   image: {
     slug: "image",
@@ -41,6 +48,7 @@ export const CATEGORIES: Record<ToolCategory, CategoryMeta> = {
         "Free browser-based image tools. Convert between PNG, JPG, WebP, and AVIF. Compress and resize images privately.",
     icon: "/icons/category-image.svg",
     colors: { bg: "bg-violet-50", text: "text-violet-600", badge: "bg-violet-100 text-violet-700" },
+    displayOrder: 2,
   },
   developer: {
     slug: "developer",
@@ -50,6 +58,7 @@ export const CATEGORIES: Record<ToolCategory, CategoryMeta> = {
         "Free developer utilities that run locally. Format JSON, decode JWTs, generate hashes, encode Base64, and more.",
     icon: "/icons/category-developer.svg",
     colors: { bg: "bg-sky-50", text: "text-sky-600", badge: "bg-sky-100 text-sky-700" },
+    displayOrder: 3,
   },
   text: {
     slug: "text",
@@ -59,6 +68,7 @@ export const CATEGORIES: Record<ToolCategory, CategoryMeta> = {
         "Free text manipulation tools. Word counter, diff checker, case converter, and text formatting utilities.",
     icon: "/icons/category-text.svg",
     colors: { bg: "bg-amber-50", text: "text-amber-600", badge: "bg-amber-100 text-amber-700" },
+    displayOrder: 4,
   },
   media: {
     slug: "media",
@@ -68,6 +78,7 @@ export const CATEGORIES: Record<ToolCategory, CategoryMeta> = {
         "Free browser-based media tools. Convert video and audio formats, extract audio from video, and compress media files.",
     icon: "/icons/category-media.svg",
     colors: { bg: "bg-emerald-50", text: "text-emerald-600", badge: "bg-emerald-100 text-emerald-700" },
+    displayOrder: 5,
   },
 };
 
@@ -526,6 +537,52 @@ export const TOOLS: ToolMeta[] = [
       { question: "Will the text and images be affected?", answer: "No. Only the viewing orientation of each page changes. All content is preserved exactly." },
     ],
     icon: "/icons/pdf-rotate.svg",
+  },
+
+  {
+    slug: "image-resize",
+    name: "Resize Image",
+    description: "Resize images to exact pixel dimensions or a percentage",
+    longDescription:
+      "Drop an image, enter target dimensions or a percentage scale, and download the resized result. Aspect ratio lock keeps your image proportional. Runs entirely in your browser.",
+    category: "image",
+    tags: ["resize", "no-upload"],
+    popularity: 10,
+    seoTitle: "Resize Image Online — Free, Private, No Upload | FileFolks",
+    seoDescription:
+      "Resize images to exact pixels or a percentage in your browser. PNG, JPG, WebP. No upload required.",
+    keywords: ["resize image", "resize image online free", "image resizer", "resize jpg online", "resize png online", "change image dimensions online"],
+    searchQueries: ["how to resize an image online for free", "resize image to specific pixels", "reduce image dimensions without losing quality"],
+    faqs: [
+      { question: "Are my images uploaded?", answer: "No. Resizing uses the Canvas API in your browser. Nothing is sent to a server." },
+      { question: "Will the image quality change?", answer: "PNG output is lossless. JPG and WebP output uses 92% quality, which is visually indistinguishable from the original for most images." },
+      { question: "What does the aspect ratio lock do?", answer: "When locked, changing one dimension automatically scales the other to keep the image proportional. Unlock it to set width and height independently." },
+      { question: "Can I enlarge an image?", answer: "Yes, you can scale up to 200% using percentage mode. Note that enlarging a raster image reduces sharpness — the pixels are simply stretched." },
+    ],
+    icon: "/icons/image-resize.svg",
+  },
+
+  {
+    slug: "image-crop",
+    name: "Crop Image",
+    description: "Crop images to a custom area or a preset aspect ratio",
+    longDescription:
+      "Drop an image, adjust the crop region using the visual preview and coordinate inputs, then download the cropped result. All processing stays in your browser.",
+    category: "image",
+    tags: ["no-upload"],
+    popularity: 11,
+    seoTitle: "Crop Image Online — Free, Private, No Upload | FileFolks",
+    seoDescription:
+      "Crop images to any size or aspect ratio in your browser. PNG, JPG, WebP. No upload required.",
+    keywords: ["crop image", "crop image online free", "image cropper online", "crop jpg online", "crop png to square", "crop image to size"],
+    searchQueries: ["how to crop an image online free", "crop image to specific dimensions", "crop photo to square online"],
+    faqs: [
+      { question: "Are my images uploaded?", answer: "No. Cropping uses the Canvas API in your browser. Nothing is sent to a server." },
+      { question: "What aspect ratio presets are available?", answer: "Free (no constraint), 1:1 (square), 4:3, 16:9, and 3:2. The preset centres the crop region within the image." },
+      { question: "Can I enter exact pixel coordinates?", answer: "Yes. Use the X, Y, Width, and Height inputs for precise control. The visual preview updates in real time." },
+      { question: "What output format does the tool use?", answer: "The output format matches the input — PNG for PNG files, JPG for JPG files, and WebP for WebP files." },
+    ],
+    icon: "/icons/image-crop.svg",
   },
 
   // ... add more tools following this pattern

@@ -44,6 +44,61 @@ function loadImage(file: File): Promise<HTMLImageElement> {
   });
 }
 
+export async function getImageDimensions(
+  file: File
+): Promise<{ width: number; height: number }> {
+  const img = await loadImage(file);
+  return { width: img.naturalWidth, height: img.naturalHeight };
+}
+
+export async function resizeImage(
+  file: File,
+  targetWidth: number,
+  targetHeight: number
+): Promise<Blob> {
+  const img = await loadImage(file);
+  const canvas = document.createElement("canvas");
+  canvas.width = Math.max(1, Math.round(targetWidth));
+  canvas.height = Math.max(1, Math.round(targetHeight));
+  const ctx = canvas.getContext("2d");
+  if (!ctx) throw new Error("Canvas not available");
+  ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
+  const mime = (["image/jpeg", "image/webp"].includes(file.type) ? file.type : "image/png") as ImageFormat;
+  return new Promise((resolve, reject) => {
+    canvas.toBlob(
+      (blob) => (blob ? resolve(blob) : reject(new Error("Resize failed"))),
+      mime,
+      mime === "image/png" ? undefined : 0.92
+    );
+  });
+}
+
+export async function cropImage(
+  file: File,
+  x: number,
+  y: number,
+  width: number,
+  height: number
+): Promise<Blob> {
+  const img = await loadImage(file);
+  const sx = Math.round(x), sy = Math.round(y);
+  const sw = Math.round(width), sh = Math.round(height);
+  const canvas = document.createElement("canvas");
+  canvas.width = sw;
+  canvas.height = sh;
+  const ctx = canvas.getContext("2d");
+  if (!ctx) throw new Error("Canvas not available");
+  ctx.drawImage(img, sx, sy, sw, sh, 0, 0, sw, sh);
+  const mime = (["image/jpeg", "image/webp"].includes(file.type) ? file.type : "image/png") as ImageFormat;
+  return new Promise((resolve, reject) => {
+    canvas.toBlob(
+      (blob) => (blob ? resolve(blob) : reject(new Error("Crop failed"))),
+      mime,
+      mime === "image/png" ? undefined : 0.92
+    );
+  });
+}
+
 export async function convertImage(
   file: File,
   targetFormat: ImageFormat,

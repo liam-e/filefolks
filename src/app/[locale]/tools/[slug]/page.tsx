@@ -15,6 +15,8 @@ import { ImageConverterTool } from "@/components/tools/ImageConverter";
 import { Base64Tool } from "@/components/tools/Base64Tool";
 import { ImageToPdfTool } from "@/components/tools/ImageToPdfTool";
 import { PdfRotatorTool } from "@/components/tools/PdfRotatorTool";
+import { ImageResizerTool } from "@/components/tools/ImageResizerTool";
+import { ImageCropTool } from "@/components/tools/ImageCropTool";
 
 type ToolComponentType = React.ComponentType;
 
@@ -27,6 +29,8 @@ const TOOL_COMPONENTS: Partial<Record<string, ToolComponentType>> = {
   "json-formatter": JsonFormatterTool,
   "compress-image": ImageCompressorTool,
   "image-convert": ImageConverterTool,
+  "image-resize": ImageResizerTool,
+  "image-crop": ImageCropTool,
   "base64-encode-decode": Base64Tool,
 };
 

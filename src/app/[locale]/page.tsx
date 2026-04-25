@@ -17,7 +17,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 // Group tools by category, each group sorted by popularity (asc).
-// Categories sorted by the minimum popularity score of their tools.
+// Categories ordered by their explicit displayOrder (edit CATEGORIES in constants.ts
+// to reprioritise sections as traffic data changes).
 function getGroupedTools() {
   const byCategory = TOOLS.reduce<Record<string, typeof TOOLS>>((acc, tool) => {
     (acc[tool.category] ??= []).push(tool);
@@ -29,11 +30,7 @@ function getGroupedTools() {
       category: CATEGORIES[slug as ToolCategory],
       tools: [...tools].sort((a, b) => a.popularity - b.popularity),
     }))
-    .sort((a, b) => {
-      const minA = Math.min(...a.tools.map((t) => t.popularity));
-      const minB = Math.min(...b.tools.map((t) => t.popularity));
-      return minA - minB;
-    });
+    .sort((a, b) => a.category.displayOrder - b.category.displayOrder);
 }
 
 const groupedTools = getGroupedTools();

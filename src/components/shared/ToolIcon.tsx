@@ -128,6 +128,27 @@ function PdfRotateIcon({ className }: SvgProps) {
   );
 }
 
+function ImageResizeIcon({ className }: SvgProps) {
+  return (
+    <Svg className={className}>
+      <rect x="3" y="3" width="18" height="18" rx="2" />
+      <polyline points="15 3 21 3 21 9" />
+      <polyline points="9 21 3 21 3 15" />
+      <line x1="21" y1="3" x2="14" y2="10" />
+      <line x1="3" y1="21" x2="10" y2="14" />
+    </Svg>
+  );
+}
+
+function ImageCropIcon({ className }: SvgProps) {
+  return (
+    <Svg className={className}>
+      <path d="M6.13 1L6 16a2 2 0 0 0 2 2h15" />
+      <path d="M1 6.13l15-.13a2 2 0 0 1 2 2v15" />
+    </Svg>
+  );
+}
+
 // ── Category fallback icons ────────────────────────────────────
 
 function PdfCategoryIcon({ className }: SvgProps) {
@@ -191,6 +212,8 @@ const TOOL_ICONS: Record<string, IconComponent> = {
   "json-formatter": JsonFormatterIcon,
   "compress-image": CompressImageIcon,
   "image-convert": ImageConvertIcon,
+  "image-resize": ImageResizeIcon,
+  "image-crop": ImageCropIcon,
   "base64-encode-decode": Base64Icon,
 };
 

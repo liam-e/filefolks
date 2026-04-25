@@ -304,6 +304,56 @@
           "answer": "No. Only the viewing orientation of each page changes. All content is preserved exactly."
         }
       ]
+    },
+    "image-resize": {
+      "name": "تغيير حجم الصورة",
+      "description": "تغيير حجم الصور إلى أبعاد بكسل محددة أو نسبة مئوية",
+      "longDescription": "Drop an image, enter target dimensions or a percentage scale, and download the resized result. Aspect ratio lock keeps your image proportional. Runs entirely in your browser.",
+      "seoTitle": "Resize Image Online — Free, Private, No Upload | FileFolks",
+      "seoDescription": "Resize images to exact pixels or a percentage in your browser. PNG, JPG, WebP. No upload required.",
+      "faqs": [
+        {
+          "question": "Are my images uploaded?",
+          "answer": "No. Resizing uses the Canvas API in your browser. Nothing is sent to a server."
+        },
+        {
+          "question": "Will the image quality change?",
+          "answer": "PNG output is lossless. JPG and WebP output uses 92% quality, which is visually indistinguishable from the original for most images."
+        },
+        {
+          "question": "What does the aspect ratio lock do?",
+          "answer": "When locked, changing one dimension automatically scales the other to keep the image proportional. Unlock it to set width and height independently."
+        },
+        {
+          "question": "Can I enlarge an image?",
+          "answer": "Yes, you can scale up to 200% using percentage mode. Note that enlarging a raster image reduces sharpness — the pixels are simply stretched."
+        }
+      ]
+    },
+    "image-crop": {
+      "name": "قص الصورة",
+      "description": "قص الصور إلى منطقة مخصصة أو نسبة عرض إلى ارتفاع محددة مسبقًا",
+      "longDescription": "Drop an image, adjust the crop region using the visual preview and coordinate inputs, then download the cropped result. All processing stays in your browser.",
+      "seoTitle": "Crop Image Online — Free, Private, No Upload | FileFolks",
+      "seoDescription": "Crop images to any size or aspect ratio in your browser. PNG, JPG, WebP. No upload required.",
+      "faqs": [
+        {
+          "question": "Are my images uploaded?",
+          "answer": "No. Cropping uses the Canvas API in your browser. Nothing is sent to a server."
+        },
+        {
+          "question": "What aspect ratio presets are available?",
+          "answer": "Free (no constraint), 1:1 (square), 4:3, 16:9, and 3:2. The preset centres the crop region within the image."
+        },
+        {
+          "question": "Can I enter exact pixel coordinates?",
+          "answer": "Yes. Use the X, Y, Width, and Height inputs for precise control. The visual preview updates in real time."
+        },
+        {
+          "question": "What output format does the tool use?",
+          "answer": "The output format matches the input — PNG for PNG files, JPG for JPG files, and WebP for WebP files."
+        }
+      ]
     }
   },
   "Categories": {
@@ -417,5 +467,40 @@
     "removeFile": "Remove file",
     "loadingPages": "Loading...",
     "pageCount": "{count} pages"
+  },
+  "ImageResizer": {
+    "dropLabel": "Drop an image here, or click to browse",
+    "dropSublabel": "PNG, JPG, or WebP — your image never leaves your browser",
+    "pixels": "Pixels",
+    "percent": "Percentage",
+    "width": "Width",
+    "height": "Height",
+    "scaleLabel": "Scale",
+    "lockAspect": "Lock aspect ratio",
+    "unlockAspect": "Unlock aspect ratio",
+    "newSize": "New size: {width} × {height} px",
+    "resizeButton": "Resize Image",
+    "resizing": "Resizing...",
+    "clear": "Clear",
+    "errorTitle": "Error",
+    "successTitle": "Resized successfully. Check your downloads folder.",
+    "privacyNote": "Your image never leaves your browser. All processing happens locally.",
+    "removeFile": "Remove file"
+  },
+  "ImageCrop": {
+    "dropLabel": "Drop an image here, or click to browse",
+    "dropSublabel": "PNG, JPG, or WebP — your image never leaves your browser",
+    "x": "X",
+    "y": "Y",
+    "width": "Width",
+    "height": "Height",
+    "outputSize": "Output: {width} × {height} px",
+    "cropButton": "Crop Image",
+    "cropping": "Cropping...",
+    "clear": "Clear",
+    "errorTitle": "Error",
+    "successTitle": "Cropped successfully. Check your downloads folder.",
+    "privacyNote": "Your image never leaves your browser. All processing happens locally.",
+    "removeFile": "Remove file"
   }
 }
