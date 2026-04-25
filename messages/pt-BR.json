@@ -153,6 +153,106 @@
           "answer": "Formatar adiciona recuo e quebras de linha para tornar o JSON legível por humanos. Minificar remove todos os espaços desnecessários para reduzir o tamanho do arquivo."
         }
       ]
+    },
+    "compress-image": {
+      "name": "Comprimir imagem",
+      "description": "Reduza o tamanho do arquivo de imagem com perda mínima de qualidade",
+      "longDescription": "Drop a PNG, JPG, or WebP image to compress it. File size is reduced while preserving visual quality — everything runs in your browser. Nothing is uploaded.",
+      "seoTitle": "Comprimir imagem online — Grátis, Privado, Sem upload | FileFolks",
+      "seoDescription": "Reduza o tamanho da imagem no seu navegador. PNG, JPG, WebP. Sem upload. Rápido e privado.",
+      "faqs": [
+        {
+          "question": "Are my images uploaded to a server?",
+          "answer": "No. Compression runs entirely in your browser using JavaScript. Your images never leave your device."
+        },
+        {
+          "question": "Which formats are supported?",
+          "answer": "PNG, JPG, and WebP. The output format matches your input file."
+        },
+        {
+          "question": "How much will the file shrink?",
+          "answer": "Savings vary by image. Photographs typically compress 40-70%. Images that are already heavily compressed will see smaller gains."
+        },
+        {
+          "question": "Will compression affect image quality?",
+          "answer": "The tool targets a maximum output size of 1 MB while preserving as much quality as possible. For most photos the difference is imperceptible."
+        }
+      ]
+    },
+    "image-convert": {
+      "name": "Converter imagem",
+      "description": "Converta imagens entre PNG, JPG e WebP",
+      "longDescription": "Drop an image to convert it to PNG, JPG, or WebP. Uses your browser's built-in Canvas API. No upload, no account required.",
+      "seoTitle": "Converter imagem online — PNG para JPG, WebP e mais | FileFolks",
+      "seoDescription": "Converta PNG para JPG, JPG para WebP e mais. Gratuito, privado, no seu navegador. Sem upload.",
+      "faqs": [
+        {
+          "question": "Are my images uploaded?",
+          "answer": "No. Conversion uses the browser's Canvas API entirely on your device. Nothing is sent to a server."
+        },
+        {
+          "question": "What happens to transparency when converting to JPG?",
+          "answer": "JPG does not support transparency. Any transparent areas are filled with a white background automatically."
+        },
+        {
+          "question": "Is there quality loss when converting?",
+          "answer": "Converting to PNG is lossless. Converting to JPG or WebP applies light compression (92% quality by default), which is visually indistinguishable for most images."
+        },
+        {
+          "question": "Can I convert AVIF or GIF files?",
+          "answer": "Currently the tool supports PNG, JPG, and WebP input and output. AVIF and GIF support may be added in future."
+        }
+      ]
+    },
+    "split-pdf": {
+      "name": "Dividir PDF",
+      "description": "Extraia um intervalo de páginas de um PDF em um novo arquivo",
+      "longDescription": "Drop a PDF, choose a page range, and download just those pages as a new document. Powered by pdf-lib in your browser. No upload required.",
+      "seoTitle": "Dividir PDF online — Grátis, Privado, Sem upload | FileFolks",
+      "seoDescription": "Extraia páginas de um PDF no seu navegador. Selecione um intervalo e baixe instantaneamente.",
+      "faqs": [
+        {
+          "question": "Is my PDF uploaded to a server?",
+          "answer": "No. All splitting happens in your browser using the pdf-lib library. Your file never leaves your device."
+        },
+        {
+          "question": "Can I extract non-consecutive pages?",
+          "answer": "Currently the tool extracts a continuous range. For non-consecutive pages, extract each range separately and merge the results with the Merge PDF tool."
+        },
+        {
+          "question": "Will the extracted pages keep their content?",
+          "answer": "Yes. All text, images, and layout are preserved exactly as in the original."
+        },
+        {
+          "question": "What if my PDF is password-protected?",
+          "answer": "Password-protected PDFs cannot be processed. Remove the password first using a PDF unlock tool, then split the file."
+        }
+      ]
+    },
+    "base64-encode-decode": {
+      "name": "Codificar / Decodificar Base64",
+      "description": "Codifique texto ou arquivos em Base64, ou decodifique Base64 de volta para texto",
+      "longDescription": "Paste text or load a file to encode it as Base64, or paste a Base64 string to decode it. All processing happens locally in your browser.",
+      "seoTitle": "Codificar e Decodificar Base64 online — Grátis, Privado | FileFolks",
+      "seoDescription": "Codifique texto ou arquivos em Base64, ou decodifique Base64 para texto. No seu navegador.",
+      "faqs": [
+        {
+          "question": "Is my data uploaded to a server?",
+          "answer": "No. Base64 encoding and decoding are pure JavaScript operations that run entirely in your browser."
+        },
+        {
+          "question": "What is Base64 used for?",
+          "answer": "Base64 is used to safely transmit binary data as text — in emails, data URLs, API payloads, and configuration files."
+        },
+        {
+          "question": "Is there a size limit?",
+          "answer": "There is no hard limit, but very large files (over 10 MB) may slow down your browser tab. The output Base64 string will be roughly 33% larger than the input."
+        },
+        {
+          "question": "Does Base64 encrypt my data?",
+          "answer": "No. Base64 is an encoding scheme, not encryption. Anyone with the Base64 string can decode it instantly. Do not use it to protect sensitive data."
+        }
+      ]
     }
   },
   "Categories": {
@@ -165,5 +265,74 @@
   "Privacy": {
     "title": "Política de Privacidade",
     "metaDescription": "FileFolks processes all files locally in your browser. No data is ever uploaded or stored."
+  },
+  "ImageCompressor": {
+    "dropLabel": "Solte uma imagem aqui ou clique para procurar",
+    "dropSublabel": "PNG, JPG ou WebP — sua imagem nunca sai do seu navegador",
+    "compressButton": "Comprimir imagem",
+    "compressing": "Comprimindo...",
+    "downloadAgain": "Baixar novamente",
+    "clear": "Limpar",
+    "errorTitle": "Erro",
+    "successTitle": "Comprimido com sucesso. Verifique sua pasta de downloads.",
+    "original": "Original",
+    "compressed": "Comprimida",
+    "saved": "Economizado",
+    "alreadyOptimizedTitle": "O arquivo já está bem otimizado.",
+    "alreadyOptimizedBody": "A versão comprimida ({compressedSize}) não é menor que o original ({originalSize}). Mantenha seu arquivo original.",
+    "privacyNote": "Sua imagem nunca sai do seu navegador. Toda a compressão acontece localmente.",
+    "removeFile": "Remover arquivo"
+  },
+  "ImageConverter": {
+    "dropLabel": "Solte uma imagem aqui ou clique para procurar",
+    "dropSublabel": "PNG, JPG ou WebP — sua imagem nunca sai do seu navegador",
+    "convertTo": "Converter para",
+    "convertButton": "Converter",
+    "converting": "Convertendo...",
+    "downloadAgain": "Baixar novamente",
+    "clear": "Limpar",
+    "errorTitle": "Erro",
+    "successTitle": "Convertido com sucesso. Verifique sua pasta de downloads.",
+    "jpegNote": "Áreas transparentes serão preenchidas com fundo branco.",
+    "privacyNote": "Sua imagem nunca sai do seu navegador. Toda a conversão acontece localmente.",
+    "removeFile": "Remover arquivo"
+  },
+  "PdfSplitter": {
+    "dropLabel": "Solte um PDF aqui ou clique para procurar",
+    "dropSublabel": "Arquivo único — seu PDF nunca sai do seu navegador",
+    "fromPage": "Da página",
+    "toPage": "Até a página",
+    "pageCount": "{count} páginas",
+    "extractCount": "{count} {count, plural, one {página selecionada} other {páginas selecionadas}}",
+    "extractButton": "Extrair páginas",
+    "extracting": "Extraindo...",
+    "downloadAgain": "Baixar novamente",
+    "clear": "Limpar",
+    "errorTitle": "Erro",
+    "successTitle": "Extraído com sucesso. Verifique sua pasta de downloads.",
+    "privacyNote": "Seu arquivo nunca sai do seu navegador. Todo o processamento acontece localmente.",
+    "removeFile": "Remover arquivo",
+    "loadingPages": "Carregando..."
+  },
+  "Base64": {
+    "encode": "Codificar",
+    "decode": "Decodificar",
+    "textMode": "Texto",
+    "fileMode": "Arquivo",
+    "inputLabel": "Entrada",
+    "outputLabel": "Saída",
+    "encodeButton": "Codificar em Base64",
+    "decodeButton": "Decodificar de Base64",
+    "encodePlaceholder": "Digite o texto para codificar...",
+    "decodePlaceholder": "Cole o Base64 para decodificar...",
+    "outputPlaceholderEncode": "Saída Base64 aparecerá aqui...",
+    "outputPlaceholderDecode": "Texto decodificado aparecerá aqui...",
+    "copy": "Copiar",
+    "copied": "Copiado!",
+    "clear": "Limpar",
+    "loadFile": "Carregar arquivo",
+    "errorTitle": "Erro",
+    "invalidBase64": "Entrada Base64 inválida",
+    "privacyNote": "Seus dados nunca saem do seu navegador. Toda a codificação acontece localmente."
   }
 }

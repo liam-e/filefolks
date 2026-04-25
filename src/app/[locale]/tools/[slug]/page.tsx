@@ -8,14 +8,22 @@ import { routing } from "@/i18n/routing";
 import { ToolPageLayout } from "@/components/shared/ToolPageLayout";
 import { PdfMergerTool } from "@/components/tools/PdfMerger";
 import { PdfCompressorTool } from "@/components/tools/PdfCompressor";
+import { PdfSplitterTool } from "@/components/tools/PdfSplitter";
 import { JsonFormatterTool } from "@/components/tools/JsonFormatter";
+import { ImageCompressorTool } from "@/components/tools/ImageCompressor";
+import { ImageConverterTool } from "@/components/tools/ImageConverter";
+import { Base64Tool } from "@/components/tools/Base64Tool";
 
 type ToolComponentType = React.ComponentType;
 
 const TOOL_COMPONENTS: Partial<Record<string, ToolComponentType>> = {
   "pdf-merge": PdfMergerTool,
   "compress-pdf": PdfCompressorTool,
+  "split-pdf": PdfSplitterTool,
   "json-formatter": JsonFormatterTool,
+  "compress-image": ImageCompressorTool,
+  "image-convert": ImageConverterTool,
+  "base64-encode-decode": Base64Tool,
 };
 
 interface Props {

@@ -390,6 +390,98 @@ export const TOOLS: ToolMeta[] = [
     icon: "/icons/compress-pdf.svg",
   },
 
+  {
+    slug: "compress-image",
+    name: "Compress Image",
+    description: "Reduce image file size with minimal quality loss",
+    longDescription:
+      "Drop a PNG, JPG, or WebP image to compress it. File size is reduced while preserving visual quality — everything runs in your browser. Nothing is uploaded.",
+    category: "image",
+    tags: ["compress", "no-upload"],
+    popularity: 4,
+    seoTitle: "Compress Image Online — Free, Private, No Upload | FileFolks",
+    seoDescription:
+      "Reduce image file size in your browser. PNG, JPG, WebP. No upload. Fast and private.",
+    keywords: ["compress image", "reduce image size", "image compressor online free", "compress jpg online", "compress png online", "shrink image file size"],
+    searchQueries: ["how to compress image online free", "reduce image file size without losing quality", "compress png without losing quality online"],
+    faqs: [
+      { question: "Are my images uploaded to a server?", answer: "No. Compression runs entirely in your browser using JavaScript. Your images never leave your device." },
+      { question: "Which formats are supported?", answer: "PNG, JPG, and WebP. The output format matches your input file." },
+      { question: "How much will the file shrink?", answer: "Savings vary by image. Photographs typically compress 40-70%. Images that are already heavily compressed will see smaller gains." },
+      { question: "Will compression affect image quality?", answer: "The tool targets a maximum output size of 1 MB while preserving as much quality as possible. For most photos the difference is imperceptible." },
+    ],
+    icon: "/icons/compress-image.svg",
+  },
+
+  {
+    slug: "image-convert",
+    name: "Convert Image",
+    description: "Convert images between PNG, JPG, and WebP",
+    longDescription:
+      "Drop an image to convert it to PNG, JPG, or WebP. Uses your browser's built-in Canvas API. No upload, no account required.",
+    category: "image",
+    tags: ["convert", "no-upload"],
+    popularity: 5,
+    seoTitle: "Convert Image Online — PNG to JPG, WebP and more | FileFolks",
+    seoDescription:
+      "Convert PNG to JPG, JPG to WebP, and more. Free, private, runs in your browser. No upload required.",
+    keywords: ["convert image", "png to jpg", "jpg to png", "convert png to jpg online free", "image converter online", "jpg to webp", "png to webp"],
+    searchQueries: ["how to convert png to jpg online free", "convert image format without uploading", "png to jpg no upload"],
+    faqs: [
+      { question: "Are my images uploaded?", answer: "No. Conversion uses the browser's Canvas API entirely on your device. Nothing is sent to a server." },
+      { question: "What happens to transparency when converting to JPG?", answer: "JPG does not support transparency. Any transparent areas are filled with a white background automatically." },
+      { question: "Is there quality loss when converting?", answer: "Converting to PNG is lossless. Converting to JPG or WebP applies light compression (92% quality by default), which is visually indistinguishable for most images." },
+      { question: "Can I convert AVIF or GIF files?", answer: "Currently the tool supports PNG, JPG, and WebP input and output. AVIF and GIF support may be added in future." },
+    ],
+    icon: "/icons/image-convert.svg",
+  },
+
+  {
+    slug: "split-pdf",
+    name: "Split PDF",
+    description: "Extract a range of pages from a PDF into a new file",
+    longDescription:
+      "Drop a PDF, choose a page range, and download just those pages as a new document. Powered by pdf-lib in your browser. No upload required.",
+    category: "pdf",
+    tags: ["split", "extract", "no-upload"],
+    popularity: 6,
+    seoTitle: "Split PDF Online — Free, Private, No Upload | FileFolks",
+    seoDescription:
+      "Extract pages from a PDF in your browser. Select a range and download instantly. No upload.",
+    keywords: ["split pdf", "extract pages from pdf", "pdf splitter online free", "split pdf without uploading", "pdf page extractor online"],
+    searchQueries: ["how to split a pdf online free", "extract pages from pdf without uploading", "split pdf file into parts online"],
+    faqs: [
+      { question: "Is my PDF uploaded to a server?", answer: "No. All splitting happens in your browser using the pdf-lib library. Your file never leaves your device." },
+      { question: "Can I extract non-consecutive pages?", answer: "Currently the tool extracts a continuous range. For non-consecutive pages, extract each range separately and merge the results with the Merge PDF tool." },
+      { question: "Will the extracted pages keep their content?", answer: "Yes. All text, images, and layout are preserved exactly as in the original." },
+      { question: "What if my PDF is password-protected?", answer: "Password-protected PDFs cannot be processed. Remove the password first using a PDF unlock tool, then split the file." },
+    ],
+    icon: "/icons/split-pdf.svg",
+  },
+
+  {
+    slug: "base64-encode-decode",
+    name: "Base64 Encode / Decode",
+    description: "Encode text or files to Base64, or decode Base64 back to text",
+    longDescription:
+      "Paste text or load a file to encode it as Base64, or paste a Base64 string to decode it. All processing happens locally in your browser.",
+    category: "developer",
+    tags: ["encode", "decode", "no-upload"],
+    popularity: 7,
+    seoTitle: "Base64 Encode & Decode Online — Free, Private | FileFolks",
+    seoDescription:
+      "Encode text or files to Base64, or decode Base64 to text. Runs in your browser. No upload required.",
+    keywords: ["base64 encode", "base64 decode", "base64 encoder decoder online", "encode to base64 online", "decode base64 string online", "base64 converter free"],
+    searchQueries: ["how to encode text to base64 online", "decode base64 string to text online", "base64 encode file online free"],
+    faqs: [
+      { question: "Is my data uploaded to a server?", answer: "No. Base64 encoding and decoding are pure JavaScript operations that run entirely in your browser." },
+      { question: "What is Base64 used for?", answer: "Base64 is used to safely transmit binary data as text — in emails, data URLs, API payloads, and configuration files." },
+      { question: "Is there a size limit?", answer: "There is no hard limit, but very large files (over 10 MB) may slow down your browser tab. For files, the output Base64 string will be roughly 33% larger than the input." },
+      { question: "Does Base64 encrypt my data?", answer: "No. Base64 is an encoding scheme, not encryption. Anyone with the Base64 string can decode it instantly. Do not use it to protect sensitive data." },
+    ],
+    icon: "/icons/base64-encode-decode.svg",
+  },
+
   // ... add more tools following this pattern
 ];
 

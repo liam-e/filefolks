@@ -153,6 +153,106 @@
           "answer": "格式化会添加缩进和换行符，使 JSON 易于阅读。压缩会删除所有不必要的空白字符以减小文件大小。"
         }
       ]
+    },
+    "compress-image": {
+      "name": "压缩图片",
+      "description": "以最小质量损失减小图片文件大小",
+      "longDescription": "Drop a PNG, JPG, or WebP image to compress it. File size is reduced while preserving visual quality — everything runs in your browser. Nothing is uploaded.",
+      "seoTitle": "在线压缩图片 — 免费、私密、无需上传 | FileFolks",
+      "seoDescription": "在浏览器中压缩图片。支持 PNG、JPG、WebP。无需上传，快速私密。",
+      "faqs": [
+        {
+          "question": "Are my images uploaded to a server?",
+          "answer": "No. Compression runs entirely in your browser using JavaScript. Your images never leave your device."
+        },
+        {
+          "question": "Which formats are supported?",
+          "answer": "PNG, JPG, and WebP. The output format matches your input file."
+        },
+        {
+          "question": "How much will the file shrink?",
+          "answer": "Savings vary by image. Photographs typically compress 40-70%. Images that are already heavily compressed will see smaller gains."
+        },
+        {
+          "question": "Will compression affect image quality?",
+          "answer": "The tool targets a maximum output size of 1 MB while preserving as much quality as possible. For most photos the difference is imperceptible."
+        }
+      ]
+    },
+    "image-convert": {
+      "name": "转换图片格式",
+      "description": "在 PNG、JPG 和 WebP 之间转换图片",
+      "longDescription": "Drop an image to convert it to PNG, JPG, or WebP. Uses your browser's built-in Canvas API. No upload, no account required.",
+      "seoTitle": "在线转换图片 — PNG 转 JPG、WebP 等 | FileFolks",
+      "seoDescription": "PNG 转 JPG、JPG 转 WebP 等格式转换。免费、私密，在您的浏览器中运行。",
+      "faqs": [
+        {
+          "question": "Are my images uploaded?",
+          "answer": "No. Conversion uses the browser's Canvas API entirely on your device. Nothing is sent to a server."
+        },
+        {
+          "question": "What happens to transparency when converting to JPG?",
+          "answer": "JPG does not support transparency. Any transparent areas are filled with a white background automatically."
+        },
+        {
+          "question": "Is there quality loss when converting?",
+          "answer": "Converting to PNG is lossless. Converting to JPG or WebP applies light compression (92% quality by default), which is visually indistinguishable for most images."
+        },
+        {
+          "question": "Can I convert AVIF or GIF files?",
+          "answer": "Currently the tool supports PNG, JPG, and WebP input and output. AVIF and GIF support may be added in future."
+        }
+      ]
+    },
+    "split-pdf": {
+      "name": "拆分 PDF",
+      "description": "从 PDF 中提取指定页面范围并保存为新文件",
+      "longDescription": "Drop a PDF, choose a page range, and download just those pages as a new document. Powered by pdf-lib in your browser. No upload required.",
+      "seoTitle": "在线拆分 PDF — 免费、私密、无需上传 | FileFolks",
+      "seoDescription": "在浏览器中从 PDF 提取页面。选择页面范围，立即下载。无需上传。",
+      "faqs": [
+        {
+          "question": "Is my PDF uploaded to a server?",
+          "answer": "No. All splitting happens in your browser using the pdf-lib library. Your file never leaves your device."
+        },
+        {
+          "question": "Can I extract non-consecutive pages?",
+          "answer": "Currently the tool extracts a continuous range. For non-consecutive pages, extract each range separately and merge the results with the Merge PDF tool."
+        },
+        {
+          "question": "Will the extracted pages keep their content?",
+          "answer": "Yes. All text, images, and layout are preserved exactly as in the original."
+        },
+        {
+          "question": "What if my PDF is password-protected?",
+          "answer": "Password-protected PDFs cannot be processed. Remove the password first using a PDF unlock tool, then split the file."
+        }
+      ]
+    },
+    "base64-encode-decode": {
+      "name": "Base64 编码 / 解码",
+      "description": "将文本或文件编码为 Base64，或将 Base64 解码为文本",
+      "longDescription": "Paste text or load a file to encode it as Base64, or paste a Base64 string to decode it. All processing happens locally in your browser.",
+      "seoTitle": "在线 Base64 编码和解码 — 免费、私密 | FileFolks",
+      "seoDescription": "将文本或文件编码为 Base64，或将 Base64 解码为文本。在浏览器中运行，无需上传。",
+      "faqs": [
+        {
+          "question": "Is my data uploaded to a server?",
+          "answer": "No. Base64 encoding and decoding are pure JavaScript operations that run entirely in your browser."
+        },
+        {
+          "question": "What is Base64 used for?",
+          "answer": "Base64 is used to safely transmit binary data as text — in emails, data URLs, API payloads, and configuration files."
+        },
+        {
+          "question": "Is there a size limit?",
+          "answer": "There is no hard limit, but very large files (over 10 MB) may slow down your browser tab. The output Base64 string will be roughly 33% larger than the input."
+        },
+        {
+          "question": "Does Base64 encrypt my data?",
+          "answer": "No. Base64 is an encoding scheme, not encryption. Anyone with the Base64 string can decode it instantly. Do not use it to protect sensitive data."
+        }
+      ]
     }
   },
   "Categories": {
@@ -165,5 +265,74 @@
   "Privacy": {
     "title": "隐私政策",
     "metaDescription": "FileFolks processes all files locally in your browser. No data is ever uploaded or stored."
+  },
+  "ImageCompressor": {
+    "dropLabel": "将图片拖放到此处，或点击浏览",
+    "dropSublabel": "PNG、JPG 或 WebP — 图片始终留在您的浏览器中",
+    "compressButton": "压缩图片",
+    "compressing": "压缩中...",
+    "downloadAgain": "重新下载",
+    "clear": "清除",
+    "errorTitle": "错误",
+    "successTitle": "压缩成功。请查看您的下载文件夹。",
+    "original": "原始",
+    "compressed": "已压缩",
+    "saved": "节省",
+    "alreadyOptimizedTitle": "文件已经优化良好。",
+    "alreadyOptimizedBody": "压缩版本（{compressedSize}）并不比原始版本（{originalSize}）小。请保留您的原始文件。",
+    "privacyNote": "您的图片始终留在您的浏览器中，所有压缩均在本地进行。",
+    "removeFile": "删除文件"
+  },
+  "ImageConverter": {
+    "dropLabel": "将图片拖放到此处，或点击浏览",
+    "dropSublabel": "PNG、JPG 或 WebP — 图片始终留在您的浏览器中",
+    "convertTo": "转换为",
+    "convertButton": "转换",
+    "converting": "转换中...",
+    "downloadAgain": "重新下载",
+    "clear": "清除",
+    "errorTitle": "错误",
+    "successTitle": "转换成功。请查看您的下载文件夹。",
+    "jpegNote": "透明区域将填充为白色背景。",
+    "privacyNote": "您的图片始终留在您的浏览器中，所有转换均在本地进行。",
+    "removeFile": "删除文件"
+  },
+  "PdfSplitter": {
+    "dropLabel": "将 PDF 拖放到此处，或点击浏览",
+    "dropSublabel": "单个文件 — PDF 始终留在您的浏览器中",
+    "fromPage": "起始页",
+    "toPage": "结束页",
+    "pageCount": "共 {count} 页",
+    "extractCount": "已选择 {count} 页",
+    "extractButton": "提取页面",
+    "extracting": "提取中...",
+    "downloadAgain": "重新下载",
+    "clear": "清除",
+    "errorTitle": "错误",
+    "successTitle": "提取成功。请查看您的下载文件夹。",
+    "privacyNote": "您的文件始终留在您的浏览器中，所有处理均在本地进行。",
+    "removeFile": "删除文件",
+    "loadingPages": "加载中..."
+  },
+  "Base64": {
+    "encode": "编码",
+    "decode": "解码",
+    "textMode": "文本",
+    "fileMode": "文件",
+    "inputLabel": "输入",
+    "outputLabel": "输出",
+    "encodeButton": "编码为 Base64",
+    "decodeButton": "从 Base64 解码",
+    "encodePlaceholder": "输入要编码的文本...",
+    "decodePlaceholder": "粘贴要解码的 Base64...",
+    "outputPlaceholderEncode": "Base64 输出将显示在此处...",
+    "outputPlaceholderDecode": "解码文本将显示在此处...",
+    "copy": "复制",
+    "copied": "已复制！",
+    "clear": "清除",
+    "loadFile": "加载文件",
+    "errorTitle": "错误",
+    "invalidBase64": "无效的 Base64 输入",
+    "privacyNote": "您的数据始终留在您的浏览器中，所有编码均在本地进行。"
   }
 }

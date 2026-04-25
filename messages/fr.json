@@ -153,6 +153,106 @@
           "answer": "Le formatage ajoute une indentation et des sauts de ligne pour rendre le JSON lisible par un humain. La minification supprime tous les espaces inutiles pour réduire la taille du fichier."
         }
       ]
+    },
+    "compress-image": {
+      "name": "Compresser l'image",
+      "description": "Réduire la taille du fichier image avec une perte de qualité minimale",
+      "longDescription": "Déposez une image PNG, JPG ou WebP pour la compresser. La taille est réduite tout en préservant la qualité visuelle — tout s'exécute dans votre navigateur.",
+      "seoTitle": "Compresser une image en ligne — Gratuit, Privé, Sans envoi | FileFolks",
+      "seoDescription": "Réduisez la taille de votre image dans le navigateur. PNG, JPG, WebP. Sans envoi. Rapide et privé.",
+      "faqs": [
+        {
+          "question": "Mes images sont-elles envoyées à un serveur ?",
+          "answer": "Non. La compression s'exécute entièrement dans votre navigateur. Vos images ne quittent jamais votre appareil."
+        },
+        {
+          "question": "Quels formats sont pris en charge ?",
+          "answer": "PNG, JPG et WebP. Le format de sortie correspond à votre fichier d'entrée."
+        },
+        {
+          "question": "De combien le fichier va-t-il réduire ?",
+          "answer": "Les économies varient selon l'image. Les photographies se compriment généralement de 40 à 70 %."
+        },
+        {
+          "question": "La compression affectera-t-elle la qualité ?",
+          "answer": "L'outil vise une taille maximale de 1 Mo tout en préservant la qualité. Pour la plupart des photos, la différence est imperceptible."
+        }
+      ]
+    },
+    "image-convert": {
+      "name": "Convertir une image",
+      "description": "Convertir des images entre PNG, JPG et WebP",
+      "longDescription": "Déposez une image pour la convertir en PNG, JPG ou WebP. Utilise l'API Canvas de votre navigateur. Sans envoi ni compte.",
+      "seoTitle": "Convertir une image en ligne — PNG vers JPG, WebP et plus | FileFolks",
+      "seoDescription": "Convertissez PNG en JPG, JPG en WebP et plus. Gratuit, privé, dans votre navigateur. Sans envoi.",
+      "faqs": [
+        {
+          "question": "Mes images sont-elles envoyées ?",
+          "answer": "Non. La conversion utilise l'API Canvas du navigateur sur votre appareil. Rien n'est envoyé à un serveur."
+        },
+        {
+          "question": "Que se passe-t-il avec la transparence lors de la conversion en JPG ?",
+          "answer": "Le JPG ne prend pas en charge la transparence. Les zones transparentes sont automatiquement remplies d'un fond blanc."
+        },
+        {
+          "question": "Y a-t-il une perte de qualité lors de la conversion ?",
+          "answer": "La conversion en PNG est sans perte. La conversion en JPG ou WebP applique une compression légère (92 % de qualité par défaut), visuellement indiscernable."
+        },
+        {
+          "question": "Puis-je convertir des fichiers AVIF ou GIF ?",
+          "answer": "Actuellement, l'outil prend en charge PNG, JPG et WebP. La prise en charge d'AVIF et GIF pourrait être ajoutée à l'avenir."
+        }
+      ]
+    },
+    "split-pdf": {
+      "name": "Diviser un PDF",
+      "description": "Extraire une plage de pages d'un PDF dans un nouveau fichier",
+      "longDescription": "Déposez un PDF, choisissez une plage de pages et téléchargez uniquement ces pages sous forme de nouveau document. Fonctionne avec pdf-lib dans votre navigateur.",
+      "seoTitle": "Diviser un PDF en ligne — Gratuit, Privé, Sans envoi | FileFolks",
+      "seoDescription": "Extrayez des pages d'un PDF dans votre navigateur. Sélectionnez une plage et téléchargez instantanément. Sans envoi.",
+      "faqs": [
+        {
+          "question": "Mon PDF est-il envoyé à un serveur ?",
+          "answer": "Non. Tout se passe dans votre navigateur avec la bibliothèque pdf-lib. Votre fichier ne quitte jamais votre appareil."
+        },
+        {
+          "question": "Puis-je extraire des pages non consécutives ?",
+          "answer": "Actuellement, l'outil extrait une plage continue. Pour des pages non consécutives, extrayez chaque plage séparément et fusionnez les résultats."
+        },
+        {
+          "question": "Les pages extraites conserveront-elles leur contenu ?",
+          "answer": "Oui. Tout le texte, les images et la mise en page sont préservés exactement comme dans l'original."
+        },
+        {
+          "question": "Que faire si mon PDF est protégé par mot de passe ?",
+          "answer": "Les PDF protégés par mot de passe ne peuvent pas être traités. Supprimez d'abord le mot de passe avec un outil de déverrouillage."
+        }
+      ]
+    },
+    "base64-encode-decode": {
+      "name": "Encoder / Décoder en Base64",
+      "description": "Encoder du texte ou des fichiers en Base64, ou décoder du Base64 en texte",
+      "longDescription": "Collez du texte ou chargez un fichier pour l'encoder en Base64, ou collez une chaîne Base64 pour la décoder. Tout se passe dans votre navigateur.",
+      "seoTitle": "Encoder et Décoder en Base64 en ligne — Gratuit, Privé | FileFolks",
+      "seoDescription": "Encodez du texte ou des fichiers en Base64, ou décodez du Base64 en texte. Dans votre navigateur. Sans envoi.",
+      "faqs": [
+        {
+          "question": "Mes données sont-elles envoyées à un serveur ?",
+          "answer": "Non. L'encodage et le décodage Base64 sont de pures opérations JavaScript qui s'exécutent dans votre navigateur."
+        },
+        {
+          "question": "À quoi sert le Base64 ?",
+          "answer": "Le Base64 est utilisé pour transmettre en toute sécurité des données binaires sous forme de texte — dans les e-mails, les URL de données, les charges utiles d'API et les fichiers de configuration."
+        },
+        {
+          "question": "Y a-t-il une limite de taille ?",
+          "answer": "Il n'y a pas de limite stricte, mais les très gros fichiers (plus de 10 Mo) peuvent ralentir votre onglet. La chaîne Base64 de sortie sera environ 33 % plus grande que l'entrée."
+        },
+        {
+          "question": "Le Base64 chiffre-t-il mes données ?",
+          "answer": "Non. Le Base64 est un schéma d'encodage, pas un chiffrement. Toute personne disposant de la chaîne Base64 peut la décoder instantanément."
+        }
+      ]
     }
   },
   "Categories": {
@@ -165,5 +265,74 @@
   "Privacy": {
     "title": "Politique de confidentialité",
     "metaDescription": "FileFolks processes all files locally in your browser. No data is ever uploaded or stored."
+  },
+  "ImageCompressor": {
+    "dropLabel": "Déposez une image ici ou cliquez pour parcourir",
+    "dropSublabel": "PNG, JPG ou WebP — votre image ne quitte jamais votre navigateur",
+    "compressButton": "Compresser l'image",
+    "compressing": "Compression...",
+    "downloadAgain": "Télécharger à nouveau",
+    "clear": "Effacer",
+    "errorTitle": "Erreur",
+    "successTitle": "Compressé avec succès. Vérifiez votre dossier de téléchargements.",
+    "original": "Original",
+    "compressed": "Compressée",
+    "saved": "Économisé",
+    "alreadyOptimizedTitle": "Le fichier est déjà bien optimisé.",
+    "alreadyOptimizedBody": "La version compressée ({compressedSize}) n'est pas plus petite que l'original ({originalSize}). Conservez votre fichier original.",
+    "privacyNote": "Votre image ne quitte jamais votre navigateur. Toute la compression s'effectue localement.",
+    "removeFile": "Supprimer le fichier"
+  },
+  "ImageConverter": {
+    "dropLabel": "Déposez une image ici ou cliquez pour parcourir",
+    "dropSublabel": "PNG, JPG ou WebP — votre image ne quitte jamais votre navigateur",
+    "convertTo": "Convertir en",
+    "convertButton": "Convertir",
+    "converting": "Conversion...",
+    "downloadAgain": "Télécharger à nouveau",
+    "clear": "Effacer",
+    "errorTitle": "Erreur",
+    "successTitle": "Converti avec succès. Vérifiez votre dossier de téléchargements.",
+    "jpegNote": "Les zones transparentes seront remplies d'un fond blanc.",
+    "privacyNote": "Votre image ne quitte jamais votre navigateur. Toute la conversion s'effectue localement.",
+    "removeFile": "Supprimer le fichier"
+  },
+  "PdfSplitter": {
+    "dropLabel": "Déposez un PDF ici ou cliquez pour parcourir",
+    "dropSublabel": "Fichier unique — votre PDF ne quitte jamais votre navigateur",
+    "fromPage": "De la page",
+    "toPage": "À la page",
+    "pageCount": "{count} pages",
+    "extractCount": "{count} {count, plural, one {page sélectionnée} other {pages sélectionnées}}",
+    "extractButton": "Extraire les pages",
+    "extracting": "Extraction...",
+    "downloadAgain": "Télécharger à nouveau",
+    "clear": "Effacer",
+    "errorTitle": "Erreur",
+    "successTitle": "Extrait avec succès. Vérifiez votre dossier de téléchargements.",
+    "privacyNote": "Votre fichier ne quitte jamais votre navigateur. Tout le traitement s'effectue localement.",
+    "removeFile": "Supprimer le fichier",
+    "loadingPages": "Chargement..."
+  },
+  "Base64": {
+    "encode": "Encoder",
+    "decode": "Décoder",
+    "textMode": "Texte",
+    "fileMode": "Fichier",
+    "inputLabel": "Entrée",
+    "outputLabel": "Sortie",
+    "encodeButton": "Encoder en Base64",
+    "decodeButton": "Décoder depuis Base64",
+    "encodePlaceholder": "Entrez le texte à encoder...",
+    "decodePlaceholder": "Collez le Base64 à décoder...",
+    "outputPlaceholderEncode": "Le résultat Base64 apparaîtra ici...",
+    "outputPlaceholderDecode": "Le texte décodé apparaîtra ici...",
+    "copy": "Copier",
+    "copied": "Copié !",
+    "clear": "Effacer",
+    "loadFile": "Charger un fichier",
+    "errorTitle": "Erreur",
+    "invalidBase64": "Entrée Base64 invalide",
+    "privacyNote": "Vos données ne quittent jamais votre navigateur. Tout l'encodage s'effectue localement."
   }
 }

@@ -13,6 +13,32 @@ export async function mergePdfs(files: File[]): Promise<Blob> {
   return new Blob([mergedBytes.buffer as ArrayBuffer], { type: "application/pdf" });
 }
 
+export async function getPdfPageCount(file: File): Promise<number> {
+  const { PDFDocument } = await import("pdf-lib");
+  const bytes = await file.arrayBuffer();
+  const doc = await PDFDocument.load(bytes, { updateMetadata: false });
+  return doc.getPageCount();
+}
+
+export async function splitPdf(
+  file: File,
+  fromPage: number, // 1-indexed, inclusive
+  toPage: number    // 1-indexed, inclusive
+): Promise<Blob> {
+  const { PDFDocument } = await import("pdf-lib");
+  const bytes = await file.arrayBuffer();
+  const src = await PDFDocument.load(bytes);
+  const total = src.getPageCount();
+  const from = Math.max(0, fromPage - 1);
+  const to = Math.min(total - 1, toPage - 1);
+  const indices = Array.from({ length: to - from + 1 }, (_, i) => from + i);
+  const out = await PDFDocument.create();
+  const pages = await out.copyPages(src, indices);
+  pages.forEach((p) => out.addPage(p));
+  const outBytes = await out.save();
+  return new Blob([outBytes.buffer as ArrayBuffer], { type: "application/pdf" });
+}
+
 export interface CompressResult {
   blob: Blob;
   originalSize: number;

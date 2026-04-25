@@ -153,6 +153,106 @@
           "answer": "Formatieren fügt Einzüge und Zeilenumbrüche hinzu, um JSON für Menschen lesbar zu machen. Minifizieren entfernt alle unnötigen Leerzeichen, um die Dateigröße zu reduzieren."
         }
       ]
+    },
+    "compress-image": {
+      "name": "Bild komprimieren",
+      "description": "Bilddateigröße mit minimaler Qualitätseinbuße reduzieren",
+      "longDescription": "Legen Sie ein PNG-, JPG- oder WebP-Bild ab, um es zu komprimieren. Die Dateigröße wird reduziert, während die visuelle Qualität erhalten bleibt — alles läuft in Ihrem Browser.",
+      "seoTitle": "Bild online komprimieren — Kostenlos, Privat, Kein Upload | FileFolks",
+      "seoDescription": "Bilddateigröße im Browser reduzieren. PNG, JPG, WebP. Kein Upload. Schnell und privat.",
+      "faqs": [
+        {
+          "question": "Werden meine Bilder auf einen Server hochgeladen?",
+          "answer": "Nein. Die Komprimierung läuft vollständig in Ihrem Browser. Ihre Bilder verlassen nie Ihr Gerät."
+        },
+        {
+          "question": "Welche Formate werden unterstützt?",
+          "answer": "PNG, JPG und WebP. Das Ausgabeformat entspricht Ihrer Eingabedatei."
+        },
+        {
+          "question": "Wie viel wird die Datei schrumpfen?",
+          "answer": "Die Einsparungen variieren je nach Bild. Fotos komprimieren sich typischerweise um 40-70 %."
+        },
+        {
+          "question": "Wird die Komprimierung die Qualität beeinflussen?",
+          "answer": "Das Tool zielt auf eine maximale Ausgabegröße von 1 MB ab und erhält dabei so viel Qualität wie möglich. Bei den meisten Fotos ist der Unterschied nicht wahrnehmbar."
+        }
+      ]
+    },
+    "image-convert": {
+      "name": "Bild konvertieren",
+      "description": "Bilder zwischen PNG, JPG und WebP konvertieren",
+      "longDescription": "Legen Sie ein Bild ab, um es in PNG, JPG oder WebP zu konvertieren. Verwendet die Canvas-API Ihres Browsers. Kein Upload, kein Konto erforderlich.",
+      "seoTitle": "Bild online konvertieren — PNG zu JPG, WebP und mehr | FileFolks",
+      "seoDescription": "PNG zu JPG, JPG zu WebP und mehr konvertieren. Kostenlos, privat, in Ihrem Browser. Kein Upload.",
+      "faqs": [
+        {
+          "question": "Werden meine Bilder hochgeladen?",
+          "answer": "Nein. Die Konvertierung verwendet die Canvas-API des Browsers auf Ihrem Gerät. Nichts wird an einen Server gesendet."
+        },
+        {
+          "question": "Was passiert mit Transparenz bei der Konvertierung zu JPG?",
+          "answer": "JPG unterstützt keine Transparenz. Transparente Bereiche werden automatisch mit weißem Hintergrund gefüllt."
+        },
+        {
+          "question": "Gibt es Qualitätsverluste bei der Konvertierung?",
+          "answer": "Die Konvertierung zu PNG ist verlustfrei. Die Konvertierung zu JPG oder WebP wendet leichte Komprimierung an (92 % Qualität standardmäßig), die visuell kaum wahrnehmbar ist."
+        },
+        {
+          "question": "Kann ich AVIF- oder GIF-Dateien konvertieren?",
+          "answer": "Derzeit unterstützt das Tool PNG, JPG und WebP. AVIF- und GIF-Unterstützung könnte in Zukunft hinzugefügt werden."
+        }
+      ]
+    },
+    "split-pdf": {
+      "name": "PDF teilen",
+      "description": "Einen Seitenbereich aus einem PDF in eine neue Datei extrahieren",
+      "longDescription": "Legen Sie ein PDF ab, wählen Sie einen Seitenbereich und laden Sie nur diese Seiten als neues Dokument herunter. Läuft mit pdf-lib in Ihrem Browser.",
+      "seoTitle": "PDF online teilen — Kostenlos, Privat, Kein Upload | FileFolks",
+      "seoDescription": "Seiten aus einem PDF in Ihrem Browser extrahieren. Bereich auswählen und sofort herunterladen. Kein Upload.",
+      "faqs": [
+        {
+          "question": "Wird mein PDF auf einen Server hochgeladen?",
+          "answer": "Nein. Alles passiert in Ihrem Browser mit der pdf-lib-Bibliothek. Ihre Datei verlässt nie Ihr Gerät."
+        },
+        {
+          "question": "Kann ich nicht zusammenhängende Seiten extrahieren?",
+          "answer": "Derzeit extrahiert das Tool einen zusammenhängenden Bereich. Für nicht zusammenhängende Seiten extrahieren Sie jeden Bereich separat und führen die Ergebnisse zusammen."
+        },
+        {
+          "question": "Behalten die extrahierten Seiten ihren Inhalt?",
+          "answer": "Ja. Alle Texte, Bilder und Layouts bleiben genau wie im Original erhalten."
+        },
+        {
+          "question": "Was, wenn mein PDF passwortgeschützt ist?",
+          "answer": "Passwortgeschützte PDFs können nicht verarbeitet werden. Entfernen Sie zuerst das Passwort mit einem Entsperrungstool."
+        }
+      ]
+    },
+    "base64-encode-decode": {
+      "name": "Base64 Kodieren / Dekodieren",
+      "description": "Text oder Dateien in Base64 kodieren oder Base64 in Text dekodieren",
+      "longDescription": "Fügen Sie Text ein oder laden Sie eine Datei, um sie als Base64 zu kodieren, oder fügen Sie eine Base64-Zeichenkette zum Dekodieren ein. Alles läuft in Ihrem Browser.",
+      "seoTitle": "Base64 Online Kodieren & Dekodieren — Kostenlos, Privat | FileFolks",
+      "seoDescription": "Text oder Dateien in Base64 kodieren oder Base64 in Text dekodieren. Im Browser. Kein Upload.",
+      "faqs": [
+        {
+          "question": "Werden meine Daten auf einen Server hochgeladen?",
+          "answer": "Nein. Base64-Kodierung und -Dekodierung sind reine JavaScript-Operationen, die vollständig in Ihrem Browser ausgeführt werden."
+        },
+        {
+          "question": "Wofür wird Base64 verwendet?",
+          "answer": "Base64 wird verwendet, um Binärdaten sicher als Text zu übertragen — in E-Mails, Daten-URLs, API-Payloads und Konfigurationsdateien."
+        },
+        {
+          "question": "Gibt es eine Größenbeschränkung?",
+          "answer": "Es gibt keine feste Grenze, aber sehr große Dateien (über 10 MB) können Ihren Browser-Tab verlangsamen. Die Base64-Ausgabe ist etwa 33 % größer als die Eingabe."
+        },
+        {
+          "question": "Verschlüsselt Base64 meine Daten?",
+          "answer": "Nein. Base64 ist ein Kodierungsschema, keine Verschlüsselung. Jeder mit der Base64-Zeichenkette kann sie sofort dekodieren."
+        }
+      ]
     }
   },
   "Categories": {
@@ -165,5 +265,74 @@
   "Privacy": {
     "title": "Datenschutzrichtlinie",
     "metaDescription": "FileFolks processes all files locally in your browser. No data is ever uploaded or stored."
+  },
+  "ImageCompressor": {
+    "dropLabel": "Bild hier ablegen oder klicken zum Durchsuchen",
+    "dropSublabel": "PNG, JPG oder WebP — Ihr Bild verlässt nie Ihren Browser",
+    "compressButton": "Bild komprimieren",
+    "compressing": "Komprimierung...",
+    "downloadAgain": "Erneut herunterladen",
+    "clear": "Zurücksetzen",
+    "errorTitle": "Fehler",
+    "successTitle": "Erfolgreich komprimiert. Prüfen Sie Ihren Download-Ordner.",
+    "original": "Original",
+    "compressed": "Komprimiert",
+    "saved": "Gespart",
+    "alreadyOptimizedTitle": "Datei ist bereits gut optimiert.",
+    "alreadyOptimizedBody": "Die komprimierte Version ({compressedSize}) ist nicht kleiner als das Original ({originalSize}). Behalten Sie Ihre Originaldatei.",
+    "privacyNote": "Ihr Bild verlässt nie Ihren Browser. Die gesamte Komprimierung erfolgt lokal.",
+    "removeFile": "Datei entfernen"
+  },
+  "ImageConverter": {
+    "dropLabel": "Bild hier ablegen oder klicken zum Durchsuchen",
+    "dropSublabel": "PNG, JPG oder WebP — Ihr Bild verlässt nie Ihren Browser",
+    "convertTo": "Konvertieren zu",
+    "convertButton": "Konvertieren",
+    "converting": "Konvertierung...",
+    "downloadAgain": "Erneut herunterladen",
+    "clear": "Zurücksetzen",
+    "errorTitle": "Fehler",
+    "successTitle": "Erfolgreich konvertiert. Prüfen Sie Ihren Download-Ordner.",
+    "jpegNote": "Transparente Bereiche werden mit weißem Hintergrund gefüllt.",
+    "privacyNote": "Ihr Bild verlässt nie Ihren Browser. Die gesamte Konvertierung erfolgt lokal.",
+    "removeFile": "Datei entfernen"
+  },
+  "PdfSplitter": {
+    "dropLabel": "PDF hier ablegen oder klicken zum Durchsuchen",
+    "dropSublabel": "Einzelne Datei — Ihr PDF verlässt nie Ihren Browser",
+    "fromPage": "Von Seite",
+    "toPage": "Bis Seite",
+    "pageCount": "{count} Seiten",
+    "extractCount": "{count} {count, plural, one {Seite ausgewählt} other {Seiten ausgewählt}}",
+    "extractButton": "Seiten extrahieren",
+    "extracting": "Extrahierung...",
+    "downloadAgain": "Erneut herunterladen",
+    "clear": "Zurücksetzen",
+    "errorTitle": "Fehler",
+    "successTitle": "Erfolgreich extrahiert. Prüfen Sie Ihren Download-Ordner.",
+    "privacyNote": "Ihre Datei verlässt nie Ihren Browser. Die gesamte Verarbeitung erfolgt lokal.",
+    "removeFile": "Datei entfernen",
+    "loadingPages": "Laden..."
+  },
+  "Base64": {
+    "encode": "Kodieren",
+    "decode": "Dekodieren",
+    "textMode": "Text",
+    "fileMode": "Datei",
+    "inputLabel": "Eingabe",
+    "outputLabel": "Ausgabe",
+    "encodeButton": "Als Base64 kodieren",
+    "decodeButton": "Aus Base64 dekodieren",
+    "encodePlaceholder": "Text zum Kodieren eingeben...",
+    "decodePlaceholder": "Base64 zum Dekodieren einfügen...",
+    "outputPlaceholderEncode": "Base64-Ausgabe erscheint hier...",
+    "outputPlaceholderDecode": "Dekodierter Text erscheint hier...",
+    "copy": "Kopieren",
+    "copied": "Kopiert!",
+    "clear": "Zurücksetzen",
+    "loadFile": "Datei laden",
+    "errorTitle": "Fehler",
+    "invalidBase64": "Ungültige Base64-Eingabe",
+    "privacyNote": "Ihre Daten verlassen nie Ihren Browser. Die gesamte Kodierung erfolgt lokal."
   }
 }

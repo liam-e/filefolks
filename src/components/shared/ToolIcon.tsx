@@ -56,6 +56,53 @@ function CompressPdfIcon({ className }: SvgProps) {
   );
 }
 
+function CompressImageIcon({ className }: SvgProps) {
+  return (
+    <Svg className={className}>
+      <rect x="3" y="3" width="18" height="18" rx="2" />
+      <circle cx="8.5" cy="8.5" r="1.5" />
+      <path d="m21 15-5.09-5.09a2 2 0 0 0-2.82 0L6 17" />
+      <polyline points="9 21 12 18 15 21" />
+      <line x1="12" y1="18" x2="12" y2="22" />
+    </Svg>
+  );
+}
+
+function ImageConvertIcon({ className }: SvgProps) {
+  return (
+    <Svg className={className}>
+      <rect x="2" y="3" width="9" height="9" rx="1.5" />
+      <circle cx="5.5" cy="5.5" r="1" />
+      <path d="m11 11-2-2 2-2" />
+      <rect x="13" y="12" width="9" height="9" rx="1.5" />
+      <path d="m13 14 2-2-2-2" />
+    </Svg>
+  );
+}
+
+function SplitPdfIcon({ className }: SvgProps) {
+  return (
+    <Svg className={className}>
+      <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+      <polyline points="14 2 14 8 20 8" />
+      <line x1="4" y1="13" x2="20" y2="13" strokeDasharray="2 2" />
+      <polyline points="8 10 4 13 8 16" />
+      <polyline points="16 10 20 13 16 16" />
+    </Svg>
+  );
+}
+
+function Base64Icon({ className }: SvgProps) {
+  return (
+    <Svg className={className}>
+      <path d="M8 3H7a2 2 0 0 0-2 2v4a2 2 0 0 1-2 2 2 2 0 0 1 2 2v4a2 2 0 0 0 2 2h1" />
+      <path d="M16 3h1a2 2 0 0 1 2 2v4a2 2 0 0 0 2 2 2 2 0 0 0-2 2v4a2 2 0 0 1-2 2h-1" />
+      <line x1="12" y1="9" x2="12" y2="15" />
+      <polyline points="9 12 12 9 15 12" />
+    </Svg>
+  );
+}
+
 // ── Category fallback icons ────────────────────────────────────
 
 function PdfCategoryIcon({ className }: SvgProps) {
@@ -112,8 +159,12 @@ type IconComponent = (props: SvgProps) => React.ReactElement;
 
 const TOOL_ICONS: Record<string, IconComponent> = {
   "pdf-merge": PdfMergeIcon,
-  "json-formatter": JsonFormatterIcon,
   "compress-pdf": CompressPdfIcon,
+  "split-pdf": SplitPdfIcon,
+  "json-formatter": JsonFormatterIcon,
+  "compress-image": CompressImageIcon,
+  "image-convert": ImageConvertIcon,
+  "base64-encode-decode": Base64Icon,
 };
 
 const CATEGORY_ICONS: Record<string, IconComponent> = {
