@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { getTranslations, setRequestLocale } from "next-intl/server";
+import { setRequestLocale } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 import { getAlternates } from "@/lib/utils/metadata";
 
@@ -15,8 +15,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
   return {
     title: "Privacy Policy | FileFolks",
-    description:
-      "FileFolks processes all files locally in your browser. No data is ever uploaded or stored.",
+    description: "FileFolks processes all files locally in your browser. No data is ever uploaded or stored.",
     alternates: getAlternates(locale, "/privacy"),
   };
 }
@@ -24,44 +23,32 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 export default async function PrivacyPage({ params }: Props) {
   const { locale } = await params;
   setRequestLocale(locale);
-  const t = await getTranslations({ locale, namespace: "Privacy" });
 
   return (
-    <div className="max-w-3xl mx-auto py-6">
-      <h1 className="text-3xl font-bold mb-2">{t("title")}</h1>
+    <div className="max-w-2xl mx-auto py-6">
+      <h1 className="text-3xl font-bold mb-2">Privacy Policy</h1>
       <p className="text-sm text-muted-foreground mb-10">Last updated: April 2026</p>
 
-      <Section heading="The short version">
-        FileFolks processes everything in your browser. Your files never leave your device.
-        We do not collect, store, or transmit any personal data or file content.
+      <Section heading="Your files never leave your browser">
+        Every tool on FileFolks runs entirely in your browser using WebAssembly and native
+        browser APIs. No file data — names, contents, or metadata — is ever sent to a server.
+        Open your browser&apos;s Network tab while using any tool and you will see no upload
+        requests.
       </Section>
 
-      <Section heading="File processing">
-        All file operations (merging PDFs, compressing PDFs, formatting JSON, etc.) run
-        entirely using browser APIs and WebAssembly. No file data is sent to any server.
-        You can verify this by opening your browser&apos;s Network tab while using any tool
-        — you will see no upload requests.
-      </Section>
-
-      <Section heading="Data we collect">
-        <p className="text-muted-foreground mb-2">We collect nothing. Specifically:</p>
-        <ul className="list-disc list-inside space-y-1 text-muted-foreground">
-          <li>No account or registration required</li>
-          <li>No cookies set by FileFolks</li>
-          <li>No analytics or tracking scripts</li>
-          <li>No file names, sizes, or contents transmitted</li>
-          <li>No IP address logging by FileFolks</li>
-        </ul>
+      <Section heading="What we collect">
+        Nothing. FileFolks sets no cookies, loads no analytics or tracking scripts, and
+        requires no account. We do not log or store anything about you or your files.
       </Section>
 
       <Section heading="Hosting">
-        FileFolks is hosted on Microsoft Azure Static Web Apps. Azure may retain standard
-        web server access logs (IP address, timestamp, URL requested) as part of normal
-        hosting infrastructure. These logs are outside FileFolks&apos; control and are
-        governed by{" "}
+        The site is hosted on Microsoft Azure Static Web Apps. Azure may retain standard
+        server access logs (IP address, timestamp, URL) as part of normal hosting
+        infrastructure. These logs are controlled by Microsoft, not FileFolks, and are
+        covered by{" "}
         <a
           href="https://privacy.microsoft.com/en-us/privacystatement"
-          className="text-primary underline"
+          className="text-primary underline underline-offset-2"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -70,40 +57,19 @@ export default async function PrivacyPage({ params }: Props) {
         .
       </Section>
 
-      <Section heading="Fonts and assets">
-        Page fonts (Inter) are self-hosted. No requests are made to Google Fonts or any
-        external font provider.
+      <Section heading="Fonts">
+        Page fonts are self-hosted at build time via Next.js. No requests are made to
+        Google Fonts or any external provider.
       </Section>
 
-      <Section heading="Your rights">
-        Because FileFolks does not collect personal data, there is nothing to access,
-        correct, export, or delete. Questions? Contact us at the address below.
-      </Section>
-
-      <Section heading="Changes to this policy">
-        If this policy changes materially, we will update the date at the top of this page.
-        The current version is always available at{" "}
-        <span className="font-mono text-sm">filefolks.com/en/privacy</span>.
-      </Section>
-
-      <Section heading="Contact">
-        Questions about privacy? Email{" "}
-        <a href="mailto:privacy@filefolks.com" className="text-primary underline">
-          privacy@filefolks.com
-        </a>
-        .
+      <Section heading="Changes">
+        Material changes will be reflected by an updated date at the top of this page.
       </Section>
     </div>
   );
 }
 
-function Section({
-  heading,
-  children,
-}: {
-  heading: string;
-  children: React.ReactNode;
-}) {
+function Section({ heading, children }: { heading: string; children: React.ReactNode }) {
   return (
     <section className="mb-8">
       <h2 className="text-xl font-semibold mb-3">{heading}</h2>

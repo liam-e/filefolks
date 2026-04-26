@@ -5,6 +5,7 @@ import { TOOLS, CATEGORIES } from "@/lib/utils/constants";
 import type { ToolCategory } from "@/lib/utils/constants";
 import { getAlternates } from "@/lib/utils/metadata";
 import { ToolIcon } from "@/components/shared/ToolIcon";
+import { ToolCard } from "@/components/shared/ToolCard";
 import { cn } from "@/lib/utils";
 
 interface Props {
@@ -16,9 +17,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return { alternates: getAlternates(locale, "") };
 }
 
-// Group tools by category, each group sorted by popularity (asc).
-// Categories ordered by their explicit displayOrder (edit CATEGORIES in constants.ts
-// to reprioritise sections as traffic data changes).
 function getGroupedTools() {
   const byCategory = TOOLS.reduce<Record<string, typeof TOOLS>>((acc, tool) => {
     (acc[tool.category] ??= []).push(tool);
@@ -67,14 +65,20 @@ export default async function LocaleHomePage({ params }: Props) {
         {groupedTools.map(({ category, tools }) => (
           <section key={category.slug} aria-labelledby={`cat-${category.slug}`}>
             <div className="flex items-center justify-between mb-4">
-              <div className="flex items-center gap-2.5">
+              <Link
+                href={`/tools/category/${category.slug}`}
+                className="flex items-center gap-2.5 group"
+              >
                 <div className={cn("w-7 h-7 rounded-lg flex items-center justify-center shrink-0", category.colors.bg)}>
                   <ToolIcon slug="" category={category.slug} className={cn("w-4 h-4", category.colors.text)} />
                 </div>
-                <h2 id={`cat-${category.slug}`} className="text-lg font-semibold">
+                <h2
+                  id={`cat-${category.slug}`}
+                  className="text-lg font-semibold group-hover:text-primary transition-colors"
+                >
                   {tCategories(category.slug as ToolCategory)}
                 </h2>
-              </div>
+              </Link>
               <Link
                 href={`/tools/category/${category.slug}`}
                 className="text-sm text-muted-foreground hover:text-foreground transition-colors"
@@ -85,23 +89,12 @@ export default async function LocaleHomePage({ params }: Props) {
 
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
               {tools.map((tool) => (
-                <Link
+                <ToolCard
                   key={tool.slug}
-                  href={`/tools/${tool.slug}`}
-                  className="group flex gap-4 p-5 bg-card border border-border rounded-xl hover:border-primary hover:shadow-md transition-all duration-150"
-                >
-                  <div className={cn("shrink-0 w-10 h-10 rounded-lg flex items-center justify-center", category.colors.bg)}>
-                    <ToolIcon slug={tool.slug} category={tool.category} className={cn("w-5 h-5", category.colors.text)} />
-                  </div>
-                  <div className="min-w-0">
-                    <h3 className="font-semibold text-foreground group-hover:text-primary transition-colors truncate mb-0.5">
-                      {tTools(`${tool.slug}.name`)}
-                    </h3>
-                    <p className="text-sm text-muted-foreground leading-relaxed">
-                      {tTools(`${tool.slug}.description`)}
-                    </p>
-                  </div>
-                </Link>
+                  tool={tool}
+                  name={tTools(`${tool.slug}.name`)}
+                  description={tTools(`${tool.slug}.description`)}
+                />
               ))}
             </div>
           </section>

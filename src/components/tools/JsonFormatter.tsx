@@ -6,15 +6,25 @@ import { formatJson, type FormatJsonResult } from "@/lib/processors/text";
 import { Button } from "@/components/ui/button";
 
 const SAMPLE_JSON = `{
-  "name": "FileFolks",
-  "version": "1.0.0",
-  "description": "Privacy-first file tools",
-  "tools": ["pdf-merge", "json-formatter", "image-convert"],
-  "config": {
-    "clientSide": true,
-    "uploadsToServer": false,
-    "openSource": true
-  }
+  "books": [
+    {
+      "id": 1,
+      "title": "Dune",
+      "author": "Frank Herbert",
+      "year": 1965,
+      "genres": ["science fiction", "adventure"],
+      "rating": 4.8
+    },
+    {
+      "id": 2,
+      "title": "The Left Hand of Darkness",
+      "author": "Ursula K. Le Guin",
+      "year": 1969,
+      "genres": ["science fiction"],
+      "rating": 4.5
+    }
+  ],
+  "total": 2
 }`;
 
 export function JsonFormatterTool() {

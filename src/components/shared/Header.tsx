@@ -27,19 +27,7 @@ export default function Header() {
           </span>
         </Link>
 
-        <nav className="ml-auto flex items-center gap-6">
-          <Link
-            href="/"
-            className="text-sm text-muted-foreground hover:text-foreground transition-colors"
-          >
-            {t("tools")}
-          </Link>
-          <Link
-            href="/guides"
-            className="text-sm text-muted-foreground hover:text-foreground transition-colors"
-          >
-            {t("guides")}
-          </Link>
+        <nav className="ml-auto flex items-center">
           <LanguageSwitcher />
         </nav>
       </div>

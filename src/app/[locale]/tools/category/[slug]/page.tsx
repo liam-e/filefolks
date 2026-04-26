@@ -6,6 +6,7 @@ import { CATEGORIES, getToolsByCategory, type ToolCategory } from "@/lib/utils/c
 import { routing } from "@/i18n/routing";
 import { getAlternates } from "@/lib/utils/metadata";
 import { ToolIcon } from "@/components/shared/ToolIcon";
+import { ToolCard } from "@/components/shared/ToolCard";
 import { cn } from "@/lib/utils";
 
 interface Props {
@@ -40,6 +41,10 @@ export default async function LocaleCategoryPage({ params }: Props) {
   const tTools = await getTranslations({ locale, namespace: "tools" });
   const tCategories = await getTranslations({ locale, namespace: "Categories" });
 
+  const otherCategories = Object.values(CATEGORIES)
+    .filter((c) => c.slug !== slug)
+    .sort((a, b) => a.displayOrder - b.displayOrder);
+
   return (
     <div className="max-w-4xl mx-auto">
       <div className="flex items-center gap-3 mb-2">
@@ -52,24 +57,34 @@ export default async function LocaleCategoryPage({ params }: Props) {
 
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
         {tools.map((tool) => (
-          <Link
+          <ToolCard
             key={tool.slug}
-            href={`/tools/${tool.slug}`}
-            className="group flex gap-4 p-5 bg-card border border-border rounded-xl hover:border-primary hover:shadow-md transition-all duration-150"
-          >
-            <div className={cn("shrink-0 w-10 h-10 rounded-lg flex items-center justify-center", category.colors.bg)}>
-              <ToolIcon slug={tool.slug} category={tool.category} className={cn("w-5 h-5", category.colors.text)} />
-            </div>
-            <div className="min-w-0">
-              <h2 className="font-semibold text-foreground group-hover:text-primary transition-colors truncate mb-0.5">
-                {tTools(`${tool.slug}.name`)}
-              </h2>
-              <p className="text-sm text-muted-foreground leading-relaxed">
-                {tTools(`${tool.slug}.description`)}
-              </p>
-            </div>
-          </Link>
+            tool={tool}
+            name={tTools(`${tool.slug}.name`)}
+            description={tTools(`${tool.slug}.description`)}
+          />
         ))}
+      </div>
+
+      {/* Other categories */}
+      <div className="mt-12 pt-8 border-t border-border">
+        <p className="text-sm font-medium text-muted-foreground mb-4">More tools</p>
+        <div className="flex flex-wrap gap-3">
+          {otherCategories.map((cat) => (
+            <Link
+              key={cat.slug}
+              href={`/tools/category/${cat.slug}`}
+              className={cn(
+                "flex items-center gap-2 px-3 py-2 rounded-lg text-sm font-medium transition-all border border-transparent hover:border-border hover:shadow-sm",
+                cat.colors.bg,
+                cat.colors.text
+              )}
+            >
+              <ToolIcon slug="" category={cat.slug} className="w-4 h-4" />
+              {tCategories(cat.slug as ToolCategory)}
+            </Link>
+          ))}
+        </div>
       </div>
     </div>
   );

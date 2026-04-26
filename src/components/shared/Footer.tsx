@@ -68,6 +68,12 @@ export default function Footer() {
 
           <div className="flex items-center gap-4">
             <Link
+              href="/about"
+              className="text-xs text-stone-500 hover:text-stone-300 transition-colors"
+            >
+              About
+            </Link>
+            <Link
               href="/privacy"
               className="text-xs text-stone-500 hover:text-stone-300 transition-colors"
             >
