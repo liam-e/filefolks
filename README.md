@@ -8,7 +8,7 @@ Free, privacy-first file and developer tools that run entirely in your browser. 
 
 ## How it works
 
-All file processing uses WebAssembly and browser APIs. Files never leave your device. You can verify this by opening your browser's Network tab while using any tool — no file upload requests will appear.
+All file processing uses WebAssembly and browser APIs. Files never leave your device. You can verify this by opening your browser's Network tab while using any tool. No file upload requests will appear.
 
 ---
 
@@ -19,11 +19,11 @@ All file processing uses WebAssembly and browser APIs. Files never leave your de
 | Framework | Next.js 15 (App Router, static export) |
 | Language | TypeScript (strict) |
 | Styling | Tailwind CSS v4 + shadcn/ui |
-| Fonts | DM Sans (body) + Lora (headings) |
-| i18n | next-intl v4 — 12 locales, `localePrefix: "always"` |
+| Fonts | DM Sans (body) + Lora (headings) + Nunito (logo) |
+| i18n | next-intl v4 -- 12 locales, `localePrefix: "always"` |
 | PDF processing | pdf-lib, pdf-merger-js |
 | Image processing | browser-image-compression + Canvas API |
-| Hosting | Azure Static Web Apps |
+| Hosting | Static export (host TBD) |
 
 ---
 

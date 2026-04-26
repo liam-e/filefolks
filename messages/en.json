@@ -465,7 +465,16 @@
   },
   "Privacy": {
     "title": "Privacy Policy",
-    "metaDescription": "FileFolks processes all files locally in your browser. No data is ever uploaded or stored."
+    "metaDescription": "FileFolks processes all files locally in your browser. No data is ever uploaded or stored.",
+    "lastUpdated": "Last updated: April 2026",
+    "s1Heading": "Your files never leave your browser",
+    "s1Body": "Every tool on FileFolks runs entirely in your browser using WebAssembly and native browser APIs. No file data, names, contents, or metadata is ever sent to a server. Open your browser's Network tab while using any tool and you will see no upload requests.",
+    "s2Heading": "What we collect",
+    "s2Body": "Nothing. FileFolks sets no cookies, loads no analytics or tracking scripts, and requires no account. We do not log or store anything about you or your files.",
+    "s3Heading": "Fonts",
+    "s3Body": "Page fonts are self-hosted at build time. No requests are made to Google Fonts or any external provider.",
+    "s4Heading": "Changes",
+    "s4Body": "Material changes will be reflected by an updated date at the top of this page."
   },
   "ImageCompressor": {
     "dropLabel": "Drop an image here, or click to browse",
@@ -664,5 +673,14 @@
     "clear": "Clear",
     "privacyNote": "All processing happens locally in your browser.",
     "errorTitle": "Error"
+  },
+  "About": {
+    "title": "About FileFolks",
+    "metaDescription": "FileFolks is a free collection of browser-based file and developer tools. No uploads, no accounts, no tracking.",
+    "p1": "FileFolks is a free collection of {count} file and developer tools that run entirely in your browser. No uploads, no accounts, no tracking.",
+    "p2": "Most online file tools work by uploading your files to a remote server, processing them, and sending them back. FileFolks takes a different approach: every operation happens locally using WebAssembly and native browser APIs. Your files never leave your device.",
+    "p3": "The goal is a fast, private alternative for everyday file tasks. No sign-up required, no file size nags, no watermarks.",
+    "contactHeading": "Contact",
+    "contactBody": "For questions, feedback, or tool suggestions, email"
   }
 }

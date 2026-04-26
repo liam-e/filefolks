@@ -45,21 +45,22 @@ export default function Footer() {
 
         <div className="border-t border-stone-800 pt-8 flex flex-col sm:flex-row items-center justify-between gap-3">
           <div className="flex items-center gap-2">
-            <div className="w-5 h-5 rounded bg-orange-500 flex items-center justify-center">
+            <div className="w-5 h-5 rounded-md bg-orange-500 flex items-center justify-center">
               <svg
                 viewBox="0 0 24 24"
                 fill="none"
                 stroke="currentColor"
-                strokeWidth="2.5"
+                strokeWidth="2"
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 className="w-3 h-3 text-white"
               >
-                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
-                <polyline points="14,2 14,8 20,8" />
+                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z" />
               </svg>
             </div>
-            <span className="text-sm font-medium text-stone-200">FileFolks</span>
+            <span className="text-sm font-bold" style={{ fontFamily: "var(--font-lora)" }}>
+              <span className="text-stone-200">File</span><span className="text-orange-400">Folks</span>
+            </span>
           </div>
 
           <p className="text-xs text-stone-500 text-center sm:text-left">

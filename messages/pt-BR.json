@@ -464,8 +464,17 @@
     "media": "Ferramentas de mídia"
   },
   "Privacy": {
-    "title": "Política de Privacidade",
-    "metaDescription": "FileFolks processes all files locally in your browser. No data is ever uploaded or stored."
+    "title": "Politica de Privacidade",
+    "metaDescription": "FileFolks processa todos os arquivos localmente no seu navegador. Nenhum dado e enviado ou armazenado.",
+    "lastUpdated": "Ultima atualizacao: abril de 2026",
+    "s1Heading": "Seus arquivos nunca saem do seu navegador",
+    "s1Body": "Todas as ferramentas do FileFolks rodam inteiramente no seu navegador usando WebAssembly e APIs nativas. Nenhum dado de arquivo, nome, conteudo ou metadado e enviado a um servidor. Abra a aba Rede das ferramentas do desenvolvedor enquanto usa qualquer ferramenta e voce nao vera nenhuma solicitacao de upload.",
+    "s2Heading": "O que coletamos",
+    "s2Body": "Nada. FileFolks nao define cookies, nao carrega scripts de analise ou rastreamento, e nao requer conta. Nao registramos nem armazenamos nada sobre voce ou seus arquivos.",
+    "s3Heading": "Fontes",
+    "s3Body": "As fontes da pagina sao auto-hospedadas no momento da compilacao. Nenhuma solicitacao e feita ao Google Fonts ou qualquer provedor externo.",
+    "s4Heading": "Alteracoes",
+    "s4Body": "Mudancas materiais serao refletidas por uma data atualizada no topo desta pagina."
   },
   "ImageCompressor": {
     "dropLabel": "Solte uma imagem aqui ou clique para procurar",
@@ -664,5 +673,14 @@
     "clear": "Limpar",
     "privacyNote": "Todo o processamento ocorre localmente no seu navegador.",
     "errorTitle": "Erro"
+  },
+  "About": {
+    "title": "Sobre o FileFolks",
+    "metaDescription": "FileFolks e uma colecao gratuita de ferramentas de arquivos e desenvolvimento baseadas no navegador.",
+    "p1": "FileFolks e uma colecao gratuita de {count} ferramentas de arquivos e desenvolvimento que rodam inteiramente no seu navegador. Sem uploads, sem contas, sem rastreamento.",
+    "p2": "A maioria das ferramentas online envia seus arquivos para um servidor remoto, os processa e os devolve. FileFolks adota uma abordagem diferente: cada operacao ocorre localmente usando WebAssembly e APIs nativas do navegador. Seus arquivos nunca saem do seu dispositivo.",
+    "p3": "O objetivo e uma alternativa rapida e privada para tarefas cotidianas com arquivos. Sem cadastro, sem limitacoes de tamanho, sem marcas d'agua.",
+    "contactHeading": "Contato",
+    "contactBody": "Para perguntas, feedback ou sugestoes de ferramentas, envie um e-mail para"
   }
 }

@@ -464,8 +464,17 @@
     "media": "Strumenti media"
   },
   "Privacy": {
-    "title": "Informativa sulla Privacy",
-    "metaDescription": "FileFolks processes all files locally in your browser. No data is ever uploaded or stored."
+    "title": "Informativa sulla privacy",
+    "metaDescription": "FileFolks elabora tutti i file localmente nel tuo browser. Nessun dato viene mai caricato o archiviato.",
+    "lastUpdated": "Ultimo aggiornamento: aprile 2026",
+    "s1Heading": "I tuoi file non lasciano mai il browser",
+    "s1Body": "Ogni strumento di FileFolks funziona interamente nel tuo browser utilizzando WebAssembly e API native del browser. Nessun dato di file, nome, contenuto o metadato viene mai inviato a un server. Apri la scheda Rete degli strumenti per sviluppatori mentre usi qualsiasi strumento e non vedrai alcuna richiesta di upload.",
+    "s2Heading": "Cosa raccogliamo",
+    "s2Body": "Nulla. FileFolks non imposta cookie, non carica script di analisi o tracciamento e non richiede un account. Non registriamo ne memorizziamo nulla su di te o sui tuoi file.",
+    "s3Heading": "Font",
+    "s3Body": "I font della pagina sono auto-ospitati al momento della compilazione. Non vengono effettuate richieste a Google Fonts o a provider esterni.",
+    "s4Heading": "Modifiche",
+    "s4Body": "Le modifiche sostanziali saranno riflesse da una data aggiornata in cima a questa pagina."
   },
   "ImageCompressor": {
     "dropLabel": "Trascina un'immagine qui o clicca per sfogliare",
@@ -664,5 +673,14 @@
     "clear": "Cancella",
     "privacyNote": "Tutto il processo avviene localmente nel tuo browser.",
     "errorTitle": "Errore"
+  },
+  "About": {
+    "title": "Informazioni su FileFolks",
+    "metaDescription": "FileFolks e una raccolta gratuita di strumenti per file e sviluppo basati sul browser.",
+    "p1": "FileFolks e una raccolta gratuita di {count} strumenti per file e sviluppo che funzionano interamente nel tuo browser. Nessun caricamento, nessun account, nessun tracciamento.",
+    "p2": "La maggior parte degli strumenti online carica i tuoi file su un server remoto, li elabora e li restituisce. FileFolks adotta un approccio diverso: ogni operazione avviene localmente usando WebAssembly e API native del browser. I tuoi file non lasciano mai il tuo dispositivo.",
+    "p3": "L'obiettivo e un'alternativa veloce e privata per le attivita quotidiane con i file. Nessuna registrazione richiesta, nessun limite di dimensione, nessuna filigrana.",
+    "contactHeading": "Contatti",
+    "contactBody": "Per domande, feedback o suggerimenti di strumenti, scrivi a"
   }
 }

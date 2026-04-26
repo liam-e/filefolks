@@ -464,8 +464,17 @@
     "media": "Outils médias"
   },
   "Privacy": {
-    "title": "Politique de confidentialité",
-    "metaDescription": "FileFolks processes all files locally in your browser. No data is ever uploaded or stored."
+    "title": "Politique de confidentialite",
+    "metaDescription": "FileFolks traite tous les fichiers localement dans votre navigateur. Aucune donnee n'est jamais telechargee ou stockee.",
+    "lastUpdated": "Derniere mise a jour: avril 2026",
+    "s1Heading": "Vos fichiers ne quittent jamais votre navigateur",
+    "s1Body": "Chaque outil de FileFolks s'execute entierement dans votre navigateur via WebAssembly et les API natives. Aucune donnee de fichier, nom, contenu ou metadonnee n'est jamais envoyee a un serveur. Ouvrez l'onglet Reseau de votre navigateur pendant l'utilisation d'un outil et vous ne verrez aucune requete de telechargement.",
+    "s2Heading": "Ce que nous collectons",
+    "s2Body": "Rien. FileFolks ne definit aucun cookie, ne charge aucun script d'analyse ni de suivi, et ne requiert aucun compte. Nous n'enregistrons ni ne stockons quoi que ce soit vous concernant ou concernant vos fichiers.",
+    "s3Heading": "Polices",
+    "s3Body": "Les polices de la page sont auto-hebergees lors de la compilation. Aucune requete n'est effectuee vers Google Fonts ou un fournisseur externe.",
+    "s4Heading": "Modifications",
+    "s4Body": "Les changements importants seront reflechis par une date mise a jour en haut de cette page."
   },
   "ImageCompressor": {
     "dropLabel": "Déposez une image ici ou cliquez pour parcourir",
@@ -664,5 +673,14 @@
     "clear": "Effacer",
     "privacyNote": "Tout le traitement se fait localement dans ton navigateur.",
     "errorTitle": "Erreur"
+  },
+  "About": {
+    "title": "A propos de FileFolks",
+    "metaDescription": "FileFolks est une collection gratuite d'outils de fichiers et de developpement bases sur le navigateur.",
+    "p1": "FileFolks est une collection gratuite de {count} outils de fichiers et de developpement qui s'executent entierement dans votre navigateur. Aucun telechargement, aucun compte, aucun suivi.",
+    "p2": "La plupart des outils en ligne telechargent vos fichiers vers un serveur distant, les traitent et vous les renvoient. FileFolks adopte une approche differente: chaque operation se deroule localement grace a WebAssembly et aux API natives du navigateur. Vos fichiers ne quittent jamais votre appareil.",
+    "p3": "L'objectif est une alternative rapide et privee pour les taches quotidiennes avec des fichiers. Aucune inscription requise, pas de limites de taille, pas de filigranes.",
+    "contactHeading": "Contact",
+    "contactBody": "Pour toute question, commentaire ou suggestion d'outil, ecrivez a"
   }
 }

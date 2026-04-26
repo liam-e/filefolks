@@ -22,8 +22,8 @@ export default function Header() {
               <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z" />
             </svg>
           </div>
-          <span className="text-[1.15rem] font-bold tracking-normal text-foreground" style={{ fontFamily: "var(--font-nunito)" }}>
-            FileFolks
+          <span className="text-[1.15rem] font-bold tracking-normal" style={{ fontFamily: "var(--font-lora)" }}>
+            <span className="text-foreground">File</span><span className="text-primary">Folks</span>
           </span>
         </Link>
 

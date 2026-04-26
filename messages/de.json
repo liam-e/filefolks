@@ -465,7 +465,16 @@
   },
   "Privacy": {
     "title": "Datenschutzrichtlinie",
-    "metaDescription": "FileFolks processes all files locally in your browser. No data is ever uploaded or stored."
+    "metaDescription": "FileFolks verarbeitet alle Dateien lokal in deinem Browser. Es werden keine Daten hochgeladen oder gespeichert.",
+    "lastUpdated": "Zuletzt aktualisiert: April 2026",
+    "s1Heading": "Deine Dateien verlassen nie deinen Browser",
+    "s1Body": "Jedes Tool von FileFolks lauft vollstandig in deinem Browser uber WebAssembly und native Browser-APIs. Keine Dateidaten, Namen, Inhalte oder Metadaten werden jemals an einen Server gesendet. Offne den Netzwerk-Tab deines Browsers wahrend du ein Tool verwendest und du wirst keine Upload-Anfragen sehen.",
+    "s2Heading": "Was wir sammeln",
+    "s2Body": "Nichts. FileFolks setzt keine Cookies, ladt keine Analyse- oder Tracking-Skripte und erfordert kein Konto. Wir protokollieren oder speichern nichts uber dich oder deine Dateien.",
+    "s3Heading": "Schriften",
+    "s3Body": "Seitenschriften werden zur Build-Zeit selbst gehostet. Es werden keine Anfragen an Google Fonts oder externe Anbieter gestellt.",
+    "s4Heading": "Anderungen",
+    "s4Body": "Wesentliche Anderungen werden durch ein aktualisiertes Datum oben auf dieser Seite reflektiert."
   },
   "ImageCompressor": {
     "dropLabel": "Bild hier ablegen oder klicken zum Durchsuchen",
@@ -664,5 +673,14 @@
     "clear": "Löschen",
     "privacyNote": "Alle Verarbeitungen erfolgen lokal in deinem Browser.",
     "errorTitle": "Fehler"
+  },
+  "About": {
+    "title": "Uber FileFolks",
+    "metaDescription": "FileFolks ist eine kostenlose Sammlung von browserbasierten Datei- und Entwicklertools.",
+    "p1": "FileFolks ist eine kostenlose Sammlung von {count} Datei- und Entwicklertools, die vollstandig in deinem Browser laufen. Keine Uploads, keine Konten, kein Tracking.",
+    "p2": "Die meisten Online-Tools laden deine Dateien auf einen Remote-Server hoch, verarbeiten sie und senden sie zuruck. FileFolks verfolgt einen anderen Ansatz: Jede Operation findet lokal mithilfe von WebAssembly und nativen Browser-APIs statt. Deine Dateien verlassen nie dein Gerat.",
+    "p3": "Das Ziel ist eine schnelle, private Alternative fur tagliche Dateiaufgaben. Keine Registrierung, keine Großenbeschrankungen, keine Wasserzeichen.",
+    "contactHeading": "Kontakt",
+    "contactBody": "Bei Fragen, Feedback oder Tool-Vorschlagen schreibe an"
   }
 }
