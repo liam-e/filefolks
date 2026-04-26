@@ -10,10 +10,10 @@
     "copyright": "© 2026 FileFolks"
   },
   "Home": {
-    "badge": "업로드 없음. 계정 없음. 추적 없음.",
-    "headline": "당신을 위해 작동하는",
-    "headlineAccent": "도구",
-    "subheadline": "모든 도구가 완전히 브라우저에서 실행됩니다. 파일이 기기를 떠나지 않습니다.",
+    "badge": "프라이버시 우선 설계",
+    "headline": "파일 도구가",
+    "headlineAccent": "내 기기에 머뭅니다.",
+    "subheadline": "업로드 없음. 계정 없음. 추적 없음. 모든 것이 브라우저에서 실행됩니다.",
     "privacyTitle": "파일이 기기에 그대로 있습니다",
     "privacyBody": "FileFolks는 WebAssembly와 브라우저 API를 사용하여 파일을 로컬에서 처리합니다. 서버로 전송되는 것은 없습니다. 브라우저 개발자 도구의 네트워크 탭에서 확인하실 수 있습니다.",
     "viewAll": "모두 보기"

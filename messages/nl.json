@@ -10,10 +10,10 @@
     "copyright": "© 2026 FileFolks"
   },
   "Home": {
-    "badge": "Geen uploads. Geen accounts. Geen tracking.",
-    "headline": "Hulpmiddelen die werken",
-    "headlineAccent": "voor jou",
-    "subheadline": "Elk hulpmiddel draait volledig in je browser. Je bestanden verlaten nooit je apparaat.",
+    "badge": "Privacy by design",
+    "headline": "Bestandstools die blijven",
+    "headlineAccent": "op jouw apparaat.",
+    "subheadline": "Geen uploads. Geen accounts. Geen tracking. Alles draait in je browser.",
     "privacyTitle": "Je bestanden blijven op je apparaat",
     "privacyBody": "FileFolks gebruikt WebAssembly en browser-API's om bestanden lokaal te verwerken. Er wordt nooit iets naar een server gestuurd. Je kunt dit verifiëren door het tabblad Netwerk in de ontwikkelaarstools van je browser te controleren.",
     "viewAll": "Alles bekijken"

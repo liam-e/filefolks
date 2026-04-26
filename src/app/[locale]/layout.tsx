@@ -1,4 +1,4 @@
-import { Inter } from "next/font/google";
+import { DM_Sans, Lora, Nunito } from "next/font/google";
 import { hasLocale } from "next-intl";
 import { setRequestLocale, getMessages } from "next-intl/server";
 import { NextIntlClientProvider } from "next-intl";
@@ -11,7 +11,9 @@ import type { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
 import { getAlternates } from "@/lib/utils/metadata";
 
-const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
+const dmSans = DM_Sans({ subsets: ["latin"], variable: "--font-sans" });
+const lora = Lora({ subsets: ["latin"], variable: "--font-lora" });
+const nunito = Nunito({ subsets: ["latin"], variable: "--font-nunito", weight: ["400", "600", "700"] });
 
 export async function generateMetadata({ params }: Pick<Props, "params">): Promise<Metadata> {
   const { locale } = await params;
@@ -44,7 +46,7 @@ export default async function LocaleLayout({ children, params }: Props) {
   const tHeader = await getTranslations({ locale, namespace: "Header" });
 
   return (
-    <html lang={locale} className={cn("h-full antialiased", inter.variable)}>
+    <html lang={locale} className={cn("h-full antialiased", dmSans.variable, lora.variable, nunito.variable)}>
       <body className="min-h-full flex flex-col bg-background text-foreground">
         <NextIntlClientProvider messages={messages}>
           <a

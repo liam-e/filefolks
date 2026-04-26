@@ -10,10 +10,10 @@
     "copyright": "© 2026 FileFolks"
   },
   "Home": {
-    "badge": "无上传。无账户。无追踪。",
-    "headline": "真正为您服务的",
-    "headlineAccent": "工具",
-    "subheadline": "每个工具完全在您的浏览器中运行。您的文件永远不会离开您的设备。",
+    "badge": "隐私优先设计",
+    "headline": "文件工具，",
+    "headlineAccent": "留在您的设备上。",
+    "subheadline": "无上传、无账户、无追踪。一切均在您的浏览器中运行。",
     "privacyTitle": "您的文件保留在设备上",
     "privacyBody": "FileFolks 使用 WebAssembly 和浏览器 API 在本地处理文件。任何数据都不会发送到服务器。您可以通过浏览器开发者工具中的网络标签来验证这一点。",
     "viewAll": "查看全部"

@@ -10,10 +10,10 @@
     "copyright": "© 2026 FileFolks"
   },
   "Home": {
-    "badge": "Aucun téléversement. Aucun compte. Aucun suivi.",
-    "headline": "Des outils qui travaillent",
-    "headlineAccent": "pour vous",
-    "subheadline": "Chaque outil s'exécute entièrement dans votre navigateur. Vos fichiers ne quittent jamais votre appareil.",
+    "badge": "Conçu pour la confidentialité",
+    "headline": "Des outils qui restent",
+    "headlineAccent": "sur votre machine.",
+    "subheadline": "Aucun téléchargement. Aucun compte. Aucun suivi. Tout s'exécute dans votre navigateur.",
     "privacyTitle": "Vos fichiers restent sur votre appareil",
     "privacyBody": "FileFolks utilise WebAssembly et les API du navigateur pour traiter les fichiers localement. Rien n'est jamais envoyé à un serveur. Vous pouvez le vérifier en consultant le Network tab dans les outils de développement de votre navigateur.",
     "viewAll": "Voir tout"

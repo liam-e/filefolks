@@ -19,8 +19,10 @@ All file processing uses WebAssembly and browser APIs. Files never leave your de
 | Framework | Next.js 15 (App Router, static export) |
 | Language | TypeScript (strict) |
 | Styling | Tailwind CSS v4 + shadcn/ui |
-| PDF processing | pdf-lib |
-| Image processing | browser-image-compression |
+| Fonts | DM Sans (body) + Lora (headings) |
+| i18n | next-intl v4 — 12 locales, `localePrefix: "always"` |
+| PDF processing | pdf-lib, pdf-merger-js |
+| Image processing | browser-image-compression + Canvas API |
 | Hosting | Azure Static Web Apps |
 
 ---
@@ -30,166 +32,145 @@ All file processing uses WebAssembly and browser APIs. Files never leave your de
 ```
 src/
 ├── app/
-│   ├── page.tsx                  # Homepage — tools grid
-│   ├── layout.tsx                # Root layout (Header + Footer)
-│   ├── tools/[slug]/page.tsx     # One file per tool
-│   └── guides/[slug]/page.tsx    # One file per guide
+│   ├── [locale]/
+│   │   ├── layout.tsx                  # HTML shell: fonts, NextIntlClientProvider, Header, Footer
+│   │   ├── page.tsx                    # Homepage — tools grid grouped by category
+│   │   ├── tools/
+│   │   │   ├── [slug]/page.tsx         # Tool page — metadata + component registry
+│   │   │   └── category/[slug]/page.tsx  # Category listing page
+│   │   ├── guides/[slug]/page.tsx
+│   │   └── privacy/page.tsx
+│   ├── page.tsx                        # Root redirect → /en
+│   └── tools/[slug]/page.tsx           # Legacy redirect → /en/tools/[slug]
 ├── components/
 │   ├── shared/
-│   │   ├── ToolPageLayout.tsx    # Enforced layout for every tool page
-│   │   ├── GuidePageLayout.tsx   # Enforced layout for every guide page
-│   │   ├── Header.tsx
-│   │   ├── Footer.tsx            # Dynamically lists all tools from constants
-│   │   ├── ToolIcon.tsx          # SVG icon lookup by tool slug / category
-│   │   ├── ToolFaq.tsx           # Accordion FAQ (always rendered by ToolPageLayout)
+│   │   ├── ToolPageLayout.tsx          # Enforced layout for every tool page
+│   │   ├── ToolIcon.tsx                # SVG icon lookup by tool slug / category
+│   │   ├── Header.tsx / Footer.tsx
+│   │   ├── ToolFaq.tsx                 # Accordion FAQ
 │   │   ├── RelatedTools.tsx
 │   │   └── FileDropzone.tsx
-│   └── tools/
-│       ├── JsonFormatter.tsx     # "use client" — interactive tool component
-│       └── PdfMerger.tsx
+│   └── tools/                          # One "use client" component per tool
+│       ├── PdfMerger.tsx
+│       ├── PdfCompressor.tsx
+│       ├── PdfSplitter.tsx
+│       ├── PdfRotatorTool.tsx
+│       ├── ImageToPdfTool.tsx
+│       ├── ImageCompressor.tsx
+│       ├── ImageConverter.tsx
+│       ├── ImageResizerTool.tsx
+│       ├── ImageCropTool.tsx
+│       ├── JsonFormatter.tsx
+│       ├── Base64Tool.tsx
+│       ├── UrlEncoderTool.tsx
+│       ├── JwtDecoderTool.tsx
+│       ├── UuidGeneratorTool.tsx
+│       └── HashGeneratorTool.tsx
 ├── lib/
 │   ├── processors/
-│   │   ├── pdf.ts                # Pure functions, no React imports
+│   │   ├── pdf.ts                      # Pure functions, no React imports
+│   │   ├── image.ts
 │   │   └── text.ts
 │   └── utils/
-│       ├── constants.ts          # Single source of truth for all tool + guide metadata
-│       ├── structured-data.ts    # JSON-LD generators (FAQPage, SoftwareApplication, HowTo)
-│       └── file.ts               # downloadBlob, formatFileSize, etc.
-└── hooks/
-    └── useFileProcessor.ts
+│       ├── constants.ts                # Single source of truth: TOOLS, CATEGORIES, PLANNED_TOOLS
+│       ├── structured-data.ts          # JSON-LD generators
+│       ├── metadata.ts                 # hreflang alternates helper
+│       └── file.ts                     # downloadBlob, formatFileSize, etc.
+└── i18n/
+    ├── routing.ts                      # next-intl locale config (12 locales)
+    └── navigation.ts                   # typed Link / useRouter wrappers
+messages/
+    en.json, es.json, fr.json, de.json, pt-BR.json,
+    zh-CN.json, ja.json, ko.json, ru.json, ar.json, it.json, nl.json
 ```
 
 ### Architecture rules
 
 - **Processors** (`src/lib/processors/`) are pure functions with no React imports. They can be tested in isolation.
 - **Tool components** (`src/components/tools/`) are `"use client"` and import processors.
-- **Tool pages** (`src/app/tools/[slug]/page.tsx`) export `metadata` and render `<ToolPageLayout>`. Nothing else.
-- **All tool metadata** lives in `src/lib/utils/constants.ts` as the single source of truth. The footer, homepage grid, sitemap, and structured data all derive from it.
+- **Tool pages** are thin: they export `generateMetadata`, appear in `generateStaticParams`, and render `<ToolPageLayout>`. All routing logic lives in `src/app/[locale]/tools/[slug]/page.tsx` via the `TOOL_COMPONENTS` registry.
+- **All tool metadata** lives in `src/lib/utils/constants.ts` as the single source of truth. The footer, homepage grid, category pages, sitemap, and structured data all derive from it.
 
 ### Adding a new tool
 
-1. Add an entry to `TOOLS` in `constants.ts` (move it out of `PLANNED_TOOLS`).
+1. Move the entry from `PLANNED_TOOLS` into `TOOLS` in `constants.ts` with full metadata (seoTitle, keywords, faqs, etc.).
 2. Add the processor logic to `src/lib/processors/`.
-3. Create the interactive component in `src/components/tools/`.
-4. Create the page at `src/app/tools/[slug]/page.tsx` — copy either existing tool page as a template.
-5. Add an icon to `ToolIcon.tsx` for the new slug.
+3. Create the interactive component in `src/components/tools/` — `"use client"`, uses `useTranslations`.
+4. Register the component in the `TOOL_COMPONENTS` map in `src/app/[locale]/tools/[slug]/page.tsx`.
+5. Add an icon to the `TOOL_ICONS` map in `ToolIcon.tsx`.
+6. Add translations to all 12 message files under the `tools` namespace (SEO/FAQ) and a component-level namespace (UI strings).
 
 The FAQ section, related tools, JSON-LD structured data, and breadcrumbs are all handled automatically by `ToolPageLayout`.
 
 ---
 
+## Tools
+
+### PDF (5)
+- [x] Merge PDF
+- [x] Compress PDF
+- [x] Split PDF
+- [x] Rotate PDF
+- [x] Image to PDF
+
+### Image (5)
+- [x] Compress Image
+- [x] Convert Image
+- [x] Resize Image
+- [x] Crop Image
+- [x] (Image to PDF — listed above)
+
+### Developer (5)
+- [x] JSON Formatter
+- [x] Base64 Encode / Decode
+- [x] URL Encode / Decode
+- [x] JWT Decoder
+- [x] UUID Generator
+- [x] Hash Generator
+
+---
+
 ## Roadmap
 
-The immediate focus is organic search traffic. Advanced features come later once there is a meaningful user base.
+### Next tools (ordered by estimated search volume)
 
-### Phase 1 — SEO foundation (current)
-
-- [x] Core site structure — warm orange design, header, footer
-- [x] Tool metadata system — single source of truth in `constants.ts`
-- [x] JSON-LD structured data — FAQPage, SoftwareApplication, BreadcrumbList, HowTo
-- [x] `ToolPageLayout` / `GuidePageLayout` — enforced consistent page structure
-- [x] Category colour system
-- [x] Tool icons
-- [x] Static export to Azure Static Web Apps
-
-### Phase 2 — Traffic (next)
-
-The tools below are ordered by estimated search volume. Build them in this order.
-
-**PDF tools** (highest search volume of any file category)
-- [ ] Compress PDF
-- [ ] Split PDF
-- [ ] PDF to Word
-- [ ] Image to PDF
-- [ ] PDF to Image (PNG / JPG)
-- [ ] Word to PDF
-- [ ] Rotate PDF
-- [ ] PDF to Excel
-- [ ] Protect PDF / Unlock PDF
-- [ ] Watermark PDF
+**PDF**
+- [ ] PDF to Image (PNG / JPG) — needs PDF.js
+- [ ] PDF to Word — complex, likely needs server
+- [ ] Protect / Unlock PDF
 - [ ] Remove PDF pages
 
-**Image tools**
-- [ ] Compress Image
-- [ ] Convert Image (PNG / JPG / WebP / AVIF)
-- [ ] Resize Image
-- [ ] Crop Image
+**Image**
 - [ ] Rotate / Flip Image
-- [ ] Remove Background (AI, runs in browser via ONNX)
+- [ ] SVG Optimizer
 - [ ] ICO / Favicon Converter
 - [ ] Strip EXIF Metadata
-- [ ] SVG Optimizer
 
-**Developer tools**
-- [ ] URL Encode / Decode
+**Developer**
 - [ ] Regex Tester
 - [ ] Diff Checker
-- [ ] JWT Decoder
-- [ ] Hash Generator (MD5 / SHA-256 / SHA-512)
-- [ ] UUID Generator
 - [ ] Timestamp Converter
 - [ ] Color Converter (HEX / RGB / HSL)
+- [ ] JSON to CSV / CSV to JSON
+- [ ] XML Formatter
 - [ ] Markdown Preview
 - [ ] HTML Formatter
-- [ ] CSS Minifier
-- [ ] YAML to JSON
-- [ ] JSON to CSV / XML
-- [ ] CSV to JSON
-- [ ] XML Formatter
-- [ ] Base64 Encode / Decode
 
-**Text tools**
+**Archive / Media**
+- [ ] Create ZIP / Extract ZIP — needs JSZip
+- [ ] Excel to CSV / JSON — needs SheetJS
+
+**Text**
 - [ ] Word Counter
-- [ ] Case Converter (camelCase, snake_case, Title Case, …)
+- [ ] Case Converter
 - [ ] Lorem Ipsum Generator
-- [ ] Remove Duplicate Lines
-- [ ] Line Sorter
-- [ ] Markdown to HTML
 - [ ] CSV Viewer
-- [ ] Excel to CSV / JSON
 
-**Archive tools**
-- [ ] Create ZIP
-- [ ] Extract ZIP
-
-**Media tools**
-- [ ] Video to GIF
-- [ ] MP4 to MP3
-- [ ] Audio Converter (MP3 / WAV / OGG)
-- [ ] STL Viewer
-
-### Phase 3 — Discovery
-
-Features that improve how users find and return to tools.
-
-- [ ] Sitewide search bar — instant filter across all tools
-- [ ] "Recently used" strip on homepage — stored in localStorage
-- [ ] Format info pages (`/formats/pdf`, `/formats/webp`, …) — rank for "what is X" queries and funnel into tools
-- [ ] Tool comparison pages (`/vs/filefolks-vs-ilovepdf`, …) — targets users actively evaluating options
-- [ ] Guides for each major tool — HowTo JSON-LD generates rich results in Google
-- [ ] Progressive Web App (PWA) — installable, increases return visits
-
-### Phase 4 — Advanced features
-
-Higher-complexity tools and features that require more processing power or a user account.
-
-**Standard tier**
-- One file at a time
-- 50 MB file size limit
-- Basic settings per tool
-
-**Advanced tier**
-- Batch processing — multiple files in one go
-- Higher file size limits
-- Advanced settings (quality, DPI, compression level)
-- Saved presets per tool
-- API access
-
-**Advanced-only tools**
-- [ ] OCR — extract text from scanned PDFs and images (Tesseract WASM)
-- [ ] AI background removal at full resolution (ONNX, runs in browser)
-- [ ] PDF signing — draw or upload a signature, place it on a page
-- [ ] Bulk rename — rename batches of files with a naming pattern, download as ZIP
+### Discovery features
+- [ ] Sitewide search — instant filter across all tools
+- [ ] "Recently used" strip on homepage — localStorage
+- [ ] Format info pages (`/formats/pdf`, `/formats/webp`, …)
+- [ ] More guides with HowTo JSON-LD
 
 ---
 
@@ -201,4 +182,11 @@ npm run dev       # http://localhost:3000
 npm run build     # static export to /out
 ```
 
-No environment variables are required. All processing is client-side.
+No environment variables required. All processing is client-side.
+
+### i18n notes
+
+- Routes always include the locale prefix: `/en/tools/pdf-merge`, `/fr/tools/compress-pdf`, etc.
+- The root `/` redirects to `/en` via a static redirect.
+- Legacy non-locale paths (`/tools/pdf-merge`) redirect to `/en/tools/pdf-merge`.
+- To add a new locale: add it to `src/i18n/routing.ts` and create the message file in `messages/`.

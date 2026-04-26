@@ -10,10 +10,10 @@
     "copyright": "© 2026 FileFolks"
   },
   "Home": {
-    "badge": "Sem uploads. Sem contas. Sem rastreamento.",
-    "headline": "Ferramentas que trabalham",
-    "headlineAccent": "por você",
-    "subheadline": "Cada ferramenta funciona inteiramente no seu navegador. Seus arquivos nunca saem do seu dispositivo.",
+    "badge": "Privado por design",
+    "headline": "Ferramentas que ficam",
+    "headlineAccent": "no seu dispositivo.",
+    "subheadline": "Sem uploads. Sem contas. Sem rastreamento. Tudo roda no seu navegador.",
     "privacyTitle": "Seus arquivos ficam no seu dispositivo",
     "privacyBody": "O FileFolks usa WebAssembly e APIs do navegador para processar arquivos localmente. Nada é enviado a um servidor. Você pode verificar isso abrindo a aba Rede nas ferramentas de desenvolvedor do seu navegador.",
     "viewAll": "Ver tudo"
