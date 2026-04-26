@@ -190,6 +190,30 @@ function HashGeneratorIcon({ className }: SvgProps) {
   );
 }
 
+function VideoToGifIcon({ className }: SvgProps) {
+  return (
+    <Svg className={className}>
+      {/* Film strip */}
+      <rect x="2" y="7" width="20" height="10" rx="2" />
+      <path d="M7 7V17M17 7V17M2 12h3M19 12h3" />
+      {/* Arrow suggesting conversion */}
+      <path d="M9.5 10l3 2-3 2" strokeWidth="1.5" />
+    </Svg>
+  );
+}
+
+function ExtractFramesIcon({ className }: SvgProps) {
+  return (
+    <Svg className={className}>
+      {/* Film strip with one frame popping out */}
+      <rect x="2" y="7" width="15" height="10" rx="2" />
+      <path d="M7 7V17M12 7V17M2 12h2M13 12h4" />
+      {/* Arrow down = extract */}
+      <path d="M19 12v6M16 15l3 3 3-3" />
+    </Svg>
+  );
+}
+
 // ── Category fallback icons ────────────────────────────────────
 
 function PdfCategoryIcon({ className }: SvgProps) {
@@ -260,6 +284,8 @@ const TOOL_ICONS: Record<string, IconComponent> = {
   "jwt-decoder": JwtDecoderIcon,
   "uuid-generator": UuidGeneratorIcon,
   "hash-generator": HashGeneratorIcon,
+  "video-to-gif": VideoToGifIcon,
+  "extract-frames": ExtractFramesIcon,
 };
 
 const CATEGORY_ICONS: Record<string, IconComponent> = {

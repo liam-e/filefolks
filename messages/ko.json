@@ -454,6 +454,56 @@
           "answer": "A cryptographic hash is a fixed-length fingerprint of your data. The same input always produces the same hash, but even a one-character change produces a completely different output."
         }
       ]
+    },
+    "video-to-gif": {
+      "name": "동영상을 GIF로",
+      "description": "Convert a video clip to an animated GIF in your browser",
+      "longDescription": "Drop a video file, set the start time, duration, frame rate, and width, then download the resulting GIF. Processing happens entirely in your browser.",
+      "seoTitle": "Video to GIF Online — Free, Private, No Upload | FileFolks",
+      "seoDescription": "Convert any video clip to an animated GIF in your browser. No upload required. Set start time, duration, frame rate, and size.",
+      "faqs": [
+        {
+          "question": "Is my video uploaded?",
+          "answer": "No. The tool uses the Canvas API directly in your browser. Your video never leaves your device."
+        },
+        {
+          "question": "What video formats are supported?",
+          "answer": "Any format your browser can play, typically MP4 (H.264), WebM, and Ogg. MOV files may work depending on your browser."
+        },
+        {
+          "question": "Why is there a 15-second limit?",
+          "answer": "GIF files grow quickly with duration. A 15-second GIF at 10fps and 320px wide is already several megabytes. Longer clips are better shared as video."
+        },
+        {
+          "question": "How do I reduce the GIF file size?",
+          "answer": "Lower the frame rate (5fps instead of 15fps), reduce the width (240px instead of 480px), or shorten the duration."
+        }
+      ]
+    },
+    "extract-frames": {
+      "name": "프레임 추출",
+      "description": "Extract frames from a video as PNG images and download as a ZIP",
+      "longDescription": "Drop a video, choose a capture interval, and download all extracted frames as individual PNG files in a ZIP archive. Processing happens entirely in your browser.",
+      "seoTitle": "Extract Frames from Video Online — Free, No Upload | FileFolks",
+      "seoDescription": "Extract frames from any video as PNG images. Set the interval, preview thumbnails, and download a ZIP. Runs in your browser.",
+      "faqs": [
+        {
+          "question": "Is my video uploaded?",
+          "answer": "No. Frame extraction uses the Canvas API in your browser. Nothing is sent to a server."
+        },
+        {
+          "question": "What video formats are supported?",
+          "answer": "Any format your browser supports, typically MP4, WebM, and Ogg."
+        },
+        {
+          "question": "What resolution are the exported frames?",
+          "answer": "Frames are exported at 480px wide, maintaining the original aspect ratio."
+        },
+        {
+          "question": "How many frames can I extract?",
+          "answer": "Up to 100 frames per run. For a 60-second video at 1-second intervals that is 60 frames."
+        }
+      ]
     }
   },
   "Categories": {
@@ -682,5 +732,36 @@
     "p3": "목표는 일상적인 파일 작업을 위한 빠르고 사적인 대안을 제공하는 것입니다. 회원가입 불필요, 파일 크기 제한 없음, 워터마크 없음.",
     "contactHeading": "연락처",
     "contactBody": "질문, 피드백 또는 도구 제안은 이 이메일로 보내주세요"
+  },
+  "VideoToGif": {
+    "dropLabel": "동영상을 여기에 드롭하거나 클릭하여 찾아보기",
+    "dropSublabel": "MP4, WebM 또는 MOV",
+    "remove": "제거",
+    "startLabel": "시작 시간",
+    "durationLabel": "길이",
+    "fpsLabel": "초당 프레임(fps)",
+    "widthLabel": "너비",
+    "createButton": "GIF 만들기",
+    "processing": "처리 중",
+    "downloadButton": "GIF 다운로드",
+    "errorTitle": "오류",
+    "errorGeneric": "오류가 발생했습니다. 다른 동영상을 시도해 주세요.",
+    "privacyNote": "동영상은 브라우저를 벗어나지 않습니다."
+  },
+  "ExtractFrames": {
+    "dropLabel": "동영상을 여기에 드롭하거나 클릭하여 찾아보기",
+    "dropSublabel": "MP4, WebM 또는 MOV",
+    "remove": "제거",
+    "intervalLabel": "캡처 간격",
+    "maxFramesLabel": "최대 프레임",
+    "extractButton": "프레임 추출",
+    "capturing": "캡처 중",
+    "encoding": "인코딩 중",
+    "processing": "처리 중",
+    "framesLabel": "프레임",
+    "downloadZip": "ZIP 다운로드",
+    "errorTitle": "오류",
+    "errorGeneric": "오류가 발생했습니다. 다른 동영상을 시도해 주세요.",
+    "privacyNote": "동영상은 브라우저를 벗어나지 않습니다."
   }
 }

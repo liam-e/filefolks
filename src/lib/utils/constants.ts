@@ -677,6 +677,52 @@ export const TOOLS: ToolMeta[] = [
     icon: "/icons/hash-generator.svg",
   },
 
+  {
+    slug: "video-to-gif",
+    name: "Video to GIF",
+    description: "Convert a video clip to an animated GIF in your browser",
+    longDescription:
+      "Drop a video file, set the start time, duration, frame rate, and width, then download the resulting GIF. Everything runs in your browser using the Canvas API and a pure-JS GIF encoder.",
+    category: "media",
+    tags: ["convert", "no-upload"],
+    popularity: 1,
+    seoTitle: "Video to GIF Online — Free, Private, No Upload | FileFolks",
+    seoDescription:
+      "Convert any video clip to an animated GIF in your browser. No upload required. Set start time, duration, frame rate, and size.",
+    keywords: ["video to gif", "mp4 to gif", "convert video to gif online free", "video to gif converter", "make gif from video", "webm to gif"],
+    searchQueries: ["how to convert video to gif online free", "mp4 to gif converter no upload", "make gif from video clip online"],
+    faqs: [
+      { question: "Is my video uploaded?", answer: "No. The tool uses the Canvas API directly in your browser. Your video never leaves your device." },
+      { question: "What video formats are supported?", answer: "Any format your browser can play, typically MP4 (H.264), WebM, and Ogg. MOV files may work depending on your browser." },
+      { question: "Why is there a 15-second limit?", answer: "GIF files grow quickly with duration. A 15-second GIF at 10fps and 320px wide is already several megabytes. Longer clips are better shared as video." },
+      { question: "How do I reduce the GIF file size?", answer: "Lower the frame rate (5fps instead of 15fps), reduce the width (240px instead of 480px), or shorten the duration." },
+    ],
+    icon: "/icons/video-to-gif.svg",
+  },
+
+  {
+    slug: "extract-frames",
+    name: "Extract Frames",
+    description: "Extract frames from a video as PNG images and download as a ZIP",
+    longDescription:
+      "Drop a video, choose a capture interval, and download all extracted frames as individual PNG files in a ZIP archive. Processing happens entirely in your browser.",
+    category: "media",
+    tags: ["extract", "no-upload"],
+    popularity: 2,
+    seoTitle: "Extract Frames from Video Online — Free, No Upload | FileFolks",
+    seoDescription:
+      "Extract frames from any video as PNG images. Set the interval, preview thumbnails, and download a ZIP. Runs in your browser.",
+    keywords: ["extract frames from video", "video frame extractor online", "screenshot from video", "video to images online free", "get frames from video"],
+    searchQueries: ["how to extract frames from video online free", "video frame extractor no upload", "save frames from video as images"],
+    faqs: [
+      { question: "Is my video uploaded?", answer: "No. Frame extraction uses the Canvas API in your browser. Nothing is sent to a server." },
+      { question: "What video formats are supported?", answer: "Any format your browser supports, typically MP4, WebM, and Ogg." },
+      { question: "What resolution are the exported frames?", answer: "Frames are exported at 480px wide, maintaining the original aspect ratio." },
+      { question: "How many frames can I extract?", answer: "Up to 100 frames per run. For a 60-second video at 1-second intervals that is 60 frames." },
+    ],
+    icon: "/icons/extract-frames.svg",
+  },
+
   // ... add more tools following this pattern
 ];
 

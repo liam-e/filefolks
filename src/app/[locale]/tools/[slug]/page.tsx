@@ -21,6 +21,8 @@ import { UrlEncoderTool } from "@/components/tools/UrlEncoderTool";
 import { JwtDecoderTool } from "@/components/tools/JwtDecoderTool";
 import { UuidGeneratorTool } from "@/components/tools/UuidGeneratorTool";
 import { HashGeneratorTool } from "@/components/tools/HashGeneratorTool";
+import { VideoToGifTool } from "@/components/tools/VideoToGifTool";
+import { ExtractFramesTool } from "@/components/tools/ExtractFramesTool";
 
 type ToolComponentType = React.ComponentType;
 
@@ -40,6 +42,8 @@ const TOOL_COMPONENTS: Partial<Record<string, ToolComponentType>> = {
   "jwt-decoder": JwtDecoderTool,
   "uuid-generator": UuidGeneratorTool,
   "hash-generator": HashGeneratorTool,
+  "video-to-gif": VideoToGifTool,
+  "extract-frames": ExtractFramesTool,
 };
 
 interface Props {

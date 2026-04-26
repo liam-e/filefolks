@@ -120,13 +120,17 @@ The FAQ section, related tools, JSON-LD structured data, and breadcrumbs are all
 - [x] Crop Image
 - [x] (Image to PDF — listed above)
 
-### Developer (5)
+### Developer (6)
 - [x] JSON Formatter
 - [x] Base64 Encode / Decode
 - [x] URL Encode / Decode
 - [x] JWT Decoder
 - [x] UUID Generator
 - [x] Hash Generator
+
+### Media (2)
+- [x] Video to GIF
+- [x] Extract Frames
 
 ---
 
@@ -156,8 +160,14 @@ The FAQ section, related tools, JSON-LD structured data, and breadcrumbs are all
 - [ ] Markdown Preview
 - [ ] HTML Formatter
 
-**Archive / Media**
-- [ ] Create ZIP / Extract ZIP — needs JSZip
+**Media / Video** (tools beyond the two already built require ffmpeg.wasm)
+- [ ] Trim Video
+- [ ] Compress Video
+- [ ] MP4 to MP3
+- [ ] Video to WebM
+
+**Archive**
+- [ ] Create ZIP / Extract ZIP
 - [ ] Excel to CSV / JSON — needs SheetJS
 
 **Text**

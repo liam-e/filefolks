@@ -454,6 +454,56 @@
           "answer": "Un hash criptográfico es una huella digital de longitud fija de tus datos. La misma entrada siempre produce el mismo hash."
         }
       ]
+    },
+    "video-to-gif": {
+      "name": "Video a GIF",
+      "description": "Convert a video clip to an animated GIF in your browser",
+      "longDescription": "Drop a video file, set the start time, duration, frame rate, and width, then download the resulting GIF. Processing happens entirely in your browser.",
+      "seoTitle": "Video to GIF Online — Free, Private, No Upload | FileFolks",
+      "seoDescription": "Convert any video clip to an animated GIF in your browser. No upload required. Set start time, duration, frame rate, and size.",
+      "faqs": [
+        {
+          "question": "Is my video uploaded?",
+          "answer": "No. The tool uses the Canvas API directly in your browser. Your video never leaves your device."
+        },
+        {
+          "question": "What video formats are supported?",
+          "answer": "Any format your browser can play, typically MP4 (H.264), WebM, and Ogg. MOV files may work depending on your browser."
+        },
+        {
+          "question": "Why is there a 15-second limit?",
+          "answer": "GIF files grow quickly with duration. A 15-second GIF at 10fps and 320px wide is already several megabytes. Longer clips are better shared as video."
+        },
+        {
+          "question": "How do I reduce the GIF file size?",
+          "answer": "Lower the frame rate (5fps instead of 15fps), reduce the width (240px instead of 480px), or shorten the duration."
+        }
+      ]
+    },
+    "extract-frames": {
+      "name": "Extraer fotogramas",
+      "description": "Extract frames from a video as PNG images and download as a ZIP",
+      "longDescription": "Drop a video, choose a capture interval, and download all extracted frames as individual PNG files in a ZIP archive. Processing happens entirely in your browser.",
+      "seoTitle": "Extract Frames from Video Online — Free, No Upload | FileFolks",
+      "seoDescription": "Extract frames from any video as PNG images. Set the interval, preview thumbnails, and download a ZIP. Runs in your browser.",
+      "faqs": [
+        {
+          "question": "Is my video uploaded?",
+          "answer": "No. Frame extraction uses the Canvas API in your browser. Nothing is sent to a server."
+        },
+        {
+          "question": "What video formats are supported?",
+          "answer": "Any format your browser supports, typically MP4, WebM, and Ogg."
+        },
+        {
+          "question": "What resolution are the exported frames?",
+          "answer": "Frames are exported at 480px wide, maintaining the original aspect ratio."
+        },
+        {
+          "question": "How many frames can I extract?",
+          "answer": "Up to 100 frames per run. For a 60-second video at 1-second intervals that is 60 frames."
+        }
+      ]
     }
   },
   "Categories": {
@@ -682,5 +732,36 @@
     "p3": "El objetivo es una alternativa rapida y privada para las tareas cotidianas con archivos. Sin registro, sin limites de tamano, sin marcas de agua.",
     "contactHeading": "Contacto",
     "contactBody": "Para preguntas, comentarios o sugerencias de herramientas, escribe a"
+  },
+  "VideoToGif": {
+    "dropLabel": "Arrastra un video aqui o haz clic para explorar",
+    "dropSublabel": "MP4, WebM o MOV",
+    "remove": "Quitar",
+    "startLabel": "Tiempo de inicio",
+    "durationLabel": "Duracion",
+    "fpsLabel": "Fotogramas por segundo",
+    "widthLabel": "Ancho",
+    "createButton": "Crear GIF",
+    "processing": "Procesando",
+    "downloadButton": "Descargar GIF",
+    "errorTitle": "Error",
+    "errorGeneric": "Algo salio mal. Prueba con otro video.",
+    "privacyNote": "Tu video nunca sale de tu navegador."
+  },
+  "ExtractFrames": {
+    "dropLabel": "Arrastra un video aqui o haz clic para explorar",
+    "dropSublabel": "MP4, WebM o MOV",
+    "remove": "Quitar",
+    "intervalLabel": "Capturar cada",
+    "maxFramesLabel": "Max fotogramas",
+    "extractButton": "Extraer fotogramas",
+    "capturing": "Capturando",
+    "encoding": "Codificando",
+    "processing": "Procesando",
+    "framesLabel": "fotogramas",
+    "downloadZip": "Descargar ZIP",
+    "errorTitle": "Error",
+    "errorGeneric": "Algo salio mal. Prueba con otro video.",
+    "privacyNote": "Tu video nunca sale de tu navegador."
   }
 }
