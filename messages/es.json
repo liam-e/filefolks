@@ -354,6 +354,106 @@
           "answer": "The output format matches the input — PNG for PNG files, JPG for JPG files, and WebP for WebP files."
         }
       ]
+    },
+    "url-encode-decode": {
+      "name": "Codificar / Decodificar URL",
+      "description": "Codifica y decodifica cadenas URL y parámetros de consulta",
+      "longDescription": "Pega cualquier texto para codificarlo en URL de forma segura, o pega una cadena codificada con porcentaje para decodificarla. Todo ocurre localmente en tu navegador.",
+      "seoTitle": "Codificar y Decodificar URL online — Gratis, Privado | FileFolks",
+      "seoDescription": "Codifica o decodifica URLs y cadenas de consulta al instante en tu navegador. Sin subida ni cuenta.",
+      "faqs": [
+        {
+          "question": "¿Se suben mis datos?",
+          "answer": "No. La codificación y decodificación de URL son operaciones JavaScript puras que se ejecutan en tu navegador."
+        },
+        {
+          "question": "¿Qué es la codificación de URL?",
+          "answer": "La codificación de URL (codificación porcentual) sustituye los caracteres especiales por un signo de porcentaje seguido de dos dígitos hexadecimales. Por ejemplo, un espacio se convierte en %20."
+        },
+        {
+          "question": "¿Cuál es la diferencia entre encodeURIComponent y encodeURI?",
+          "answer": "Esta herramienta usa encodeURIComponent, que codifica todo excepto A–Z a–z 0–9 - _ . ! ~ * ' ( ). Úsalo para valores individuales de parámetros de consulta."
+        },
+        {
+          "question": "¿Puedo decodificar una URL completa?",
+          "answer": "Sí. Pega la URL codificada completa en la pestaña Decodificar y la herramienta decodificará todas las secuencias de porcentaje."
+        }
+      ]
+    },
+    "jwt-decoder": {
+      "name": "Decodificador JWT",
+      "description": "Decodifica e inspecciona encabezados y cargas útiles de JSON Web Tokens",
+      "longDescription": "Pega un JSON Web Token para ver al instante su encabezado decodificado, las afirmaciones del payload y la fecha de vencimiento. El token nunca sale de tu navegador.",
+      "seoTitle": "Decodificador JWT Online — Inspeccionar Claims | FileFolks",
+      "seoDescription": "Decodifica e inspecciona un JWT al instante en tu navegador. Privado y gratuito.",
+      "faqs": [
+        {
+          "question": "¿Se envía mi JWT a un servidor?",
+          "answer": "No. Decodificar un JWT es una operación Base64 que se ejecuta completamente en tu navegador."
+        },
+        {
+          "question": "¿Esta herramienta verifica la firma?",
+          "answer": "No. La verificación de firma requiere tu secreto o clave pública. Este decodificador solo muestra el encabezado y las afirmaciones del payload."
+        },
+        {
+          "question": "¿Qué es un JWT?",
+          "answer": "Un JSON Web Token es un token compacto con tres partes codificadas en Base64 separadas por puntos: un encabezado, un payload y una firma."
+        },
+        {
+          "question": "¿Puedo ver cuándo vence el token?",
+          "answer": "Sí. Si el payload contiene un campo exp, el decodificador lo muestra como fecha legible e indica si el token ha expirado."
+        }
+      ]
+    },
+    "uuid-generator": {
+      "name": "Generador de UUID",
+      "description": "Genera UUID v4 de forma masiva, con copia al portapapeles y descarga",
+      "longDescription": "Genera uno o más UUID versión 4 usando el generador de números aleatorios criptográficamente seguro del navegador. Copia individualmente, copia todo o descarga como archivo de texto.",
+      "seoTitle": "Generador de UUID Online — Generar UUID v4 Gratis | FileFolks",
+      "seoDescription": "Genera UUID v4 criptográficamente seguros en tu navegador. Generación masiva, copiar y descargar. Gratis y privado.",
+      "faqs": [
+        {
+          "question": "¿Son estos UUID criptográficamente seguros?",
+          "answer": "Sí. La herramienta usa la API crypto.randomUUID() integrada en el navegador, que emplea un generador de números pseudoaleatorios criptográficamente seguro."
+        },
+        {
+          "question": "¿Qué es un UUID v4?",
+          "answer": "Un UUID versión 4 es un identificador aleatorio de 128 bits con formato 8-4-4-4-12 dígitos hexadecimales separados por guiones."
+        },
+        {
+          "question": "¿Puedo generar UUID de forma masiva?",
+          "answer": "Sí. Establece la cantidad hasta 100 y haz clic en Generar. Usa Copiar todo o Descargar para obtenerlos todos."
+        },
+        {
+          "question": "¿Son únicos los UUID?",
+          "answer": "Sí, con probabilidad abrumadora. La posibilidad de colisión es astronomicamente pequeña."
+        }
+      ]
+    },
+    "hash-generator": {
+      "name": "Generador de Hash",
+      "description": "Genera hashes SHA-1, SHA-256, SHA-384 y SHA-512 de texto o archivos",
+      "longDescription": "Pega texto o suelta un archivo para calcular su hash SHA-1, SHA-256, SHA-384 o SHA-512. Todo funciona en tu navegador con la Web Crypto API integrada.",
+      "seoTitle": "Generador de Hash Online — SHA-256, SHA-512, SHA-1 | FileFolks",
+      "seoDescription": "Genera hashes SHA-1, SHA-256, SHA-384 y SHA-512 de texto o archivos en tu navegador. Privado y gratuito.",
+      "faqs": [
+        {
+          "question": "¿Se suben mis datos?",
+          "answer": "No. El hashing usa la Web Crypto API, que se ejecuta en tu navegador. Tu texto o archivo nunca se transmite."
+        },
+        {
+          "question": "¿Qué algoritmo debo usar?",
+          "answer": "Usa SHA-256 o SHA-512 para trabajo crítico en seguridad. SHA-1 está obsoleto para uso de seguridad. MD5 no está disponible porque es criptográficamente inseguro."
+        },
+        {
+          "question": "¿Puedo hacer hash de un archivo?",
+          "answer": "Sí. Cambia al modo Archivo, suelta o selecciona cualquier archivo y el hash se calcula de sus bytes sin procesar."
+        },
+        {
+          "question": "¿Qué es un hash?",
+          "answer": "Un hash criptográfico es una huella digital de longitud fija de tus datos. La misma entrada siempre produce el mismo hash."
+        }
+      ]
     }
   },
   "Categories": {
@@ -502,5 +602,67 @@
     "successTitle": "Recortado correctamente. Comprueba tu carpeta de descargas.",
     "privacyNote": "Tu imagen nunca sale de tu navegador. Todo el procesamiento ocurre localmente.",
     "removeFile": "Eliminar archivo"
+  },
+  "UrlEncoder": {
+    "encode": "Codificar",
+    "decode": "Decodificar",
+    "inputLabel": "Entrada",
+    "outputLabel": "Salida",
+    "encodePlaceholder": "Pega una URL o texto para codificar...",
+    "decodePlaceholder": "Pega texto codificado en URL para decodificar...",
+    "encodeButton": "Codificar",
+    "decodeButton": "Decodificar",
+    "copy": "Copiar",
+    "copied": "Copiado",
+    "clear": "Limpiar",
+    "privacyNote": "Todo el procesamiento ocurre localmente en tu navegador.",
+    "errorTitle": "Error",
+    "invalidEncoding": "Codificación URL inválida — comprueba las secuencias de porcentaje incompletas."
+  },
+  "JwtDecoder": {
+    "inputLabel": "Token JWT",
+    "inputPlaceholder": "Pega un JWT (p. ej. eyJhbGci...)",
+    "decodeButton": "Decodificar",
+    "header": "Encabezado",
+    "payload": "Carga útil",
+    "signature": "Firma",
+    "signatureNote": "La verificación de firma requiere el secreto — esta herramienta solo decodifica el encabezado y la carga útil.",
+    "clear": "Limpiar",
+    "copy": "Copiar",
+    "copied": "Copiado",
+    "expiresLabel": "Vence",
+    "issuedAtLabel": "Emitido el",
+    "expired": "Expirado",
+    "valid": "Válido",
+    "privacyNote": "Tu token nunca sale de tu navegador.",
+    "errorTitle": "Error"
+  },
+  "UuidGenerator": {
+    "countLabel": "Cantidad",
+    "generateButton": "Generar",
+    "copyAll": "Copiar todo",
+    "copiedAll": "Copiado",
+    "download": "Descargar",
+    "copy": "Copiar",
+    "copied": "Copiado",
+    "clear": "Limpiar",
+    "privacyNote": "Generado en tu navegador con la Web Crypto API.",
+    "placeholder": "Haz clic en Generar para crear UUIDs."
+  },
+  "HashGenerator": {
+    "algorithmLabel": "Algoritmo",
+    "inputLabel": "Entrada",
+    "outputLabel": "Hash",
+    "textMode": "Texto",
+    "fileMode": "Archivo",
+    "loadFile": "Cargar archivo",
+    "textPlaceholder": "Pega texto para generar hash...",
+    "hashButton": "Generar hash",
+    "hashing": "Procesando...",
+    "copy": "Copiar",
+    "copied": "Copiado",
+    "clear": "Limpiar",
+    "privacyNote": "Todo el procesamiento ocurre localmente en tu navegador.",
+    "errorTitle": "Error"
   }
 }

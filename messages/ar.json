@@ -354,6 +354,106 @@
           "answer": "The output format matches the input — PNG for PNG files, JPG for JPG files, and WebP for WebP files."
         }
       ]
+    },
+    "url-encode-decode": {
+      "name": "ترميز / فك ترميز URL",
+      "description": "Encode and decode URL-safe strings and query parameters",
+      "longDescription": "Paste any text to URL-encode it for safe use in a browser address bar or API request, or paste a percent-encoded string to decode it back. Everything runs locally in your browser.",
+      "seoTitle": "URL Encode & Decode Online — Free, Private | FileFolks",
+      "seoDescription": "Encode or decode URLs and query strings instantly in your browser. No upload or account needed.",
+      "faqs": [
+        {
+          "question": "Is my data uploaded?",
+          "answer": "No. URL encoding and decoding are pure JavaScript operations that run entirely in your browser."
+        },
+        {
+          "question": "What is URL encoding?",
+          "answer": "URL encoding (percent-encoding) replaces special characters with a percent sign followed by two hex digits. For example, a space becomes %20 and an ampersand becomes %26."
+        },
+        {
+          "question": "What is the difference between encodeURIComponent and encodeURI?",
+          "answer": "This tool uses encodeURIComponent, which encodes everything except A–Z a–z 0–9 - _ . ! ~ * ' ( ). Use it for individual query parameter values. encodeURI preserves characters valid in a complete URL, such as slashes and colons."
+        },
+        {
+          "question": "Can I decode a full URL?",
+          "answer": "Yes. Paste the full percent-encoded URL into the Decode tab and the tool will decode all percent-sequences back to readable characters."
+        }
+      ]
+    },
+    "jwt-decoder": {
+      "name": "مفكك JWT",
+      "description": "Decode and inspect JSON Web Token headers and payloads",
+      "longDescription": "Paste a JSON Web Token to instantly see its decoded header, payload claims, and expiry date. The token never leaves your browser — no server call is made.",
+      "seoTitle": "JWT Decoder Online — Inspect Token Claims | FileFolks",
+      "seoDescription": "Decode and inspect a JWT header and payload instantly in your browser. Private and free.",
+      "faqs": [
+        {
+          "question": "Is my JWT sent to a server?",
+          "answer": "No. Decoding a JWT is a Base64 operation that runs entirely in your browser. Your token is never transmitted."
+        },
+        {
+          "question": "Does this tool verify the signature?",
+          "answer": "No. Signature verification requires your secret or public key, which you should never share with a third-party tool. This decoder shows the header and payload claims only."
+        },
+        {
+          "question": "What is a JWT?",
+          "answer": "A JSON Web Token (JWT) is a compact, URL-safe token made of three Base64-encoded parts separated by dots: a header (algorithm), a payload (claims), and a signature."
+        },
+        {
+          "question": "Can I see when the token expires?",
+          "answer": "Yes. If the payload contains an exp claim, the decoder shows it as a human-readable date and indicates whether the token is currently expired."
+        }
+      ]
+    },
+    "uuid-generator": {
+      "name": "مولد UUID",
+      "description": "Generate v4 UUIDs in bulk, with clipboard copy and download",
+      "longDescription": "Generate one or more RFC 4122 version 4 UUIDs using the browser's cryptographically secure random number generator. Copy individually, copy all, or download as a text file.",
+      "seoTitle": "UUID Generator Online — Generate v4 UUIDs Free | FileFolks",
+      "seoDescription": "Generate cryptographically secure v4 UUIDs in your browser. Bulk generate, copy, and download. Free and private.",
+      "faqs": [
+        {
+          "question": "Are these UUIDs cryptographically secure?",
+          "answer": "Yes. The tool uses the browser's built-in crypto.randomUUID() API, which uses a cryptographically secure pseudorandom number generator (CSPRNG)."
+        },
+        {
+          "question": "What is a UUID v4?",
+          "answer": "A version 4 UUID is a 128-bit random identifier formatted as 8-4-4-4-12 hex digits separated by hyphens. The version nibble is always 4 and the variant nibble is 8, 9, a, or b."
+        },
+        {
+          "question": "Can I generate UUIDs in bulk?",
+          "answer": "Yes. Set the count to any number between 1 and 100 and click Generate. Use Copy all or Download to get them all at once."
+        },
+        {
+          "question": "Are the UUIDs unique?",
+          "answer": "Yes with overwhelming probability. The chance of a v4 UUID collision is astronomically small — roughly 1 in 5.3 × 10³⁶ for any two random UUIDs."
+        }
+      ]
+    },
+    "hash-generator": {
+      "name": "مولد التجزئة",
+      "description": "Generate SHA-1, SHA-256, SHA-384, and SHA-512 hashes from text or files",
+      "longDescription": "Paste text or drop a file to compute its SHA-1, SHA-256, SHA-384, or SHA-512 hash. Everything runs in your browser using the built-in Web Crypto API. SHA-256 is recommended for security-critical applications.",
+      "seoTitle": "Hash Generator Online — SHA-256, SHA-512, SHA-1 | FileFolks",
+      "seoDescription": "Generate SHA-1, SHA-256, SHA-384, and SHA-512 hashes from text or files in your browser. Private and free.",
+      "faqs": [
+        {
+          "question": "Is my data uploaded?",
+          "answer": "No. Hashing uses the Web Crypto API, which runs entirely in your browser. Your text or file is never transmitted."
+        },
+        {
+          "question": "Which hash algorithm should I use?",
+          "answer": "Use SHA-256 or SHA-512 for security-critical work. SHA-1 is deprecated for security use — it is suitable only for non-security checksums. MD5 is not supported as it is cryptographically broken."
+        },
+        {
+          "question": "Can I hash a file?",
+          "answer": "Yes. Switch to File mode, drop or select any file, and the hash is computed from the file's raw bytes."
+        },
+        {
+          "question": "What is a hash?",
+          "answer": "A cryptographic hash is a fixed-length fingerprint of your data. The same input always produces the same hash, but even a one-character change produces a completely different output."
+        }
+      ]
     }
   },
   "Categories": {
@@ -502,5 +602,67 @@
     "successTitle": "Cropped successfully. Check your downloads folder.",
     "privacyNote": "Your image never leaves your browser. All processing happens locally.",
     "removeFile": "Remove file"
+  },
+  "UrlEncoder": {
+    "encode": "ترميز",
+    "decode": "فك الترميز",
+    "inputLabel": "الإدخال",
+    "outputLabel": "الإخراج",
+    "encodePlaceholder": "الصق رابطاً أو نصاً للترميز...",
+    "decodePlaceholder": "الصق النص المُرمَّز بـ URL لفك ترميزه...",
+    "encodeButton": "ترميز",
+    "decodeButton": "فك الترميز",
+    "copy": "نسخ",
+    "copied": "تم النسخ",
+    "clear": "مسح",
+    "privacyNote": "تتم جميع العمليات محلياً في متصفحك.",
+    "errorTitle": "خطأ",
+    "invalidEncoding": "ترميز URL غير صالح — تحقق من تسلسلات النسبة المئوية غير المكتملة."
+  },
+  "JwtDecoder": {
+    "inputLabel": "رمز JWT",
+    "inputPlaceholder": "الصق رمز JWT (مثال: eyJhbGci...)",
+    "decodeButton": "فك الترميز",
+    "header": "الترويسة",
+    "payload": "الحمولة",
+    "signature": "التوقيع",
+    "signatureNote": "التحقق من التوقيع يتطلب السر — تفك هذه الأداة ترميز الترويسة والحمولة فقط.",
+    "clear": "مسح",
+    "copy": "نسخ",
+    "copied": "تم النسخ",
+    "expiresLabel": "تنتهي صلاحيته",
+    "issuedAtLabel": "صدر في",
+    "expired": "منتهي الصلاحية",
+    "valid": "صالح",
+    "privacyNote": "رمزك لا يغادر متصفحك أبداً.",
+    "errorTitle": "خطأ"
+  },
+  "UuidGenerator": {
+    "countLabel": "العدد",
+    "generateButton": "توليد",
+    "copyAll": "نسخ الكل",
+    "copiedAll": "تم النسخ",
+    "download": "تنزيل",
+    "copy": "نسخ",
+    "copied": "تم النسخ",
+    "clear": "مسح",
+    "privacyNote": "يتم التوليد في متصفحك باستخدام Web Crypto API.",
+    "placeholder": "انقر على توليد لإنشاء معرّفات UUID."
+  },
+  "HashGenerator": {
+    "algorithmLabel": "الخوارزمية",
+    "inputLabel": "الإدخال",
+    "outputLabel": "التجزئة",
+    "textMode": "نص",
+    "fileMode": "ملف",
+    "loadFile": "تحميل ملف",
+    "textPlaceholder": "الصق النص للتجزئة...",
+    "hashButton": "توليد التجزئة",
+    "hashing": "جارٍ الحساب...",
+    "copy": "نسخ",
+    "copied": "تم النسخ",
+    "clear": "مسح",
+    "privacyNote": "تتم جميع العمليات محلياً في متصفحك.",
+    "errorTitle": "خطأ"
   }
 }

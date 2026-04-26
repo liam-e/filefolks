@@ -55,6 +55,74 @@ export function formatJson(input: string, indent: number = 2): FormatJsonResult 
   }
 }
 
+// ─── URL encode / decode ───────────────────────────────────────
+
+export function encodeUrl(text: string): string {
+  return encodeURIComponent(text);
+}
+
+export function decodeUrl(encoded: string): string {
+  return decodeURIComponent(encoded.trim());
+}
+
+// ─── JWT decode ────────────────────────────────────────────────
+
+export interface JwtDecodeResult {
+  header: Record<string, unknown>;
+  payload: Record<string, unknown>;
+  signaturePart: string;
+  valid: boolean;
+  error?: string;
+}
+
+function b64UrlDecode(s: string): string {
+  const padded = s.replace(/-/g, "+").replace(/_/g, "/").padEnd(
+    s.length + (4 - (s.length % 4)) % 4, "="
+  );
+  return atob(padded);
+}
+
+export function decodeJwt(token: string): JwtDecodeResult {
+  const parts = token.trim().split(".");
+  if (parts.length !== 3) {
+    return { header: {}, payload: {}, signaturePart: "", valid: false, error: "Invalid JWT — expected 3 dot-separated parts." };
+  }
+  try {
+    const header = JSON.parse(b64UrlDecode(parts[0])) as Record<string, unknown>;
+    const payload = JSON.parse(b64UrlDecode(parts[1])) as Record<string, unknown>;
+    return { header, payload, signaturePart: parts[2], valid: true };
+  } catch {
+    return { header: {}, payload: {}, signaturePart: "", valid: false, error: "Could not decode JWT — the token may be malformed." };
+  }
+}
+
+// ─── UUID generator ────────────────────────────────────────────
+
+export function generateUuids(count: number): string[] {
+  return Array.from({ length: Math.max(1, Math.min(count, 100)) }, () =>
+    crypto.randomUUID()
+  );
+}
+
+// ─── Hash generator ────────────────────────────────────────────
+
+export type HashAlgorithm = "SHA-1" | "SHA-256" | "SHA-384" | "SHA-512";
+
+async function computeHash(data: BufferSource, algorithm: HashAlgorithm): Promise<string> {
+  const buf = await crypto.subtle.digest(algorithm, data);
+  return Array.from(new Uint8Array(buf))
+    .map((b) => b.toString(16).padStart(2, "0"))
+    .join("");
+}
+
+export async function hashText(text: string, algorithm: HashAlgorithm): Promise<string> {
+  return computeHash(new TextEncoder().encode(text), algorithm);
+}
+
+export async function hashBuffer(buffer: ArrayBuffer, algorithm: HashAlgorithm): Promise<string> {
+  return computeHash(buffer, algorithm);
+}
+
 function countKeys(obj: unknown): number {
   if (typeof obj !== "object" || obj === null) return 0;
   if (Array.isArray(obj)) return obj.reduce((sum, item) => sum + countKeys(item), 0);

@@ -585,6 +585,98 @@ export const TOOLS: ToolMeta[] = [
     icon: "/icons/image-crop.svg",
   },
 
+  {
+    slug: "url-encode-decode",
+    name: "URL Encode / Decode",
+    description: "Encode and decode URL-safe strings and query parameters",
+    longDescription:
+      "Paste any text to URL-encode it for safe use in a browser address bar or API request, or paste a percent-encoded string to decode it back. Everything runs locally in your browser.",
+    category: "developer",
+    tags: ["encode", "decode", "no-upload"],
+    popularity: 12,
+    seoTitle: "URL Encode & Decode Online — Free, Private | FileFolks",
+    seoDescription:
+      "Encode or decode URLs and query strings instantly in your browser. No upload or account needed.",
+    keywords: ["url encode", "url decode", "url encoder online", "percent encode", "url decode online", "encodeURIComponent online", "url encoding tool"],
+    searchQueries: ["url encode online free", "decode url encoded string online", "percent encode url online"],
+    faqs: [
+      { question: "Is my data uploaded?", answer: "No. URL encoding and decoding are pure JavaScript operations that run entirely in your browser." },
+      { question: "What is URL encoding?", answer: "URL encoding (percent-encoding) replaces special characters with a percent sign followed by two hex digits. For example, a space becomes %20 and an ampersand becomes %26." },
+      { question: "What is the difference between encodeURIComponent and encodeURI?", answer: "This tool uses encodeURIComponent, which encodes everything except A–Z a–z 0–9 - _ . ! ~ * ' ( ). Use it for individual query parameter values. encodeURI preserves characters valid in a complete URL, such as slashes and colons." },
+      { question: "Can I decode a full URL?", answer: "Yes. Paste the full percent-encoded URL into the Decode tab and the tool will decode all percent-sequences back to readable characters." },
+    ],
+    icon: "/icons/url-encode-decode.svg",
+  },
+
+  {
+    slug: "jwt-decoder",
+    name: "JWT Decoder",
+    description: "Decode and inspect JSON Web Token headers and payloads",
+    longDescription:
+      "Paste a JSON Web Token to instantly see its decoded header, payload claims, and expiry date. The token never leaves your browser — no server call is made.",
+    category: "developer",
+    tags: ["decode", "no-upload"],
+    popularity: 13,
+    seoTitle: "JWT Decoder Online — Inspect Token Claims | FileFolks",
+    seoDescription:
+      "Decode and inspect a JWT header and payload instantly in your browser. Private and free.",
+    keywords: ["jwt decoder", "jwt decode online", "jwt inspector", "decode jwt token", "jwt parser online", "json web token decoder free"],
+    searchQueries: ["how to decode jwt token online", "jwt payload decoder free", "inspect jwt claims online"],
+    faqs: [
+      { question: "Is my JWT sent to a server?", answer: "No. Decoding a JWT is a Base64 operation that runs entirely in your browser. Your token is never transmitted." },
+      { question: "Does this tool verify the signature?", answer: "No. Signature verification requires your secret or public key, which you should never share with a third-party tool. This decoder shows the header and payload claims only." },
+      { question: "What is a JWT?", answer: "A JSON Web Token (JWT) is a compact, URL-safe token made of three Base64-encoded parts separated by dots: a header (algorithm), a payload (claims), and a signature." },
+      { question: "Can I see when the token expires?", answer: "Yes. If the payload contains an exp claim, the decoder shows it as a human-readable date and indicates whether the token is currently expired." },
+    ],
+    icon: "/icons/jwt-decoder.svg",
+  },
+
+  {
+    slug: "uuid-generator",
+    name: "UUID Generator",
+    description: "Generate v4 UUIDs in bulk, with clipboard copy and download",
+    longDescription:
+      "Generate one or more RFC 4122 version 4 UUIDs using the browser's cryptographically secure random number generator. Copy individually, copy all, or download as a text file.",
+    category: "developer",
+    tags: ["generate", "no-upload"],
+    popularity: 14,
+    seoTitle: "UUID Generator Online — Generate v4 UUIDs Free | FileFolks",
+    seoDescription:
+      "Generate cryptographically secure v4 UUIDs in your browser. Bulk generate, copy, and download. Free and private.",
+    keywords: ["uuid generator", "generate uuid online", "uuid v4 generator", "random uuid generator", "bulk uuid generator", "unique id generator online"],
+    searchQueries: ["generate uuid online free", "uuid v4 generator bulk", "random uuid creator online"],
+    faqs: [
+      { question: "Are these UUIDs cryptographically secure?", answer: "Yes. The tool uses the browser's built-in crypto.randomUUID() API, which uses a cryptographically secure pseudorandom number generator (CSPRNG)." },
+      { question: "What is a UUID v4?", answer: "A version 4 UUID is a 128-bit random identifier formatted as 8-4-4-4-12 hex digits separated by hyphens. The version nibble is always 4 and the variant nibble is 8, 9, a, or b." },
+      { question: "Can I generate UUIDs in bulk?", answer: "Yes. Set the count to any number between 1 and 100 and click Generate. Use Copy all or Download to get them all at once." },
+      { question: "Are the UUIDs unique?", answer: "Yes with overwhelming probability. The chance of a v4 UUID collision is astronomically small — roughly 1 in 5.3 × 10³⁶ for any two random UUIDs." },
+    ],
+    icon: "/icons/uuid-generator.svg",
+  },
+
+  {
+    slug: "hash-generator",
+    name: "Hash Generator",
+    description: "Generate SHA-1, SHA-256, SHA-384, and SHA-512 hashes from text or files",
+    longDescription:
+      "Paste text or drop a file to compute its SHA-1, SHA-256, SHA-384, or SHA-512 hash. Everything runs in your browser using the built-in Web Crypto API. SHA-256 is recommended for security-critical applications.",
+    category: "developer",
+    tags: ["generate", "encode", "no-upload"],
+    popularity: 15,
+    seoTitle: "Hash Generator Online — SHA-256, SHA-512, SHA-1 | FileFolks",
+    seoDescription:
+      "Generate SHA-1, SHA-256, SHA-384, and SHA-512 hashes from text or files in your browser. Private and free.",
+    keywords: ["hash generator", "sha256 generator online", "sha-512 hash generator", "sha1 hash online", "checksum generator", "file hash checker online"],
+    searchQueries: ["sha256 hash generator online free", "generate sha512 hash from text", "file checksum tool online"],
+    faqs: [
+      { question: "Is my data uploaded?", answer: "No. Hashing uses the Web Crypto API, which runs entirely in your browser. Your text or file is never transmitted." },
+      { question: "Which hash algorithm should I use?", answer: "Use SHA-256 or SHA-512 for security-critical work. SHA-1 is deprecated for security use — it is suitable only for non-security checksums. MD5 is not supported as it is cryptographically broken." },
+      { question: "Can I hash a file?", answer: "Yes. Switch to File mode, drop or select any file, and the hash is computed from the file's raw bytes." },
+      { question: "What is a hash?", answer: "A cryptographic hash is a fixed-length fingerprint of your data. The same input always produces the same hash, but even a one-character change produces a completely different output." },
+    ],
+    icon: "/icons/hash-generator.svg",
+  },
+
   // ... add more tools following this pattern
 ];
 

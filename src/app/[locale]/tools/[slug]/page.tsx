@@ -17,6 +17,10 @@ import { ImageToPdfTool } from "@/components/tools/ImageToPdfTool";
 import { PdfRotatorTool } from "@/components/tools/PdfRotatorTool";
 import { ImageResizerTool } from "@/components/tools/ImageResizerTool";
 import { ImageCropTool } from "@/components/tools/ImageCropTool";
+import { UrlEncoderTool } from "@/components/tools/UrlEncoderTool";
+import { JwtDecoderTool } from "@/components/tools/JwtDecoderTool";
+import { UuidGeneratorTool } from "@/components/tools/UuidGeneratorTool";
+import { HashGeneratorTool } from "@/components/tools/HashGeneratorTool";
 
 type ToolComponentType = React.ComponentType;
 
@@ -32,6 +36,10 @@ const TOOL_COMPONENTS: Partial<Record<string, ToolComponentType>> = {
   "image-resize": ImageResizerTool,
   "image-crop": ImageCropTool,
   "base64-encode-decode": Base64Tool,
+  "url-encode-decode": UrlEncoderTool,
+  "jwt-decoder": JwtDecoderTool,
+  "uuid-generator": UuidGeneratorTool,
+  "hash-generator": HashGeneratorTool,
 };
 
 interface Props {

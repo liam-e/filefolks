@@ -149,6 +149,47 @@ function ImageCropIcon({ className }: SvgProps) {
   );
 }
 
+function UrlEncodeIcon({ className }: SvgProps) {
+  return (
+    <Svg className={className}>
+      <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+      <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+    </Svg>
+  );
+}
+
+function JwtDecoderIcon({ className }: SvgProps) {
+  return (
+    <Svg className={className}>
+      <rect x="3" y="11" width="18" height="11" rx="2" ry="2" />
+      <path d="M7 11V7a5 5 0 0 1 10 0v4" />
+      <circle cx="12" cy="16" r="1" fill="currentColor" stroke="none" />
+    </Svg>
+  );
+}
+
+function UuidGeneratorIcon({ className }: SvgProps) {
+  return (
+    <Svg className={className}>
+      <rect x="2" y="8" width="20" height="8" rx="2" />
+      <line x1="6" y1="12" x2="6" y2="12" strokeWidth="2" strokeLinecap="round" />
+      <line x1="10" y1="12" x2="14" y2="12" />
+      <line x1="18" y1="12" x2="18" y2="12" strokeWidth="2" strokeLinecap="round" />
+    </Svg>
+  );
+}
+
+function HashGeneratorIcon({ className }: SvgProps) {
+  return (
+    <Svg className={className}>
+      <line x1="4" y1="9" x2="20" y2="9" />
+      <line x1="4" y1="15" x2="20" y2="15" />
+      <line x1="10" y1="3" x2="8" y2="21" />
+      <line x1="16" y1="3" x2="14" y2="21" />
+    </Svg>
+  );
+}
+
 // ── Category fallback icons ────────────────────────────────────
 
 function PdfCategoryIcon({ className }: SvgProps) {
@@ -215,6 +256,10 @@ const TOOL_ICONS: Record<string, IconComponent> = {
   "image-resize": ImageResizeIcon,
   "image-crop": ImageCropIcon,
   "base64-encode-decode": Base64Icon,
+  "url-encode-decode": UrlEncodeIcon,
+  "jwt-decoder": JwtDecoderIcon,
+  "uuid-generator": UuidGeneratorIcon,
+  "hash-generator": HashGeneratorIcon,
 };
 
 const CATEGORY_ICONS: Record<string, IconComponent> = {
