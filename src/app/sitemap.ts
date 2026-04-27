@@ -57,5 +57,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.3,
   }));
 
-  return [...home, ...tools, ...categories, ...guides, ...privacy];
+  const about = routing.locales.map((locale) => ({
+    url: `${BASE_URL}/${locale}/about`,
+    lastModified: new Date(),
+    changeFrequency: "yearly" as const,
+    priority: 0.4,
+  }));
+
+  return [...home, ...tools, ...categories, ...guides, ...privacy, ...about];
 }
