@@ -25,4 +25,7 @@ export const SLUG_TO_NAMESPACE: Record<string, string> = {
   "lorem-ipsum-generator": "LoremIpsum",
   "duplicate-line-remover": "DuplicateLineRemover",
   "line-sorter": "LineSorter",
+  "password-generator": "PasswordGenerator",
+  "timestamp-converter": "TimestampConverter",
+  "json-to-csv": "JsonToCsv",
 };

@@ -8,23 +8,23 @@
   "readingTime": "阅读时间",
   "readingTimeValue": "约{min}分钟",
   "privacyNote": "您的文本永远不会离开浏览器。",
-  "name": "Word Counter",
-  "description": "Count words, characters, sentences, paragraphs, and reading time",
-  "longDescription": "Paste or type text to instantly see word count, character count (with and without spaces), sentence count, paragraph count, and estimated reading time. All processing happens locally.",
-  "seoTitle": "Word Counter Online — Free Character & Word Count | FileFolks",
-  "seoDescription": "Count words, characters, sentences, and paragraphs instantly. Paste your text and see reading time too. Free and private.",
+  "name": "字数统计",
+  "description": "统计单词数、字符数、句子数、段落数及阅读时间",
+  "longDescription": "粘贴或输入文本，即可立即查看单词数、字符数（含/不含空格）、句子数、段落数及预估阅读时间。所有处理均在本地完成。",
+  "seoTitle": "字数统计在线 — 免费、无需注册、保护隐私 | FileFolks",
+  "seoDescription": "即时统计单词数、字符数、句子数、段落数和阅读时间。粘贴文本即可查看结果。免费且保护隐私。",
   "faqs": [
     {
-      "question": "Does this count spaces as characters?",
-      "answer": "Both counts are shown: characters including spaces and characters excluding spaces."
+      "question": "空格是否计入字符数？",
+      "answer": "两种计数均会显示：包含空格的字符数和不含空格的字符数。"
     },
     {
-      "question": "How is reading time calculated?",
-      "answer": "Based on 238 words per minute, the commonly cited average adult silent reading rate."
+      "question": "阅读时间是如何计算的？",
+      "answer": "基于每分钟238个单词，这是成人默读速度的常用平均值。"
     },
     {
-      "question": "Is my text stored or sent anywhere?",
-      "answer": "No. All counting happens locally in your browser. Your text is never transmitted."
+      "question": "我的文本会被存储或发送到某处吗？",
+      "answer": "不会。所有统计均在您的浏览器本地完成，文本不会被传输。"
     }
   ]
 }

@@ -33,6 +33,9 @@ import { CaseConverterTool } from "@/components/tools/CaseConverterTool";
 import { LoremIpsumTool } from "@/components/tools/LoremIpsumTool";
 import { DuplicateLineRemoverTool } from "@/components/tools/DuplicateLineRemoverTool";
 import { LineSorterTool } from "@/components/tools/LineSorterTool";
+import { PasswordGeneratorTool } from "@/components/tools/PasswordGeneratorTool";
+import { TimestampConverterTool } from "@/components/tools/TimestampConverterTool";
+import { JsonToCsvTool } from "@/components/tools/JsonToCsvTool";
 
 type ToolComponentType = React.ComponentType;
 
@@ -63,6 +66,9 @@ const TOOL_COMPONENTS: Partial<Record<string, ToolComponentType>> = {
   "lorem-ipsum-generator": LoremIpsumTool,
   "duplicate-line-remover": DuplicateLineRemoverTool,
   "line-sorter": LineSorterTool,
+  "password-generator": PasswordGeneratorTool,
+  "timestamp-converter": TimestampConverterTool,
+  "json-to-csv": JsonToCsvTool,
 };
 
 interface Props {

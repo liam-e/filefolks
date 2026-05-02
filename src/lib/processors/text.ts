@@ -292,6 +292,119 @@ export function sortLines(text: string, order: SortOrder, caseSensitive: boolean
   return sorted.join("\n");
 }
 
+// ─── Password generator ────────────────────────────────────────
+
+export interface PasswordOptions {
+  length: number;
+  uppercase: boolean;
+  lowercase: boolean;
+  digits: boolean;
+  symbols: boolean;
+}
+
+export function generatePassword(options: PasswordOptions): string {
+  const UPPER = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  const LOWER = "abcdefghijklmnopqrstuvwxyz";
+  const DIGITS = "0123456789";
+  const SYMBOLS = "!@#$%^&*()-_=+[]{}|;:,.<>?";
+
+  const rand = (max: number): number => {
+    const buf = new Uint32Array(1);
+    crypto.getRandomValues(buf);
+    return buf[0] % max;
+  };
+
+  let charset = "";
+  const required: string[] = [];
+  if (options.uppercase) { charset += UPPER; required.push(UPPER[rand(UPPER.length)]); }
+  if (options.lowercase) { charset += LOWER; required.push(LOWER[rand(LOWER.length)]); }
+  if (options.digits) { charset += DIGITS; required.push(DIGITS[rand(DIGITS.length)]); }
+  if (options.symbols) { charset += SYMBOLS; required.push(SYMBOLS[rand(SYMBOLS.length)]); }
+  if (!charset) charset = LOWER + DIGITS;
+
+  const len = Math.max(required.length, Math.min(128, Math.max(4, options.length)));
+  const rest = Array.from({ length: len - required.length }, () => charset[rand(charset.length)]);
+  const all = [...required, ...rest];
+  for (let i = all.length - 1; i > 0; i--) {
+    const j = rand(i + 1);
+    [all[i], all[j]] = [all[j], all[i]];
+  }
+  return all.join("");
+}
+
+export function passwordStrength(password: string): "weak" | "fair" | "strong" | "very-strong" {
+  let score = 0;
+  if (password.length >= 8) score++;
+  if (password.length >= 12) score++;
+  if (password.length >= 16) score++;
+  if (/[A-Z]/.test(password)) score++;
+  if (/[a-z]/.test(password)) score++;
+  if (/[0-9]/.test(password)) score++;
+  if (/[^A-Za-z0-9]/.test(password)) score++;
+  if (score <= 2) return "weak";
+  if (score <= 4) return "fair";
+  if (score <= 5) return "strong";
+  return "very-strong";
+}
+
+// ─── Timestamp converter ───────────────────────────────────────
+
+export interface TimestampResult {
+  unix: number;
+  unixMs: number;
+  iso: string;
+  utc: string;
+  local: string;
+  isMilliseconds: boolean;
+}
+
+export function convertTimestamp(value: string | number): TimestampResult {
+  const num = typeof value === "string" ? Number(value.trim()) : value;
+  if (isNaN(num)) throw new Error("Invalid timestamp");
+  const isMs = Math.abs(num) > 1e10;
+  const ms = isMs ? num : num * 1000;
+  const unix = isMs ? Math.floor(num / 1000) : Math.floor(num);
+  const date = new Date(ms);
+  return { unix, unixMs: unix * 1000, iso: date.toISOString(), utc: date.toUTCString(), local: date.toLocaleString(), isMilliseconds: isMs };
+}
+
+export function dateToTimestamp(dateString: string): number {
+  const d = new Date(dateString);
+  if (isNaN(d.getTime())) throw new Error("Invalid date");
+  return Math.floor(d.getTime() / 1000);
+}
+
+export function currentUnixTimestamp(): number {
+  return Math.floor(Date.now() / 1000);
+}
+
+// ─── JSON to CSV ───────────────────────────────────────────────
+
+export interface JsonToCsvResult {
+  csv: string;
+  headers: string[];
+  rowCount: number;
+  error?: string;
+}
+
+export function jsonToCsv(input: string): JsonToCsvResult {
+  try {
+    const parsed = JSON.parse(input);
+    if (!Array.isArray(parsed)) return { csv: "", headers: [], rowCount: 0, error: "Input must be a JSON array" };
+    if (parsed.length === 0) return { csv: "", headers: [], rowCount: 0 };
+    const headers = Array.from(new Set(parsed.flatMap((row) => (typeof row === "object" && row !== null ? Object.keys(row) : []))));
+    const escape = (val: unknown): string => {
+      const str = val === null || val === undefined ? "" : String(val);
+      return str.includes(",") || str.includes('"') || str.includes("\n") ? `"${str.replace(/"/g, '""')}"` : str;
+    };
+    const rows = parsed.map((row) => headers.map((h) => escape((row as Record<string, unknown>)[h])).join(","));
+    const csv = [headers.map(escape).join(","), ...rows].join("\n");
+    return { csv, headers, rowCount: parsed.length };
+  } catch (err) {
+    return { csv: "", headers: [], rowCount: 0, error: err instanceof Error ? err.message : "Invalid JSON" };
+  }
+}
+
 function countKeys(obj: unknown): number {
   if (typeof obj !== "object" || obj === null) return 0;
   if (Array.isArray(obj)) return obj.reduce((sum, item) => sum + countKeys(item), 0);

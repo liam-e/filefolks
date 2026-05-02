@@ -11,23 +11,23 @@
   "copy": "Копировать",
   "copied": "Скопировано",
   "privacyNote": "Ваш текст никогда не покидает браузер.",
-  "name": "Case Converter",
-  "description": "Convert text between camelCase, snake_case, kebab-case, Title Case, and more",
-  "longDescription": "Paste text and see it instantly converted to all common casing styles: camelCase, PascalCase, snake_case, kebab-case, SCREAMING_SNAKE_CASE, Title Case, UPPER CASE, and lower case.",
-  "seoTitle": "Case Converter — camelCase, snake_case, kebab-case Online | FileFolks",
-  "seoDescription": "Convert text between camelCase, PascalCase, snake_case, kebab-case, Title Case, and more. Instant, free, and private.",
+  "name": "Конвертер регистра",
+  "description": "Конвертируйте текст между camelCase, snake_case, kebab-case, Title Case и другими",
+  "longDescription": "Вставьте текст и мгновенно увидите его во всех распространённых стилях написания: camelCase, PascalCase, snake_case, kebab-case, SCREAMING_SNAKE_CASE, Title Case, UPPER CASE и lower case.",
+  "seoTitle": "Конвертер регистра — camelCase, snake_case, kebab-case онлайн | FileFolks",
+  "seoDescription": "Конвертируйте текст между camelCase, PascalCase, snake_case, kebab-case, Title Case и другими. Мгновенно, бесплатно и приватно.",
   "faqs": [
     {
-      "question": "What case formats are supported?",
-      "answer": "camelCase, PascalCase, snake_case, kebab-case, SCREAMING_SNAKE_CASE, Title Case, UPPER CASE, and lower case."
+      "question": "Какие форматы регистра поддерживаются?",
+      "answer": "camelCase, PascalCase, snake_case, kebab-case, SCREAMING_SNAKE_CASE, Title Case, UPPER CASE и lower case."
     },
     {
-      "question": "Does it handle multi-word input?",
-      "answer": "Yes. Word boundaries are detected from spaces, hyphens, underscores, and camelCase transitions."
+      "question": "Поддерживается ли ввод из нескольких слов?",
+      "answer": "Да. Границы слов определяются по пробелам, дефисам, подчёркиваниям и переходам camelCase."
     },
     {
-      "question": "Is my text stored?",
-      "answer": "No. All conversion happens in your browser. Nothing is sent to a server."
+      "question": "Сохраняется ли мой текст?",
+      "answer": "Нет. Вся конвертация происходит в вашем браузере. Ничего не отправляется на сервер."
     }
   ]
 }

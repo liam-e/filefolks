@@ -1,5 +1,5 @@
 {
-  "placeholder": "Escribe o pega texto para convertir...",
+  "placeholder": "Escribe o pega el texto para convertir...",
   "camel": "camelCase",
   "pascal": "PascalCase",
   "snake": "snake_case",
@@ -11,23 +11,23 @@
   "copy": "Copiar",
   "copied": "Copiado",
   "privacyNote": "Tu texto nunca sale de tu navegador.",
-  "name": "Case Converter",
-  "description": "Convert text between camelCase, snake_case, kebab-case, Title Case, and more",
-  "longDescription": "Paste text and see it instantly converted to all common casing styles: camelCase, PascalCase, snake_case, kebab-case, SCREAMING_SNAKE_CASE, Title Case, UPPER CASE, and lower case.",
-  "seoTitle": "Case Converter — camelCase, snake_case, kebab-case Online | FileFolks",
-  "seoDescription": "Convert text between camelCase, PascalCase, snake_case, kebab-case, Title Case, and more. Instant, free, and private.",
+  "name": "Convertidor de mayúsculas",
+  "description": "Convierte texto entre camelCase, snake_case, kebab-case, Title Case y más",
+  "longDescription": "Pega texto y míralo convertido al instante a todos los estilos de escritura comunes: camelCase, PascalCase, snake_case, kebab-case, SCREAMING_SNAKE_CASE, Title Case, UPPER CASE y lower case.",
+  "seoTitle": "Convertidor de mayúsculas — camelCase, snake_case, kebab-case online | FileFolks",
+  "seoDescription": "Convierte texto entre camelCase, PascalCase, snake_case, kebab-case, Title Case y más. Instantáneo, gratuito y privado.",
   "faqs": [
     {
-      "question": "What case formats are supported?",
-      "answer": "camelCase, PascalCase, snake_case, kebab-case, SCREAMING_SNAKE_CASE, Title Case, UPPER CASE, and lower case."
+      "question": "¿Qué formatos de escritura se admiten?",
+      "answer": "camelCase, PascalCase, snake_case, kebab-case, SCREAMING_SNAKE_CASE, Title Case, UPPER CASE y lower case."
     },
     {
-      "question": "Does it handle multi-word input?",
-      "answer": "Yes. Word boundaries are detected from spaces, hyphens, underscores, and camelCase transitions."
+      "question": "¿Funciona con texto de varias palabras?",
+      "answer": "Sí. Los límites de palabras se detectan a partir de espacios, guiones, guiones bajos y transiciones de camelCase."
     },
     {
-      "question": "Is my text stored?",
-      "answer": "No. All conversion happens in your browser. Nothing is sent to a server."
+      "question": "¿Se guarda mi texto?",
+      "answer": "No. Toda la conversión ocurre en tu navegador. Nada se envía a un servidor."
     }
   ]
 }

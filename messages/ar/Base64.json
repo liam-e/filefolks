@@ -20,25 +20,25 @@
   "privacyNote": "بياناتك لا تغادر متصفحك أبدًا. كل الترميز يتم محليًا.",
   "name": "ترميز / فك ترميز Base64",
   "description": "ترميز النصوص أو الملفات إلى Base64 أو فك ترميز Base64 إلى نص",
-  "longDescription": "Paste text or load a file to encode it as Base64, or paste a Base64 string to decode it. All processing happens locally in your browser.",
-  "seoTitle": "ترميز وفك ترميز Base64 عبر الإنترنت — مجاني | FileFolks",
-  "seoDescription": "قم بترميز النصوص أو الملفات إلى Base64، أو فك ترميز Base64 إلى نص. يعمل في متصفحك.",
+  "longDescription": "الصق نصًا أو حمّل ملفًا لترميزه بصيغة Base64، أو الصق سلسلة Base64 لفك ترميزها. تتم جميع العمليات محليًا في متصفحك.",
+  "seoTitle": "ترميز وفك ترميز Base64 عبر الإنترنت — مجاني وخاص | FileFolks",
+  "seoDescription": "قم بترميز النصوص أو الملفات إلى Base64، أو فك ترميز Base64 إلى نص. يعمل في متصفحك. لا حاجة لرفع الملفات.",
   "faqs": [
     {
-      "question": "Is my data uploaded to a server?",
-      "answer": "No. Base64 encoding and decoding are pure JavaScript operations that run entirely in your browser."
+      "question": "هل يتم رفع بياناتي إلى خادم؟",
+      "answer": "لا. ترميز وفك ترميز Base64 عمليات JavaScript خالصة تعمل بالكامل في متصفحك."
     },
     {
-      "question": "What is Base64 used for?",
-      "answer": "Base64 is used to safely transmit binary data as text — in emails, data URLs, API payloads, and configuration files."
+      "question": "ما استخدامات Base64؟",
+      "answer": "يُستخدم Base64 لنقل البيانات الثنائية بأمان على شكل نص — في رسائل البريد الإلكتروني وعناوين URL للبيانات وحمولات API وملفات الإعداد."
     },
     {
-      "question": "Is there a size limit?",
-      "answer": "There is no hard limit, but very large files (over 10 MB) may slow down your browser tab. The output Base64 string will be roughly 33% larger than the input."
+      "question": "هل هناك حد لحجم الملف؟",
+      "answer": "لا يوجد حد صارم، لكن الملفات الكبيرة جدًا (أكثر من 10 ميغابايت) قد تبطئ علامة تبويب المتصفح. سيكون حجم سلسلة Base64 الناتجة أكبر بنحو 33% من المدخل."
     },
     {
-      "question": "Does Base64 encrypt my data?",
-      "answer": "No. Base64 is an encoding scheme, not encryption. Anyone with the Base64 string can decode it instantly. Do not use it to protect sensitive data."
+      "question": "هل يقوم Base64 بتشفير بياناتي؟",
+      "answer": "لا. Base64 نظام ترميز وليس تشفيرًا. يمكن لأي شخص يمتلك سلسلة Base64 فك ترميزها فورًا. لا تستخدمه لحماية البيانات الحساسة."
     }
   ]
 }

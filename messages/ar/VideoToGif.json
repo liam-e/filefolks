@@ -1,38 +1,38 @@
 {
-  "dropLabel": "اسقط مقطع فيديو هنا او انقر للتصفح",
-  "dropSublabel": "MP4 او WebM او MOV",
-  "remove": "ازالة",
+  "dropLabel": "أسقط مقطع فيديو هنا، أو انقر للتصفح",
+  "dropSublabel": "MP4 أو WebM أو MOV",
+  "remove": "إزالة",
   "startLabel": "وقت البدء",
   "durationLabel": "المدة",
-  "fpsLabel": "الاطارات في الثانية",
+  "fpsLabel": "معدل الإطارات (fps)",
   "widthLabel": "العرض",
-  "createButton": "انشاء GIF",
+  "createButton": "إنشاء GIF",
   "processing": "جارٍ المعالجة",
   "downloadButton": "تنزيل GIF",
-  "errorTitle": "خطا",
-  "errorGeneric": "حدث خطا. يرجى تجربة مقطع فيديو اخر.",
-  "privacyNote": "الفيديو لا يغادر متصفحك ابدا.",
-  "name": "تحويل الفيديو الى GIF",
-  "description": "Convert a video clip to an animated GIF in your browser",
-  "longDescription": "Drop a video file, set the start time, duration, frame rate, and width, then download the resulting GIF. Processing happens entirely in your browser.",
-  "seoTitle": "Video to GIF Online — Free, Private, No Upload | FileFolks",
-  "seoDescription": "Convert any video clip to an animated GIF in your browser. No upload required. Set start time, duration, frame rate, and size.",
+  "errorTitle": "خطأ",
+  "errorGeneric": "حدث خطأ. يرجى تجربة مقطع فيديو آخر.",
+  "privacyNote": "الفيديو لا يغادر متصفحك أبداً.",
+  "name": "تحويل الفيديو إلى GIF",
+  "description": "تحويل مقطع فيديو إلى GIF متحرك في متصفحك",
+  "longDescription": "أسقط ملف فيديو، اضبط وقت البدء والمدة ومعدل الإطارات والعرض، ثم حمّل ملف GIF الناتج. تتم المعالجة بالكامل في متصفحك.",
+  "seoTitle": "تحويل فيديو إلى GIF أونلاين — مجاني، خاص، بدون رفع | FileFolks",
+  "seoDescription": "تحويل أي مقطع فيديو إلى GIF متحرك في متصفحك. لا حاجة للرفع. اضبط وقت البدء والمدة ومعدل الإطارات والحجم.",
   "faqs": [
     {
-      "question": "Is my video uploaded?",
-      "answer": "No. The tool uses the Canvas API directly in your browser. Your video never leaves your device."
+      "question": "هل يتم رفع الفيديو؟",
+      "answer": "لا. تستخدم الأداة Canvas API مباشرة في متصفحك. الفيديو لا يغادر جهازك أبداً."
     },
     {
-      "question": "What video formats are supported?",
-      "answer": "Any format your browser can play, typically MP4 (H.264), WebM, and Ogg. MOV files may work depending on your browser."
+      "question": "ما صيغ الفيديو المدعومة؟",
+      "answer": "أي صيغة يمكن لمتصفحك تشغيلها، عادةً MP4 (H.264) وWebM وOgg. قد تعمل ملفات MOV حسب متصفحك."
     },
     {
-      "question": "Why is there a 15-second limit?",
-      "answer": "GIF files grow quickly with duration. A 15-second GIF at 10fps and 320px wide is already several megabytes. Longer clips are better shared as video."
+      "question": "لماذا يوجد حد 15 ثانية؟",
+      "answer": "تنمو ملفات GIF بسرعة مع الوقت. ملف GIF مدته 15 ثانية بمعدل 10fps وعرض 320 بكسل يبلغ حجمه عدة ميغابايت بالفعل. المقاطع الأطول يُفضل مشاركتها كفيديو."
     },
     {
-      "question": "How do I reduce the GIF file size?",
-      "answer": "Lower the frame rate (5fps instead of 15fps), reduce the width (240px instead of 480px), or shorten the duration."
+      "question": "كيف أقلل حجم ملف GIF؟",
+      "answer": "قلّل معدل الإطارات (5fps بدلاً من 15fps)، أو قلّل العرض (240px بدلاً من 480px)، أو قصّر المدة."
     }
   ]
 }

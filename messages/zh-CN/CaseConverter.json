@@ -11,23 +11,23 @@
   "copy": "复制",
   "copied": "已复制",
   "privacyNote": "您的文本永远不会离开浏览器。",
-  "name": "Case Converter",
-  "description": "Convert text between camelCase, snake_case, kebab-case, Title Case, and more",
-  "longDescription": "Paste text and see it instantly converted to all common casing styles: camelCase, PascalCase, snake_case, kebab-case, SCREAMING_SNAKE_CASE, Title Case, UPPER CASE, and lower case.",
-  "seoTitle": "Case Converter — camelCase, snake_case, kebab-case Online | FileFolks",
-  "seoDescription": "Convert text between camelCase, PascalCase, snake_case, kebab-case, Title Case, and more. Instant, free, and private.",
+  "name": "大小写转换器",
+  "description": "在 camelCase、snake_case、kebab-case、Title Case 等格式之间转换文本",
+  "longDescription": "粘贴文本，即可立即看到所有常用大小写样式的转换结果：camelCase、PascalCase、snake_case、kebab-case、SCREAMING_SNAKE_CASE、Title Case、UPPER CASE 和 lower case。",
+  "seoTitle": "大小写转换器 — camelCase、snake_case、kebab-case 在线工具 | FileFolks",
+  "seoDescription": "在 camelCase、PascalCase、snake_case、kebab-case、Title Case 等格式间转换文本。即时、免费、保护隐私。",
   "faqs": [
     {
-      "question": "What case formats are supported?",
-      "answer": "camelCase, PascalCase, snake_case, kebab-case, SCREAMING_SNAKE_CASE, Title Case, UPPER CASE, and lower case."
+      "question": "支持哪些大小写格式？",
+      "answer": "camelCase、PascalCase、snake_case、kebab-case、SCREAMING_SNAKE_CASE、Title Case、UPPER CASE 和 lower case。"
     },
     {
-      "question": "Does it handle multi-word input?",
-      "answer": "Yes. Word boundaries are detected from spaces, hyphens, underscores, and camelCase transitions."
+      "question": "支持多单词输入吗？",
+      "answer": "支持。系统通过空格、连字符、下划线以及 camelCase 转换点来识别单词边界。"
     },
     {
-      "question": "Is my text stored?",
-      "answer": "No. All conversion happens in your browser. Nothing is sent to a server."
+      "question": "我的文本会被存储吗？",
+      "answer": "不会。所有转换均在您的浏览器中完成，不会向服务器发送任何内容。"
     }
   ]
 }

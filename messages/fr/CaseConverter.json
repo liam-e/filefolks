@@ -1,5 +1,5 @@
 {
-  "placeholder": "Saisissez ou collez du texte a convertir...",
+  "placeholder": "Tapez ou collez le texte à convertir...",
   "camel": "camelCase",
   "pascal": "PascalCase",
   "snake": "snake_case",
@@ -9,25 +9,25 @@
   "upper": "UPPER CASE",
   "lower": "lower case",
   "copy": "Copier",
-  "copied": "Copie",
+  "copied": "Copié",
   "privacyNote": "Votre texte ne quitte jamais votre navigateur.",
-  "name": "Case Converter",
-  "description": "Convert text between camelCase, snake_case, kebab-case, Title Case, and more",
-  "longDescription": "Paste text and see it instantly converted to all common casing styles: camelCase, PascalCase, snake_case, kebab-case, SCREAMING_SNAKE_CASE, Title Case, UPPER CASE, and lower case.",
-  "seoTitle": "Case Converter — camelCase, snake_case, kebab-case Online | FileFolks",
-  "seoDescription": "Convert text between camelCase, PascalCase, snake_case, kebab-case, Title Case, and more. Instant, free, and private.",
+  "name": "Convertisseur de casse",
+  "description": "Convertissez du texte entre camelCase, snake_case, kebab-case, Title Case et plus",
+  "longDescription": "Collez du texte et voyez-le instantanément converti dans tous les styles de casse courants: camelCase, PascalCase, snake_case, kebab-case, SCREAMING_SNAKE_CASE, Title Case, UPPER CASE et lower case.",
+  "seoTitle": "Convertisseur de casse — camelCase, snake_case, kebab-case en ligne | FileFolks",
+  "seoDescription": "Convertissez du texte entre camelCase, PascalCase, snake_case, kebab-case, Title Case et plus. Instantané, gratuit et privé.",
   "faqs": [
     {
-      "question": "What case formats are supported?",
-      "answer": "camelCase, PascalCase, snake_case, kebab-case, SCREAMING_SNAKE_CASE, Title Case, UPPER CASE, and lower case."
+      "question": "Quels formats de casse sont pris en charge?",
+      "answer": "camelCase, PascalCase, snake_case, kebab-case, SCREAMING_SNAKE_CASE, Title Case, UPPER CASE et lower case."
     },
     {
-      "question": "Does it handle multi-word input?",
-      "answer": "Yes. Word boundaries are detected from spaces, hyphens, underscores, and camelCase transitions."
+      "question": "Gère-t-il les entrées multi-mots?",
+      "answer": "Oui. Les limites de mots sont détectées à partir des espaces, tirets, underscores et transitions camelCase."
     },
     {
-      "question": "Is my text stored?",
-      "answer": "No. All conversion happens in your browser. Nothing is sent to a server."
+      "question": "Mon texte est-il stocké?",
+      "answer": "Non. Toute la conversion se fait dans votre navigateur. Rien n'est envoyé à un serveur."
     }
   ]
 }

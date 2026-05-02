@@ -1,30 +1,30 @@
 {
-  "placeholder": "Text hier einfugen oder eingeben...",
-  "words": "Worter",
+  "placeholder": "Text hier einfügen oder eingeben...",
+  "words": "Wörter",
   "characters": "Zeichen",
   "charsNoSpaces": "Ohne Leerzeichen",
-  "sentences": "Satze",
-  "paragraphs": "Absatze",
+  "sentences": "Sätze",
+  "paragraphs": "Absätze",
   "readingTime": "Lesezeit",
   "readingTimeValue": "~{min} Min.",
-  "privacyNote": "Dein Text verlasst nie deinen Browser.",
-  "name": "Word Counter",
-  "description": "Count words, characters, sentences, paragraphs, and reading time",
-  "longDescription": "Paste or type text to instantly see word count, character count (with and without spaces), sentence count, paragraph count, and estimated reading time. All processing happens locally.",
-  "seoTitle": "Word Counter Online — Free Character & Word Count | FileFolks",
-  "seoDescription": "Count words, characters, sentences, and paragraphs instantly. Paste your text and see reading time too. Free and private.",
+  "privacyNote": "Dein Text verlässt nie deinen Browser.",
+  "name": "Wörter zählen",
+  "description": "Zähle Wörter, Zeichen, Sätze, Absätze und Lesezeit",
+  "longDescription": "Text einfügen oder eingeben, um sofort Wortanzahl, Zeichenanzahl (mit und ohne Leerzeichen), Satzanzahl, Absatzanzahl und die geschätzte Lesezeit zu sehen. Die gesamte Verarbeitung findet lokal statt.",
+  "seoTitle": "Wörter zählen online — kostenlos, ohne Anmeldung, privat | FileFolks",
+  "seoDescription": "Wörter, Zeichen, Sätze und Absätze sofort zählen. Text einfügen und Ergebnisse sehen. Kostenlos, privat, ohne Anmeldung.",
   "faqs": [
     {
-      "question": "Does this count spaces as characters?",
-      "answer": "Both counts are shown: characters including spaces and characters excluding spaces."
+      "question": "Werden Leerzeichen als Zeichen gezählt?",
+      "answer": "Beide Zählungen werden angezeigt: Zeichen inklusive Leerzeichen und Zeichen ohne Leerzeichen."
     },
     {
-      "question": "How is reading time calculated?",
-      "answer": "Based on 238 words per minute, the commonly cited average adult silent reading rate."
+      "question": "Wie wird die Lesezeit berechnet?",
+      "answer": "Grundlage sind 238 Wörter pro Minute – die häufig genannte durchschnittliche Leserate bei Erwachsenen."
     },
     {
-      "question": "Is my text stored or sent anywhere?",
-      "answer": "No. All counting happens locally in your browser. Your text is never transmitted."
+      "question": "Wird mein Text gespeichert oder irgendwo hingeschickt?",
+      "answer": "Nein. Alles wird lokal in deinem Browser verarbeitet. Dein Text wird nie übertragen."
     }
   ]
 }

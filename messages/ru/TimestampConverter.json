@@ -1,0 +1,40 @@
+{
+  "currentLabel": "Текущая метка времени Unix",
+  "copy": "Copy",
+  "copied": "Скопировано!",
+  "unixToDateLabel": "Метка времени Unix в дату",
+  "unixPlaceholder": "Введите метку времени Unix (напр. 1700000000)",
+  "dateToUnixLabel": "Дата в метку времени Unix",
+  "datePlaceholder": "Введите дату (напр. 2024-01-15 14:30:00)",
+  "convert": "Конвертировать",
+  "iso": "ISO 8601",
+  "utc": "UTC",
+  "local": "Местное время",
+  "unixSeconds": "Unix (секунды)",
+  "unixMs": "Unix (миллисекунды)",
+  "errorInvalid": "Неверный ввод — введите метку времени Unix или распознаваемую дату.",
+  "privacyNote": "Все конвертации выполняются в браузере. Ничего не отправляется на сервер.",
+  "name": "Timestamp Converter",
+  "description": "Convert between Unix timestamps and human-readable dates",
+  "longDescription": "Convert Unix epoch timestamps to readable dates and vice versa. See the current timestamp live. Supports seconds and milliseconds auto-detection. Runs entirely in your browser.",
+  "seoTitle": "Unix Timestamp Converter — Epoch to Date Online | FileFolks",
+  "seoDescription": "Convert Unix timestamps to dates and dates to Unix timestamps. See the live current timestamp. Free, no upload, no account.",
+  "faqs": [
+    {
+      "question": "What is a Unix timestamp?",
+      "answer": "A Unix timestamp is the number of seconds that have elapsed since 00:00:00 UTC on 1 January 1970 (the Unix epoch). It is widely used in programming, databases, and APIs."
+    },
+    {
+      "question": "Does the tool support millisecond timestamps?",
+      "answer": "Yes. The tool auto-detects seconds vs. milliseconds based on the magnitude of the input. Timestamps above 10,000,000,000 are treated as milliseconds."
+    },
+    {
+      "question": "What timezone is used for the conversion?",
+      "answer": "The tool shows dates in your local timezone and in UTC simultaneously, so you can see both representations at once."
+    },
+    {
+      "question": "Is anything sent to a server?",
+      "answer": "No. All conversions use the browser's built-in Date object. Nothing is transmitted."
+    }
+  ]
+}

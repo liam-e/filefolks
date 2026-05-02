@@ -1,5 +1,5 @@
 {
-  "dropLabel": "أسقط فيديو هنا أو انقر للاستعراض",
+  "dropLabel": "أسقط فيديو هنا، أو انقر للتصفح",
   "dropSublabel": "MP4 أو WebM أو MOV",
   "remove": "إزالة",
   "fileName": "اسم الملف",
@@ -8,27 +8,27 @@
   "duration": "المدة",
   "resolution": "الدقة",
   "aspectRatio": "نسبة العرض إلى الارتفاع",
-  "estimatedBitrate": "معدل البت المقدر",
+  "estimatedBitrate": "معدل البت المقدّر",
   "errorTitle": "خطأ",
   "errorGeneric": "تعذر قراءة بيانات الفيديو الوصفية. قد لا يكون التنسيق مدعوماً في متصفحك.",
   "privacyNote": "فيديوك لا يغادر متصفحك أبداً.",
   "name": "بيانات الفيديو الوصفية",
-  "description": "Inspect video properties: resolution, duration, file size, and more",
-  "longDescription": "Drop a video file to instantly see its resolution, duration, aspect ratio, estimated bitrate, and file type. No upload needed.",
-  "seoTitle": "Video Metadata Viewer — Inspect Video Properties | FileFolks",
-  "seoDescription": "View video properties including resolution, duration, aspect ratio, and file size. No upload. Runs in your browser.",
+  "description": "فحص خصائص الفيديو: الدقة، المدة، حجم الملف، والمزيد",
+  "longDescription": "أسقط ملف فيديو لرؤية دقته ومدته ونسبة أبعاده ومعدل البت المقدّر ونوع الملف فوراً. لا حاجة للرفع.",
+  "seoTitle": "عارض بيانات الفيديو الوصفية — فحص خصائص الفيديو | FileFolks",
+  "seoDescription": "اعرض خصائص الفيديو بما في ذلك الدقة والمدة ونسبة الأبعاد وحجم الملف. بدون رفع. يعمل في متصفحك.",
   "faqs": [
     {
-      "question": "Is my video uploaded?",
-      "answer": "No. The tool reads metadata using the browser's native video API. Nothing is sent to a server."
+      "question": "هل يتم رفع الفيديو؟",
+      "answer": "لا. تقرأ الأداة البيانات الوصفية باستخدام واجهة برمجة الفيديو الأصلية للمتصفح. لا يُرسل أي شيء إلى خادم."
     },
     {
-      "question": "What properties can I see?",
-      "answer": "File name, file size, file type, duration, resolution (width and height), aspect ratio, and estimated bitrate."
+      "question": "ما الخصائص التي يمكنني رؤيتها؟",
+      "answer": "اسم الملف، حجم الملف، نوع الملف، المدة، الدقة (العرض والارتفاع)، نسبة الأبعاد، ومعدل البت المقدّر."
     },
     {
-      "question": "Can I see the codec?",
-      "answer": "The tool shows the file's MIME type (e.g. video/mp4). Detailed codec info is not available from browser APIs alone."
+      "question": "هل يمكنني رؤية برنامج الترميز؟",
+      "answer": "تعرض الأداة نوع MIME للملف (مثل video/mp4). معلومات برنامج الترميز التفصيلية غير متاحة من واجهات برمجة المتصفح وحدها."
     }
   ]
 }

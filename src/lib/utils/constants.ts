@@ -302,7 +302,7 @@ export const TOOLS: ToolMeta[] = [
     popularity: 1,
     seoTitle: "Merge PDF Files Online — Free, Private, No Upload | FileFolks",
     seoDescription:
-        "Combine multiple PDFs into one file. Runs in your browser with no upload. Drag, drop, reorder, and download.",
+        "Merge PDF files without uploading — combine, reorder, and download. Runs entirely in your browser. No sign-up required.",
     keywords: [
       "merge pdf",
       "combine pdf",
@@ -422,9 +422,9 @@ export const TOOLS: ToolMeta[] = [
     popularity: 4,
     seoTitle: "Compress Image Online — Free, Private, No Upload | FileFolks",
     seoDescription:
-      "Reduce image file size in your browser. PNG, JPG, WebP. No upload. Fast and private.",
-    keywords: ["compress image", "reduce image size", "image compressor online free", "compress jpg online", "compress png online", "shrink image file size"],
-    searchQueries: ["how to compress image online free", "reduce image file size without losing quality", "compress png without losing quality online"],
+      "Compress images without uploading. Reduce JPG, PNG, WebP file size in your browser. Private, free, no sign-up required.",
+    keywords: ["compress image", "compress image without uploading", "reduce image size", "image compressor online free", "compress jpg online", "compress png online", "shrink image file size", "compress image no upload"],
+    searchQueries: ["compress image without uploading to server", "how to compress image online free", "reduce image file size without losing quality", "compress png without losing quality online", "compress image browser only"],
     faqs: [
       { question: "Are my images uploaded to a server?", answer: "No. Compression runs entirely in your browser using JavaScript. Your images never leave your device." },
       { question: "Which formats are supported?", answer: "PNG, JPG, and WebP. The output format matches your input file." },
@@ -443,11 +443,11 @@ export const TOOLS: ToolMeta[] = [
     category: "image",
     tags: ["convert", "no-upload"],
     popularity: 5,
-    seoTitle: "Convert Image Online — PNG to JPG, WebP and more | FileFolks",
+    seoTitle: "Convert Image to WebP, JPG, PNG Online — Free, No Upload | FileFolks",
     seoDescription:
-      "Convert PNG to JPG, JPG to WebP, and more. Free, private, runs in your browser. No upload required.",
-    keywords: ["convert image", "png to jpg", "jpg to png", "convert png to jpg online free", "image converter online", "jpg to webp", "png to webp"],
-    searchQueries: ["how to convert png to jpg online free", "convert image format without uploading", "png to jpg no upload"],
+      "Convert images between WebP, JPG, and PNG — free, private, no upload. Runs in your browser with no account required.",
+    keywords: ["convert image", "convert to webp", "jpg to webp", "webp to jpg", "png to jpg", "jpg to png", "png to webp", "convert image without uploading", "image converter online free"],
+    searchQueries: ["convert image to webp online free", "jpg to webp no upload", "webp to jpg online free", "convert png to jpg without uploading", "image format converter browser"],
     faqs: [
       { question: "Are my images uploaded?", answer: "No. Conversion uses the browser's Canvas API entirely on your device. Nothing is sent to a server." },
       { question: "What happens to transparency when converting to JPG?", answer: "JPG does not support transparency. Any transparent areas are filled with a white background automatically." },
@@ -837,11 +837,11 @@ export const TOOLS: ToolMeta[] = [
     category: "text",
     tags: ["no-upload"],
     popularity: 1,
-    seoTitle: "Word Counter Online — Free Character & Word Count | FileFolks",
+    seoTitle: "Word Counter Online — Free, No Signup, Private | FileFolks",
     seoDescription:
-      "Count words, characters, sentences, and paragraphs instantly. Paste your text and see reading time too. Free and private.",
-    keywords: ["word counter", "character counter", "word count online", "count words online free", "character count", "reading time calculator"],
-    searchQueries: ["word counter online free", "count words in text online", "character counter online"],
+      "Count words, characters, sentences, paragraphs, and reading time instantly. Paste text and see results. Free, private, no sign-up.",
+    keywords: ["word counter", "character counter", "word count online", "word counter no signup", "count words online free", "character count", "reading time calculator", "word counter private"],
+    searchQueries: ["word counter online free no signup", "count words in text online", "character counter online", "word count tool no account"],
     faqs: [
       { question: "Does this count spaces as characters?", answer: "Both counts are shown: characters including spaces and characters excluding spaces." },
       { question: "How is reading time calculated?", answer: "Based on 238 words per minute, which is the commonly cited average adult silent reading rate." },
@@ -936,6 +936,151 @@ export const TOOLS: ToolMeta[] = [
       { question: "Is my text stored?", answer: "No. All processing happens in your browser. Nothing is sent to a server." },
     ],
     icon: "/icons/line-sorter.svg",
+  },
+
+  {
+    slug: "password-generator",
+    name: "Password Generator",
+    description: "Generate strong, random passwords with custom rules",
+    longDescription:
+      "Create strong random passwords instantly. Choose length and mix uppercase, lowercase, numbers, and symbols. Uses the Web Crypto API — everything runs in your browser and nothing is ever sent to a server.",
+    category: "developer",
+    tags: ["generate", "no-upload"],
+    popularity: 8,
+    seoTitle: "Password Generator — Secure Random Passwords Online | FileFolks",
+    seoDescription:
+      "Generate strong random passwords in your browser. Set length, choose character types. No upload, no account, completely private.",
+    keywords: [
+      "password generator",
+      "random password generator",
+      "strong password generator online",
+      "secure password generator",
+      "password generator no signup",
+      "generate password online free",
+      "random password free",
+    ],
+    searchQueries: [
+      "generate strong password online",
+      "random password generator free no account",
+      "secure password generator browser",
+      "strong password generator copy paste",
+    ],
+    faqs: [
+      {
+        question: "Are generated passwords stored anywhere?",
+        answer: "No. Passwords are generated entirely in your browser using the Web Crypto API. Nothing is sent to a server and nothing is logged.",
+      },
+      {
+        question: "How random are the generated passwords?",
+        answer: "All passwords use crypto.getRandomValues(), the same cryptographically secure random source used by browsers for TLS. They are suitable for any password use case.",
+      },
+      {
+        question: "What character sets are available?",
+        answer: "You can include any combination of uppercase letters (A-Z), lowercase letters (a-z), digits (0-9), and symbols. At least one character set must be selected.",
+      },
+      {
+        question: "How long should my password be?",
+        answer: "For most accounts, 16 characters with mixed character types is excellent. For high-value accounts, 20-32 characters is recommended. Avoid anything shorter than 12 characters.",
+      },
+    ],
+    icon: "/icons/password-generator.svg",
+  },
+
+  {
+    slug: "timestamp-converter",
+    name: "Timestamp Converter",
+    description: "Convert between Unix timestamps and human-readable dates",
+    longDescription:
+      "Convert Unix epoch timestamps to readable dates and vice versa. See the current timestamp live. Supports seconds and milliseconds auto-detection. Runs entirely in your browser.",
+    category: "developer",
+    tags: ["convert", "no-upload"],
+    popularity: 9,
+    seoTitle: "Unix Timestamp Converter — Epoch to Date Online | FileFolks",
+    seoDescription:
+      "Convert Unix timestamps to dates and dates to Unix timestamps. See the live current timestamp. Free, no upload, no account.",
+    keywords: [
+      "unix timestamp converter",
+      "epoch converter",
+      "timestamp to date",
+      "unix time converter online",
+      "epoch time converter free",
+      "convert timestamp to readable date",
+      "unix epoch converter",
+    ],
+    searchQueries: [
+      "convert unix timestamp to date online",
+      "epoch converter online free",
+      "current unix timestamp",
+      "timestamp to date converter no signup",
+      "epoch time to human readable",
+    ],
+    faqs: [
+      {
+        question: "What is a Unix timestamp?",
+        answer: "A Unix timestamp is the number of seconds that have elapsed since 00:00:00 UTC on 1 January 1970 (the Unix epoch). It is widely used in programming, databases, and APIs.",
+      },
+      {
+        question: "Does the tool support millisecond timestamps?",
+        answer: "Yes. The tool auto-detects seconds vs. milliseconds based on the magnitude of the input. Timestamps above 10,000,000,000 are treated as milliseconds.",
+      },
+      {
+        question: "What timezone is used for the conversion?",
+        answer: "The tool shows dates in your local timezone and in UTC simultaneously, so you can see both representations at once.",
+      },
+      {
+        question: "Is anything sent to a server?",
+        answer: "No. All conversions use the browser's built-in Date object. Nothing is transmitted.",
+      },
+    ],
+    icon: "/icons/timestamp-converter.svg",
+  },
+
+  {
+    slug: "json-to-csv",
+    name: "JSON to CSV",
+    description: "Convert a JSON array of objects to a downloadable CSV file",
+    longDescription:
+      "Paste a JSON array of objects and instantly preview and download it as a CSV. Column headers are inferred from object keys. Runs entirely in your browser — nothing is uploaded.",
+    category: "developer",
+    tags: ["convert", "format", "no-upload"],
+    popularity: 10,
+    seoTitle: "JSON to CSV Converter — Free, No Upload | FileFolks",
+    seoDescription:
+      "Convert JSON arrays to CSV online. Paste your JSON, preview the table, and download the CSV. Free, private, runs in your browser.",
+    keywords: [
+      "json to csv",
+      "json to csv converter",
+      "convert json to csv online",
+      "json csv converter free",
+      "json array to csv",
+      "export json as csv",
+      "json to csv no upload",
+    ],
+    searchQueries: [
+      "convert json to csv online free",
+      "json to csv no upload",
+      "json array to csv converter browser",
+      "export json to csv without server",
+    ],
+    faqs: [
+      {
+        question: "What JSON structure does this support?",
+        answer: "The input must be a JSON array of objects, for example [{\"name\":\"Alice\",\"age\":30}]. Each object becomes a row; the keys of the first object become column headers.",
+      },
+      {
+        question: "What if objects have different keys?",
+        answer: "All unique keys across all objects are used as column headers. Objects missing a key will produce an empty cell for that column.",
+      },
+      {
+        question: "Is my data uploaded anywhere?",
+        answer: "No. Conversion runs entirely in your browser. Your data never leaves your device.",
+      },
+      {
+        question: "Can I convert CSV back to JSON?",
+        answer: "Not currently, but a CSV to JSON converter is on the roadmap.",
+      },
+    ],
+    icon: "/icons/json-to-csv.svg",
   },
 
   // ... add more tools following this pattern

@@ -1,5 +1,5 @@
 {
-  "placeholder": "Typ of plak tekst om te converteren...",
+  "placeholder": "Typ of plak de tekst om te converteren...",
   "camel": "camelCase",
   "pascal": "PascalCase",
   "snake": "snake_case",
@@ -8,26 +8,26 @@
   "title": "Title Case",
   "upper": "UPPER CASE",
   "lower": "lower case",
-  "copy": "Kopieer",
+  "copy": "Kopiëren",
   "copied": "Gekopieerd",
   "privacyNote": "Je tekst verlaat nooit je browser.",
-  "name": "Case Converter",
-  "description": "Convert text between camelCase, snake_case, kebab-case, Title Case, and more",
-  "longDescription": "Paste text and see it instantly converted to all common casing styles: camelCase, PascalCase, snake_case, kebab-case, SCREAMING_SNAKE_CASE, Title Case, UPPER CASE, and lower case.",
-  "seoTitle": "Case Converter — camelCase, snake_case, kebab-case Online | FileFolks",
-  "seoDescription": "Convert text between camelCase, PascalCase, snake_case, kebab-case, Title Case, and more. Instant, free, and private.",
+  "name": "Schrijfwijze omzetten",
+  "description": "Converteer tekst tussen camelCase, snake_case, kebab-case, Title Case en meer",
+  "longDescription": "Plak tekst en zie het direct omgezet worden naar alle gangbare schrijfwijzen: camelCase, PascalCase, snake_case, kebab-case, SCREAMING_SNAKE_CASE, Title Case, UPPER CASE en lower case.",
+  "seoTitle": "Schrijfwijze omzetten — camelCase, snake_case, kebab-case online | FileFolks",
+  "seoDescription": "Converteer tekst tussen camelCase, PascalCase, snake_case, kebab-case, Title Case en meer. Direct, gratis en privé.",
   "faqs": [
     {
-      "question": "What case formats are supported?",
-      "answer": "camelCase, PascalCase, snake_case, kebab-case, SCREAMING_SNAKE_CASE, Title Case, UPPER CASE, and lower case."
+      "question": "Welke schrijfwijzen worden ondersteund?",
+      "answer": "camelCase, PascalCase, snake_case, kebab-case, SCREAMING_SNAKE_CASE, Title Case, UPPER CASE en lower case."
     },
     {
-      "question": "Does it handle multi-word input?",
-      "answer": "Yes. Word boundaries are detected from spaces, hyphens, underscores, and camelCase transitions."
+      "question": "Werkt het met invoer van meerdere woorden?",
+      "answer": "Ja. Woordgrenzen worden herkend aan spaties, koppeltekens, underscores en camelCase-overgangen."
     },
     {
-      "question": "Is my text stored?",
-      "answer": "No. All conversion happens in your browser. Nothing is sent to a server."
+      "question": "Wordt mijn tekst opgeslagen?",
+      "answer": "Nee. Alle conversie gebeurt in je browser. Er wordt niets naar een server gestuurd."
     }
   ]
 }

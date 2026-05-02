@@ -1,39 +1,39 @@
 {
-  "dropLabel": "اسقط الملفات هنا او انقر للاستعراض",
-  "dropSublabel": "اي ملفات -- سيتم ضغطها في ارشيف ZIP",
-  "remove": "ازالة",
-  "clearAll": "ازالة الكل",
+  "dropLabel": "أسقط الملفات هنا، أو انقر للتصفح",
+  "dropSublabel": "أي ملفات — سيتم ضغطها في أرشيف ZIP",
+  "remove": "إزالة",
+  "clearAll": "مسح الكل",
   "fileCount": "{count} ملف",
   "fileCountPlural": "{count} ملفات",
-  "totalSize": "الاجمالي",
-  "createButton": "انشاء ZIP ({count} ملفات)",
-  "creating": "جار الانشاء...",
+  "totalSize": "الإجمالي",
+  "createButton": "إنشاء ZIP ({count} ملفات)",
+  "creating": "جارٍ الإنشاء...",
   "readyTitle": "ZIP جاهز",
   "downloadButton": "تنزيل ZIP",
-  "errorTitle": "خطا",
-  "errorGeneric": "حدث خطا اثناء انشاء الارشيف.",
-  "privacyNote": "ملفاتك لا تغادر متصفحك ابدا.",
-  "name": "Create ZIP",
-  "description": "Compress multiple files into a ZIP archive in your browser",
-  "longDescription": "Drop any files to pack them into a downloadable ZIP archive. All processing happens in your browser using JSZip — nothing is uploaded.",
-  "seoTitle": "Create ZIP File Online — Free, No Upload | FileFolks",
-  "seoDescription": "Compress multiple files into a ZIP archive. Drop your files and download. Runs entirely in your browser.",
+  "errorTitle": "خطأ",
+  "errorGeneric": "حدث خطأ أثناء إنشاء الأرشيف.",
+  "privacyNote": "ملفاتك لا تغادر متصفحك أبداً.",
+  "name": "إنشاء ZIP",
+  "description": "ضغط ملفات متعددة في أرشيف ZIP داخل متصفحك",
+  "longDescription": "أسقط أي ملفات لضمها في أرشيف ZIP قابل للتنزيل. تتم جميع العمليات في متصفحك باستخدام JSZip — لا يُرفع أي شيء.",
+  "seoTitle": "إنشاء ملف ZIP أونلاين — مجاني، بدون رفع | FileFolks",
+  "seoDescription": "ضغط ملفات متعددة في أرشيف ZIP. أسقط ملفاتك وحمّلها. يعمل بالكامل في متصفحك.",
   "faqs": [
     {
-      "question": "Are my files uploaded?",
-      "answer": "No. ZIP creation uses the JSZip library running entirely in your browser. Your files never leave your device."
+      "question": "هل يتم رفع ملفاتي؟",
+      "answer": "لا. يستخدم إنشاء ZIP مكتبة JSZip التي تعمل بالكامل في متصفحك. ملفاتك لا تغادر جهازك أبداً."
     },
     {
-      "question": "How many files can I add?",
-      "answer": "There is no hard limit. The practical limit depends on your device memory and the total uncompressed size."
+      "question": "كم عدد الملفات التي يمكنني إضافتها؟",
+      "answer": "لا يوجد حد صارم. الحد العملي يعتمد على ذاكرة جهازك وإجمالي الحجم غير المضغوط."
     },
     {
-      "question": "What compression does it use?",
-      "answer": "DEFLATE compression at level 6, the same algorithm used by most ZIP tools."
+      "question": "ما نوع الضغط المستخدم؟",
+      "answer": "ضغط DEFLATE عند المستوى 6، وهو نفس الخوارزمية التي تستخدمها معظم أدوات ZIP."
     },
     {
-      "question": "Can I add more files after the initial drop?",
-      "answer": "Yes. Drop more files onto the drop zone at any time before clicking Create ZIP."
+      "question": "هل يمكنني إضافة المزيد من الملفات بعد الإسقاط الأول؟",
+      "answer": "نعم. أسقط المزيد من الملفات على منطقة الإسقاط في أي وقت قبل النقر على إنشاء ZIP."
     }
   ]
 }

@@ -1,38 +1,38 @@
 {
-  "dropLabel": "أسقط فيديو هنا أو انقر للاستعراض",
+  "dropLabel": "أسقط فيديو هنا، أو انقر للتصفح",
   "dropSublabel": "MP4 أو WebM أو MOV",
   "remove": "إزالة",
   "timestampLabel": "الطابع الزمني",
   "widthLabel": "عرض الإخراج",
   "formatLabel": "التنسيق",
   "captureButton": "التقاط الإطار",
-  "processing": "جاري الالتقاط...",
+  "processing": "جارٍ الالتقاط...",
   "downloadButton": "تنزيل الصورة",
   "errorTitle": "خطأ",
-  "errorLoad": "تعذر قراءة بيانات الفيديو الوصفية. جرب ملفاً آخر.",
-  "errorGeneric": "حدث خطأ ما. جرب فيديو آخر.",
+  "errorLoad": "تعذر قراءة بيانات الفيديو الوصفية. جرّب ملفاً آخر.",
+  "errorGeneric": "حدث خطأ. جرّب فيديو آخر.",
   "privacyNote": "فيديوك لا يغادر متصفحك أبداً.",
   "name": "صورة مصغرة للفيديو",
-  "description": "Capture a still frame from any video and save it as a JPEG",
-  "longDescription": "Drop a video, scrub to the exact moment you want, and download that frame as a JPEG or PNG. No upload needed.",
-  "seoTitle": "Video Thumbnail Generator — Capture Frame as Image | FileFolks",
-  "seoDescription": "Capture any frame from a video as a JPEG or PNG image. Set the exact timestamp, preview, and download. Runs in your browser.",
+  "description": "التقط إطاراً ثابتاً من أي فيديو واحفظه بصيغة JPEG",
+  "longDescription": "أسقط فيديو، انتقل إلى اللحظة التي تريدها بالضبط، وحمّل ذلك الإطار بصيغة JPEG أو PNG. لا حاجة للرفع.",
+  "seoTitle": "مولّد صور مصغرة للفيديو — التقط إطاراً كصورة | FileFolks",
+  "seoDescription": "التقط أي إطار من فيديو كصورة JPEG أو PNG. حدد الطابع الزمني الدقيق، عاين، وحمّل. يعمل في متصفحك.",
   "faqs": [
     {
-      "question": "Is my video uploaded?",
-      "answer": "No. The tool uses the Canvas API directly in your browser. Your video never leaves your device."
+      "question": "هل يتم رفع الفيديو؟",
+      "answer": "لا. تستخدم الأداة Canvas API مباشرة في متصفحك. الفيديو لا يغادر جهازك أبداً."
     },
     {
-      "question": "What video formats are supported?",
-      "answer": "Any format your browser can play, typically MP4, WebM, and Ogg."
+      "question": "ما صيغ الفيديو المدعومة؟",
+      "answer": "أي صيغة يمكن لمتصفحك تشغيلها، عادةً MP4 وWebM وOgg."
     },
     {
-      "question": "What image format is the output?",
-      "answer": "JPEG by default, which gives a smaller file. PNG is also available for lossless output."
+      "question": "ما صيغة الصورة الناتجة؟",
+      "answer": "JPEG بشكل افتراضي، مما يعطي ملفاً أصغر. PNG متاح أيضاً للإخراج بدون فقدان جودة."
     },
     {
-      "question": "Can I capture a frame from any timestamp?",
-      "answer": "Yes. Enter any time in seconds or drag the slider to scrub through the video."
+      "question": "هل يمكنني التقاط إطار من أي طابع زمني؟",
+      "answer": "نعم. أدخل أي وقت بالثواني أو اسحب شريط التمرير للتنقل في الفيديو."
     }
   ]
 }

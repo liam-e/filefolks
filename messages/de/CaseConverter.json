@@ -1,5 +1,5 @@
 {
-  "placeholder": "Text zum Konvertieren eingeben oder einfugen...",
+  "placeholder": "Text zum Konvertieren eingeben oder einfügen...",
   "camel": "camelCase",
   "pascal": "PascalCase",
   "snake": "snake_case",
@@ -10,24 +10,24 @@
   "lower": "lower case",
   "copy": "Kopieren",
   "copied": "Kopiert",
-  "privacyNote": "Dein Text verlasst nie deinen Browser.",
-  "name": "Case Converter",
-  "description": "Convert text between camelCase, snake_case, kebab-case, Title Case, and more",
-  "longDescription": "Paste text and see it instantly converted to all common casing styles: camelCase, PascalCase, snake_case, kebab-case, SCREAMING_SNAKE_CASE, Title Case, UPPER CASE, and lower case.",
-  "seoTitle": "Case Converter — camelCase, snake_case, kebab-case Online | FileFolks",
-  "seoDescription": "Convert text between camelCase, PascalCase, snake_case, kebab-case, Title Case, and more. Instant, free, and private.",
+  "privacyNote": "Dein Text verlässt nie deinen Browser.",
+  "name": "Schreibweise konvertieren",
+  "description": "Text zwischen camelCase, snake_case, kebab-case, Title Case und mehr umwandeln",
+  "longDescription": "Text einfügen und sofort in alle gängigen Schreibweisen umgewandelt sehen: camelCase, PascalCase, snake_case, kebab-case, SCREAMING_SNAKE_CASE, Title Case, UPPER CASE und lower case.",
+  "seoTitle": "Schreibweise konvertieren — camelCase, snake_case, kebab-case online | FileFolks",
+  "seoDescription": "Text zwischen camelCase, PascalCase, snake_case, kebab-case, Title Case und mehr umwandeln. Sofort, kostenlos und privat.",
   "faqs": [
     {
-      "question": "What case formats are supported?",
-      "answer": "camelCase, PascalCase, snake_case, kebab-case, SCREAMING_SNAKE_CASE, Title Case, UPPER CASE, and lower case."
+      "question": "Welche Schreibweisen werden unterstützt?",
+      "answer": "camelCase, PascalCase, snake_case, kebab-case, SCREAMING_SNAKE_CASE, Title Case, UPPER CASE und lower case."
     },
     {
-      "question": "Does it handle multi-word input?",
-      "answer": "Yes. Word boundaries are detected from spaces, hyphens, underscores, and camelCase transitions."
+      "question": "Funktioniert das auch mit mehrteiligen Eingaben?",
+      "answer": "Ja. Wortgrenzen werden anhand von Leerzeichen, Bindestrichen, Unterstrichen und camelCase-Übergängen erkannt."
     },
     {
-      "question": "Is my text stored?",
-      "answer": "No. All conversion happens in your browser. Nothing is sent to a server."
+      "question": "Wird mein Text gespeichert?",
+      "answer": "Nein. Alles wird in deinem Browser konvertiert. Es wird nichts an einen Server gesendet."
     }
   ]
 }

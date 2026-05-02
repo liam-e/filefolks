@@ -8,23 +8,23 @@
   "readingTime": "読了時間",
   "readingTimeValue": "約{min}分",
   "privacyNote": "テキストはブラウザの外に送信されません。",
-  "name": "Word Counter",
-  "description": "Count words, characters, sentences, paragraphs, and reading time",
-  "longDescription": "Paste or type text to instantly see word count, character count (with and without spaces), sentence count, paragraph count, and estimated reading time. All processing happens locally.",
-  "seoTitle": "Word Counter Online — Free Character & Word Count | FileFolks",
-  "seoDescription": "Count words, characters, sentences, and paragraphs instantly. Paste your text and see reading time too. Free and private.",
+  "name": "ワードカウンター",
+  "description": "単語数、文字数、文数、段落数、読了時間を計測します",
+  "longDescription": "テキストを貼り付けるか入力すると、単語数、文字数（スペースあり・なし）、文数、段落数、推定読了時間がすぐに表示されます。すべての処理はローカルで行われます。",
+  "seoTitle": "ワードカウンター オンライン — 無料・登録不要・プライベート | FileFolks",
+  "seoDescription": "単語数・文字数・文数・段落数・読了時間を瞬時に計測。テキストを貼り付けるだけで結果が表示されます。無料・プライベート・登録不要。",
   "faqs": [
     {
-      "question": "Does this count spaces as characters?",
-      "answer": "Both counts are shown: characters including spaces and characters excluding spaces."
+      "question": "スペースは文字数に含まれますか？",
+      "answer": "スペースを含む文字数とスペースを除く文字数の両方が表示されます。"
     },
     {
-      "question": "How is reading time calculated?",
-      "answer": "Based on 238 words per minute, the commonly cited average adult silent reading rate."
+      "question": "読了時間はどのように計算されますか？",
+      "answer": "一般的に引用される成人の平均黙読速度である1分間238ワードを基準にしています。"
     },
     {
-      "question": "Is my text stored or sent anywhere?",
-      "answer": "No. All counting happens locally in your browser. Your text is never transmitted."
+      "question": "テキストは保存・送信されますか？",
+      "answer": "いいえ。すべての処理はブラウザ内でローカルに行われます。テキストが外部に送信されることはありません。"
     }
   ]
 }

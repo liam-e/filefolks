@@ -1,0 +1,35 @@
+{
+  "inputLabel": "JSON-Eingabe",
+  "inputPlaceholder": "JSON-Array mit Objekten hier einfügen...",
+  "convertButton": "In CSV umwandeln",
+  "downloadButton": "CSV herunterladen",
+  "copyButton": "CSV kopieren",
+  "copied": "Kopiert!",
+  "rowCount": "{count} Zeilen",
+  "columnCount": "{count} Spalten",
+  "errorTitle": "Error",
+  "privacyNote": "Deine Daten verlassen deinen Browser nie. Die Konvertierung erfolgt lokal.",
+  "name": "JSON to CSV",
+  "description": "Convert a JSON array of objects to a downloadable CSV file",
+  "longDescription": "Paste a JSON array of objects and instantly preview and download it as a CSV. Column headers are inferred from object keys. Runs entirely in your browser — nothing is uploaded.",
+  "seoTitle": "JSON to CSV Converter — Free, No Upload | FileFolks",
+  "seoDescription": "Convert JSON arrays to CSV online. Paste your JSON, preview the table, and download the CSV. Free, private, runs in your browser.",
+  "faqs": [
+    {
+      "question": "What JSON structure does this support?",
+      "answer": "The input must be a JSON array of objects, for example [{\"name\":\"Alice\",\"age\":30}]. Each object becomes a row; the keys become column headers."
+    },
+    {
+      "question": "What if objects have different keys?",
+      "answer": "All unique keys across all objects are used as column headers. Objects missing a key will produce an empty cell for that column."
+    },
+    {
+      "question": "Is my data uploaded anywhere?",
+      "answer": "No. Conversion runs entirely in your browser. Your data never leaves your device."
+    },
+    {
+      "question": "Can I convert CSV back to JSON?",
+      "answer": "Not currently, but a CSV to JSON converter is on the roadmap."
+    }
+  ]
+}

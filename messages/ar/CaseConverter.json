@@ -1,5 +1,5 @@
 {
-  "placeholder": "اكتب او الصق النص للتحويل...",
+  "placeholder": "اكتب أو الصق النص للتحويل...",
   "camel": "camelCase",
   "pascal": "PascalCase",
   "snake": "snake_case",
@@ -10,24 +10,24 @@
   "lower": "lower case",
   "copy": "نسخ",
   "copied": "تم النسخ",
-  "privacyNote": "نصك لا يغادر متصفحك ابدا.",
-  "name": "Case Converter",
-  "description": "Convert text between camelCase, snake_case, kebab-case, Title Case, and more",
-  "longDescription": "Paste text and see it instantly converted to all common casing styles: camelCase, PascalCase, snake_case, kebab-case, SCREAMING_SNAKE_CASE, Title Case, UPPER CASE, and lower case.",
-  "seoTitle": "Case Converter — camelCase, snake_case, kebab-case Online | FileFolks",
-  "seoDescription": "Convert text between camelCase, PascalCase, snake_case, kebab-case, Title Case, and more. Instant, free, and private.",
+  "privacyNote": "نصك لا يغادر متصفحك أبدًا.",
+  "name": "محوّل حالة النص",
+  "description": "حوّل النص بين camelCase وsnake_case وkebab-case وTitle Case وغيرها",
+  "longDescription": "الصق النص لترى على الفور تحويله إلى جميع أنماط الحالة الشائعة: camelCase وPascalCase وsnake_case وkebab-case وSCREAMING_SNAKE_CASE وTitle Case وUPPER CASE وlower case.",
+  "seoTitle": "محوّل حالة النص — camelCase وsnake_case وkebab-case أونلاين | FileFolks",
+  "seoDescription": "حوّل النص بين camelCase وPascalCase وsnake_case وkebab-case وTitle Case وغيرها. فوري ومجاني وخاص.",
   "faqs": [
     {
-      "question": "What case formats are supported?",
-      "answer": "camelCase, PascalCase, snake_case, kebab-case, SCREAMING_SNAKE_CASE, Title Case, UPPER CASE, and lower case."
+      "question": "ما تنسيقات الحالة المدعومة؟",
+      "answer": "camelCase وPascalCase وsnake_case وkebab-case وSCREAMING_SNAKE_CASE وTitle Case وUPPER CASE وlower case."
     },
     {
-      "question": "Does it handle multi-word input?",
-      "answer": "Yes. Word boundaries are detected from spaces, hyphens, underscores, and camelCase transitions."
+      "question": "هل يدعم الإدخال متعدد الكلمات؟",
+      "answer": "نعم. يتم الكشف عن حدود الكلمات من المسافات والشرطات والشرطات السفلية وتحولات camelCase."
     },
     {
-      "question": "Is my text stored?",
-      "answer": "No. All conversion happens in your browser. Nothing is sent to a server."
+      "question": "هل يتم تخزين نصي؟",
+      "answer": "لا. يتم كل التحويل في متصفحك. لا يُرسل شيء إلى أي خادم."
     }
   ]
 }

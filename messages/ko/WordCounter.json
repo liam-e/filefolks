@@ -8,23 +8,23 @@
   "readingTime": "읽기 시간",
   "readingTimeValue": "약 {min}분",
   "privacyNote": "텍스트는 브라우저 밖으로 전송되지 않습니다.",
-  "name": "Word Counter",
-  "description": "Count words, characters, sentences, paragraphs, and reading time",
-  "longDescription": "Paste or type text to instantly see word count, character count (with and without spaces), sentence count, paragraph count, and estimated reading time. All processing happens locally.",
-  "seoTitle": "Word Counter Online — Free Character & Word Count | FileFolks",
-  "seoDescription": "Count words, characters, sentences, and paragraphs instantly. Paste your text and see reading time too. Free and private.",
+  "name": "단어 수 세기",
+  "description": "단어, 글자, 문장, 단락 수와 읽기 시간을 확인하세요",
+  "longDescription": "텍스트를 붙여넣거나 입력하면 단어 수, 글자 수(공백 포함/제외), 문장 수, 단락 수, 예상 읽기 시간을 바로 확인할 수 있습니다. 모든 처리는 로컬에서 이루어집니다.",
+  "seoTitle": "단어 수 세기 온라인 — 무료, 가입 불필요, 개인정보 보호 | FileFolks",
+  "seoDescription": "단어, 글자, 문장, 단락 수와 읽기 시간을 즉시 확인하세요. 텍스트를 붙여넣고 결과를 확인하세요. 무료이며 개인정보가 보호됩니다.",
   "faqs": [
     {
-      "question": "Does this count spaces as characters?",
-      "answer": "Both counts are shown: characters including spaces and characters excluding spaces."
+      "question": "공백도 글자 수에 포함됩니까?",
+      "answer": "공백 포함 글자 수와 공백 제외 글자 수, 두 가지 모두 표시됩니다."
     },
     {
-      "question": "How is reading time calculated?",
-      "answer": "Based on 238 words per minute, the commonly cited average adult silent reading rate."
+      "question": "읽기 시간은 어떻게 계산됩니까?",
+      "answer": "성인의 평균 묵독 속도로 널리 인용되는 분당 238단어를 기준으로 계산됩니다."
     },
     {
-      "question": "Is my text stored or sent anywhere?",
-      "answer": "No. All counting happens locally in your browser. Your text is never transmitted."
+      "question": "내 텍스트가 저장되거나 어딘가로 전송됩니까?",
+      "answer": "아니요. 모든 처리는 브라우저 내에서 로컬로 이루어집니다. 텍스트는 절대 전송되지 않습니다."
     }
   ]
 }

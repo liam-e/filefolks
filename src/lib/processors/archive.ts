@@ -3,7 +3,7 @@ import JSZip from "jszip";
 export async function createZip(files: File[]): Promise<Blob> {
   const zip = new JSZip();
   for (const file of files) {
-    zip.file(file.name, file);
+    zip.file(file.name, await file.arrayBuffer());
   }
   return zip.generateAsync({
     type: "blob",
@@ -18,7 +18,7 @@ export interface ZipEntry {
 }
 
 export async function listZipEntries(file: File): Promise<ZipEntry[]> {
-  const zip = await JSZip.loadAsync(file);
+  const zip = await JSZip.loadAsync(await file.arrayBuffer());
   const entries: ZipEntry[] = [];
   zip.forEach((path, entry) => {
     entries.push({ path, isDirectory: entry.dir });
@@ -27,7 +27,7 @@ export async function listZipEntries(file: File): Promise<ZipEntry[]> {
 }
 
 export async function extractZipEntry(zipFile: File, entryPath: string): Promise<Blob> {
-  const zip = await JSZip.loadAsync(zipFile);
+  const zip = await JSZip.loadAsync(await zipFile.arrayBuffer());
   const entry = zip.file(entryPath);
   if (!entry) throw new Error(`File not found in archive: ${entryPath}`);
   return entry.async("blob");

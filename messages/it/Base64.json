@@ -20,25 +20,25 @@
   "privacyNote": "I tuoi dati non lasciano mai il browser. Tutta la codifica avviene localmente.",
   "name": "Codifica / Decodifica Base64",
   "description": "Codifica testo o file in Base64, o decodifica Base64 in testo",
-  "longDescription": "Paste text or load a file to encode it as Base64, or paste a Base64 string to decode it. All processing happens locally in your browser.",
+  "longDescription": "Incolla un testo o carica un file per codificarlo in Base64, oppure incolla una stringa Base64 per decodificarla. Tutto viene elaborato localmente nel tuo browser.",
   "seoTitle": "Codifica e Decodifica Base64 online — Gratuito, Privato | FileFolks",
   "seoDescription": "Codifica testo o file in Base64, o decodifica Base64 in testo. Nel tuo browser. Senza upload.",
   "faqs": [
     {
-      "question": "Is my data uploaded to a server?",
-      "answer": "No. Base64 encoding and decoding are pure JavaScript operations that run entirely in your browser."
+      "question": "I miei dati vengono caricati su un server?",
+      "answer": "No. La codifica e decodifica Base64 sono operazioni JavaScript pure che girano interamente nel tuo browser."
     },
     {
-      "question": "What is Base64 used for?",
-      "answer": "Base64 is used to safely transmit binary data as text — in emails, data URLs, API payloads, and configuration files."
+      "question": "A cosa serve Base64?",
+      "answer": "Base64 viene usato per trasmettere in modo sicuro dati binari come testo — nelle email, negli URL dati, nei payload API e nei file di configurazione."
     },
     {
-      "question": "Is there a size limit?",
-      "answer": "There is no hard limit, but very large files (over 10 MB) may slow down your browser tab. The output Base64 string will be roughly 33% larger than the input."
+      "question": "C'è un limite di dimensione?",
+      "answer": "Non c'è un limite rigido, ma file molto grandi (oltre 10 MB) potrebbero rallentare il tab del browser. La stringa Base64 risultante sarà circa il 33% più grande dell'input."
     },
     {
-      "question": "Does Base64 encrypt my data?",
-      "answer": "No. Base64 is an encoding scheme, not encryption. Anyone with the Base64 string can decode it instantly. Do not use it to protect sensitive data."
+      "question": "Base64 cifra i miei dati?",
+      "answer": "No. Base64 è uno schema di codifica, non di cifratura. Chiunque abbia la stringa Base64 può decodificarla istantaneamente. Non usarlo per proteggere dati sensibili."
     }
   ]
 }

@@ -11,23 +11,23 @@
   "copy": "복사",
   "copied": "복사됨",
   "privacyNote": "텍스트는 브라우저 밖으로 전송되지 않습니다.",
-  "name": "Case Converter",
-  "description": "Convert text between camelCase, snake_case, kebab-case, Title Case, and more",
-  "longDescription": "Paste text and see it instantly converted to all common casing styles: camelCase, PascalCase, snake_case, kebab-case, SCREAMING_SNAKE_CASE, Title Case, UPPER CASE, and lower case.",
-  "seoTitle": "Case Converter — camelCase, snake_case, kebab-case Online | FileFolks",
-  "seoDescription": "Convert text between camelCase, PascalCase, snake_case, kebab-case, Title Case, and more. Instant, free, and private.",
+  "name": "대소문자 변환기",
+  "description": "camelCase, snake_case, kebab-case, Title Case 등으로 텍스트를 변환하세요",
+  "longDescription": "텍스트를 붙여넣으면 모든 일반적인 케이스 스타일로 즉시 변환됩니다: camelCase, PascalCase, snake_case, kebab-case, SCREAMING_SNAKE_CASE, Title Case, UPPER CASE, lower case.",
+  "seoTitle": "대소문자 변환기 — camelCase, snake_case, kebab-case 온라인 | FileFolks",
+  "seoDescription": "camelCase, PascalCase, snake_case, kebab-case, Title Case 등으로 텍스트를 변환하세요. 즉시, 무료, 개인정보 보호.",
   "faqs": [
     {
-      "question": "What case formats are supported?",
-      "answer": "camelCase, PascalCase, snake_case, kebab-case, SCREAMING_SNAKE_CASE, Title Case, UPPER CASE, and lower case."
+      "question": "지원되는 케이스 형식은 무엇입니까?",
+      "answer": "camelCase, PascalCase, snake_case, kebab-case, SCREAMING_SNAKE_CASE, Title Case, UPPER CASE, lower case입니다."
     },
     {
-      "question": "Does it handle multi-word input?",
-      "answer": "Yes. Word boundaries are detected from spaces, hyphens, underscores, and camelCase transitions."
+      "question": "여러 단어 입력도 처리됩니까?",
+      "answer": "예. 공백, 하이픈, 밑줄, camelCase 전환 지점에서 단어 경계를 감지합니다."
     },
     {
-      "question": "Is my text stored?",
-      "answer": "No. All conversion happens in your browser. Nothing is sent to a server."
+      "question": "내 텍스트가 저장됩니까?",
+      "answer": "아니요. 모든 변환은 브라우저 내에서 이루어집니다. 서버로 전송되는 것은 없습니다."
     }
   ]
 }

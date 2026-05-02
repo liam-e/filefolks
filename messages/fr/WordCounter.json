@@ -1,30 +1,30 @@
 {
   "placeholder": "Collez ou saisissez votre texte ici...",
   "words": "Mots",
-  "characters": "Caracteres",
+  "characters": "Caractères",
   "charsNoSpaces": "Sans espaces",
   "sentences": "Phrases",
   "paragraphs": "Paragraphes",
   "readingTime": "Temps de lecture",
   "readingTimeValue": "~{min} min",
   "privacyNote": "Votre texte ne quitte jamais votre navigateur.",
-  "name": "Word Counter",
-  "description": "Count words, characters, sentences, paragraphs, and reading time",
-  "longDescription": "Paste or type text to instantly see word count, character count (with and without spaces), sentence count, paragraph count, and estimated reading time. All processing happens locally.",
-  "seoTitle": "Word Counter Online — Free Character & Word Count | FileFolks",
-  "seoDescription": "Count words, characters, sentences, and paragraphs instantly. Paste your text and see reading time too. Free and private.",
+  "name": "Compteur de mots",
+  "description": "Comptez les mots, caractères, phrases, paragraphes et le temps de lecture",
+  "longDescription": "Collez ou saisissez du texte pour voir instantanément le nombre de mots, de caractères (avec et sans espaces), de phrases, de paragraphes et le temps de lecture estimé. Tout le traitement se fait localement.",
+  "seoTitle": "Compteur de mots en ligne — gratuit, sans inscription, privé | FileFolks",
+  "seoDescription": "Comptez mots, caractères, phrases et paragraphes instantanément. Collez votre texte et voyez les résultats. Gratuit et privé.",
   "faqs": [
     {
-      "question": "Does this count spaces as characters?",
-      "answer": "Both counts are shown: characters including spaces and characters excluding spaces."
+      "question": "Les espaces sont-ils comptés comme des caractères?",
+      "answer": "Les deux comptages sont affichés: caractères espaces inclus et caractères espaces exclus."
     },
     {
-      "question": "How is reading time calculated?",
-      "answer": "Based on 238 words per minute, the commonly cited average adult silent reading rate."
+      "question": "Comment le temps de lecture est-il calculé?",
+      "answer": "Sur la base de 238 mots par minute, la vitesse moyenne de lecture silencieuse d'un adulte."
     },
     {
-      "question": "Is my text stored or sent anywhere?",
-      "answer": "No. All counting happens locally in your browser. Your text is never transmitted."
+      "question": "Mon texte est-il stocké ou envoyé quelque part?",
+      "answer": "Non. Tout le comptage se fait localement dans votre navigateur. Votre texte n'est jamais transmis."
     }
   ]
 }

@@ -1,30 +1,30 @@
 {
-  "placeholder": "الصق نصك او اكتبه هنا...",
+  "placeholder": "الصق نصك أو اكتبه هنا...",
   "words": "الكلمات",
-  "characters": "الاحرف",
+  "characters": "الأحرف",
   "charsNoSpaces": "بدون مسافات",
   "sentences": "الجمل",
   "paragraphs": "الفقرات",
   "readingTime": "وقت القراءة",
   "readingTimeValue": "~{min} دقيقة",
-  "privacyNote": "نصك لا يغادر متصفحك ابدا.",
-  "name": "Word Counter",
-  "description": "Count words, characters, sentences, paragraphs, and reading time",
-  "longDescription": "Paste or type text to instantly see word count, character count (with and without spaces), sentence count, paragraph count, and estimated reading time. All processing happens locally.",
-  "seoTitle": "Word Counter Online — Free Character & Word Count | FileFolks",
-  "seoDescription": "Count words, characters, sentences, and paragraphs instantly. Paste your text and see reading time too. Free and private.",
+  "privacyNote": "نصك لا يغادر متصفحك أبدًا.",
+  "name": "عداد الكلمات",
+  "description": "احسب الكلمات والأحرف والجمل والفقرات ووقت القراءة",
+  "longDescription": "الصق النص أو اكتبه لترى فورًا عدد الكلمات وعدد الأحرف (مع المسافات وبدونها) وعدد الجمل وعدد الفقرات والوقت التقديري للقراءة. تتم جميع المعالجة محليًا.",
+  "seoTitle": "عداد الكلمات أونلاين — مجاني، بدون تسجيل، خاص | FileFolks",
+  "seoDescription": "احسب الكلمات والأحرف والجمل والفقرات ووقت القراءة على الفور. الصق النص وشاهد النتائج. مجاني وخاص وبدون تسجيل.",
   "faqs": [
     {
-      "question": "Does this count spaces as characters?",
-      "answer": "Both counts are shown: characters including spaces and characters excluding spaces."
+      "question": "هل تُحسب المسافات ضمن الأحرف؟",
+      "answer": "يُعرض كلا العددين: الأحرف شاملةً المسافات والأحرف بدون مسافات."
     },
     {
-      "question": "How is reading time calculated?",
-      "answer": "Based on 238 words per minute, the commonly cited average adult silent reading rate."
+      "question": "كيف يُحسب وقت القراءة؟",
+      "answer": "يستند الحساب إلى 238 كلمة في الدقيقة، وهو متوسط سرعة القراءة الصامتة للبالغين."
     },
     {
-      "question": "Is my text stored or sent anywhere?",
-      "answer": "No. All counting happens locally in your browser. Your text is never transmitted."
+      "question": "هل يتم تخزين نصي أو إرساله في أي مكان؟",
+      "answer": "لا. يتم كل الحساب محليًا في متصفحك. لا يُرسل نصك أبدًا."
     }
   ]
 }

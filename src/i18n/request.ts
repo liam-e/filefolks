@@ -42,7 +42,10 @@ export default getRequestConfig(async ({ requestLocale }) => {
     "CaseConverter",
     "LoremIpsum",
     "DuplicateLineRemover",
-    "LineSorter"
+    "LineSorter",
+    "PasswordGenerator",
+    "TimestampConverter",
+    "JsonToCsv"
   ] as const;
 
   const messages = await Promise.all(

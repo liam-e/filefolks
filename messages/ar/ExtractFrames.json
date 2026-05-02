@@ -1,39 +1,39 @@
 {
-  "dropLabel": "اسقط مقطع فيديو هنا او انقر للتصفح",
-  "dropSublabel": "MP4 او WebM او MOV",
-  "remove": "ازالة",
+  "dropLabel": "أسقط مقطع فيديو هنا، أو انقر للتصفح",
+  "dropSublabel": "MP4 أو WebM أو MOV",
+  "remove": "إزالة",
   "intervalLabel": "التقاط كل",
-  "maxFramesLabel": "الحد الاقصى للاطارات",
-  "extractButton": "استخراج الاطارات",
+  "maxFramesLabel": "الحد الأقصى للإطارات",
+  "extractButton": "استخراج الإطارات",
   "capturing": "التقاط",
   "encoding": "ترميز",
   "processing": "جارٍ المعالجة",
-  "framesLabel": "اطارات",
+  "framesLabel": "إطارات",
   "downloadZip": "تنزيل ZIP",
-  "errorTitle": "خطا",
-  "errorGeneric": "حدث خطا. يرجى تجربة مقطع فيديو اخر.",
-  "privacyNote": "الفيديو لا يغادر متصفحك ابدا.",
-  "name": "استخراج الاطارات",
-  "description": "Extract frames from a video as PNG images and download as a ZIP",
-  "longDescription": "Drop a video, choose a capture interval, and download all extracted frames as individual PNG files in a ZIP archive. Processing happens entirely in your browser.",
-  "seoTitle": "Extract Frames from Video Online — Free, No Upload | FileFolks",
-  "seoDescription": "Extract frames from any video as PNG images. Set the interval, preview thumbnails, and download a ZIP. Runs in your browser.",
+  "errorTitle": "خطأ",
+  "errorGeneric": "حدث خطأ. يرجى تجربة مقطع فيديو آخر.",
+  "privacyNote": "الفيديو لا يغادر متصفحك أبداً.",
+  "name": "استخراج الإطارات",
+  "description": "استخرج إطارات من فيديو كصور PNG وحمّلها في ملف ZIP",
+  "longDescription": "أسقط فيديو، اختر فترة الالتقاط، وحمّل جميع الإطارات المستخرجة كملفات PNG فردية في أرشيف ZIP. تتم المعالجة بالكامل في متصفحك.",
+  "seoTitle": "استخراج إطارات الفيديو أونلاين — مجاني، بدون رفع | FileFolks",
+  "seoDescription": "استخرج إطارات من أي فيديو كصور PNG. اضبط الفترة الزمنية، عاين المصغرات، وحمّل ملف ZIP. يعمل في متصفحك.",
   "faqs": [
     {
-      "question": "Is my video uploaded?",
-      "answer": "No. Frame extraction uses the Canvas API in your browser. Nothing is sent to a server."
+      "question": "هل يتم رفع الفيديو؟",
+      "answer": "لا. يستخدم استخراج الإطارات Canvas API في متصفحك. لا يُرسل أي شيء إلى خادم."
     },
     {
-      "question": "What video formats are supported?",
-      "answer": "Any format your browser supports, typically MP4, WebM, and Ogg."
+      "question": "ما صيغ الفيديو المدعومة؟",
+      "answer": "أي صيغة يدعمها متصفحك، عادةً MP4 وWebM وOgg."
     },
     {
-      "question": "What resolution are the exported frames?",
-      "answer": "Frames are exported at 480px wide, maintaining the original aspect ratio."
+      "question": "ما دقة الإطارات المُصدَّرة؟",
+      "answer": "تُصدَّر الإطارات بعرض 480 بكسل مع الحفاظ على نسبة العرض إلى الارتفاع الأصلية."
     },
     {
-      "question": "How many frames can I extract?",
-      "answer": "Up to 100 frames per run. For a 60-second video at 1-second intervals that is 60 frames."
+      "question": "كم عدد الإطارات التي يمكنني استخراجها؟",
+      "answer": "حتى 100 إطار في كل تشغيل. لفيديو مدته 60 ثانية بفاصل ثانية واحدة، يكون ذلك 60 إطاراً."
     }
   ]
 }

@@ -11,8 +11,8 @@
   "name": "Word Counter",
   "description": "Count words, characters, sentences, paragraphs, and reading time",
   "longDescription": "Paste or type text to instantly see word count, character count (with and without spaces), sentence count, paragraph count, and estimated reading time. All processing happens locally.",
-  "seoTitle": "Word Counter Online — Free Character & Word Count | FileFolks",
-  "seoDescription": "Count words, characters, sentences, and paragraphs instantly. Paste your text and see reading time too. Free and private.",
+  "seoTitle": "Word Counter Online — Free, No Signup, Private | FileFolks",
+  "seoDescription": "Count words, characters, sentences, paragraphs, and reading time instantly. Paste text and see results. Free, private, no sign-up.",
   "faqs": [
     {
       "question": "Does this count spaces as characters?",

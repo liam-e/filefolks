@@ -11,23 +11,23 @@
   "copy": "Copiar",
   "copied": "Copiado",
   "privacyNote": "Seu texto nunca sai do seu navegador.",
-  "name": "Case Converter",
-  "description": "Convert text between camelCase, snake_case, kebab-case, Title Case, and more",
-  "longDescription": "Paste text and see it instantly converted to all common casing styles: camelCase, PascalCase, snake_case, kebab-case, SCREAMING_SNAKE_CASE, Title Case, UPPER CASE, and lower case.",
-  "seoTitle": "Case Converter — camelCase, snake_case, kebab-case Online | FileFolks",
-  "seoDescription": "Convert text between camelCase, PascalCase, snake_case, kebab-case, Title Case, and more. Instant, free, and private.",
+  "name": "Conversor de maiúsculas",
+  "description": "Converta texto entre camelCase, snake_case, kebab-case, Title Case e mais",
+  "longDescription": "Cole texto e veja-o convertido instantaneamente para todos os estilos comuns: camelCase, PascalCase, snake_case, kebab-case, SCREAMING_SNAKE_CASE, Title Case, UPPER CASE e lower case.",
+  "seoTitle": "Conversor de maiúsculas — camelCase, snake_case, kebab-case online | FileFolks",
+  "seoDescription": "Converta texto entre camelCase, PascalCase, snake_case, kebab-case, Title Case e mais. Instantâneo, gratuito e privado.",
   "faqs": [
     {
-      "question": "What case formats are supported?",
-      "answer": "camelCase, PascalCase, snake_case, kebab-case, SCREAMING_SNAKE_CASE, Title Case, UPPER CASE, and lower case."
+      "question": "Quais formatos são suportados?",
+      "answer": "camelCase, PascalCase, snake_case, kebab-case, SCREAMING_SNAKE_CASE, Title Case, UPPER CASE e lower case."
     },
     {
-      "question": "Does it handle multi-word input?",
-      "answer": "Yes. Word boundaries are detected from spaces, hyphens, underscores, and camelCase transitions."
+      "question": "Funciona com entrada de várias palavras?",
+      "answer": "Sim. Os limites de palavras são detectados a partir de espaços, hífens, underscores e transições de camelCase."
     },
     {
-      "question": "Is my text stored?",
-      "answer": "No. All conversion happens in your browser. Nothing is sent to a server."
+      "question": "Meu texto é armazenado?",
+      "answer": "Não. Toda a conversão acontece no seu navegador. Nada é enviado para um servidor."
     }
   ]
 }

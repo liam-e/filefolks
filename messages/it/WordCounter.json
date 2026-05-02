@@ -8,23 +8,23 @@
   "readingTime": "Tempo di lettura",
   "readingTimeValue": "~{min} min",
   "privacyNote": "Il tuo testo non lascia mai il tuo browser.",
-  "name": "Word Counter",
-  "description": "Count words, characters, sentences, paragraphs, and reading time",
-  "longDescription": "Paste or type text to instantly see word count, character count (with and without spaces), sentence count, paragraph count, and estimated reading time. All processing happens locally.",
-  "seoTitle": "Word Counter Online — Free Character & Word Count | FileFolks",
-  "seoDescription": "Count words, characters, sentences, and paragraphs instantly. Paste your text and see reading time too. Free and private.",
+  "name": "Contatore di parole",
+  "description": "Conta parole, caratteri, frasi, paragrafi e tempo di lettura",
+  "longDescription": "Incolla o digita del testo per vedere subito il conteggio di parole, caratteri (con e senza spazi), frasi, paragrafi e il tempo di lettura stimato. Tutto il processo avviene localmente.",
+  "seoTitle": "Contatore di parole online — gratuito, senza registrazione, privato | FileFolks",
+  "seoDescription": "Conta parole, caratteri, frasi e paragrafi all'istante. Incolla il testo e vedi i risultati. Gratuito e privato.",
   "faqs": [
     {
-      "question": "Does this count spaces as characters?",
-      "answer": "Both counts are shown: characters including spaces and characters excluding spaces."
+      "question": "Gli spazi vengono contati come caratteri?",
+      "answer": "Vengono mostrati entrambi i conteggi: caratteri spazi inclusi e caratteri senza spazi."
     },
     {
-      "question": "How is reading time calculated?",
-      "answer": "Based on 238 words per minute, the commonly cited average adult silent reading rate."
+      "question": "Come viene calcolato il tempo di lettura?",
+      "answer": "Si basa su 238 parole al minuto, la velocità media di lettura silenziosa di un adulto."
     },
     {
-      "question": "Is my text stored or sent anywhere?",
-      "answer": "No. All counting happens locally in your browser. Your text is never transmitted."
+      "question": "Il mio testo viene salvato o inviato da qualche parte?",
+      "answer": "No. Tutto il conteggio avviene localmente nel tuo browser. Il tuo testo non viene mai trasmesso."
     }
   ]
 }

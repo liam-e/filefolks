@@ -14,8 +14,8 @@
   "name": "Convert Image",
   "description": "Convert images between PNG, JPG, and WebP",
   "longDescription": "Drop an image to convert it to PNG, JPG, or WebP. Uses your browser's built-in Canvas API. No upload, no account required.",
-  "seoTitle": "Convert Image Online — PNG to JPG, WebP and more | FileFolks",
-  "seoDescription": "Convert PNG to JPG, JPG to WebP, and more. Free, private, runs in your browser. No upload required.",
+  "seoTitle": "Convert Image to WebP, JPG, PNG Online — Free, No Upload | FileFolks",
+  "seoDescription": "Convert images between WebP, JPG, and PNG — free, private, no upload. Runs in your browser with no account required.",
   "faqs": [
     {
       "question": "Are my images uploaded?",
