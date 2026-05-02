@@ -1,0 +1,15 @@
+{
+  "inputPlaceholder": "Incolla il testo da ordinare...",
+  "orderAZ": "A → Z",
+  "orderZA": "Z → A",
+  "orderShortest": "Piu corto",
+  "orderLongest": "Piu lungo",
+  "orderRandom": "Casuale",
+  "caseSensitiveLabel": "Distinzione maiuscole/minuscole",
+  "inputLabel": "Input",
+  "outputLabel": "Output",
+  "copyButton": "Copia",
+  "copied": "Copiato",
+  "downloadButton": "Scarica .txt",
+  "privacyNote": "Il tuo testo non lascia mai il tuo browser."
+}

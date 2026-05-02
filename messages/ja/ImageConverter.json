@@ -10,5 +10,28 @@
   "successTitle": "変換成功。ダウンロードフォルダをご確認ください。",
   "jpegNote": "透明な領域は白い背景で塗りつぶされます。",
   "privacyNote": "画像はブラウザ外に送信されません。すべての処理はローカルで行われます。",
-  "removeFile": "ファイルを削除"
+  "removeFile": "ファイルを削除",
+  "name": "画像を変換",
+  "description": "PNG、JPG、WebP間で画像を変換",
+  "longDescription": "Drop an image to convert it to PNG, JPG, or WebP. Uses your browser's built-in Canvas API. No upload, no account required.",
+  "seoTitle": "画像をオンラインで変換 — PNG→JPG、WebP他 | FileFolks",
+  "seoDescription": "PNG→JPG、JPG→WebPなどに変換。無料、プライベート、ブラウザで完結。",
+  "faqs": [
+    {
+      "question": "Are my images uploaded?",
+      "answer": "No. Conversion uses the browser's Canvas API entirely on your device. Nothing is sent to a server."
+    },
+    {
+      "question": "What happens to transparency when converting to JPG?",
+      "answer": "JPG does not support transparency. Any transparent areas are filled with a white background automatically."
+    },
+    {
+      "question": "Is there quality loss when converting?",
+      "answer": "Converting to PNG is lossless. Converting to JPG or WebP applies light compression (92% quality by default), which is visually indistinguishable for most images."
+    },
+    {
+      "question": "Can I convert AVIF or GIF files?",
+      "answer": "Currently the tool supports PNG, JPG, and WebP input and output. AVIF and GIF support may be added in future."
+    }
+  ]
 }

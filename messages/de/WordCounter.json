@@ -1,0 +1,11 @@
+{
+  "placeholder": "Text hier einfugen oder eingeben...",
+  "words": "Worter",
+  "characters": "Zeichen",
+  "charsNoSpaces": "Ohne Leerzeichen",
+  "sentences": "Satze",
+  "paragraphs": "Absatze",
+  "readingTime": "Lesezeit",
+  "readingTimeValue": "~{min} Min.",
+  "privacyNote": "Dein Text verlasst nie deinen Browser."
+}

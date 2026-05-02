@@ -12,5 +12,28 @@
   "downloadZip": "Descargar ZIP",
   "errorTitle": "Error",
   "errorGeneric": "Algo salio mal. Prueba con otro video.",
-  "privacyNote": "Tu video nunca sale de tu navegador."
+  "privacyNote": "Tu video nunca sale de tu navegador.",
+  "name": "Extraer fotogramas",
+  "description": "Extract frames from a video as PNG images and download as a ZIP",
+  "longDescription": "Drop a video, choose a capture interval, and download all extracted frames as individual PNG files in a ZIP archive. Processing happens entirely in your browser.",
+  "seoTitle": "Extract Frames from Video Online — Free, No Upload | FileFolks",
+  "seoDescription": "Extract frames from any video as PNG images. Set the interval, preview thumbnails, and download a ZIP. Runs in your browser.",
+  "faqs": [
+    {
+      "question": "Is my video uploaded?",
+      "answer": "No. Frame extraction uses the Canvas API in your browser. Nothing is sent to a server."
+    },
+    {
+      "question": "What video formats are supported?",
+      "answer": "Any format your browser supports, typically MP4, WebM, and Ogg."
+    },
+    {
+      "question": "What resolution are the exported frames?",
+      "answer": "Frames are exported at 480px wide, maintaining the original aspect ratio."
+    },
+    {
+      "question": "How many frames can I extract?",
+      "answer": "Up to 100 frames per run. For a 60-second video at 1-second intervals that is 60 frames."
+    }
+  ]
 }

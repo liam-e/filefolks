@@ -10,5 +10,28 @@
   "successTitle": "转换成功。请查看您的下载文件夹。",
   "jpegNote": "透明区域将填充为白色背景。",
   "privacyNote": "您的图片始终留在您的浏览器中，所有转换均在本地进行。",
-  "removeFile": "删除文件"
+  "removeFile": "删除文件",
+  "name": "转换图片格式",
+  "description": "在 PNG、JPG 和 WebP 之间转换图片",
+  "longDescription": "Drop an image to convert it to PNG, JPG, or WebP. Uses your browser's built-in Canvas API. No upload, no account required.",
+  "seoTitle": "在线转换图片 — PNG 转 JPG、WebP 等 | FileFolks",
+  "seoDescription": "PNG 转 JPG、JPG 转 WebP 等格式转换。免费、私密，在您的浏览器中运行。",
+  "faqs": [
+    {
+      "question": "Are my images uploaded?",
+      "answer": "No. Conversion uses the browser's Canvas API entirely on your device. Nothing is sent to a server."
+    },
+    {
+      "question": "What happens to transparency when converting to JPG?",
+      "answer": "JPG does not support transparency. Any transparent areas are filled with a white background automatically."
+    },
+    {
+      "question": "Is there quality loss when converting?",
+      "answer": "Converting to PNG is lossless. Converting to JPG or WebP applies light compression (92% quality by default), which is visually indistinguishable for most images."
+    },
+    {
+      "question": "Can I convert AVIF or GIF files?",
+      "answer": "Currently the tool supports PNG, JPG, and WebP input and output. AVIF and GIF support may be added in future."
+    }
+  ]
 }

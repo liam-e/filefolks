@@ -13,5 +13,28 @@
   "alreadyOptimizedTitle": "파일이 이미 잘 최적화되어 있습니다.",
   "alreadyOptimizedBody": "압축된 버전({compressedSize})이 원본({originalSize})보다 작지 않습니다. 원본 파일을 유지하세요.",
   "privacyNote": "이미지는 브라우저를 절대 벗어나지 않습니다. 모든 압축은 로컬에서 수행됩니다.",
-  "removeFile": "파일 제거"
+  "removeFile": "파일 제거",
+  "name": "이미지 압축",
+  "description": "최소한의 품질 손실로 이미지 파일 크기 줄이기",
+  "longDescription": "Drop a PNG, JPG, or WebP image to compress it. File size is reduced while preserving visual quality — everything runs in your browser. Nothing is uploaded.",
+  "seoTitle": "이미지 온라인 압축 — 무료, 개인정보 보호, 업로드 없음 | FileFolks",
+  "seoDescription": "브라우저에서 이미지 압축. PNG, JPG, WebP. 업로드 없음. 빠르고 개인적.",
+  "faqs": [
+    {
+      "question": "Are my images uploaded to a server?",
+      "answer": "No. Compression runs entirely in your browser using JavaScript. Your images never leave your device."
+    },
+    {
+      "question": "Which formats are supported?",
+      "answer": "PNG, JPG, and WebP. The output format matches your input file."
+    },
+    {
+      "question": "How much will the file shrink?",
+      "answer": "Savings vary by image. Photographs typically compress 40-70%. Images that are already heavily compressed will see smaller gains."
+    },
+    {
+      "question": "Will compression affect image quality?",
+      "answer": "The tool targets a maximum output size of 1 MB while preserving as much quality as possible. For most photos the difference is imperceptible."
+    }
+  ]
 }

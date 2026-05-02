@@ -1,0 +1,14 @@
+{
+  "placeholder": "اكتب او الصق النص للتحويل...",
+  "camel": "camelCase",
+  "pascal": "PascalCase",
+  "snake": "snake_case",
+  "kebab": "kebab-case",
+  "screaming": "SCREAMING_SNAKE_CASE",
+  "title": "Title Case",
+  "upper": "UPPER CASE",
+  "lower": "lower case",
+  "copy": "نسخ",
+  "copied": "تم النسخ",
+  "privacyNote": "نصك لا يغادر متصفحك ابدا."
+}

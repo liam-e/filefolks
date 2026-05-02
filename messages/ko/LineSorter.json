@@ -1,0 +1,15 @@
+{
+  "inputPlaceholder": "정렬할 텍스트를 붙여넣으세요...",
+  "orderAZ": "A → Z",
+  "orderZA": "Z → A",
+  "orderShortest": "짧은 순",
+  "orderLongest": "긴 순",
+  "orderRandom": "무작위",
+  "caseSensitiveLabel": "대소문자 구분",
+  "inputLabel": "입력",
+  "outputLabel": "출력",
+  "copyButton": "복사",
+  "copied": "복사됨",
+  "downloadButton": ".txt 다운로드",
+  "privacyNote": "텍스트는 브라우저 밖으로 전송되지 않습니다."
+}

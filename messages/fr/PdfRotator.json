@@ -14,5 +14,28 @@
   "privacyNote": "Votre fichier ne quitte jamais votre navigateur. Tout le traitement s'effectue localement.",
   "removeFile": "Supprimer le fichier",
   "loadingPages": "Chargement...",
-  "pageCount": "{count} pages"
+  "pageCount": "{count} pages",
+  "name": "Faire pivoter le PDF",
+  "description": "Faire pivoter les pages d'un PDF de 90°, 180° ou 270°",
+  "longDescription": "Déposez un PDF et choisissez un angle de rotation. Toutes les pages pivotent et le résultat se télécharge instantanément, dans votre navigateur.",
+  "seoTitle": "Faire pivoter un PDF en ligne — Gratuit, Privé, Sans envoi | FileFolks",
+  "seoDescription": "Faites pivoter toutes les pages d'un PDF de 90°, 180° ou 270°. Dans votre navigateur. Sans envoi.",
+  "faqs": [
+    {
+      "question": "Mon PDF est-il envoyé à un serveur ?",
+      "answer": "Non. La rotation se fait dans votre navigateur avec pdf-lib. Votre fichier ne quitte jamais votre appareil."
+    },
+    {
+      "question": "Puis-je faire pivoter uniquement des pages spécifiques ?",
+      "answer": "Actuellement l'outil fait pivoter toutes les pages du même montant. La rotation par page pourrait être ajoutée ultérieurement."
+    },
+    {
+      "question": "Quelle direction correspond à 90° droite ?",
+      "answer": "90° droite fait pivoter chaque page dans le sens des aiguilles d'une montre. 90° gauche dans le sens contraire. 180° retourne les pages à l'envers."
+    },
+    {
+      "question": "Le texte et les images seront-ils affectés ?",
+      "answer": "Non. Seule l'orientation de visualisation change. Tout le contenu est préservé exactement."
+    }
+  ]
 }

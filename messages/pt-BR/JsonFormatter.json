@@ -20,5 +20,28 @@
   "statsKeys": "Chaves",
   "statsDepth": "Profundidade",
   "statsSize": "Tamanho",
-  "privacyNote": "Seus dados nunca saem do seu navegador. Todo o processamento ocorre localmente no seu dispositivo."
+  "privacyNote": "Seus dados nunca saem do seu navegador. Todo o processamento ocorre localmente no seu dispositivo.",
+  "name": "Formatador JSON",
+  "description": "Formate, valide e minifique dados JSON",
+  "longDescription": "Cole ou solte um arquivo JSON para formatá-lo, validá-lo e inspecioná-lo. Veja a contagem de chaves, a profundidade de aninhamento e o tamanho do arquivo rapidamente. Tudo funciona no seu navegador — nada é enviado.",
+  "seoTitle": "Formatador e Validador JSON — Grátis, Privado, Sem Upload | FileFolks",
+  "seoDescription": "Formate, valide e minifique JSON online. Funciona inteiramente no seu navegador. Seus dados nunca saem do seu dispositivo.",
+  "faqs": [
+    {
+      "question": "Meus dados JSON são enviados para um servidor?",
+      "answer": "Não. Todo o processamento ocorre no seu navegador usando JavaScript. Seus dados nunca saem do seu dispositivo."
+    },
+    {
+      "question": "Qual é o tamanho máximo de JSON que posso formatar?",
+      "answer": "Não há um limite fixo, mas arquivos muito grandes (acima de 50 MB) podem deixar a aba do navegador mais lenta."
+    },
+    {
+      "question": "Posso formatar JSON com comentários (JSONC)?",
+      "answer": "O JSON padrão não suporta comentários. Se a sua entrada contiver comentários, o validador reportará um erro de análise."
+    },
+    {
+      "question": "Qual é a diferença entre formatar e minificar?",
+      "answer": "Formatar adiciona recuo e quebras de linha para tornar o JSON legível por humanos. Minificar remove todos os espaços desnecessários para reduzir o tamanho do arquivo."
+    }
+  ]
 }

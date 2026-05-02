@@ -17,5 +17,28 @@
   "loadFile": "Bestand laden",
   "errorTitle": "Fout",
   "invalidBase64": "Ongeldige Base64-invoer",
-  "privacyNote": "Uw gegevens verlaten nooit uw browser. Alle codering vindt lokaal plaats."
+  "privacyNote": "Uw gegevens verlaten nooit uw browser. Alle codering vindt lokaal plaats.",
+  "name": "Base64 coderen / decoderen",
+  "description": "Codeer tekst of bestanden naar Base64, of decodeer Base64 terug naar tekst",
+  "longDescription": "Paste text or load a file to encode it as Base64, or paste a Base64 string to decode it. All processing happens locally in your browser.",
+  "seoTitle": "Base64 online coderen en decoderen — Gratis, Privé | FileFolks",
+  "seoDescription": "Codeer tekst of bestanden naar Base64, of decodeer Base64 naar tekst. In uw browser.",
+  "faqs": [
+    {
+      "question": "Is my data uploaded to a server?",
+      "answer": "No. Base64 encoding and decoding are pure JavaScript operations that run entirely in your browser."
+    },
+    {
+      "question": "What is Base64 used for?",
+      "answer": "Base64 is used to safely transmit binary data as text — in emails, data URLs, API payloads, and configuration files."
+    },
+    {
+      "question": "Is there a size limit?",
+      "answer": "There is no hard limit, but very large files (over 10 MB) may slow down your browser tab. The output Base64 string will be roughly 33% larger than the input."
+    },
+    {
+      "question": "Does Base64 encrypt my data?",
+      "answer": "No. Base64 is an encoding scheme, not encryption. Anyone with the Base64 string can decode it instantly. Do not use it to protect sensitive data."
+    }
+  ]
 }

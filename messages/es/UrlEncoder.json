@@ -12,5 +12,28 @@
   "clear": "Limpiar",
   "privacyNote": "Todo el procesamiento ocurre localmente en tu navegador.",
   "errorTitle": "Error",
-  "invalidEncoding": "Codificación URL inválida — comprueba las secuencias de porcentaje incompletas."
+  "invalidEncoding": "Codificación URL inválida — comprueba las secuencias de porcentaje incompletas.",
+  "name": "Codificar / Decodificar URL",
+  "description": "Codifica y decodifica cadenas URL y parámetros de consulta",
+  "longDescription": "Pega cualquier texto para codificarlo en URL de forma segura, o pega una cadena codificada con porcentaje para decodificarla. Todo ocurre localmente en tu navegador.",
+  "seoTitle": "Codificar y Decodificar URL online — Gratis, Privado | FileFolks",
+  "seoDescription": "Codifica o decodifica URLs y cadenas de consulta al instante en tu navegador. Sin subida ni cuenta.",
+  "faqs": [
+    {
+      "question": "¿Se suben mis datos?",
+      "answer": "No. La codificación y decodificación de URL son operaciones JavaScript puras que se ejecutan en tu navegador."
+    },
+    {
+      "question": "¿Qué es la codificación de URL?",
+      "answer": "La codificación de URL (codificación porcentual) sustituye los caracteres especiales por un signo de porcentaje seguido de dos dígitos hexadecimales. Por ejemplo, un espacio se convierte en %20."
+    },
+    {
+      "question": "¿Cuál es la diferencia entre encodeURIComponent y encodeURI?",
+      "answer": "Esta herramienta usa encodeURIComponent, que codifica todo excepto A–Z a–z 0–9 - _ . ! ~ * ' ( ). Úsalo para valores individuales de parámetros de consulta."
+    },
+    {
+      "question": "¿Puedo decodificar una URL completa?",
+      "answer": "Sí. Pega la URL codificada completa en la pestaña Decodificar y la herramienta decodificará todas las secuencias de porcentaje."
+    }
+  ]
 }

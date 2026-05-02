@@ -1,0 +1,14 @@
+{
+  "countLabel": "Количество",
+  "unitLabel": "Единица",
+  "unitParagraphs": "Абзацы",
+  "unitSentences": "Предложения",
+  "unitWords": "Слова",
+  "classicStartLabel": "Начать с классического вступления",
+  "generateButton": "Генерировать",
+  "regenerateButton": "Регенерировать",
+  "outputLabel": "Результат",
+  "copyButton": "Копировать",
+  "copied": "Скопировано",
+  "privacyNote": "Генерируется полностью в вашем браузере."
+}

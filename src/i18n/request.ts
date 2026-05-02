@@ -17,7 +17,6 @@ export default getRequestConfig(async ({ requestLocale }) => {
     "Categories",
     "Privacy",
     "About",
-    "tools",
     "PdfMerger",
     "PdfCompressor",
     "JsonFormatter",

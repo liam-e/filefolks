@@ -12,5 +12,28 @@
   "privacyNote": "Je bestanden verlaten nooit je browser. Alle samenvoeging vindt lokaal op je apparaat plaats.",
   "moveUp": "Omhoog",
   "moveDown": "Omlaag",
-  "removeFile": "Bestand verwijderen"
+  "removeFile": "Bestand verwijderen",
+  "name": "PDF's samenvoegen",
+  "description": "Combineer meerdere PDF-bestanden tot één document",
+  "longDescription": "Sleep je PDF-bestanden om ze samen te voegen tot één document. Herorden pagina's door te slepen. Alles gebeurt in je browser — je bestanden verlaten nooit je apparaat.",
+  "seoTitle": "PDF's online samenvoegen — Gratis, Privé, Geen upload | FileFolks",
+  "seoDescription": "Combineer meerdere PDF's tot één bestand. Draait in je browser zonder upload. Slepen, neerzetten, herordenen en downloaden.",
+  "faqs": [
+    {
+      "question": "Worden mijn PDF-bestanden naar een server geüpload?",
+      "answer": "Nee. Al het samenvoegen vindt lokaal in je browser plaats met behulp van de pdf-lib bibliotheek. Je bestanden verlaten nooit je apparaat."
+    },
+    {
+      "question": "Is er een limiet op het aantal PDF's dat ik kan samenvoegen?",
+      "answer": "Er is geen vaste limiet. De praktische limiet hangt af van het beschikbare geheugen van je apparaat. De meeste gebruikers kunnen probleemloos 50+ bestanden samenvoegen."
+    },
+    {
+      "question": "Kan ik pagina's herordenen voor het samenvoegen?",
+      "answer": "Ja. Na het neerzetten van je bestanden kun je ze in de gewenste volgorde slepen. De samengevoegde PDF volgt deze volgorde."
+    },
+    {
+      "question": "Behoudt de samengevoegde PDF bladwijzers en links?",
+      "answer": "Basisinhoud van pagina's, afbeeldingen en tekst worden bewaard. Interactieve elementen zoals bladwijzers en formuliervelden worden mogelijk niet in alle gevallen overgedragen."
+    }
+  ]
 }

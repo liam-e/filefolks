@@ -1,0 +1,11 @@
+{
+  "placeholder": "الصق نصك او اكتبه هنا...",
+  "words": "الكلمات",
+  "characters": "الاحرف",
+  "charsNoSpaces": "بدون مسافات",
+  "sentences": "الجمل",
+  "paragraphs": "الفقرات",
+  "readingTime": "وقت القراءة",
+  "readingTimeValue": "~{min} دقيقة",
+  "privacyNote": "نصك لا يغادر متصفحك ابدا."
+}

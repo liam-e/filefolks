@@ -1,0 +1,11 @@
+{
+  "placeholder": "Plak of typ je tekst hier...",
+  "words": "Woorden",
+  "characters": "Tekens",
+  "charsNoSpaces": "Zonder spaties",
+  "sentences": "Zinnen",
+  "paragraphs": "Alinea's",
+  "readingTime": "Leestijd",
+  "readingTimeValue": "~{min} min",
+  "privacyNote": "Je tekst verlaat nooit je browser."
+}

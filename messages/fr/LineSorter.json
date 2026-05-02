@@ -1,0 +1,15 @@
+{
+  "inputPlaceholder": "Collez le texte a trier...",
+  "orderAZ": "A → Z",
+  "orderZA": "Z → A",
+  "orderShortest": "Plus court",
+  "orderLongest": "Plus long",
+  "orderRandom": "Aleatoire",
+  "caseSensitiveLabel": "Respecter la casse",
+  "inputLabel": "Entree",
+  "outputLabel": "Resultat",
+  "copyButton": "Copier",
+  "copied": "Copie",
+  "downloadButton": "Telecharger .txt",
+  "privacyNote": "Votre texte ne quitte jamais votre navigateur."
+}

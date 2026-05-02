@@ -13,5 +13,28 @@
   "alreadyOptimizedTitle": "الملف محسّن بالفعل.",
   "alreadyOptimizedBody": "النسخة المضغوطة ({compressedSize}) ليست أصغر من الأصلية ({originalSize}). احتفظ بملفك الأصلي.",
   "privacyNote": "صورتك لا تغادر متصفحك أبدًا. كل الضغط يتم محليًا.",
-  "removeFile": "إزالة الملف"
+  "removeFile": "إزالة الملف",
+  "name": "ضغط الصورة",
+  "description": "تقليل حجم ملف الصورة مع الحد الأدنى من فقدان الجودة",
+  "longDescription": "Drop a PNG, JPG, or WebP image to compress it. File size is reduced while preserving visual quality — everything runs in your browser. Nothing is uploaded.",
+  "seoTitle": "ضغط الصورة عبر الإنترنت — مجاني، خاص، بدون رفع | FileFolks",
+  "seoDescription": "قلل حجم الصورة في متصفحك. PNG وJPG وWebP. بدون رفع. سريع وخاص.",
+  "faqs": [
+    {
+      "question": "Are my images uploaded to a server?",
+      "answer": "No. Compression runs entirely in your browser using JavaScript. Your images never leave your device."
+    },
+    {
+      "question": "Which formats are supported?",
+      "answer": "PNG, JPG, and WebP. The output format matches your input file."
+    },
+    {
+      "question": "How much will the file shrink?",
+      "answer": "Savings vary by image. Photographs typically compress 40-70%. Images that are already heavily compressed will see smaller gains."
+    },
+    {
+      "question": "Will compression affect image quality?",
+      "answer": "The tool targets a maximum output size of 1 MB while preserving as much quality as possible. For most photos the difference is imperceptible."
+    }
+  ]
 }

@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
-import { getTranslations, setRequestLocale } from "next-intl/server";
+import { getTranslations, getMessages, setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { TOOLS, CATEGORIES } from "@/lib/utils/constants";
+import { SLUG_TO_NAMESPACE } from "@/lib/utils/toolNamespaces";
 import type { ToolCategory } from "@/lib/utils/constants";
 import { getAlternates } from "@/lib/utils/metadata";
 import { ToolIcon } from "@/components/shared/ToolIcon";
@@ -37,8 +38,8 @@ export default async function LocaleHomePage({ params }: Props) {
   const { locale } = await params;
   setRequestLocale(locale);
   const t = await getTranslations("Home");
-  const tTools = await getTranslations({ locale, namespace: "tools" });
   const tCategories = await getTranslations({ locale, namespace: "Categories" });
+  const messages = await getMessages() as Record<string, Record<string, string>>;
 
   return (
     <div className="max-w-7xl mx-auto py-6 sm:py-12">
@@ -92,8 +93,8 @@ export default async function LocaleHomePage({ params }: Props) {
                 <ToolCard
                   key={tool.slug}
                   tool={tool}
-                  name={tTools(`${tool.slug}.name`)}
-                  description={tTools(`${tool.slug}.description`)}
+                  name={messages[SLUG_TO_NAMESPACE[tool.slug]]?.name ?? tool.name}
+                  description={messages[SLUG_TO_NAMESPACE[tool.slug]]?.description ?? tool.description}
                 />
               ))}
             </div>

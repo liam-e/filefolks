@@ -1,0 +1,14 @@
+{
+  "countLabel": "개수",
+  "unitLabel": "단위",
+  "unitParagraphs": "단락",
+  "unitSentences": "문장",
+  "unitWords": "단어",
+  "classicStartLabel": "클래식 도입부로 시작",
+  "generateButton": "생성",
+  "regenerateButton": "재생성",
+  "outputLabel": "출력",
+  "copyButton": "복사",
+  "copied": "복사됨",
+  "privacyNote": "브라우저에서 완전히 생성됩니다."
+}

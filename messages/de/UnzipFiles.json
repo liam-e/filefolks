@@ -1,0 +1,13 @@
+{
+  "dropLabel": "ZIP-Datei hier ablegen oder zum Durchsuchen klicken",
+  "dropSublabel": "Nur .zip-Archive",
+  "remove": "Entfernen",
+  "loading": "Archiv wird gelesen...",
+  "fileCount": "{count} Datei",
+  "fileCountPlural": "{count} Dateien",
+  "folders": "Ordner",
+  "download": "Herunterladen",
+  "errorTitle": "Fehler",
+  "errorGeneric": "Das Archiv konnte nicht gelesen werden. Die Datei ist moglicherweise beschadigt oder passwortgeschutzt.",
+  "privacyNote": "Deine Dateien verlassen nie deinen Browser."
+}

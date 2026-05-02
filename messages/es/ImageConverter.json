@@ -10,5 +10,28 @@
   "successTitle": "Convertido correctamente. Comprueba tu carpeta de descargas.",
   "jpegNote": "Las áreas transparentes se rellenarán con un fondo blanco.",
   "privacyNote": "Tu imagen nunca sale de tu navegador. Toda la conversión ocurre localmente.",
-  "removeFile": "Eliminar archivo"
+  "removeFile": "Eliminar archivo",
+  "name": "Convertir imagen",
+  "description": "Convierte imágenes entre PNG, JPG y WebP",
+  "longDescription": "Suelta una imagen para convertirla a PNG, JPG o WebP. Usa la API Canvas de tu navegador. Sin subida, sin cuenta.",
+  "seoTitle": "Convertir imagen online — PNG a JPG, WebP y más | FileFolks",
+  "seoDescription": "Convierte PNG a JPG, JPG a WebP y más. Gratis, privado, en tu navegador. Sin subida.",
+  "faqs": [
+    {
+      "question": "¿Se suben mis imágenes?",
+      "answer": "No. La conversión usa la API Canvas del navegador en tu dispositivo. Nada se envía a un servidor."
+    },
+    {
+      "question": "¿Qué pasa con la transparencia al convertir a JPG?",
+      "answer": "JPG no admite transparencia. Las áreas transparentes se rellenan automáticamente con fondo blanco."
+    },
+    {
+      "question": "¿Hay pérdida de calidad al convertir?",
+      "answer": "Convertir a PNG no tiene pérdida. Convertir a JPG o WebP aplica compresión ligera (92% de calidad por defecto), visualmente indistinguible."
+    },
+    {
+      "question": "¿Puedo convertir archivos AVIF o GIF?",
+      "answer": "Actualmente la herramienta admite PNG, JPG y WebP. El soporte para AVIF y GIF puede añadirse en el futuro."
+    }
+  ]
 }

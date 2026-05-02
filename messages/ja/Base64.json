@@ -17,5 +17,28 @@
   "loadFile": "ファイルを読み込む",
   "errorTitle": "エラー",
   "invalidBase64": "無効なBase64入力",
-  "privacyNote": "データはブラウザ外に送信されません。すべての処理はローカルで行われます。"
+  "privacyNote": "データはブラウザ外に送信されません。すべての処理はローカルで行われます。",
+  "name": "Base64 エンコード / デコード",
+  "description": "テキストやファイルをBase64にエンコード、またはBase64をテキストにデコード",
+  "longDescription": "Paste text or load a file to encode it as Base64, or paste a Base64 string to decode it. All processing happens locally in your browser.",
+  "seoTitle": "Base64 オンラインエンコード＆デコード — 無料、プライベート | FileFolks",
+  "seoDescription": "テキストやファイルをBase64にエンコード、またはBase64をテキストにデコード。ブラウザで完結。",
+  "faqs": [
+    {
+      "question": "Is my data uploaded to a server?",
+      "answer": "No. Base64 encoding and decoding are pure JavaScript operations that run entirely in your browser."
+    },
+    {
+      "question": "What is Base64 used for?",
+      "answer": "Base64 is used to safely transmit binary data as text — in emails, data URLs, API payloads, and configuration files."
+    },
+    {
+      "question": "Is there a size limit?",
+      "answer": "There is no hard limit, but very large files (over 10 MB) may slow down your browser tab. The output Base64 string will be roughly 33% larger than the input."
+    },
+    {
+      "question": "Does Base64 encrypt my data?",
+      "answer": "No. Base64 is an encoding scheme, not encryption. Anyone with the Base64 string can decode it instantly. Do not use it to protect sensitive data."
+    }
+  ]
 }

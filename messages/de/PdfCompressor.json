@@ -13,5 +13,28 @@
   "alreadyOptimizedTitle": "Datei ist bereits gut optimiert.",
   "alreadyOptimizedBody": "Die komprimierte Version ({compressedSize}) ist nicht kleiner als das Original ({originalSize}). Behalten Sie Ihre Originaldatei.",
   "privacyNote": "Ihre Datei verlässt Ihren Browser nie. Die gesamte Komprimierung erfolgt lokal auf Ihrem Gerät.",
-  "removeFile": "Datei entfernen"
+  "removeFile": "Datei entfernen",
+  "name": "PDF komprimieren",
+  "description": "PDF-Dateigröße reduzieren und dabei den Inhalt erhalten",
+  "longDescription": "Legen Sie ein PDF ab, um dessen Dateigröße zu reduzieren. Das Tool entfernt eingebettete Metadaten und optimiert die interne Struktur vollständig in Ihrem Browser. Ihre Datei wird nie hochgeladen.",
+  "seoTitle": "PDF online komprimieren - kostenlos, privat, kein Upload | FileFolks",
+  "seoDescription": "PDF-Dateigröße im Browser reduzieren. Kein Upload erforderlich. Entfernt Metadaten und optimiert die interne Struktur für kleinere Dateien.",
+  "faqs": [
+    {
+      "question": "Wird mein PDF auf einen Server hochgeladen?",
+      "answer": "Nein. Die gesamte Komprimierung erfolgt in Ihrem Browser mithilfe der pdf-lib-Bibliothek. Ihre Datei verlässt Ihr Gerät nie."
+    },
+    {
+      "question": "Wie stark wird mein PDF verkleinert?",
+      "answer": "Das Tool entfernt eingebettete Metadaten und optimiert die interne Objektstruktur. Die Einsparungen variieren je nach Datei."
+    },
+    {
+      "question": "Ändert sich der Inhalt meines PDFs?",
+      "answer": "Nein. Es werden nur unsichtbare Metadaten und interner struktureller Overhead entfernt. Der Seiteninhalt bleibt exakt erhalten."
+    },
+    {
+      "question": "Was ist, wenn die komprimierte Datei größer als das Original ist?",
+      "answer": "Dies kann vorkommen, wenn das ursprüngliche PDF bereits eng optimiert war. In diesem Fall empfehlen wir, Ihr Original beizubehalten."
+    }
+  ]
 }

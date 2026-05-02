@@ -1,0 +1,11 @@
+{
+  "placeholder": "在此粘贴或输入文本...",
+  "words": "单词",
+  "characters": "字符",
+  "charsNoSpaces": "不含空格",
+  "sentences": "句子",
+  "paragraphs": "段落",
+  "readingTime": "阅读时间",
+  "readingTimeValue": "约{min}分钟",
+  "privacyNote": "您的文本永远不会离开浏览器。"
+}

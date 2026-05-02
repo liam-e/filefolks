@@ -14,5 +14,28 @@
   "privacyNote": "Ihre Datei verlässt nie Ihren Browser. Die gesamte Verarbeitung erfolgt lokal.",
   "removeFile": "Datei entfernen",
   "loadingPages": "Laden...",
-  "pageCount": "{count} Seiten"
+  "pageCount": "{count} Seiten",
+  "name": "PDF drehen",
+  "description": "Seiten in einem PDF um 90°, 180° oder 270° drehen",
+  "longDescription": "Legen Sie ein PDF ab und wählen Sie einen Drehwinkel. Alle Seiten werden gedreht und das Ergebnis wird sofort heruntergeladen — vollständig in Ihrem Browser.",
+  "seoTitle": "PDF online drehen — Kostenlos, Privat, Kein Upload | FileFolks",
+  "seoDescription": "Alle Seiten eines PDFs um 90°, 180° oder 270° drehen. In Ihrem Browser. Kein Upload.",
+  "faqs": [
+    {
+      "question": "Wird mein PDF auf einen Server hochgeladen?",
+      "answer": "Nein. Die Drehung erfolgt in Ihrem Browser mit pdf-lib. Ihre Datei verlässt nie Ihr Gerät."
+    },
+    {
+      "question": "Kann ich nur bestimmte Seiten drehen?",
+      "answer": "Derzeit dreht das Tool alle Seiten um denselben Betrag. Seitenweise Drehung könnte in einem zukünftigen Update hinzugefügt werden."
+    },
+    {
+      "question": "Welche Richtung ist 90° rechts?",
+      "answer": "90° rechts dreht jede Seite im Uhrzeigersinn. 90° links dreht gegen den Uhrzeigersinn. 180° dreht Seiten auf den Kopf."
+    },
+    {
+      "question": "Werden Text und Bilder beeinflusst?",
+      "answer": "Nein. Nur die Anzeigeausrichtung jeder Seite ändert sich. Alle Inhalte bleiben genau erhalten."
+    }
+  ]
 }

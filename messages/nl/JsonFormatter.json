@@ -20,5 +20,28 @@
   "statsKeys": "Sleutels",
   "statsDepth": "Diepte",
   "statsSize": "Grootte",
-  "privacyNote": "Je gegevens verlaten nooit je browser. Alle verwerking vindt lokaal op je apparaat plaats."
+  "privacyNote": "Je gegevens verlaten nooit je browser. Alle verwerking vindt lokaal op je apparaat plaats.",
+  "name": "JSON-opmaker",
+  "description": "JSON-gegevens opmaken, valideren en minificeren",
+  "longDescription": "Plak of sleep een JSON-bestand om het op te maken, te valideren en te inspecteren. Bekijk sleutelaantallen, nestelingsdiepte en bestandsgrootte in één oogopslag. Alles draait in je browser — er wordt niets geüpload.",
+  "seoTitle": "JSON-opmaker en validator — Gratis, Privé, Geen upload | FileFolks",
+  "seoDescription": "JSON online opmaken, valideren en minificeren. Draait volledig in je browser. Je gegevens verlaten nooit je apparaat.",
+  "faqs": [
+    {
+      "question": "Worden mijn JSON-gegevens naar een server verzonden?",
+      "answer": "Nee. Alle verwerking vindt in je browser plaats met JavaScript. Je gegevens verlaten nooit je apparaat."
+    },
+    {
+      "question": "Wat is de maximale JSON-grootte die ik kan opmaken?",
+      "answer": "Er is geen harde limiet, maar zeer grote bestanden (meer dan 50 MB) kunnen ertoe leiden dat je browsertabblad langzamer wordt. Voor de beste prestaties raden we bestanden aan onder de 10 MB."
+    },
+    {
+      "question": "Kan ik JSON met opmerkingen (JSONC) opmaken?",
+      "answer": "Standaard JSON ondersteunt geen opmerkingen. Als je invoer opmerkingen bevat, meldt de validator een parseerfout. Je kunt opmerkingen handmatig verwijderen voor het opmaken."
+    },
+    {
+      "question": "Wat is het verschil tussen opmaken en minificeren?",
+      "answer": "Opmaken voegt inspringing en regeleinden toe om JSON leesbaar te maken voor mensen. Minificeren verwijdert alle onnodige witruimte om de bestandsgrootte te verkleinen."
+    }
+  ]
 }

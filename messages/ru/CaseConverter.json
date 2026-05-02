@@ -1,0 +1,14 @@
+{
+  "placeholder": "Введите или вставьте текст для конвертации...",
+  "camel": "camelCase",
+  "pascal": "PascalCase",
+  "snake": "snake_case",
+  "kebab": "kebab-case",
+  "screaming": "SCREAMING_SNAKE_CASE",
+  "title": "Title Case",
+  "upper": "UPPER CASE",
+  "lower": "lower case",
+  "copy": "Копировать",
+  "copied": "Скопировано",
+  "privacyNote": "Ваш текст никогда не покидает браузер."
+}

@@ -11,5 +11,28 @@
   "errorTitle": "Erro",
   "errorLoad": "Não foi possível ler os metadados do vídeo. Tente outro arquivo.",
   "errorGeneric": "Algo deu errado. Tente outro vídeo.",
-  "privacyNote": "Seu vídeo nunca sai do seu navegador."
+  "privacyNote": "Seu vídeo nunca sai do seu navegador.",
+  "name": "Miniatura de vídeo",
+  "description": "Capture a still frame from any video and save it as a JPEG",
+  "longDescription": "Drop a video, scrub to the exact moment you want, and download that frame as a JPEG or PNG. No upload needed.",
+  "seoTitle": "Video Thumbnail Generator — Capture Frame as Image | FileFolks",
+  "seoDescription": "Capture any frame from a video as a JPEG or PNG image. Set the exact timestamp, preview, and download. Runs in your browser.",
+  "faqs": [
+    {
+      "question": "Is my video uploaded?",
+      "answer": "No. The tool uses the Canvas API directly in your browser. Your video never leaves your device."
+    },
+    {
+      "question": "What video formats are supported?",
+      "answer": "Any format your browser can play, typically MP4, WebM, and Ogg."
+    },
+    {
+      "question": "What image format is the output?",
+      "answer": "JPEG by default, which gives a smaller file. PNG is also available for lossless output."
+    },
+    {
+      "question": "Can I capture a frame from any timestamp?",
+      "answer": "Yes. Enter any time in seconds or drag the slider to scrub through the video."
+    }
+  ]
 }

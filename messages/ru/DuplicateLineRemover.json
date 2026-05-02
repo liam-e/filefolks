@@ -1,0 +1,14 @@
+{
+  "inputPlaceholder": "Вставьте текст с повторяющимися строками сюда...",
+  "caseSensitiveLabel": "Учитывать регистр",
+  "trimLinesLabel": "Убрать пробелы",
+  "removeEmptyLabel": "Удалить пустые строки",
+  "inputLabel": "Ввод",
+  "outputLabel": "Результат",
+  "linesRemoved": "Удалён {count} дубликат",
+  "linesRemovedPlural": "Удалено {count} дубликатов",
+  "copyButton": "Копировать",
+  "copied": "Скопировано",
+  "downloadButton": "Скачать .txt",
+  "privacyNote": "Ваш текст никогда не покидает браузер."
+}

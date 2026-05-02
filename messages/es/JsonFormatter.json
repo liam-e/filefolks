@@ -20,5 +20,28 @@
   "statsKeys": "Claves",
   "statsDepth": "Profundidad",
   "statsSize": "Tamaño",
-  "privacyNote": "Tus datos nunca salen de tu navegador. Todo el procesamiento ocurre localmente en tu dispositivo."
+  "privacyNote": "Tus datos nunca salen de tu navegador. Todo el procesamiento ocurre localmente en tu dispositivo.",
+  "name": "Formateador JSON",
+  "description": "Formatea, valida y minifica datos JSON",
+  "longDescription": "Pega o suelta un archivo JSON para formatearlo, validarlo e inspeccionarlo. Consulta de un vistazo el número de claves, la profundidad de anidamiento y el tamaño del archivo. Todo funciona en tu navegador — nada se sube.",
+  "seoTitle": "Formateador y validador JSON — Gratis, Privado, Sin subidas | FileFolks",
+  "seoDescription": "Formatea, valida y minifica JSON en línea. Funciona completamente en tu navegador. Tus datos nunca salen de tu dispositivo.",
+  "faqs": [
+    {
+      "question": "¿Se envían mis datos JSON a un servidor?",
+      "answer": "No. Todo el procesamiento ocurre en tu navegador mediante JavaScript. Tus datos nunca salen de tu dispositivo. Puedes verificarlo abriendo la pestaña Network de tu navegador mientras usas la herramienta."
+    },
+    {
+      "question": "¿Cuál es el tamaño máximo de JSON que puedo formatear?",
+      "answer": "No hay un límite estricto, pero los archivos muy grandes (de más de 50 MB) pueden ralentizar la pestaña del navegador. Para un mejor rendimiento, recomendamos archivos de menos de 10 MB."
+    },
+    {
+      "question": "¿Puedo formatear JSON con comentarios (JSONC)?",
+      "answer": "El JSON estándar no admite comentarios. Si tu entrada contiene comentarios, el validador reportará un error de análisis. Puedes eliminar los comentarios manualmente antes de formatear."
+    },
+    {
+      "question": "¿Cuál es la diferencia entre formatear y minificar?",
+      "answer": "Formatear añade sangría y saltos de línea para que el JSON sea legible por personas. Minificar elimina todos los espacios en blanco innecesarios para reducir el tamaño del archivo, lo cual es útil cuando el JSON se va a enviar a través de una red."
+    }
+  ]
 }

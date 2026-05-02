@@ -17,5 +17,28 @@
   "loadFile": "تحميل ملف",
   "errorTitle": "خطأ",
   "invalidBase64": "إدخال Base64 غير صالح",
-  "privacyNote": "بياناتك لا تغادر متصفحك أبدًا. كل الترميز يتم محليًا."
+  "privacyNote": "بياناتك لا تغادر متصفحك أبدًا. كل الترميز يتم محليًا.",
+  "name": "ترميز / فك ترميز Base64",
+  "description": "ترميز النصوص أو الملفات إلى Base64 أو فك ترميز Base64 إلى نص",
+  "longDescription": "Paste text or load a file to encode it as Base64, or paste a Base64 string to decode it. All processing happens locally in your browser.",
+  "seoTitle": "ترميز وفك ترميز Base64 عبر الإنترنت — مجاني | FileFolks",
+  "seoDescription": "قم بترميز النصوص أو الملفات إلى Base64، أو فك ترميز Base64 إلى نص. يعمل في متصفحك.",
+  "faqs": [
+    {
+      "question": "Is my data uploaded to a server?",
+      "answer": "No. Base64 encoding and decoding are pure JavaScript operations that run entirely in your browser."
+    },
+    {
+      "question": "What is Base64 used for?",
+      "answer": "Base64 is used to safely transmit binary data as text — in emails, data URLs, API payloads, and configuration files."
+    },
+    {
+      "question": "Is there a size limit?",
+      "answer": "There is no hard limit, but very large files (over 10 MB) may slow down your browser tab. The output Base64 string will be roughly 33% larger than the input."
+    },
+    {
+      "question": "Does Base64 encrypt my data?",
+      "answer": "No. Base64 is an encoding scheme, not encryption. Anyone with the Base64 string can decode it instantly. Do not use it to protect sensitive data."
+    }
+  ]
 }

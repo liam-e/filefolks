@@ -1,0 +1,14 @@
+{
+  "inputPlaceholder": "Collez le texte avec des lignes en double ici...",
+  "caseSensitiveLabel": "Respecter la casse",
+  "trimLinesLabel": "Supprimer les espaces",
+  "removeEmptyLabel": "Supprimer les lignes vides",
+  "inputLabel": "Entree",
+  "outputLabel": "Resultat",
+  "linesRemoved": "{count} doublon supprime",
+  "linesRemovedPlural": "{count} doublons supprimes",
+  "copyButton": "Copier",
+  "copied": "Copie",
+  "downloadButton": "Telecharger .txt",
+  "privacyNote": "Votre texte ne quitte jamais votre navigateur."
+}

@@ -1,0 +1,14 @@
+{
+  "countLabel": "العدد",
+  "unitLabel": "الوحدة",
+  "unitParagraphs": "فقرات",
+  "unitSentences": "جمل",
+  "unitWords": "كلمات",
+  "classicStartLabel": "البدء بالمقدمة الكلاسيكية",
+  "generateButton": "توليد",
+  "regenerateButton": "اعادة التوليد",
+  "outputLabel": "الناتج",
+  "copyButton": "نسخ",
+  "copied": "تم النسخ",
+  "privacyNote": "يتم التوليد بالكامل في متصفحك."
+}

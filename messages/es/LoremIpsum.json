@@ -1,0 +1,14 @@
+{
+  "countLabel": "Cantidad",
+  "unitLabel": "Unidad",
+  "unitParagraphs": "Parrafos",
+  "unitSentences": "Oraciones",
+  "unitWords": "Palabras",
+  "classicStartLabel": "Comenzar con apertura clasica",
+  "generateButton": "Generar",
+  "regenerateButton": "Regenerar",
+  "outputLabel": "Resultado",
+  "copyButton": "Copiar",
+  "copied": "Copiado",
+  "privacyNote": "Generado completamente en tu navegador."
+}

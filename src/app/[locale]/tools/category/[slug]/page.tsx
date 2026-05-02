@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
-import { setRequestLocale, getTranslations } from "next-intl/server";
+import { setRequestLocale, getTranslations, getMessages } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { Link } from "@/i18n/navigation";
 import { CATEGORIES, getToolsByCategory, type ToolCategory } from "@/lib/utils/constants";
+import { SLUG_TO_NAMESPACE } from "@/lib/utils/toolNamespaces";
 import { routing } from "@/i18n/routing";
 import { getAlternates } from "@/lib/utils/metadata";
 import { ToolIcon } from "@/components/shared/ToolIcon";
@@ -38,8 +39,8 @@ export default async function LocaleCategoryPage({ params }: Props) {
   if (!category) notFound();
 
   const tools = getToolsByCategory(slug as ToolCategory);
-  const tTools = await getTranslations({ locale, namespace: "tools" });
   const tCategories = await getTranslations({ locale, namespace: "Categories" });
+  const messages = await getMessages() as Record<string, Record<string, string>>;
 
   const otherCategories = Object.values(CATEGORIES)
     .filter((c) => c.slug !== slug)
@@ -60,8 +61,8 @@ export default async function LocaleCategoryPage({ params }: Props) {
           <ToolCard
             key={tool.slug}
             tool={tool}
-            name={tTools(`${tool.slug}.name`)}
-            description={tTools(`${tool.slug}.description`)}
+            name={messages[SLUG_TO_NAMESPACE[tool.slug]]?.name ?? tool.name}
+            description={messages[SLUG_TO_NAMESPACE[tool.slug]]?.description ?? tool.description}
           />
         ))}
       </div>

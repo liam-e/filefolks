@@ -1,0 +1,14 @@
+{
+  "inputPlaceholder": "Incolla il testo con righe duplicate qui...",
+  "caseSensitiveLabel": "Distinzione maiuscole/minuscole",
+  "trimLinesLabel": "Rimuovi spazi",
+  "removeEmptyLabel": "Rimuovi righe vuote",
+  "inputLabel": "Input",
+  "outputLabel": "Output",
+  "linesRemoved": "{count} duplicato rimosso",
+  "linesRemovedPlural": "{count} duplicati rimossi",
+  "copyButton": "Copia",
+  "copied": "Copiato",
+  "downloadButton": "Scarica .txt",
+  "privacyNote": "Il tuo testo non lascia mai il tuo browser."
+}

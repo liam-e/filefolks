@@ -1,0 +1,13 @@
+{
+  "dropLabel": "将 ZIP 文件拖放到此处，或点击浏览",
+  "dropSublabel": "仅限 .zip 压缩包",
+  "remove": "移除",
+  "loading": "正在读取压缩包...",
+  "fileCount": "{count} 个文件",
+  "fileCountPlural": "{count} 个文件",
+  "folders": "文件夹",
+  "download": "下载",
+  "errorTitle": "错误",
+  "errorGeneric": "无法读取压缩包。文件可能已损坏或设有密码保护。",
+  "privacyNote": "您的文件永远不会离开浏览器。"
+}

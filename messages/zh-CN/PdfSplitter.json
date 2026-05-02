@@ -13,5 +13,28 @@
   "successTitle": "提取成功。请查看您的下载文件夹。",
   "privacyNote": "您的文件始终留在您的浏览器中，所有处理均在本地进行。",
   "removeFile": "删除文件",
-  "loadingPages": "加载中..."
+  "loadingPages": "加载中...",
+  "name": "拆分 PDF",
+  "description": "从 PDF 中提取指定页面范围并保存为新文件",
+  "longDescription": "Drop a PDF, choose a page range, and download just those pages as a new document. Powered by pdf-lib in your browser. No upload required.",
+  "seoTitle": "在线拆分 PDF — 免费、私密、无需上传 | FileFolks",
+  "seoDescription": "在浏览器中从 PDF 提取页面。选择页面范围，立即下载。无需上传。",
+  "faqs": [
+    {
+      "question": "Is my PDF uploaded to a server?",
+      "answer": "No. All splitting happens in your browser using the pdf-lib library. Your file never leaves your device."
+    },
+    {
+      "question": "Can I extract non-consecutive pages?",
+      "answer": "Currently the tool extracts a continuous range. For non-consecutive pages, extract each range separately and merge the results with the Merge PDF tool."
+    },
+    {
+      "question": "Will the extracted pages keep their content?",
+      "answer": "Yes. All text, images, and layout are preserved exactly as in the original."
+    },
+    {
+      "question": "What if my PDF is password-protected?",
+      "answer": "Password-protected PDFs cannot be processed. Remove the password first using a PDF unlock tool, then split the file."
+    }
+  ]
 }

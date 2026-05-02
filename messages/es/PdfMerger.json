@@ -12,5 +12,28 @@
   "privacyNote": "Tus archivos nunca salen de tu navegador. Todo el proceso de combinación ocurre localmente en tu dispositivo.",
   "moveUp": "Subir",
   "moveDown": "Bajar",
-  "removeFile": "Eliminar archivo"
+  "removeFile": "Eliminar archivo",
+  "name": "Combinar PDF",
+  "description": "Combina varios archivos PDF en un solo documento",
+  "longDescription": "Arrastra y suelta tus archivos PDF para combinarlos en un único documento. Reordena las páginas arrastrándolas. Todo ocurre en tu navegador — tus archivos nunca salen de tu dispositivo.",
+  "seoTitle": "Combinar archivos PDF en línea — Gratis, Privado, Sin subidas | FileFolks",
+  "seoDescription": "Combina varios PDFs en un solo archivo. Funciona en tu navegador sin necesidad de subir archivos. Arrastra, suelta, reordena y descarga.",
+  "faqs": [
+    {
+      "question": "¿Se suben mis archivos PDF a un servidor?",
+      "answer": "No. Todo el proceso de combinación ocurre localmente en tu navegador mediante la biblioteca pdf-lib. Tus archivos nunca salen de tu dispositivo."
+    },
+    {
+      "question": "¿Hay un límite en el número de PDFs que puedo combinar?",
+      "answer": "No hay un límite fijo. El límite práctico depende de la memoria disponible en tu dispositivo. La mayoría de los usuarios puede combinar más de 50 archivos sin problemas."
+    },
+    {
+      "question": "¿Puedo reordenar las páginas antes de combinar?",
+      "answer": "Sí. Después de soltar tus archivos, puedes arrastrarlos al orden que desees. El PDF combinado seguirá ese orden."
+    },
+    {
+      "question": "¿El PDF combinado conservará los marcadores y los enlaces?",
+      "answer": "El contenido básico de las páginas, las imágenes y el texto se conservan. Es posible que elementos interactivos como marcadores y campos de formulario no se transfieran en todos los casos."
+    }
+  ]
 }

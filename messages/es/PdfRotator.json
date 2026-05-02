@@ -14,5 +14,28 @@
   "privacyNote": "Tu archivo nunca sale de tu navegador. Todo el procesamiento ocurre localmente.",
   "removeFile": "Eliminar archivo",
   "loadingPages": "Cargando...",
-  "pageCount": "{count} páginas"
+  "pageCount": "{count} páginas",
+  "name": "Rotar PDF",
+  "description": "Rota las páginas de un PDF 90°, 180° o 270°",
+  "longDescription": "Suelta un PDF y elige una cantidad de rotación. Todas las páginas se rotan y el resultado se descarga al instante, en tu navegador.",
+  "seoTitle": "Rotar PDF online — Gratis, Privado, Sin subida | FileFolks",
+  "seoDescription": "Rota todas las páginas de un PDF 90°, 180° o 270°. En tu navegador. Sin subida.",
+  "faqs": [
+    {
+      "question": "¿Se sube mi PDF a un servidor?",
+      "answer": "No. La rotación ocurre en tu navegador con pdf-lib. Tu archivo nunca sale de tu dispositivo."
+    },
+    {
+      "question": "¿Puedo rotar solo páginas específicas?",
+      "answer": "Actualmente la herramienta rota todas las páginas por igual. La rotación por página puede añadirse en el futuro."
+    },
+    {
+      "question": "¿Qué dirección es 90° derecha?",
+      "answer": "90° derecha rota cada página en el sentido de las agujas del reloj. 90° izquierda rota en sentido contrario. 180° voltea las páginas boca abajo."
+    },
+    {
+      "question": "¿Se afectará el texto e imágenes?",
+      "answer": "No. Solo cambia la orientación de visualización. Todo el contenido se preserva exactamente."
+    }
+  ]
 }

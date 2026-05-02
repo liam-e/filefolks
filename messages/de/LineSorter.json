@@ -1,0 +1,15 @@
+{
+  "inputPlaceholder": "Text zum Sortieren einfugen...",
+  "orderAZ": "A → Z",
+  "orderZA": "Z → A",
+  "orderShortest": "Kurzeste",
+  "orderLongest": "Langste",
+  "orderRandom": "Zufallig",
+  "caseSensitiveLabel": "Groß-/Kleinschreibung beachten",
+  "inputLabel": "Eingabe",
+  "outputLabel": "Ausgabe",
+  "copyButton": "Kopieren",
+  "copied": "Kopiert",
+  "downloadButton": "Als .txt herunterladen",
+  "privacyNote": "Dein Text verlasst nie deinen Browser."
+}

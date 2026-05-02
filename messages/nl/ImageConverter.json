@@ -10,5 +10,28 @@
   "successTitle": "Succesvol geconverteerd. Controleer uw downloadmap.",
   "jpegNote": "Transparante gebieden worden gevuld met een witte achtergrond.",
   "privacyNote": "Uw afbeelding verlaat nooit uw browser. Alle conversie vindt lokaal plaats.",
-  "removeFile": "Bestand verwijderen"
+  "removeFile": "Bestand verwijderen",
+  "name": "Afbeelding converteren",
+  "description": "Converteer afbeeldingen tussen PNG, JPG en WebP",
+  "longDescription": "Drop an image to convert it to PNG, JPG, or WebP. Uses your browser's built-in Canvas API. No upload, no account required.",
+  "seoTitle": "Afbeelding online converteren — PNG naar JPG, WebP en meer | FileFolks",
+  "seoDescription": "Converteer PNG naar JPG, JPG naar WebP en meer. Gratis, privé, in uw browser. Geen upload.",
+  "faqs": [
+    {
+      "question": "Are my images uploaded?",
+      "answer": "No. Conversion uses the browser's Canvas API entirely on your device. Nothing is sent to a server."
+    },
+    {
+      "question": "What happens to transparency when converting to JPG?",
+      "answer": "JPG does not support transparency. Any transparent areas are filled with a white background automatically."
+    },
+    {
+      "question": "Is there quality loss when converting?",
+      "answer": "Converting to PNG is lossless. Converting to JPG or WebP applies light compression (92% quality by default), which is visually indistinguishable for most images."
+    },
+    {
+      "question": "Can I convert AVIF or GIF files?",
+      "answer": "Currently the tool supports PNG, JPG, and WebP input and output. AVIF and GIF support may be added in future."
+    }
+  ]
 }

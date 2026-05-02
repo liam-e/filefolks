@@ -12,5 +12,28 @@
   "clear": "Cancella",
   "privacyNote": "Tutto il processo avviene localmente nel tuo browser.",
   "errorTitle": "Errore",
-  "invalidEncoding": "Codifica URL non valida — controlla le sequenze percentuale incomplete."
+  "invalidEncoding": "Codifica URL non valida — controlla le sequenze percentuale incomplete.",
+  "name": "Codifica / Decodifica URL",
+  "description": "Encode and decode URL-safe strings and query parameters",
+  "longDescription": "Paste any text to URL-encode it for safe use in a browser address bar or API request, or paste a percent-encoded string to decode it back. Everything runs locally in your browser.",
+  "seoTitle": "URL Encode & Decode Online — Free, Private | FileFolks",
+  "seoDescription": "Encode or decode URLs and query strings instantly in your browser. No upload or account needed.",
+  "faqs": [
+    {
+      "question": "Is my data uploaded?",
+      "answer": "No. URL encoding and decoding are pure JavaScript operations that run entirely in your browser."
+    },
+    {
+      "question": "What is URL encoding?",
+      "answer": "URL encoding (percent-encoding) replaces special characters with a percent sign followed by two hex digits. For example, a space becomes %20 and an ampersand becomes %26."
+    },
+    {
+      "question": "What is the difference between encodeURIComponent and encodeURI?",
+      "answer": "This tool uses encodeURIComponent, which encodes everything except A–Z a–z 0–9 - _ . ! ~ * ' ( ). Use it for individual query parameter values. encodeURI preserves characters valid in a complete URL, such as slashes and colons."
+    },
+    {
+      "question": "Can I decode a full URL?",
+      "answer": "Yes. Paste the full percent-encoded URL into the Decode tab and the tool will decode all percent-sequences back to readable characters."
+    }
+  ]
 }

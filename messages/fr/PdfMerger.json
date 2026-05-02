@@ -12,5 +12,28 @@
   "privacyNote": "Vos fichiers ne quittent jamais votre navigateur. Toute la fusion s'effectue localement sur votre appareil.",
   "moveUp": "Monter",
   "moveDown": "Descendre",
-  "removeFile": "Supprimer le fichier"
+  "removeFile": "Supprimer le fichier",
+  "name": "Fusionner des PDF",
+  "description": "Combinez plusieurs fichiers PDF en un seul document",
+  "longDescription": "Glissez-déposez vos fichiers PDF pour les fusionner en un document unique. Réorganisez les pages par glisser-déposer. Tout se passe dans votre navigateur — vos fichiers ne quittent jamais votre appareil.",
+  "seoTitle": "Fusionner des PDF en ligne — Gratuit, Privé, Sans téléversement | FileFolks",
+  "seoDescription": "Combinez plusieurs PDF en un seul fichier. S'exécute dans votre navigateur sans téléversement. Glissez, déposez, réorganisez et téléchargez.",
+  "faqs": [
+    {
+      "question": "Mes fichiers PDF sont-ils téléversés sur un serveur ?",
+      "answer": "Non. Toute la fusion s'effectue localement dans votre navigateur à l'aide de la bibliothèque pdf-lib. Vos fichiers ne quittent jamais votre appareil."
+    },
+    {
+      "question": "Y a-t-il une limite au nombre de PDF que je peux fusionner ?",
+      "answer": "Il n'y a pas de limite fixe. La limite pratique dépend de la mémoire disponible sur votre appareil. La plupart des utilisateurs peuvent fusionner plus de 50 fichiers sans problème."
+    },
+    {
+      "question": "Puis-je réorganiser les pages avant la fusion ?",
+      "answer": "Oui. Après avoir déposé vos fichiers, vous pouvez les faire glisser dans l'ordre souhaité. Le PDF fusionné respectera cet ordre."
+    },
+    {
+      "question": "Le PDF fusionné conservera-t-il les signets et les liens ?",
+      "answer": "Le contenu de base des pages, les images et le texte sont préservés. Les éléments interactifs tels que les signets et les champs de formulaire peuvent ne pas être reportés dans tous les cas."
+    }
+  ]
 }

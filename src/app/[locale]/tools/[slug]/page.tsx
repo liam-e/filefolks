@@ -4,6 +4,7 @@ import { setRequestLocale, getTranslations } from "next-intl/server";
 import { TOOLS, getToolBySlug, getRelatedTools } from "@/lib/utils/constants";
 import { getAlternates } from "@/lib/utils/metadata";
 import type { FaqItem } from "@/lib/utils/constants";
+import { SLUG_TO_NAMESPACE } from "@/lib/utils/toolNamespaces";
 import { routing } from "@/i18n/routing";
 import { ToolPageLayout } from "@/components/shared/ToolPageLayout";
 import { PdfMergerTool } from "@/components/tools/PdfMerger";
@@ -80,10 +81,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!toolMeta) return {};
 
   setRequestLocale(locale);
-  const tTools = await getTranslations({ locale, namespace: "tools" });
+  const tTool = await getTranslations({ locale, namespace: SLUG_TO_NAMESPACE[slug] });
 
-  const title = tTools(`${slug}.seoTitle`);
-  const description = tTools(`${slug}.seoDescription`);
+  const title = tTool("seoTitle");
+  const description = tTool("seoDescription");
 
   return {
     title,
@@ -110,15 +111,15 @@ export default async function LocaleToolPage({ params }: Props) {
   const ToolComponent = TOOL_COMPONENTS[slug];
   if (!ToolComponent) notFound();
 
-  const tTools = await getTranslations({ locale, namespace: "tools" });
+  const tTool = await getTranslations({ locale, namespace: SLUG_TO_NAMESPACE[slug] });
   const localizedMeta = {
     ...toolMeta,
-    name: tTools(`${slug}.name`),
-    description: tTools(`${slug}.description`),
-    longDescription: tTools(`${slug}.longDescription`),
-    seoTitle: tTools(`${slug}.seoTitle`),
-    seoDescription: tTools(`${slug}.seoDescription`),
-    faqs: tTools.raw(`${slug}.faqs`) as FaqItem[],
+    name: tTool("name"),
+    description: tTool("description"),
+    longDescription: tTool("longDescription"),
+    seoTitle: tTool("seoTitle"),
+    seoDescription: tTool("seoDescription"),
+    faqs: tTool.raw("faqs") as FaqItem[],
   };
 
   return (

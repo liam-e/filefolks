@@ -12,5 +12,28 @@
   "privacyNote": "Seus arquivos nunca saem do seu navegador. Todo o processo ocorre localmente no seu dispositivo.",
   "moveUp": "Mover para cima",
   "moveDown": "Mover para baixo",
-  "removeFile": "Remover arquivo"
+  "removeFile": "Remover arquivo",
+  "name": "Unir PDF",
+  "description": "Combine vários arquivos PDF em um único documento",
+  "longDescription": "Arraste e solte seus arquivos PDF para uni-los em um único documento. Reordene as páginas arrastando. Tudo acontece no seu navegador — seus arquivos nunca saem do seu dispositivo.",
+  "seoTitle": "Unir PDF Online — Grátis, Privado, Sem Upload | FileFolks",
+  "seoDescription": "Combine vários PDFs em um único arquivo. Funciona no seu navegador sem upload. Arraste, solte, reordene e baixe.",
+  "faqs": [
+    {
+      "question": "Meus arquivos PDF são enviados para um servidor?",
+      "answer": "Não. Todo o processo ocorre localmente no seu navegador usando a biblioteca pdf-lib. Seus arquivos nunca saem do seu dispositivo."
+    },
+    {
+      "question": "Existe um limite de quantos PDFs posso unir?",
+      "answer": "Não há um limite fixo. O limite prático depende da memória disponível no seu dispositivo. A maioria dos usuários consegue unir mais de 50 arquivos sem problemas."
+    },
+    {
+      "question": "Posso reordenar as páginas antes de unir?",
+      "answer": "Sim. Após soltar os arquivos, você pode arrastá-los para a ordem desejada. O PDF unido seguirá essa ordem."
+    },
+    {
+      "question": "O PDF unido manterá marcadores e links?",
+      "answer": "O conteúdo básico das páginas, imagens e texto são preservados. Elementos interativos como marcadores e campos de formulário podem não ser mantidos em todos os casos."
+    }
+  ]
 }

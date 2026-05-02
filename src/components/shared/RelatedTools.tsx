@@ -1,6 +1,7 @@
-import { useTranslations } from "next-intl";
+import { useMessages } from "next-intl";
 import type { ToolMeta } from "@/lib/utils/constants";
 import { ToolCard } from "@/components/shared/ToolCard";
+import { SLUG_TO_NAMESPACE } from "@/lib/utils/toolNamespaces";
 
 interface RelatedToolsProps {
   tools: ToolMeta[];
@@ -8,7 +9,7 @@ interface RelatedToolsProps {
 }
 
 export function RelatedTools({ tools, title }: RelatedToolsProps) {
-  const t = useTranslations("tools");
+  const messages = useMessages() as Record<string, Record<string, string>>;
 
   if (tools.length === 0) return null;
 
@@ -20,8 +21,8 @@ export function RelatedTools({ tools, title }: RelatedToolsProps) {
           <ToolCard
             key={tool.slug}
             tool={tool}
-            name={t(`${tool.slug}.name`)}
-            description={t(`${tool.slug}.description`)}
+            name={messages[SLUG_TO_NAMESPACE[tool.slug]]?.name ?? tool.name}
+            description={messages[SLUG_TO_NAMESPACE[tool.slug]]?.description ?? tool.description}
           />
         ))}
       </div>

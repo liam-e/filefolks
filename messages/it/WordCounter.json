@@ -1,0 +1,11 @@
+{
+  "placeholder": "Incolla o digita il tuo testo qui...",
+  "words": "Parole",
+  "characters": "Caratteri",
+  "charsNoSpaces": "Senza spazi",
+  "sentences": "Frasi",
+  "paragraphs": "Paragrafi",
+  "readingTime": "Tempo di lettura",
+  "readingTimeValue": "~{min} min",
+  "privacyNote": "Il tuo testo non lascia mai il tuo browser."
+}

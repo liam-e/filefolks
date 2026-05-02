@@ -17,5 +17,28 @@
   "loadFile": "Cargar archivo",
   "errorTitle": "Error",
   "invalidBase64": "Entrada Base64 no válida",
-  "privacyNote": "Tus datos nunca salen de tu navegador. Toda la codificación ocurre localmente."
+  "privacyNote": "Tus datos nunca salen de tu navegador. Toda la codificación ocurre localmente.",
+  "name": "Codificar / Decodificar Base64",
+  "description": "Codifica texto o archivos a Base64, o decodifica Base64 a texto",
+  "longDescription": "Pega texto o carga un archivo para codificarlo como Base64, o pega una cadena Base64 para decodificarla. Todo ocurre en tu navegador.",
+  "seoTitle": "Codificar y Decodificar Base64 online — Gratis, Privado | FileFolks",
+  "seoDescription": "Codifica texto o archivos a Base64, o decodifica Base64 a texto. En tu navegador. Sin subida.",
+  "faqs": [
+    {
+      "question": "¿Se suben mis datos a un servidor?",
+      "answer": "No. La codificación y decodificación Base64 son operaciones JavaScript puras que se ejecutan en tu navegador."
+    },
+    {
+      "question": "¿Para qué se usa Base64?",
+      "answer": "Base64 se usa para transmitir datos binarios de forma segura como texto — en correos, URLs de datos, cargas de API y archivos de configuración."
+    },
+    {
+      "question": "¿Hay un límite de tamaño?",
+      "answer": "No hay límite fijo, pero archivos muy grandes (más de 10 MB) pueden ralentizar tu pestaña. La cadena Base64 de salida será aproximadamente un 33% más grande que la entrada."
+    },
+    {
+      "question": "¿Base64 cifra mis datos?",
+      "answer": "No. Base64 es un esquema de codificación, no cifrado. Cualquiera con la cadena Base64 puede decodificarla al instante. No lo uses para proteger datos sensibles."
+    }
+  ]
 }

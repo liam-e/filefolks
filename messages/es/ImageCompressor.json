@@ -13,5 +13,28 @@
   "alreadyOptimizedTitle": "El archivo ya está bien optimizado.",
   "alreadyOptimizedBody": "La versión comprimida ({compressedSize}) no es más pequeña que el original ({originalSize}). Conserva tu archivo original.",
   "privacyNote": "Tu imagen nunca sale de tu navegador. Toda la compresión ocurre localmente.",
-  "removeFile": "Eliminar archivo"
+  "removeFile": "Eliminar archivo",
+  "name": "Comprimir imagen",
+  "description": "Reduce el tamaño del archivo de imagen con mínima pérdida de calidad",
+  "longDescription": "Suelta una imagen PNG, JPG o WebP para comprimirla. El tamaño se reduce preservando la calidad visual — todo ocurre en tu navegador. Nada se sube.",
+  "seoTitle": "Comprimir imagen online — Gratis, Privado, Sin subida | FileFolks",
+  "seoDescription": "Reduce el tamaño de imagen en tu navegador. PNG, JPG, WebP. Sin subida. Rápido y privado.",
+  "faqs": [
+    {
+      "question": "¿Se suben mis imágenes a un servidor?",
+      "answer": "No. La compresión se ejecuta completamente en tu navegador. Tus imágenes nunca salen de tu dispositivo."
+    },
+    {
+      "question": "¿Qué formatos se admiten?",
+      "answer": "PNG, JPG y WebP. El formato de salida coincide con el archivo de entrada."
+    },
+    {
+      "question": "¿Cuánto se reducirá el archivo?",
+      "answer": "El ahorro varía según la imagen. Las fotografías suelen comprimirse un 40-70%."
+    },
+    {
+      "question": "¿Afectará la compresión a la calidad?",
+      "answer": "La herramienta apunta a un máximo de 1 MB preservando la mayor calidad posible. Para la mayoría de las fotos la diferencia es imperceptible."
+    }
+  ]
 }

@@ -17,5 +17,28 @@
   "loadFile": "Datei laden",
   "errorTitle": "Fehler",
   "invalidBase64": "Ungültige Base64-Eingabe",
-  "privacyNote": "Ihre Daten verlassen nie Ihren Browser. Die gesamte Kodierung erfolgt lokal."
+  "privacyNote": "Ihre Daten verlassen nie Ihren Browser. Die gesamte Kodierung erfolgt lokal.",
+  "name": "Base64 Kodieren / Dekodieren",
+  "description": "Text oder Dateien in Base64 kodieren oder Base64 in Text dekodieren",
+  "longDescription": "Fügen Sie Text ein oder laden Sie eine Datei, um sie als Base64 zu kodieren, oder fügen Sie eine Base64-Zeichenkette zum Dekodieren ein. Alles läuft in Ihrem Browser.",
+  "seoTitle": "Base64 Online Kodieren & Dekodieren — Kostenlos, Privat | FileFolks",
+  "seoDescription": "Text oder Dateien in Base64 kodieren oder Base64 in Text dekodieren. Im Browser. Kein Upload.",
+  "faqs": [
+    {
+      "question": "Werden meine Daten auf einen Server hochgeladen?",
+      "answer": "Nein. Base64-Kodierung und -Dekodierung sind reine JavaScript-Operationen, die vollständig in Ihrem Browser ausgeführt werden."
+    },
+    {
+      "question": "Wofür wird Base64 verwendet?",
+      "answer": "Base64 wird verwendet, um Binärdaten sicher als Text zu übertragen — in E-Mails, Daten-URLs, API-Payloads und Konfigurationsdateien."
+    },
+    {
+      "question": "Gibt es eine Größenbeschränkung?",
+      "answer": "Es gibt keine feste Grenze, aber sehr große Dateien (über 10 MB) können Ihren Browser-Tab verlangsamen. Die Base64-Ausgabe ist etwa 33 % größer als die Eingabe."
+    },
+    {
+      "question": "Verschlüsselt Base64 meine Daten?",
+      "answer": "Nein. Base64 ist ein Kodierungsschema, keine Verschlüsselung. Jeder mit der Base64-Zeichenkette kann sie sofort dekodieren."
+    }
+  ]
 }

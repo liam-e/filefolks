@@ -1,0 +1,16 @@
+{
+  "dropLabel": "اسقط الملفات هنا او انقر للاستعراض",
+  "dropSublabel": "اي ملفات -- سيتم ضغطها في ارشيف ZIP",
+  "remove": "ازالة",
+  "clearAll": "ازالة الكل",
+  "fileCount": "{count} ملف",
+  "fileCountPlural": "{count} ملفات",
+  "totalSize": "الاجمالي",
+  "createButton": "انشاء ZIP ({count} ملفات)",
+  "creating": "جار الانشاء...",
+  "readyTitle": "ZIP جاهز",
+  "downloadButton": "تنزيل ZIP",
+  "errorTitle": "خطا",
+  "errorGeneric": "حدث خطا اثناء انشاء الارشيف.",
+  "privacyNote": "ملفاتك لا تغادر متصفحك ابدا."
+}

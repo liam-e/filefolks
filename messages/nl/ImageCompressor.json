@@ -13,5 +13,28 @@
   "alreadyOptimizedTitle": "Bestand is al goed geoptimaliseerd.",
   "alreadyOptimizedBody": "De gecomprimeerde versie ({compressedSize}) is niet kleiner dan het origineel ({originalSize}). Bewaar uw originele bestand.",
   "privacyNote": "Uw afbeelding verlaat nooit uw browser. Alle compressie vindt lokaal plaats.",
-  "removeFile": "Bestand verwijderen"
+  "removeFile": "Bestand verwijderen",
+  "name": "Afbeelding comprimeren",
+  "description": "Verklein de afbeeldingsbestandsgrootte met minimale kwaliteitsverlies",
+  "longDescription": "Drop a PNG, JPG, or WebP image to compress it. File size is reduced while preserving visual quality — everything runs in your browser. Nothing is uploaded.",
+  "seoTitle": "Afbeelding online comprimeren — Gratis, Privé, Geen upload | FileFolks",
+  "seoDescription": "Verklein afbeeldingen in uw browser. PNG, JPG, WebP. Geen upload. Snel en privé.",
+  "faqs": [
+    {
+      "question": "Are my images uploaded to a server?",
+      "answer": "No. Compression runs entirely in your browser using JavaScript. Your images never leave your device."
+    },
+    {
+      "question": "Which formats are supported?",
+      "answer": "PNG, JPG, and WebP. The output format matches your input file."
+    },
+    {
+      "question": "How much will the file shrink?",
+      "answer": "Savings vary by image. Photographs typically compress 40-70%. Images that are already heavily compressed will see smaller gains."
+    },
+    {
+      "question": "Will compression affect image quality?",
+      "answer": "The tool targets a maximum output size of 1 MB while preserving as much quality as possible. For most photos the difference is imperceptible."
+    }
+  ]
 }

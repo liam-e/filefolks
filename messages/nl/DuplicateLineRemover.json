@@ -1,0 +1,14 @@
+{
+  "inputPlaceholder": "Plak tekst met dubbele regels hier...",
+  "caseSensitiveLabel": "Hoofdlettergevoelig",
+  "trimLinesLabel": "Witruimte verwijderen",
+  "removeEmptyLabel": "Lege regels verwijderen",
+  "inputLabel": "Invoer",
+  "outputLabel": "Uitvoer",
+  "linesRemoved": "{count} duplicaat verwijderd",
+  "linesRemovedPlural": "{count} duplicaten verwijderd",
+  "copyButton": "Kopieer",
+  "copied": "Gekopieerd",
+  "downloadButton": "Downloaden als .txt",
+  "privacyNote": "Je tekst verlaat nooit je browser."
+}

@@ -1,0 +1,14 @@
+{
+  "inputPlaceholder": "Text mit doppelten Zeilen hier einfugen...",
+  "caseSensitiveLabel": "Groß-/Kleinschreibung beachten",
+  "trimLinesLabel": "Leerzeichen entfernen",
+  "removeEmptyLabel": "Leere Zeilen entfernen",
+  "inputLabel": "Eingabe",
+  "outputLabel": "Ausgabe",
+  "linesRemoved": "{count} Duplikat entfernt",
+  "linesRemovedPlural": "{count} Duplikate entfernt",
+  "copyButton": "Kopieren",
+  "copied": "Kopiert",
+  "downloadButton": "Als .txt herunterladen",
+  "privacyNote": "Dein Text verlasst nie deinen Browser."
+}

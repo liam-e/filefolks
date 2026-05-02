@@ -17,5 +17,28 @@
   "loadFile": "加载文件",
   "errorTitle": "错误",
   "invalidBase64": "无效的 Base64 输入",
-  "privacyNote": "您的数据始终留在您的浏览器中，所有编码均在本地进行。"
+  "privacyNote": "您的数据始终留在您的浏览器中，所有编码均在本地进行。",
+  "name": "Base64 编码 / 解码",
+  "description": "将文本或文件编码为 Base64，或将 Base64 解码为文本",
+  "longDescription": "Paste text or load a file to encode it as Base64, or paste a Base64 string to decode it. All processing happens locally in your browser.",
+  "seoTitle": "在线 Base64 编码和解码 — 免费、私密 | FileFolks",
+  "seoDescription": "将文本或文件编码为 Base64，或将 Base64 解码为文本。在浏览器中运行，无需上传。",
+  "faqs": [
+    {
+      "question": "Is my data uploaded to a server?",
+      "answer": "No. Base64 encoding and decoding are pure JavaScript operations that run entirely in your browser."
+    },
+    {
+      "question": "What is Base64 used for?",
+      "answer": "Base64 is used to safely transmit binary data as text — in emails, data URLs, API payloads, and configuration files."
+    },
+    {
+      "question": "Is there a size limit?",
+      "answer": "There is no hard limit, but very large files (over 10 MB) may slow down your browser tab. The output Base64 string will be roughly 33% larger than the input."
+    },
+    {
+      "question": "Does Base64 encrypt my data?",
+      "answer": "No. Base64 is an encoding scheme, not encryption. Anyone with the Base64 string can decode it instantly. Do not use it to protect sensitive data."
+    }
+  ]
 }

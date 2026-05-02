@@ -10,5 +10,28 @@
   "privacyNote": "Vos images ne quittent jamais votre navigateur. Tout le traitement s'effectue localement.",
   "moveUp": "Monter",
   "moveDown": "Descendre",
-  "removeFile": "Supprimer le fichier"
+  "removeFile": "Supprimer le fichier",
+  "name": "Image en PDF",
+  "description": "Convertir une ou plusieurs images en un seul document PDF",
+  "longDescription": "Déposez des images PNG, JPG ou WebP et téléchargez-les combinées en un PDF. Réorganisez les pages par glisser-déposer. Tout s'exécute dans votre navigateur.",
+  "seoTitle": "Image en PDF en ligne — Gratuit, Privé, Sans envoi | FileFolks",
+  "seoDescription": "Convertissez JPG, PNG ou WebP en PDF dans votre navigateur. Réorganisez les pages et téléchargez. Sans envoi.",
+  "faqs": [
+    {
+      "question": "Mes images sont-elles envoyées à un serveur ?",
+      "answer": "Non. Tout utilise pdf-lib dans votre navigateur. Vos images ne quittent jamais votre appareil."
+    },
+    {
+      "question": "Quels formats d'image sont pris en charge ?",
+      "answer": "PNG, JPG et WebP. Chaque image devient une page dans le PDF de sortie."
+    },
+    {
+      "question": "Puis-je contrôler l'ordre des pages ?",
+      "answer": "Oui. Après avoir ajouté vos images, faites-les glisser dans l'ordre souhaité."
+    },
+    {
+      "question": "Quelle sera la taille des pages PDF ?",
+      "answer": "Chaque page correspond aux dimensions en pixels de l'image source."
+    }
+  ]
 }

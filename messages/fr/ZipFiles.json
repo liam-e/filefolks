@@ -1,0 +1,16 @@
+{
+  "dropLabel": "Deposez des fichiers ici ou cliquez pour parcourir",
+  "dropSublabel": "Tous types de fichiers — ils seront emballes dans une archive ZIP",
+  "remove": "Supprimer",
+  "clearAll": "Tout supprimer",
+  "fileCount": "{count} fichier",
+  "fileCountPlural": "{count} fichiers",
+  "totalSize": "Total",
+  "createButton": "Creer ZIP ({count} fichiers)",
+  "creating": "Creation en cours...",
+  "readyTitle": "ZIP pret",
+  "downloadButton": "Telecharger ZIP",
+  "errorTitle": "Erreur",
+  "errorGeneric": "Un probleme est survenu lors de la creation de l'archive.",
+  "privacyNote": "Vos fichiers ne quittent jamais votre navigateur."
+}

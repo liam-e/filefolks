@@ -10,5 +10,28 @@
   "successTitle": "تم التحويل بنجاح. تحقق من مجلد التنزيلات.",
   "jpegNote": "المناطق الشفافة ستُملأ بخلفية بيضاء.",
   "privacyNote": "صورتك لا تغادر متصفحك أبدًا. كل التحويل يتم محليًا.",
-  "removeFile": "إزالة الملف"
+  "removeFile": "إزالة الملف",
+  "name": "تحويل الصورة",
+  "description": "تحويل الصور بين PNG وJPG وWebP",
+  "longDescription": "Drop an image to convert it to PNG, JPG, or WebP. Uses your browser's built-in Canvas API. No upload, no account required.",
+  "seoTitle": "تحويل الصورة عبر الإنترنت — PNG إلى JPG وWebP والمزيد | FileFolks",
+  "seoDescription": "حول PNG إلى JPG وJPG إلى WebP والمزيد. مجاني، خاص، يعمل في متصفحك.",
+  "faqs": [
+    {
+      "question": "Are my images uploaded?",
+      "answer": "No. Conversion uses the browser's Canvas API entirely on your device. Nothing is sent to a server."
+    },
+    {
+      "question": "What happens to transparency when converting to JPG?",
+      "answer": "JPG does not support transparency. Any transparent areas are filled with a white background automatically."
+    },
+    {
+      "question": "Is there quality loss when converting?",
+      "answer": "Converting to PNG is lossless. Converting to JPG or WebP applies light compression (92% quality by default), which is visually indistinguishable for most images."
+    },
+    {
+      "question": "Can I convert AVIF or GIF files?",
+      "answer": "Currently the tool supports PNG, JPG, and WebP input and output. AVIF and GIF support may be added in future."
+    }
+  ]
 }

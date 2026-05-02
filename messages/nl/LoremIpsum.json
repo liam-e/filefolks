@@ -1,0 +1,14 @@
+{
+  "countLabel": "Aantal",
+  "unitLabel": "Eenheid",
+  "unitParagraphs": "Alinea's",
+  "unitSentences": "Zinnen",
+  "unitWords": "Woorden",
+  "classicStartLabel": "Beginnen met klassieke opening",
+  "generateButton": "Genereren",
+  "regenerateButton": "Opnieuw genereren",
+  "outputLabel": "Uitvoer",
+  "copyButton": "Kopieer",
+  "copied": "Gekopieerd",
+  "privacyNote": "Volledig gegenereerd in je browser."
+}

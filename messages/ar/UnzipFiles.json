@@ -1,0 +1,13 @@
+{
+  "dropLabel": "اسقط ملف ZIP هنا او انقر للاستعراض",
+  "dropSublabel": "ارشيفات .zip فقط",
+  "remove": "ازالة",
+  "loading": "جار قراءة الارشيف...",
+  "fileCount": "{count} ملف",
+  "fileCountPlural": "{count} ملفات",
+  "folders": "مجلدات",
+  "download": "تنزيل",
+  "errorTitle": "خطا",
+  "errorGeneric": "تعذر قراءة الارشيف. قد يكون الملف تالفا او محميا بكلمة مرور.",
+  "privacyNote": "ملفاتك لا تغادر متصفحك ابدا."
+}

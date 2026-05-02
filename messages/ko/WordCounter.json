@@ -1,0 +1,11 @@
+{
+  "placeholder": "텍스트를 여기에 붙여넣거나 입력하세요...",
+  "words": "단어",
+  "characters": "글자",
+  "charsNoSpaces": "공백 제외",
+  "sentences": "문장",
+  "paragraphs": "단락",
+  "readingTime": "읽기 시간",
+  "readingTimeValue": "약 {min}분",
+  "privacyNote": "텍스트는 브라우저 밖으로 전송되지 않습니다."
+}

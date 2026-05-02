@@ -12,5 +12,28 @@
   "copied": "Скопировано",
   "clear": "Очистить",
   "privacyNote": "Все вычисления выполняются локально в вашем браузере.",
-  "errorTitle": "Ошибка"
+  "errorTitle": "Ошибка",
+  "name": "Генератор хэшей",
+  "description": "Generate SHA-1, SHA-256, SHA-384, and SHA-512 hashes from text or files",
+  "longDescription": "Paste text or drop a file to compute its SHA-1, SHA-256, SHA-384, or SHA-512 hash. Everything runs in your browser using the built-in Web Crypto API. SHA-256 is recommended for security-critical applications.",
+  "seoTitle": "Hash Generator Online — SHA-256, SHA-512, SHA-1 | FileFolks",
+  "seoDescription": "Generate SHA-1, SHA-256, SHA-384, and SHA-512 hashes from text or files in your browser. Private and free.",
+  "faqs": [
+    {
+      "question": "Is my data uploaded?",
+      "answer": "No. Hashing uses the Web Crypto API, which runs entirely in your browser. Your text or file is never transmitted."
+    },
+    {
+      "question": "Which hash algorithm should I use?",
+      "answer": "Use SHA-256 or SHA-512 for security-critical work. SHA-1 is deprecated for security use — it is suitable only for non-security checksums. MD5 is not supported as it is cryptographically broken."
+    },
+    {
+      "question": "Can I hash a file?",
+      "answer": "Yes. Switch to File mode, drop or select any file, and the hash is computed from the file's raw bytes."
+    },
+    {
+      "question": "What is a hash?",
+      "answer": "A cryptographic hash is a fixed-length fingerprint of your data. The same input always produces the same hash, but even a one-character change produces a completely different output."
+    }
+  ]
 }

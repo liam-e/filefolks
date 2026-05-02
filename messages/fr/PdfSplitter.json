@@ -13,5 +13,28 @@
   "successTitle": "Extrait avec succès. Vérifiez votre dossier de téléchargements.",
   "privacyNote": "Votre fichier ne quitte jamais votre navigateur. Tout le traitement s'effectue localement.",
   "removeFile": "Supprimer le fichier",
-  "loadingPages": "Chargement..."
+  "loadingPages": "Chargement...",
+  "name": "Diviser un PDF",
+  "description": "Extraire une plage de pages d'un PDF dans un nouveau fichier",
+  "longDescription": "Déposez un PDF, choisissez une plage de pages et téléchargez uniquement ces pages sous forme de nouveau document. Fonctionne avec pdf-lib dans votre navigateur.",
+  "seoTitle": "Diviser un PDF en ligne — Gratuit, Privé, Sans envoi | FileFolks",
+  "seoDescription": "Extrayez des pages d'un PDF dans votre navigateur. Sélectionnez une plage et téléchargez instantanément. Sans envoi.",
+  "faqs": [
+    {
+      "question": "Mon PDF est-il envoyé à un serveur ?",
+      "answer": "Non. Tout se passe dans votre navigateur avec la bibliothèque pdf-lib. Votre fichier ne quitte jamais votre appareil."
+    },
+    {
+      "question": "Puis-je extraire des pages non consécutives ?",
+      "answer": "Actuellement, l'outil extrait une plage continue. Pour des pages non consécutives, extrayez chaque plage séparément et fusionnez les résultats."
+    },
+    {
+      "question": "Les pages extraites conserveront-elles leur contenu ?",
+      "answer": "Oui. Tout le texte, les images et la mise en page sont préservés exactement comme dans l'original."
+    },
+    {
+      "question": "Que faire si mon PDF est protégé par mot de passe ?",
+      "answer": "Les PDF protégés par mot de passe ne peuvent pas être traités. Supprimez d'abord le mot de passe avec un outil de déverrouillage."
+    }
+  ]
 }

@@ -1,0 +1,15 @@
+{
+  "inputPlaceholder": "Вставьте текст для сортировки...",
+  "orderAZ": "A → Z",
+  "orderZA": "Z → A",
+  "orderShortest": "Короткие",
+  "orderLongest": "Длинные",
+  "orderRandom": "Перемешать",
+  "caseSensitiveLabel": "Учитывать регистр",
+  "inputLabel": "Ввод",
+  "outputLabel": "Результат",
+  "copyButton": "Копировать",
+  "copied": "Скопировано",
+  "downloadButton": "Скачать .txt",
+  "privacyNote": "Ваш текст никогда не покидает браузер."
+}

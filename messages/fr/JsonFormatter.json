@@ -20,5 +20,28 @@
   "statsKeys": "Clés",
   "statsDepth": "Profondeur",
   "statsSize": "Taille",
-  "privacyNote": "Vos données ne quittent jamais votre navigateur. Tout le traitement s'effectue localement sur votre appareil."
+  "privacyNote": "Vos données ne quittent jamais votre navigateur. Tout le traitement s'effectue localement sur votre appareil.",
+  "name": "Formateur JSON",
+  "description": "Formatez, validez et minifiez des données JSON",
+  "longDescription": "Collez ou déposez un fichier JSON pour le formater, le valider et l'inspecter. Consultez d'un coup d'oeil le nombre de clés, la profondeur d'imbrication et la taille du fichier. Tout s'exécute dans votre navigateur — rien n'est téléversé.",
+  "seoTitle": "Formateur et validateur JSON — Gratuit, Privé, Sans téléversement | FileFolks",
+  "seoDescription": "Formatez, validez et minifiez du JSON en ligne. S'exécute entièrement dans votre navigateur. Vos données ne quittent jamais votre appareil.",
+  "faqs": [
+    {
+      "question": "Mes données JSON sont-elles envoyées à un serveur ?",
+      "answer": "Non. Tout le traitement s'effectue dans votre navigateur à l'aide de JavaScript. Vos données ne quittent jamais votre appareil."
+    },
+    {
+      "question": "Quelle est la taille maximale de JSON que je peux formater ?",
+      "answer": "Il n'y a pas de limite stricte, mais les fichiers très volumineux (plus de 50 Mo) peuvent ralentir votre onglet de navigateur. Pour de meilleures performances, nous recommandons des fichiers de moins de 10 Mo."
+    },
+    {
+      "question": "Puis-je formater du JSON avec des commentaires (JSONC) ?",
+      "answer": "Le JSON standard ne prend pas en charge les commentaires. Si votre entrée contient des commentaires, le validateur signalera une erreur d'analyse."
+    },
+    {
+      "question": "Quelle est la différence entre le formatage et la minification ?",
+      "answer": "Le formatage ajoute une indentation et des sauts de ligne pour rendre le JSON lisible par un humain. La minification supprime tous les espaces inutiles pour réduire la taille du fichier."
+    }
+  ]
 }

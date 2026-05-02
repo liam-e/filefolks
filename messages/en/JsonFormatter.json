@@ -20,5 +20,28 @@
   "statsKeys": "Keys",
   "statsDepth": "Depth",
   "statsSize": "Size",
-  "privacyNote": "Your data never leaves your browser. All processing happens locally on your device."
+  "privacyNote": "Your data never leaves your browser. All processing happens locally on your device.",
+  "name": "JSON Formatter",
+  "description": "Format, validate, and minify JSON data",
+  "longDescription": "Paste or drop a JSON file to format, validate, and inspect it. See key counts, nesting depth, and file size at a glance. Everything runs in your browser — nothing is uploaded.",
+  "seoTitle": "JSON Formatter and Validator — Free, Private, No Upload | FileFolks",
+  "seoDescription": "Format, validate, and minify JSON online. Runs entirely in your browser. Your data never leaves your device.",
+  "faqs": [
+    {
+      "question": "Is my JSON data sent to a server?",
+      "answer": "No. All processing happens in your browser using JavaScript. Your data never leaves your device. You can verify this by opening your browser's Network tab while using the tool."
+    },
+    {
+      "question": "What is the maximum JSON size I can format?",
+      "answer": "There is no hard limit, but very large files (over 50 MB) may cause your browser tab to slow down. For best performance, we recommend files under 10 MB."
+    },
+    {
+      "question": "Can I format JSON with comments (JSONC)?",
+      "answer": "Standard JSON does not support comments. If your input contains comments, the validator will report a parse error. You can strip comments manually before formatting."
+    },
+    {
+      "question": "What is the difference between formatting and minifying?",
+      "answer": "Formatting adds indentation and line breaks to make JSON human-readable. Minifying removes all unnecessary whitespace to reduce file size, which is useful when JSON will be sent over a network."
+    }
+  ]
 }

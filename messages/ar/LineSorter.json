@@ -1,0 +1,15 @@
+{
+  "inputPlaceholder": "الصق النص للترتيب...",
+  "orderAZ": "A → Z",
+  "orderZA": "Z → A",
+  "orderShortest": "الاقصر",
+  "orderLongest": "الاطول",
+  "orderRandom": "عشوائي",
+  "caseSensitiveLabel": "حساس لحالة الاحرف",
+  "inputLabel": "المدخل",
+  "outputLabel": "الناتج",
+  "copyButton": "نسخ",
+  "copied": "تم النسخ",
+  "downloadButton": "تنزيل .txt",
+  "privacyNote": "نصك لا يغادر متصفحك ابدا."
+}

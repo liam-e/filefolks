@@ -1,0 +1,14 @@
+{
+  "placeholder": "输入或粘贴要转换的文本...",
+  "camel": "camelCase",
+  "pascal": "PascalCase",
+  "snake": "snake_case",
+  "kebab": "kebab-case",
+  "screaming": "SCREAMING_SNAKE_CASE",
+  "title": "Title Case",
+  "upper": "UPPER CASE",
+  "lower": "lower case",
+  "copy": "复制",
+  "copied": "已复制",
+  "privacyNote": "您的文本永远不会离开浏览器。"
+}

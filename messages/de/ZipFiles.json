@@ -1,0 +1,16 @@
+{
+  "dropLabel": "Dateien hier ablegen oder zum Durchsuchen klicken",
+  "dropSublabel": "Beliebige Dateien — sie werden in ein ZIP-Archiv gepackt",
+  "remove": "Entfernen",
+  "clearAll": "Alle entfernen",
+  "fileCount": "{count} Datei",
+  "fileCountPlural": "{count} Dateien",
+  "totalSize": "Gesamt",
+  "createButton": "ZIP erstellen ({count} Dateien)",
+  "creating": "Wird erstellt...",
+  "readyTitle": "ZIP bereit",
+  "downloadButton": "ZIP herunterladen",
+  "errorTitle": "Fehler",
+  "errorGeneric": "Beim Erstellen des Archivs ist ein Fehler aufgetreten.",
+  "privacyNote": "Deine Dateien verlassen nie deinen Browser."
+}

@@ -1,0 +1,11 @@
+{
+  "placeholder": "Вставьте или введите текст здесь...",
+  "words": "Слова",
+  "characters": "Символы",
+  "charsNoSpaces": "Без пробелов",
+  "sentences": "Предложения",
+  "paragraphs": "Абзацы",
+  "readingTime": "Время чтения",
+  "readingTimeValue": "~{min} мин",
+  "privacyNote": "Ваш текст никогда не покидает браузер."
+}

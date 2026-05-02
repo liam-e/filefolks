@@ -1,0 +1,15 @@
+{
+  "inputPlaceholder": "並び替えるテキストを貼り付けてください...",
+  "orderAZ": "A → Z",
+  "orderZA": "Z → A",
+  "orderShortest": "短い順",
+  "orderLongest": "長い順",
+  "orderRandom": "シャッフル",
+  "caseSensitiveLabel": "大文字・小文字を区別する",
+  "inputLabel": "入力",
+  "outputLabel": "出力",
+  "copyButton": "コピー",
+  "copied": "コピーしました",
+  "downloadButton": ".txtをダウンロード",
+  "privacyNote": "テキストはブラウザの外に送信されません。"
+}

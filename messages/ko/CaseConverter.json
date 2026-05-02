@@ -1,0 +1,14 @@
+{
+  "placeholder": "변환할 텍스트를 입력하거나 붙여넣으세요...",
+  "camel": "camelCase",
+  "pascal": "PascalCase",
+  "snake": "snake_case",
+  "kebab": "kebab-case",
+  "screaming": "SCREAMING_SNAKE_CASE",
+  "title": "Title Case",
+  "upper": "UPPER CASE",
+  "lower": "lower case",
+  "copy": "복사",
+  "copied": "복사됨",
+  "privacyNote": "텍스트는 브라우저 밖으로 전송되지 않습니다."
+}

@@ -14,5 +14,28 @@
   "expired": "Истёк",
   "valid": "Действителен",
   "privacyNote": "Ваш токен не покидает браузер.",
-  "errorTitle": "Ошибка"
+  "errorTitle": "Ошибка",
+  "name": "Декодер JWT",
+  "description": "Decode and inspect JSON Web Token headers and payloads",
+  "longDescription": "Paste a JSON Web Token to instantly see its decoded header, payload claims, and expiry date. The token never leaves your browser — no server call is made.",
+  "seoTitle": "JWT Decoder Online — Inspect Token Claims | FileFolks",
+  "seoDescription": "Decode and inspect a JWT header and payload instantly in your browser. Private and free.",
+  "faqs": [
+    {
+      "question": "Is my JWT sent to a server?",
+      "answer": "No. Decoding a JWT is a Base64 operation that runs entirely in your browser. Your token is never transmitted."
+    },
+    {
+      "question": "Does this tool verify the signature?",
+      "answer": "No. Signature verification requires your secret or public key, which you should never share with a third-party tool. This decoder shows the header and payload claims only."
+    },
+    {
+      "question": "What is a JWT?",
+      "answer": "A JSON Web Token (JWT) is a compact, URL-safe token made of three Base64-encoded parts separated by dots: a header (algorithm), a payload (claims), and a signature."
+    },
+    {
+      "question": "Can I see when the token expires?",
+      "answer": "Yes. If the payload contains an exp claim, the decoder shows it as a human-readable date and indicates whether the token is currently expired."
+    }
+  ]
 }

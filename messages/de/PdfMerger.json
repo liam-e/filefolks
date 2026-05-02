@@ -12,5 +12,28 @@
   "privacyNote": "Ihre Dateien verlassen Ihren Browser nie. Die gesamte Verarbeitung erfolgt lokal auf Ihrem Gerät.",
   "moveUp": "Nach oben",
   "moveDown": "Nach unten",
-  "removeFile": "Datei entfernen"
+  "removeFile": "Datei entfernen",
+  "name": "PDF zusammenführen",
+  "description": "Mehrere PDF-Dateien zu einem Dokument zusammenführen",
+  "longDescription": "Ziehen Sie Ihre PDF-Dateien per Drag-and-Drop, um sie zu einem einzigen Dokument zusammenzuführen. Seiten durch Ziehen neu anordnen. Alles geschieht in Ihrem Browser - Ihre Dateien verlassen Ihr Gerät nie.",
+  "seoTitle": "PDF-Dateien online zusammenführen - kostenlos, privat, kein Upload | FileFolks",
+  "seoDescription": "Mehrere PDFs zu einer Datei zusammenführen. Läuft in Ihrem Browser ohne Upload. Ziehen, ablegen, neu anordnen und herunterladen.",
+  "faqs": [
+    {
+      "question": "Werden meine PDF-Dateien auf einen Server hochgeladen?",
+      "answer": "Nein. Das gesamte Zusammenführen erfolgt lokal in Ihrem Browser mithilfe der pdf-lib-Bibliothek. Ihre Dateien verlassen Ihr Gerät nie."
+    },
+    {
+      "question": "Gibt es eine Begrenzung für die Anzahl der PDFs, die ich zusammenführen kann?",
+      "answer": "Es gibt keine feste Begrenzung. Das praktische Limit hängt vom verfügbaren Arbeitsspeicher Ihres Geräts ab. Die meisten Benutzer können problemlos 50 oder mehr Dateien zusammenführen."
+    },
+    {
+      "question": "Kann ich die Seiten vor dem Zusammenführen neu anordnen?",
+      "answer": "Ja. Nachdem Sie Ihre Dateien abgelegt haben, können Sie diese in die gewünschte Reihenfolge ziehen. Das zusammengeführte PDF folgt dieser Reihenfolge."
+    },
+    {
+      "question": "Werden Lesezeichen und Links im zusammengeführten PDF beibehalten?",
+      "answer": "Grundlegender Seiteninhalt, Bilder und Text bleiben erhalten. Interaktive Elemente wie Lesezeichen und Formularfelder werden in manchen Fällen möglicherweise nicht übertragen."
+    }
+  ]
 }

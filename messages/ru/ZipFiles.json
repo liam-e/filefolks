@@ -1,0 +1,16 @@
+{
+  "dropLabel": "Перетащите файлы сюда или нажмите для выбора",
+  "dropSublabel": "Любые файлы -- они будут упакованы в ZIP-архив",
+  "remove": "Удалить",
+  "clearAll": "Удалить все",
+  "fileCount": "{count} файл",
+  "fileCountPlural": "{count} файлов",
+  "totalSize": "Итого",
+  "createButton": "Создать ZIP ({count} файлов)",
+  "creating": "Создание...",
+  "readyTitle": "ZIP готов",
+  "downloadButton": "Скачать ZIP",
+  "errorTitle": "Ошибка",
+  "errorGeneric": "Что-то пошло не так при создании архива.",
+  "privacyNote": "Ваши файлы никогда не покидают браузер."
+}

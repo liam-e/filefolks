@@ -8,5 +8,28 @@
   "copied": "Copiado",
   "clear": "Limpiar",
   "privacyNote": "Generado en tu navegador con la Web Crypto API.",
-  "placeholder": "Haz clic en Generar para crear UUIDs."
+  "placeholder": "Haz clic en Generar para crear UUIDs.",
+  "name": "Generador de UUID",
+  "description": "Genera UUID v4 de forma masiva, con copia al portapapeles y descarga",
+  "longDescription": "Genera uno o más UUID versión 4 usando el generador de números aleatorios criptográficamente seguro del navegador. Copia individualmente, copia todo o descarga como archivo de texto.",
+  "seoTitle": "Generador de UUID Online — Generar UUID v4 Gratis | FileFolks",
+  "seoDescription": "Genera UUID v4 criptográficamente seguros en tu navegador. Generación masiva, copiar y descargar. Gratis y privado.",
+  "faqs": [
+    {
+      "question": "¿Son estos UUID criptográficamente seguros?",
+      "answer": "Sí. La herramienta usa la API crypto.randomUUID() integrada en el navegador, que emplea un generador de números pseudoaleatorios criptográficamente seguro."
+    },
+    {
+      "question": "¿Qué es un UUID v4?",
+      "answer": "Un UUID versión 4 es un identificador aleatorio de 128 bits con formato 8-4-4-4-12 dígitos hexadecimales separados por guiones."
+    },
+    {
+      "question": "¿Puedo generar UUID de forma masiva?",
+      "answer": "Sí. Establece la cantidad hasta 100 y haz clic en Generar. Usa Copiar todo o Descargar para obtenerlos todos."
+    },
+    {
+      "question": "¿Son únicos los UUID?",
+      "answer": "Sí, con probabilidad abrumadora. La posibilidad de colisión es astronomicamente pequeña."
+    }
+  ]
 }

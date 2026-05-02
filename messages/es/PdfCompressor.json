@@ -13,5 +13,28 @@
   "alreadyOptimizedTitle": "El archivo ya está bien optimizado.",
   "alreadyOptimizedBody": "La versión comprimida ({compressedSize}) no es más pequeña que el original ({originalSize}). Conserva tu archivo original.",
   "privacyNote": "Tu archivo nunca sale de tu navegador. Todo el proceso de compresión ocurre localmente en tu dispositivo.",
-  "removeFile": "Eliminar archivo"
+  "removeFile": "Eliminar archivo",
+  "name": "Comprimir PDF",
+  "description": "Reduce el tamaño del archivo PDF sin perder contenido",
+  "longDescription": "Suelta un PDF para reducir su tamaño. La herramienta elimina los metadatos integrados y optimiza la estructura interna completamente en tu navegador. Tu archivo nunca se sube.",
+  "seoTitle": "Comprimir PDF en línea — Gratis, Privado, Sin subidas | FileFolks",
+  "seoDescription": "Reduce el tamaño de un PDF en tu navegador. Sin necesidad de subir archivos. Elimina metadatos y optimiza la estructura interna para archivos más pequeños.",
+  "faqs": [
+    {
+      "question": "¿Se sube mi PDF a un servidor?",
+      "answer": "No. Todo el proceso de compresión ocurre en tu navegador mediante la biblioteca pdf-lib. Tu archivo nunca sale de tu dispositivo. Puedes confirmarlo observando la pestaña Network de tu navegador mientras usas la herramienta."
+    },
+    {
+      "question": "¿Cuánto se reducirá mi PDF?",
+      "answer": "La herramienta elimina los metadatos integrados y optimiza la estructura interna de objetos. El ahorro varía según el archivo: los PDFs con metadatos redundantes o una estructura interna no optimizada pueden reducirse entre un 10 y un 40 %. Los PDFs que ya están optimizados o que están compuestos principalmente por imágenes comprimidas verán menores beneficios."
+    },
+    {
+      "question": "¿Cambiará el contenido de mi PDF?",
+      "answer": "No. Solo se eliminan los metadatos invisibles (autor, creador, marcas de tiempo) y la sobrecarga estructural interna. El contenido de las páginas, el texto, las imágenes y el diseño se conservan exactamente."
+    },
+    {
+      "question": "¿Qué ocurre si el archivo comprimido es más grande que el original?",
+      "answer": "Esto puede ocurrir si el PDF original ya estaba optimizado al máximo. La herramienta te permitirá descargar ambas versiones, pero en ese caso recomendamos conservar el original."
+    }
+  ]
 }

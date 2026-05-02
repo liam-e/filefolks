@@ -1,0 +1,16 @@
+{
+  "dropLabel": "여기에 파일을 드래그하거나 클릭하여 선택",
+  "dropSublabel": "모든 파일 -- ZIP 아카이브로 압축됩니다",
+  "remove": "제거",
+  "clearAll": "모두 제거",
+  "fileCount": "{count}개 파일",
+  "fileCountPlural": "{count}개 파일",
+  "totalSize": "합계",
+  "createButton": "ZIP 만들기 ({count}개)",
+  "creating": "만드는 중...",
+  "readyTitle": "ZIP 준비 완료",
+  "downloadButton": "ZIP 다운로드",
+  "errorTitle": "오류",
+  "errorGeneric": "아카이브를 만드는 중 오류가 발생했습니다.",
+  "privacyNote": "파일은 브라우저 밖으로 전송되지 않습니다."
+}

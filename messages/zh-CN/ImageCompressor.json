@@ -13,5 +13,28 @@
   "alreadyOptimizedTitle": "文件已经优化良好。",
   "alreadyOptimizedBody": "压缩版本（{compressedSize}）并不比原始版本（{originalSize}）小。请保留您的原始文件。",
   "privacyNote": "您的图片始终留在您的浏览器中，所有压缩均在本地进行。",
-  "removeFile": "删除文件"
+  "removeFile": "删除文件",
+  "name": "压缩图片",
+  "description": "以最小质量损失减小图片文件大小",
+  "longDescription": "Drop a PNG, JPG, or WebP image to compress it. File size is reduced while preserving visual quality — everything runs in your browser. Nothing is uploaded.",
+  "seoTitle": "在线压缩图片 — 免费、私密、无需上传 | FileFolks",
+  "seoDescription": "在浏览器中压缩图片。支持 PNG、JPG、WebP。无需上传，快速私密。",
+  "faqs": [
+    {
+      "question": "Are my images uploaded to a server?",
+      "answer": "No. Compression runs entirely in your browser using JavaScript. Your images never leave your device."
+    },
+    {
+      "question": "Which formats are supported?",
+      "answer": "PNG, JPG, and WebP. The output format matches your input file."
+    },
+    {
+      "question": "How much will the file shrink?",
+      "answer": "Savings vary by image. Photographs typically compress 40-70%. Images that are already heavily compressed will see smaller gains."
+    },
+    {
+      "question": "Will compression affect image quality?",
+      "answer": "The tool targets a maximum output size of 1 MB while preserving as much quality as possible. For most photos the difference is imperceptible."
+    }
+  ]
 }

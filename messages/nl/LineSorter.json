@@ -1,0 +1,15 @@
+{
+  "inputPlaceholder": "Plak tekst om te sorteren...",
+  "orderAZ": "A → Z",
+  "orderZA": "Z → A",
+  "orderShortest": "Kortste",
+  "orderLongest": "Langste",
+  "orderRandom": "Willekeurig",
+  "caseSensitiveLabel": "Hoofdlettergevoelig",
+  "inputLabel": "Invoer",
+  "outputLabel": "Uitvoer",
+  "copyButton": "Kopieer",
+  "copied": "Gekopieerd",
+  "downloadButton": "Downloaden als .txt",
+  "privacyNote": "Je tekst verlaat nooit je browser."
+}

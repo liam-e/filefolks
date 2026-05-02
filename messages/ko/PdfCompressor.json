@@ -13,5 +13,28 @@
   "alreadyOptimizedTitle": "파일이 이미 잘 최적화되어 있습니다.",
   "alreadyOptimizedBody": "압축 버전({compressedSize})이 원본({originalSize})보다 작지 않습니다. 원본 파일을 보관하세요.",
   "privacyNote": "파일이 브라우저를 떠나지 않습니다. 모든 압축은 기기에서 로컬로 이루어집니다.",
-  "removeFile": "파일 제거"
+  "removeFile": "파일 제거",
+  "name": "PDF 압축",
+  "description": "콘텐츠를 보존하면서 PDF 파일 크기 줄이기",
+  "longDescription": "PDF를 드롭하여 파일 크기를 줄이세요. 도구가 브라우저에서 완전히 내장된 메타데이터를 제거하고 내부 구조를 최적화합니다.",
+  "seoTitle": "PDF 온라인 압축 — 무료, 개인 정보 보호, 업로드 없음 | FileFolks",
+  "seoDescription": "브라우저에서 PDF 파일 크기를 줄이세요. 업로드 필요 없습니다.",
+  "faqs": [
+    {
+      "question": "내 PDF가 서버에 업로드됩니까?",
+      "answer": "아니요. 모든 압축은 브라우저에서 pdf-lib 라이브러리를 사용하여 이루어집니다."
+    },
+    {
+      "question": "PDF가 얼마나 줄어듭니까?",
+      "answer": "절약량은 파일에 따라 다릅니다. 메타데이터가 많은 PDF는 10-40% 감소할 수 있습니다."
+    },
+    {
+      "question": "PDF 내용이 바뀝니까?",
+      "answer": "아니요. 보이지 않는 메타데이터만 제거됩니다. 페이지 콘텐츠는 정확히 보존됩니다."
+    },
+    {
+      "question": "압축 파일이 원본보다 크면 어떻게 됩니까?",
+      "answer": "원본 PDF가 이미 잘 최적화된 경우 발생할 수 있습니다. 그 경우 원본 파일을 보관하는 것이 좋습니다."
+    }
+  ]
 }

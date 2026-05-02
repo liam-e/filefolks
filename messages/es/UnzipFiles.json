@@ -1,0 +1,13 @@
+{
+  "dropLabel": "Arrastra un archivo ZIP aqui o haz clic para explorar",
+  "dropSublabel": "Solo archivos .zip",
+  "remove": "Eliminar",
+  "loading": "Leyendo archivo...",
+  "fileCount": "{count} archivo",
+  "fileCountPlural": "{count} archivos",
+  "folders": "carpetas",
+  "download": "Descargar",
+  "errorTitle": "Error",
+  "errorGeneric": "No se pudo leer el archivo. Puede estar corrupto o protegido con contrasena.",
+  "privacyNote": "Tus archivos nunca salen de tu navegador."
+}

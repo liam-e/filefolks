@@ -1,0 +1,13 @@
+{
+  "dropLabel": "ZIP-bestand hier neerzetten of klikken om te bladeren",
+  "dropSublabel": "Alleen .zip-archieven",
+  "remove": "Verwijderen",
+  "loading": "Archief lezen...",
+  "fileCount": "{count} bestand",
+  "fileCountPlural": "{count} bestanden",
+  "folders": "mappen",
+  "download": "Downloaden",
+  "errorTitle": "Fout",
+  "errorGeneric": "Het archief kon niet worden gelezen. Het bestand is mogelijk beschadigd of met een wachtwoord beveiligd.",
+  "privacyNote": "Je bestanden verlaten nooit je browser."
+}

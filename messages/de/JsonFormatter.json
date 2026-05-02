@@ -20,5 +20,28 @@
   "statsKeys": "Schlüssel",
   "statsDepth": "Tiefe",
   "statsSize": "Größe",
-  "privacyNote": "Ihre Daten verlassen Ihren Browser nie. Die gesamte Verarbeitung erfolgt lokal auf Ihrem Gerät."
+  "privacyNote": "Ihre Daten verlassen Ihren Browser nie. Die gesamte Verarbeitung erfolgt lokal auf Ihrem Gerät.",
+  "name": "JSON-Formatierer",
+  "description": "JSON-Daten formatieren, validieren und minifizieren",
+  "longDescription": "Fügen Sie eine JSON-Datei ein oder legen Sie sie ab, um sie zu formatieren, zu validieren und zu untersuchen. Sehen Sie auf einen Blick Schlüsselanzahl, Verschachtelungstiefe und Dateigröße. Alles läuft in Ihrem Browser - es wird nichts hochgeladen.",
+  "seoTitle": "JSON-Formatierer und Validator - kostenlos, privat, kein Upload | FileFolks",
+  "seoDescription": "JSON online formatieren, validieren und minifizieren. Läuft vollständig in Ihrem Browser. Ihre Daten verlassen Ihr Gerät nie.",
+  "faqs": [
+    {
+      "question": "Werden meine JSON-Daten an einen Server gesendet?",
+      "answer": "Nein. Die gesamte Verarbeitung erfolgt in Ihrem Browser mithilfe von JavaScript. Ihre Daten verlassen Ihr Gerät nie."
+    },
+    {
+      "question": "Welche maximale JSON-Größe kann ich formatieren?",
+      "answer": "Es gibt keine feste Begrenzung, aber sehr große Dateien (über 50 MB) können dazu führen, dass Ihr Browser-Tab langsamer wird."
+    },
+    {
+      "question": "Kann ich JSON mit Kommentaren (JSONC) formatieren?",
+      "answer": "Standard-JSON unterstützt keine Kommentare. Wenn Ihre Eingabe Kommentare enthält, meldet der Validator einen Parse-Fehler."
+    },
+    {
+      "question": "Was ist der Unterschied zwischen Formatieren und Minifizieren?",
+      "answer": "Formatieren fügt Einzüge und Zeilenumbrüche hinzu, um JSON für Menschen lesbar zu machen. Minifizieren entfernt alle unnötigen Leerzeichen, um die Dateigröße zu reduzieren."
+    }
+  ]
 }

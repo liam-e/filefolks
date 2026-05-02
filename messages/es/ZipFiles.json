@@ -1,0 +1,16 @@
+{
+  "dropLabel": "Arrastra archivos aqui o haz clic para explorar",
+  "dropSublabel": "Cualquier archivo — se empaquetaran en un archivo ZIP",
+  "remove": "Eliminar",
+  "clearAll": "Eliminar todo",
+  "fileCount": "{count} archivo",
+  "fileCountPlural": "{count} archivos",
+  "totalSize": "Total",
+  "createButton": "Crear ZIP ({count} archivos)",
+  "creating": "Creando...",
+  "readyTitle": "ZIP listo",
+  "downloadButton": "Descargar ZIP",
+  "errorTitle": "Error",
+  "errorGeneric": "Algo salio mal al crear el archivo.",
+  "privacyNote": "Tus archivos nunca salen de tu navegador."
+}

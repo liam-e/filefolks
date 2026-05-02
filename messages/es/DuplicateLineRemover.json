@@ -1,0 +1,14 @@
+{
+  "inputPlaceholder": "Pega texto con lineas duplicadas aqui...",
+  "caseSensitiveLabel": "Distinguir mayusculas/minusculas",
+  "trimLinesLabel": "Recortar espacios",
+  "removeEmptyLabel": "Eliminar lineas vacias",
+  "inputLabel": "Entrada",
+  "outputLabel": "Resultado",
+  "linesRemoved": "{count} duplicado eliminado",
+  "linesRemovedPlural": "{count} duplicados eliminados",
+  "copyButton": "Copiar",
+  "copied": "Copiado",
+  "downloadButton": "Descargar .txt",
+  "privacyNote": "Tu texto nunca sale de tu navegador."
+}

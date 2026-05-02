@@ -12,5 +12,28 @@
   "errorTitle": "Error",
   "successTitle": "Cropped successfully. Check your downloads folder.",
   "privacyNote": "Your image never leaves your browser. All processing happens locally.",
-  "removeFile": "Remove file"
+  "removeFile": "Remove file",
+  "name": "Cortar imagem",
+  "description": "Corte imagens para uma área personalizada ou proporção predefinida",
+  "longDescription": "Drop an image, adjust the crop region using the visual preview and coordinate inputs, then download the cropped result. All processing stays in your browser.",
+  "seoTitle": "Crop Image Online — Free, Private, No Upload | FileFolks",
+  "seoDescription": "Crop images to any size or aspect ratio in your browser. PNG, JPG, WebP. No upload required.",
+  "faqs": [
+    {
+      "question": "Are my images uploaded?",
+      "answer": "No. Cropping uses the Canvas API in your browser. Nothing is sent to a server."
+    },
+    {
+      "question": "What aspect ratio presets are available?",
+      "answer": "Free (no constraint), 1:1 (square), 4:3, 16:9, and 3:2. The preset centres the crop region within the image."
+    },
+    {
+      "question": "Can I enter exact pixel coordinates?",
+      "answer": "Yes. Use the X, Y, Width, and Height inputs for precise control. The visual preview updates in real time."
+    },
+    {
+      "question": "What output format does the tool use?",
+      "answer": "The output format matches the input — PNG for PNG files, JPG for JPG files, and WebP for WebP files."
+    }
+  ]
 }

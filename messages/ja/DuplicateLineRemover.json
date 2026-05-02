@@ -1,0 +1,14 @@
+{
+  "inputPlaceholder": "重複行を含むテキストを貼り付けてください...",
+  "caseSensitiveLabel": "大文字・小文字を区別する",
+  "trimLinesLabel": "空白をトリムする",
+  "removeEmptyLabel": "空行を削除する",
+  "inputLabel": "入力",
+  "outputLabel": "出力",
+  "linesRemoved": "{count}件の重複を削除",
+  "linesRemovedPlural": "{count}件の重複を削除",
+  "copyButton": "コピー",
+  "copied": "コピーしました",
+  "downloadButton": ".txtをダウンロード",
+  "privacyNote": "テキストはブラウザの外に送信されません。"
+}

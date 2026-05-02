@@ -17,5 +17,28 @@
   "loadFile": "Charger un fichier",
   "errorTitle": "Erreur",
   "invalidBase64": "Entrée Base64 invalide",
-  "privacyNote": "Vos données ne quittent jamais votre navigateur. Tout l'encodage s'effectue localement."
+  "privacyNote": "Vos données ne quittent jamais votre navigateur. Tout l'encodage s'effectue localement.",
+  "name": "Encoder / Décoder en Base64",
+  "description": "Encoder du texte ou des fichiers en Base64, ou décoder du Base64 en texte",
+  "longDescription": "Collez du texte ou chargez un fichier pour l'encoder en Base64, ou collez une chaîne Base64 pour la décoder. Tout se passe dans votre navigateur.",
+  "seoTitle": "Encoder et Décoder en Base64 en ligne — Gratuit, Privé | FileFolks",
+  "seoDescription": "Encodez du texte ou des fichiers en Base64, ou décodez du Base64 en texte. Dans votre navigateur. Sans envoi.",
+  "faqs": [
+    {
+      "question": "Mes données sont-elles envoyées à un serveur ?",
+      "answer": "Non. L'encodage et le décodage Base64 sont de pures opérations JavaScript qui s'exécutent dans votre navigateur."
+    },
+    {
+      "question": "À quoi sert le Base64 ?",
+      "answer": "Le Base64 est utilisé pour transmettre en toute sécurité des données binaires sous forme de texte — dans les e-mails, les URL de données, les charges utiles d'API et les fichiers de configuration."
+    },
+    {
+      "question": "Y a-t-il une limite de taille ?",
+      "answer": "Il n'y a pas de limite stricte, mais les très gros fichiers (plus de 10 Mo) peuvent ralentir votre onglet. La chaîne Base64 de sortie sera environ 33 % plus grande que l'entrée."
+    },
+    {
+      "question": "Le Base64 chiffre-t-il mes données ?",
+      "answer": "Non. Le Base64 est un schéma d'encodage, pas un chiffrement. Toute personne disposant de la chaîne Base64 peut la décoder instantanément."
+    }
+  ]
 }

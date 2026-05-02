@@ -17,5 +17,28 @@
   "loadFile": "파일 불러오기",
   "errorTitle": "오류",
   "invalidBase64": "유효하지 않은 Base64 입력",
-  "privacyNote": "데이터는 브라우저를 절대 벗어나지 않습니다. 모든 인코딩은 로컬에서 수행됩니다."
+  "privacyNote": "데이터는 브라우저를 절대 벗어나지 않습니다. 모든 인코딩은 로컬에서 수행됩니다.",
+  "name": "Base64 인코딩 / 디코딩",
+  "description": "텍스트나 파일을 Base64로 인코딩하거나 Base64를 텍스트로 디코딩",
+  "longDescription": "Paste text or load a file to encode it as Base64, or paste a Base64 string to decode it. All processing happens locally in your browser.",
+  "seoTitle": "Base64 온라인 인코딩 & 디코딩 — 무료, 개인정보 보호 | FileFolks",
+  "seoDescription": "텍스트나 파일을 Base64로 인코딩하거나 Base64를 텍스트로 디코딩. 브라우저에서 실행.",
+  "faqs": [
+    {
+      "question": "Is my data uploaded to a server?",
+      "answer": "No. Base64 encoding and decoding are pure JavaScript operations that run entirely in your browser."
+    },
+    {
+      "question": "What is Base64 used for?",
+      "answer": "Base64 is used to safely transmit binary data as text — in emails, data URLs, API payloads, and configuration files."
+    },
+    {
+      "question": "Is there a size limit?",
+      "answer": "There is no hard limit, but very large files (over 10 MB) may slow down your browser tab. The output Base64 string will be roughly 33% larger than the input."
+    },
+    {
+      "question": "Does Base64 encrypt my data?",
+      "answer": "No. Base64 is an encoding scheme, not encryption. Anyone with the Base64 string can decode it instantly. Do not use it to protect sensitive data."
+    }
+  ]
 }

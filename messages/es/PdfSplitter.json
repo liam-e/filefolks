@@ -13,5 +13,28 @@
   "successTitle": "Extraído correctamente. Comprueba tu carpeta de descargas.",
   "privacyNote": "Tu archivo nunca sale de tu navegador. Todo el procesamiento ocurre localmente.",
   "removeFile": "Eliminar archivo",
-  "loadingPages": "Cargando..."
+  "loadingPages": "Cargando...",
+  "name": "Dividir PDF",
+  "description": "Extrae un rango de páginas de un PDF en un nuevo archivo",
+  "longDescription": "Suelta un PDF, elige un rango de páginas y descarga solo esas páginas como nuevo documento. Funciona con pdf-lib en tu navegador.",
+  "seoTitle": "Dividir PDF online — Gratis, Privado, Sin subida | FileFolks",
+  "seoDescription": "Extrae páginas de un PDF en tu navegador. Selecciona un rango y descarga al instante. Sin subida.",
+  "faqs": [
+    {
+      "question": "¿Se sube mi PDF a un servidor?",
+      "answer": "No. Todo ocurre en tu navegador con la librería pdf-lib. Tu archivo nunca sale de tu dispositivo."
+    },
+    {
+      "question": "¿Puedo extraer páginas no consecutivas?",
+      "answer": "Actualmente la herramienta extrae un rango continuo. Para páginas no consecutivas, extrae cada rango por separado y combina los resultados."
+    },
+    {
+      "question": "¿Las páginas extraídas conservarán su contenido?",
+      "answer": "Sí. Todo el texto, imágenes y diseño se conserva exactamente como en el original."
+    },
+    {
+      "question": "¿Qué pasa si mi PDF tiene contraseña?",
+      "answer": "Los PDF protegidos con contraseña no se pueden procesar. Elimina primero la contraseña con una herramienta de desbloqueo."
+    }
+  ]
 }

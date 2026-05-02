@@ -10,5 +10,28 @@
   "privacyNote": "Your images never leave your browser. All processing happens locally.",
   "moveUp": "Move up",
   "moveDown": "Move down",
-  "removeFile": "Remove file"
+  "removeFile": "Remove file",
+  "name": "Image to PDF",
+  "description": "Convert one or more images into a single PDF document",
+  "longDescription": "Drop PNG, JPG, or WebP images and download them combined into a single PDF. Reorder pages by dragging. Everything runs in your browser — nothing is uploaded.",
+  "seoTitle": "Image to PDF Online — Free, Private, No Upload | FileFolks",
+  "seoDescription": "Convert JPG, PNG, or WebP images to a PDF in your browser. Reorder pages, then download. No upload required.",
+  "faqs": [
+    {
+      "question": "Are my images uploaded to a server?",
+      "answer": "No. All processing uses pdf-lib in your browser. Your images never leave your device."
+    },
+    {
+      "question": "Which image formats are supported?",
+      "answer": "PNG, JPG, and WebP. Each image becomes one page in the output PDF."
+    },
+    {
+      "question": "Can I control the page order?",
+      "answer": "Yes. After adding your images, drag them into the order you want. The PDF pages will follow this order."
+    },
+    {
+      "question": "What size will the PDF pages be?",
+      "answer": "Each page matches the pixel dimensions of the source image. For very large images the PDF file size may be significant."
+    }
+  ]
 }

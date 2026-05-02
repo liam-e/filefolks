@@ -10,5 +10,28 @@
   "successTitle": "변환 성공. 다운로드 폴더를 확인하세요.",
   "jpegNote": "투명한 영역은 흰색 배경으로 채워집니다.",
   "privacyNote": "이미지는 브라우저를 절대 벗어나지 않습니다. 모든 변환은 로컬에서 수행됩니다.",
-  "removeFile": "파일 제거"
+  "removeFile": "파일 제거",
+  "name": "이미지 변환",
+  "description": "PNG, JPG, WebP 간 이미지 변환",
+  "longDescription": "Drop an image to convert it to PNG, JPG, or WebP. Uses your browser's built-in Canvas API. No upload, no account required.",
+  "seoTitle": "이미지 온라인 변환 — PNG to JPG, WebP 등 | FileFolks",
+  "seoDescription": "PNG to JPG, JPG to WebP 등 변환. 무료, 개인 정보 보호, 브라우저에서 실행. 업로드 없음.",
+  "faqs": [
+    {
+      "question": "Are my images uploaded?",
+      "answer": "No. Conversion uses the browser's Canvas API entirely on your device. Nothing is sent to a server."
+    },
+    {
+      "question": "What happens to transparency when converting to JPG?",
+      "answer": "JPG does not support transparency. Any transparent areas are filled with a white background automatically."
+    },
+    {
+      "question": "Is there quality loss when converting?",
+      "answer": "Converting to PNG is lossless. Converting to JPG or WebP applies light compression (92% quality by default), which is visually indistinguishable for most images."
+    },
+    {
+      "question": "Can I convert AVIF or GIF files?",
+      "answer": "Currently the tool supports PNG, JPG, and WebP input and output. AVIF and GIF support may be added in future."
+    }
+  ]
 }

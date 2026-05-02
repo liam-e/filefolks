@@ -13,5 +13,28 @@
   "successTitle": "Erfolgreich extrahiert. Prüfen Sie Ihren Download-Ordner.",
   "privacyNote": "Ihre Datei verlässt nie Ihren Browser. Die gesamte Verarbeitung erfolgt lokal.",
   "removeFile": "Datei entfernen",
-  "loadingPages": "Laden..."
+  "loadingPages": "Laden...",
+  "name": "PDF teilen",
+  "description": "Einen Seitenbereich aus einem PDF in eine neue Datei extrahieren",
+  "longDescription": "Legen Sie ein PDF ab, wählen Sie einen Seitenbereich und laden Sie nur diese Seiten als neues Dokument herunter. Läuft mit pdf-lib in Ihrem Browser.",
+  "seoTitle": "PDF online teilen — Kostenlos, Privat, Kein Upload | FileFolks",
+  "seoDescription": "Seiten aus einem PDF in Ihrem Browser extrahieren. Bereich auswählen und sofort herunterladen. Kein Upload.",
+  "faqs": [
+    {
+      "question": "Wird mein PDF auf einen Server hochgeladen?",
+      "answer": "Nein. Alles passiert in Ihrem Browser mit der pdf-lib-Bibliothek. Ihre Datei verlässt nie Ihr Gerät."
+    },
+    {
+      "question": "Kann ich nicht zusammenhängende Seiten extrahieren?",
+      "answer": "Derzeit extrahiert das Tool einen zusammenhängenden Bereich. Für nicht zusammenhängende Seiten extrahieren Sie jeden Bereich separat und führen die Ergebnisse zusammen."
+    },
+    {
+      "question": "Behalten die extrahierten Seiten ihren Inhalt?",
+      "answer": "Ja. Alle Texte, Bilder und Layouts bleiben genau wie im Original erhalten."
+    },
+    {
+      "question": "Was, wenn mein PDF passwortgeschützt ist?",
+      "answer": "Passwortgeschützte PDFs können nicht verarbeitet werden. Entfernen Sie zuerst das Passwort mit einem Entsperrungstool."
+    }
+  ]
 }

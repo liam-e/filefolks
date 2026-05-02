@@ -1,0 +1,14 @@
+{
+  "countLabel": "数量",
+  "unitLabel": "単位",
+  "unitParagraphs": "段落",
+  "unitSentences": "文",
+  "unitWords": "単語",
+  "classicStartLabel": "クラシックな書き出しで始める",
+  "generateButton": "生成",
+  "regenerateButton": "再生成",
+  "outputLabel": "出力",
+  "copyButton": "コピー",
+  "copied": "コピーしました",
+  "privacyNote": "ブラウザ上で完全に生成されます。"
+}

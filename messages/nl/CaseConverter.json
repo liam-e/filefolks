@@ -1,0 +1,14 @@
+{
+  "placeholder": "Typ of plak tekst om te converteren...",
+  "camel": "camelCase",
+  "pascal": "PascalCase",
+  "snake": "snake_case",
+  "kebab": "kebab-case",
+  "screaming": "SCREAMING_SNAKE_CASE",
+  "title": "Title Case",
+  "upper": "UPPER CASE",
+  "lower": "lower case",
+  "copy": "Kopieer",
+  "copied": "Gekopieerd",
+  "privacyNote": "Je tekst verlaat nooit je browser."
+}

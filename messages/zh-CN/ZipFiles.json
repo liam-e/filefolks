@@ -1,0 +1,16 @@
+{
+  "dropLabel": "将文件拖放到此处，或点击浏览",
+  "dropSublabel": "任意文件 -- 将被打包为 ZIP 压缩包",
+  "remove": "移除",
+  "clearAll": "全部清除",
+  "fileCount": "{count} 个文件",
+  "fileCountPlural": "{count} 个文件",
+  "totalSize": "总计",
+  "createButton": "创建 ZIP（{count} 个文件）",
+  "creating": "创建中...",
+  "readyTitle": "ZIP 已准备好",
+  "downloadButton": "下载 ZIP",
+  "errorTitle": "错误",
+  "errorGeneric": "创建压缩包时出现问题。",
+  "privacyNote": "您的文件永远不会离开浏览器。"
+}

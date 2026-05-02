@@ -1,0 +1,13 @@
+{
+  "dropLabel": "Deposez un fichier ZIP ici ou cliquez pour parcourir",
+  "dropSublabel": "Archives .zip uniquement",
+  "remove": "Supprimer",
+  "loading": "Lecture de l'archive...",
+  "fileCount": "{count} fichier",
+  "fileCountPlural": "{count} fichiers",
+  "folders": "dossiers",
+  "download": "Telecharger",
+  "errorTitle": "Erreur",
+  "errorGeneric": "Impossible de lire l'archive. Le fichier est peut-etre corrompu ou protege par un mot de passe.",
+  "privacyNote": "Vos fichiers ne quittent jamais votre navigateur."
+}

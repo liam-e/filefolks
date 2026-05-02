@@ -1,0 +1,16 @@
+{
+  "dropLabel": "ここにファイルをドロップするか、クリックして選択",
+  "dropSublabel": "任意のファイル -- ZIPアーカイブに圧縮されます",
+  "remove": "削除",
+  "clearAll": "すべて削除",
+  "fileCount": "{count}件のファイル",
+  "fileCountPlural": "{count}件のファイル",
+  "totalSize": "合計",
+  "createButton": "ZIPを作成（{count}件）",
+  "creating": "作成中...",
+  "readyTitle": "ZIPの準備完了",
+  "downloadButton": "ZIPをダウンロード",
+  "errorTitle": "エラー",
+  "errorGeneric": "アーカイブの作成中にエラーが発生しました。",
+  "privacyNote": "ファイルはブラウザの外に送信されません。"
+}

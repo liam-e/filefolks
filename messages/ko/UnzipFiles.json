@@ -1,0 +1,13 @@
+{
+  "dropLabel": "여기에 ZIP 파일을 드래그하거나 클릭하여 선택",
+  "dropSublabel": ".zip 아카이브만 가능",
+  "remove": "제거",
+  "loading": "아카이브 읽는 중...",
+  "fileCount": "{count}개 파일",
+  "fileCountPlural": "{count}개 파일",
+  "folders": "폴더",
+  "download": "다운로드",
+  "errorTitle": "오류",
+  "errorGeneric": "아카이브를 읽을 수 없습니다. 파일이 손상되었거나 비밀번호로 보호된 것일 수 있습니다.",
+  "privacyNote": "파일은 브라우저 밖으로 전송되지 않습니다."
+}

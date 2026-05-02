@@ -10,5 +10,28 @@
   "privacyNote": "Ihre Bilder verlassen nie Ihren Browser. Die gesamte Verarbeitung erfolgt lokal.",
   "moveUp": "Nach oben",
   "moveDown": "Nach unten",
-  "removeFile": "Datei entfernen"
+  "removeFile": "Datei entfernen",
+  "name": "Bild zu PDF",
+  "description": "Ein oder mehrere Bilder in ein einziges PDF-Dokument konvertieren",
+  "longDescription": "Legen Sie PNG-, JPG- oder WebP-Bilder ab und laden Sie sie als kombiniertes PDF herunter. Seiten per Drag & Drop neu anordnen. Alles läuft in Ihrem Browser.",
+  "seoTitle": "Bild zu PDF online — Kostenlos, Privat, Kein Upload | FileFolks",
+  "seoDescription": "JPG, PNG oder WebP in PDF konvertieren in Ihrem Browser. Seiten neu anordnen und herunterladen. Kein Upload.",
+  "faqs": [
+    {
+      "question": "Werden meine Bilder auf einen Server hochgeladen?",
+      "answer": "Nein. Alles verwendet pdf-lib in Ihrem Browser. Ihre Bilder verlassen nie Ihr Gerät."
+    },
+    {
+      "question": "Welche Bildformate werden unterstützt?",
+      "answer": "PNG, JPG und WebP. Jedes Bild wird zu einer Seite im Ausgabe-PDF."
+    },
+    {
+      "question": "Kann ich die Seitenreihenfolge steuern?",
+      "answer": "Ja. Nach dem Hinzufügen Ihrer Bilder können Sie sie in die gewünschte Reihenfolge ziehen."
+    },
+    {
+      "question": "Welche Größe haben die PDF-Seiten?",
+      "answer": "Jede Seite entspricht den Pixelabmessungen des Quellbilds."
+    }
+  ]
 }

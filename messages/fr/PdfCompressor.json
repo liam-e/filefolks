@@ -13,5 +13,28 @@
   "alreadyOptimizedTitle": "Le fichier est déjà bien optimisé.",
   "alreadyOptimizedBody": "La version compressée ({compressedSize}) n'est pas plus petite que l'original ({originalSize}). Conservez votre fichier original.",
   "privacyNote": "Votre fichier ne quitte jamais votre navigateur. Toute la compression s'effectue localement sur votre appareil.",
-  "removeFile": "Supprimer le fichier"
+  "removeFile": "Supprimer le fichier",
+  "name": "Compresser un PDF",
+  "description": "Réduisez la taille d'un fichier PDF tout en préservant son contenu",
+  "longDescription": "Déposez un PDF pour réduire sa taille. L'outil supprime les métadonnées intégrées et optimise la structure interne entièrement dans votre navigateur. Votre fichier n'est jamais téléversé.",
+  "seoTitle": "Compresser un PDF en ligne — Gratuit, Privé, Sans téléversement | FileFolks",
+  "seoDescription": "Réduisez la taille d'un PDF dans votre navigateur. Aucun téléversement requis. Supprime les métadonnées et optimise la structure interne pour des fichiers plus légers.",
+  "faqs": [
+    {
+      "question": "Mon PDF est-il téléversé sur un serveur ?",
+      "answer": "Non. Toute la compression s'effectue dans votre navigateur à l'aide de la bibliothèque pdf-lib. Votre fichier ne quitte jamais votre appareil."
+    },
+    {
+      "question": "De combien mon PDF va-t-il rétrécir ?",
+      "answer": "L'outil supprime les métadonnées intégrées et optimise la structure interne des objets. Les économies varient selon le fichier : les PDF contenant des métadonnées redondantes ou une structure interne non optimisée peuvent gagner 10 à 40 %."
+    },
+    {
+      "question": "Le contenu de mon PDF sera-t-il modifié ?",
+      "answer": "Non. Seules les métadonnées invisibles (auteur, créateur, horodatages) et les surcharges structurelles internes sont supprimées. Le contenu des pages, le texte, les images et la mise en page sont préservés à l'identique."
+    },
+    {
+      "question": "Que se passe-t-il si le fichier compressé est plus grand que l'original ?",
+      "answer": "Cela peut arriver si le PDF original était déjà fortement optimisé. L'outil vous permettra tout de même de télécharger les deux versions, mais nous recommandons de conserver votre original dans ce cas."
+    }
+  ]
 }

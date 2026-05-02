@@ -12,5 +12,28 @@
   "privacyNote": "I tuoi file non lasciano mai il browser. Tutta l'unione avviene localmente sul tuo dispositivo.",
   "moveUp": "Sposta su",
   "moveDown": "Sposta giù",
-  "removeFile": "Rimuovi file"
+  "removeFile": "Rimuovi file",
+  "name": "Unisci PDF",
+  "description": "Combina più file PDF in un unico documento",
+  "longDescription": "Trascina e rilascia i file PDF per unirli in un unico documento. Riordina le pagine trascinandole. Tutto avviene nel tuo browser — i tuoi file non lasciano mai il dispositivo.",
+  "seoTitle": "Unisci file PDF online — Gratis, privato, senza upload | FileFolks",
+  "seoDescription": "Combina più PDF in un unico file. Funziona nel browser senza upload. Trascina, rilascia, riordina e scarica.",
+  "faqs": [
+    {
+      "question": "I miei file PDF vengono caricati su un server?",
+      "answer": "No. Tutta l'unione avviene localmente nel tuo browser usando la libreria pdf-lib. I tuoi file non lasciano mai il dispositivo."
+    },
+    {
+      "question": "C'è un limite al numero di PDF che posso unire?",
+      "answer": "Non c'è un limite fisso. Il limite pratico dipende dalla memoria disponibile del dispositivo. La maggior parte degli utenti può unire 50+ file senza problemi."
+    },
+    {
+      "question": "Posso riordinare le pagine prima di unire?",
+      "answer": "Sì. Dopo aver rilasciato i file, puoi trascinarli nell'ordine desiderato."
+    },
+    {
+      "question": "Il PDF unito manterrà segnalibri e link?",
+      "answer": "Il contenuto di base delle pagine, le immagini e il testo vengono preservati. Gli elementi interattivi potrebbero non essere trasferiti in tutti i casi."
+    }
+  ]
 }

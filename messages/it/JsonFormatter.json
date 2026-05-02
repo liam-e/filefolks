@@ -20,5 +20,28 @@
   "statsKeys": "Chiavi",
   "statsDepth": "Profondità",
   "statsSize": "Dimensione",
-  "privacyNote": "I tuoi dati non lasciano mai il browser. Tutta l'elaborazione avviene localmente sul tuo dispositivo."
+  "privacyNote": "I tuoi dati non lasciano mai il browser. Tutta l'elaborazione avviene localmente sul tuo dispositivo.",
+  "name": "Formattatore JSON",
+  "description": "Formatta, valida e minimizza i dati JSON",
+  "longDescription": "Incolla o trascina un file JSON per formattarlo, validarlo e ispezionarlo. Visualizza il numero di chiavi, la profondità di annidamento e le dimensioni del file a colpo d'occhio. Tutto nel browser.",
+  "seoTitle": "Formattatore e validatore JSON — Gratis, privato | FileFolks",
+  "seoDescription": "Formatta, valida e minimizza JSON online. Funziona interamente nel browser. I tuoi dati non lasciano il dispositivo.",
+  "faqs": [
+    {
+      "question": "I miei dati JSON vengono inviati a un server?",
+      "answer": "No. Tutta l'elaborazione avviene nel browser usando JavaScript. I tuoi dati non lasciano mai il dispositivo."
+    },
+    {
+      "question": "Qual è la dimensione massima di JSON che posso formattare?",
+      "answer": "Non c'è un limite fisso, ma file molto grandi (oltre 50 MB) potrebbero rallentare la scheda del browser."
+    },
+    {
+      "question": "Posso formattare JSON con commenti (JSONC)?",
+      "answer": "Il JSON standard non supporta i commenti. Se l'input contiene commenti, il validatore segnalerà un errore di analisi."
+    },
+    {
+      "question": "Qual è la differenza tra formattazione e minimizzazione?",
+      "answer": "La formattazione aggiunge rientri e a capo per rendere il JSON leggibile. La minimizzazione rimuove tutti gli spazi bianchi non necessari per ridurre le dimensioni del file."
+    }
+  ]
 }

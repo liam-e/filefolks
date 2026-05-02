@@ -1,0 +1,13 @@
+{
+  "dropLabel": "Trascina un file ZIP qui o clicca per sfogliare",
+  "dropSublabel": "Solo archivi .zip",
+  "remove": "Rimuovi",
+  "loading": "Lettura archivio...",
+  "fileCount": "{count} file",
+  "fileCountPlural": "{count} file",
+  "folders": "cartelle",
+  "download": "Scarica",
+  "errorTitle": "Errore",
+  "errorGeneric": "Impossibile leggere l'archivio. Il file potrebbe essere corrotto o protetto da password.",
+  "privacyNote": "I tuoi file non lasciano mai il tuo browser."
+}

@@ -1,0 +1,16 @@
+{
+  "dropLabel": "Trascina i file qui o clicca per sfogliare",
+  "dropSublabel": "Qualsiasi file -- verranno compressi in un archivio ZIP",
+  "remove": "Rimuovi",
+  "clearAll": "Rimuovi tutti",
+  "fileCount": "{count} file",
+  "fileCountPlural": "{count} file",
+  "totalSize": "Totale",
+  "createButton": "Crea ZIP ({count} file)",
+  "creating": "Creazione in corso...",
+  "readyTitle": "ZIP pronto",
+  "downloadButton": "Scarica ZIP",
+  "errorTitle": "Errore",
+  "errorGeneric": "Qualcosa e andato storto durante la creazione dell'archivio.",
+  "privacyNote": "I tuoi file non lasciano mai il tuo browser."
+}

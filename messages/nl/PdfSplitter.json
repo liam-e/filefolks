@@ -13,5 +13,28 @@
   "successTitle": "Succesvol geëxtraheerd. Controleer uw downloadmap.",
   "privacyNote": "Uw bestand verlaat nooit uw browser. Alle verwerking vindt lokaal plaats.",
   "removeFile": "Bestand verwijderen",
-  "loadingPages": "Laden..."
+  "loadingPages": "Laden...",
+  "name": "PDF splitsen",
+  "description": "Extraheer een paginabereik uit een PDF naar een nieuw bestand",
+  "longDescription": "Drop a PDF, choose a page range, and download just those pages as a new document. Powered by pdf-lib in your browser. No upload required.",
+  "seoTitle": "PDF online splitsen — Gratis, Privé, Geen upload | FileFolks",
+  "seoDescription": "Extraheer pagina's uit een PDF in uw browser. Selecteer een bereik en download direct.",
+  "faqs": [
+    {
+      "question": "Is my PDF uploaded to a server?",
+      "answer": "No. All splitting happens in your browser using the pdf-lib library. Your file never leaves your device."
+    },
+    {
+      "question": "Can I extract non-consecutive pages?",
+      "answer": "Currently the tool extracts a continuous range. For non-consecutive pages, extract each range separately and merge the results with the Merge PDF tool."
+    },
+    {
+      "question": "Will the extracted pages keep their content?",
+      "answer": "Yes. All text, images, and layout are preserved exactly as in the original."
+    },
+    {
+      "question": "What if my PDF is password-protected?",
+      "answer": "Password-protected PDFs cannot be processed. Remove the password first using a PDF unlock tool, then split the file."
+    }
+  ]
 }

@@ -1,0 +1,11 @@
+{
+  "placeholder": "テキストをここに貼り付けるか入力してください...",
+  "words": "単語数",
+  "characters": "文字数",
+  "charsNoSpaces": "スペース除く",
+  "sentences": "文数",
+  "paragraphs": "段落数",
+  "readingTime": "読了時間",
+  "readingTimeValue": "約{min}分",
+  "privacyNote": "テキストはブラウザの外に送信されません。"
+}

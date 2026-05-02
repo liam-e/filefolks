@@ -14,5 +14,28 @@
   "expired": "Expirado",
   "valid": "Válido",
   "privacyNote": "Tu token nunca sale de tu navegador.",
-  "errorTitle": "Error"
+  "errorTitle": "Error",
+  "name": "Decodificador JWT",
+  "description": "Decodifica e inspecciona encabezados y cargas útiles de JSON Web Tokens",
+  "longDescription": "Pega un JSON Web Token para ver al instante su encabezado decodificado, las afirmaciones del payload y la fecha de vencimiento. El token nunca sale de tu navegador.",
+  "seoTitle": "Decodificador JWT Online — Inspeccionar Claims | FileFolks",
+  "seoDescription": "Decodifica e inspecciona un JWT al instante en tu navegador. Privado y gratuito.",
+  "faqs": [
+    {
+      "question": "¿Se envía mi JWT a un servidor?",
+      "answer": "No. Decodificar un JWT es una operación Base64 que se ejecuta completamente en tu navegador."
+    },
+    {
+      "question": "¿Esta herramienta verifica la firma?",
+      "answer": "No. La verificación de firma requiere tu secreto o clave pública. Este decodificador solo muestra el encabezado y las afirmaciones del payload."
+    },
+    {
+      "question": "¿Qué es un JWT?",
+      "answer": "Un JSON Web Token es un token compacto con tres partes codificadas en Base64 separadas por puntos: un encabezado, un payload y una firma."
+    },
+    {
+      "question": "¿Puedo ver cuándo vence el token?",
+      "answer": "Sí. Si el payload contiene un campo exp, el decodificador lo muestra como fecha legible e indica si el token ha expirado."
+    }
+  ]
 }

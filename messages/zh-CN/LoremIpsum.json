@@ -1,0 +1,14 @@
+{
+  "countLabel": "数量",
+  "unitLabel": "单位",
+  "unitParagraphs": "段落",
+  "unitSentences": "句子",
+  "unitWords": "单词",
+  "classicStartLabel": "以经典开头开始",
+  "generateButton": "生成",
+  "regenerateButton": "重新生成",
+  "outputLabel": "输出",
+  "copyButton": "复制",
+  "copied": "已复制",
+  "privacyNote": "完全在浏览器中生成。"
+}

@@ -1,0 +1,14 @@
+{
+  "inputPlaceholder": "중복 줄이 있는 텍스트를 여기에 붙여넣으세요...",
+  "caseSensitiveLabel": "대소문자 구분",
+  "trimLinesLabel": "공백 제거",
+  "removeEmptyLabel": "빈 줄 제거",
+  "inputLabel": "입력",
+  "outputLabel": "출력",
+  "linesRemoved": "{count}개 중복 제거됨",
+  "linesRemovedPlural": "{count}개 중복 제거됨",
+  "copyButton": "복사",
+  "copied": "복사됨",
+  "downloadButton": ".txt 다운로드",
+  "privacyNote": "텍스트는 브라우저 밖으로 전송되지 않습니다."
+}

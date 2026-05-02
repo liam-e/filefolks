@@ -1,0 +1,14 @@
+{
+  "countLabel": "Anzahl",
+  "unitLabel": "Einheit",
+  "unitParagraphs": "Absatze",
+  "unitSentences": "Satze",
+  "unitWords": "Worter",
+  "classicStartLabel": "Mit klassischer Eroffnung beginnen",
+  "generateButton": "Generieren",
+  "regenerateButton": "Neu generieren",
+  "outputLabel": "Ausgabe",
+  "copyButton": "Kopieren",
+  "copied": "Kopiert",
+  "privacyNote": "Vollstandig in deinem Browser generiert."
+}

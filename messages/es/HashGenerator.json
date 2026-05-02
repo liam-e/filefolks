@@ -12,5 +12,28 @@
   "copied": "Copiado",
   "clear": "Limpiar",
   "privacyNote": "Todo el procesamiento ocurre localmente en tu navegador.",
-  "errorTitle": "Error"
+  "errorTitle": "Error",
+  "name": "Generador de Hash",
+  "description": "Genera hashes SHA-1, SHA-256, SHA-384 y SHA-512 de texto o archivos",
+  "longDescription": "Pega texto o suelta un archivo para calcular su hash SHA-1, SHA-256, SHA-384 o SHA-512. Todo funciona en tu navegador con la Web Crypto API integrada.",
+  "seoTitle": "Generador de Hash Online — SHA-256, SHA-512, SHA-1 | FileFolks",
+  "seoDescription": "Genera hashes SHA-1, SHA-256, SHA-384 y SHA-512 de texto o archivos en tu navegador. Privado y gratuito.",
+  "faqs": [
+    {
+      "question": "¿Se suben mis datos?",
+      "answer": "No. El hashing usa la Web Crypto API, que se ejecuta en tu navegador. Tu texto o archivo nunca se transmite."
+    },
+    {
+      "question": "¿Qué algoritmo debo usar?",
+      "answer": "Usa SHA-256 o SHA-512 para trabajo crítico en seguridad. SHA-1 está obsoleto para uso de seguridad. MD5 no está disponible porque es criptográficamente inseguro."
+    },
+    {
+      "question": "¿Puedo hacer hash de un archivo?",
+      "answer": "Sí. Cambia al modo Archivo, suelta o selecciona cualquier archivo y el hash se calcula de sus bytes sin procesar."
+    },
+    {
+      "question": "¿Qué es un hash?",
+      "answer": "Un hash criptográfico es una huella digital de longitud fija de tus datos. La misma entrada siempre produce el mismo hash."
+    }
+  ]
 }

@@ -11,5 +11,24 @@
   "estimatedBitrate": "Tasa de bits est.",
   "errorTitle": "Error",
   "errorGeneric": "No se pudieron leer los metadatos. Es posible que el formato no sea compatible con tu navegador.",
-  "privacyNote": "Tu video nunca sale de tu navegador."
+  "privacyNote": "Tu video nunca sale de tu navegador.",
+  "name": "Metadatos de video",
+  "description": "Inspect video properties: resolution, duration, file size, and more",
+  "longDescription": "Drop a video file to instantly see its resolution, duration, aspect ratio, estimated bitrate, and file type. No upload needed.",
+  "seoTitle": "Video Metadata Viewer — Inspect Video Properties | FileFolks",
+  "seoDescription": "View video properties including resolution, duration, aspect ratio, and file size. No upload. Runs in your browser.",
+  "faqs": [
+    {
+      "question": "Is my video uploaded?",
+      "answer": "No. The tool reads metadata using the browser's native video API. Nothing is sent to a server."
+    },
+    {
+      "question": "What properties can I see?",
+      "answer": "File name, file size, file type, duration, resolution (width and height), aspect ratio, and estimated bitrate."
+    },
+    {
+      "question": "Can I see the codec?",
+      "answer": "The tool shows the file's MIME type (e.g. video/mp4). Detailed codec info is not available from browser APIs alone."
+    }
+  ]
 }

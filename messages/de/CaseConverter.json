@@ -1,0 +1,14 @@
+{
+  "placeholder": "Text zum Konvertieren eingeben oder einfugen...",
+  "camel": "camelCase",
+  "pascal": "PascalCase",
+  "snake": "snake_case",
+  "kebab": "kebab-case",
+  "screaming": "SCREAMING_SNAKE_CASE",
+  "title": "Title Case",
+  "upper": "UPPER CASE",
+  "lower": "lower case",
+  "copy": "Kopieren",
+  "copied": "Kopiert",
+  "privacyNote": "Dein Text verlasst nie deinen Browser."
+}

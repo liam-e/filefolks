@@ -1,0 +1,13 @@
+{
+  "dropLabel": "Arraste um arquivo ZIP aqui ou clique para navegar",
+  "dropSublabel": "Apenas arquivos .zip",
+  "remove": "Remover",
+  "loading": "Lendo arquivo...",
+  "fileCount": "{count} arquivo",
+  "fileCountPlural": "{count} arquivos",
+  "folders": "pastas",
+  "download": "Baixar",
+  "errorTitle": "Erro",
+  "errorGeneric": "Nao foi possivel ler o arquivo. Ele pode estar corrompido ou protegido por senha.",
+  "privacyNote": "Seus arquivos nunca saem do seu navegador."
+}

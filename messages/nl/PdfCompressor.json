@@ -13,5 +13,28 @@
   "alreadyOptimizedTitle": "Bestand is al goed geoptimaliseerd.",
   "alreadyOptimizedBody": "De gecomprimeerde versie ({compressedSize}) is niet kleiner dan het origineel ({originalSize}). Bewaar je originele bestand.",
   "privacyNote": "Je bestand verlaat nooit je browser. Alle compressie vindt lokaal op je apparaat plaats.",
-  "removeFile": "Bestand verwijderen"
+  "removeFile": "Bestand verwijderen",
+  "name": "PDF comprimeren",
+  "description": "Verklein de PDF-bestandsgrootte met behoud van inhoud",
+  "longDescription": "Sleep een PDF om de bestandsgrootte te verkleinen. Het hulpmiddel verwijdert ingesloten metadata en optimaliseert de interne structuur volledig in je browser. Je bestand wordt nooit geüpload.",
+  "seoTitle": "PDF online comprimeren — Gratis, Privé, Geen upload | FileFolks",
+  "seoDescription": "Verklein de PDF-bestandsgrootte in je browser. Geen upload nodig. Verwijdert metadata en optimaliseert de interne structuur voor kleinere bestanden.",
+  "faqs": [
+    {
+      "question": "Wordt mijn PDF naar een server geüpload?",
+      "answer": "Nee. Alle compressie vindt in je browser plaats met behulp van de pdf-lib bibliotheek. Je bestand verlaat nooit je apparaat."
+    },
+    {
+      "question": "Hoeveel zal mijn PDF krimpen?",
+      "answer": "Het hulpmiddel verwijdert ingesloten metadata en optimaliseert de interne objectstructuur. Besparingen variëren per bestand: PDF's met redundante metadata of een niet-geoptimaliseerde interne indeling kunnen een reductie van 10-40% zien."
+    },
+    {
+      "question": "Zal de inhoud van mijn PDF veranderen?",
+      "answer": "Nee. Alleen onzichtbare metadata (auteur, maker, tijdstempels) en interne structuuroverhead worden verwijderd. Pagina-inhoud, tekst, afbeeldingen en lay-out worden exact bewaard."
+    },
+    {
+      "question": "Wat als het gecomprimeerde bestand groter is dan het origineel?",
+      "answer": "Dit kan gebeuren als de originele PDF al strak geoptimaliseerd was. Het hulpmiddel laat je beide versies nog steeds downloaden, maar we raden aan in dat geval je origineel te bewaren."
+    }
+  ]
 }

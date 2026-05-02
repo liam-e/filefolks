@@ -1,13 +1,14 @@
-import { useTranslations } from "next-intl";
+import { useTranslations, useMessages } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { TOOLS, CATEGORIES } from "@/lib/utils/constants";
 import type { ToolCategory } from "@/lib/utils/constants";
+import { SLUG_TO_NAMESPACE } from "@/lib/utils/toolNamespaces";
 
 export default function Footer() {
   const t = useTranslations("Footer");
-  const tTools = useTranslations("tools");
   const tCategories = useTranslations("Categories");
   const tPrivacy = useTranslations("Privacy");
+  const messages = useMessages() as Record<string, Record<string, string>>;
 
   const categoriesWithTools = (Object.keys(CATEGORIES) as ToolCategory[])
     .map((slug) => ({
@@ -33,7 +34,7 @@ export default function Footer() {
                         href={`/tools/${tool.slug}`}
                         className="text-sm text-stone-400 hover:text-orange-400 transition-colors"
                       >
-                        {tTools(`${tool.slug}.name`)}
+                        {messages[SLUG_TO_NAMESPACE[tool.slug]]?.name}
                       </Link>
                     </li>
                   ))}

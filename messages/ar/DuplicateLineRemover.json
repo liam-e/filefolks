@@ -1,0 +1,14 @@
+{
+  "inputPlaceholder": "الصق النص الذي يحتوي على سطور مكررة هنا...",
+  "caseSensitiveLabel": "حساس لحالة الاحرف",
+  "trimLinesLabel": "ازالة المسافات الزائدة",
+  "removeEmptyLabel": "ازالة الاسطر الفارغة",
+  "inputLabel": "المدخل",
+  "outputLabel": "الناتج",
+  "linesRemoved": "تمت ازالة {count} تكرار",
+  "linesRemovedPlural": "تمت ازالة {count} تكرارات",
+  "copyButton": "نسخ",
+  "copied": "تم النسخ",
+  "downloadButton": "تنزيل .txt",
+  "privacyNote": "نصك لا يغادر متصفحك ابدا."
+}

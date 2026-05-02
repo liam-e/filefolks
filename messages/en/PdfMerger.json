@@ -12,5 +12,28 @@
   "privacyNote": "Your files never leave your browser. All merging happens locally on your device.",
   "moveUp": "Move up",
   "moveDown": "Move down",
-  "removeFile": "Remove file"
+  "removeFile": "Remove file",
+  "name": "Merge PDF",
+  "description": "Combine multiple PDF files into one document",
+  "longDescription": "Drag and drop your PDF files to merge them into a single document. Reorder pages by dragging. Everything happens in your browser — your files never leave your device.",
+  "seoTitle": "Merge PDF Files Online — Free, Private, No Upload | FileFolks",
+  "seoDescription": "Combine multiple PDFs into one file. Runs in your browser with no upload. Drag, drop, reorder, and download.",
+  "faqs": [
+    {
+      "question": "Are my PDF files uploaded to a server?",
+      "answer": "No. All merging happens locally in your browser using the pdf-lib library. Your files never leave your device."
+    },
+    {
+      "question": "Is there a limit on the number of PDFs I can merge?",
+      "answer": "There is no fixed limit. The practical limit depends on your device's available memory. Most users can merge 50+ files without issues."
+    },
+    {
+      "question": "Can I reorder pages before merging?",
+      "answer": "Yes. After dropping your files, you can drag them into the order you want. The merged PDF will follow this order."
+    },
+    {
+      "question": "Will the merged PDF keep bookmarks and links?",
+      "answer": "Basic page content, images, and text are preserved. Interactive elements like bookmarks and form fields may not carry over in all cases."
+    }
+  ]
 }

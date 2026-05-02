@@ -13,5 +13,28 @@
   "successTitle": "Estratto con successo. Controlla la cartella dei download.",
   "privacyNote": "Il tuo file non lascia mai il browser. Tutta l'elaborazione avviene localmente.",
   "removeFile": "Rimuovi file",
-  "loadingPages": "Caricamento..."
+  "loadingPages": "Caricamento...",
+  "name": "Dividi PDF",
+  "description": "Estrai un intervallo di pagine da un PDF in un nuovo file",
+  "longDescription": "Drop a PDF, choose a page range, and download just those pages as a new document. Powered by pdf-lib in your browser. No upload required.",
+  "seoTitle": "Dividi PDF online — Gratuito, Privato, Senza upload | FileFolks",
+  "seoDescription": "Estrai pagine da un PDF nel browser. Seleziona un intervallo e scarica istantaneamente.",
+  "faqs": [
+    {
+      "question": "Is my PDF uploaded to a server?",
+      "answer": "No. All splitting happens in your browser using the pdf-lib library. Your file never leaves your device."
+    },
+    {
+      "question": "Can I extract non-consecutive pages?",
+      "answer": "Currently the tool extracts a continuous range. For non-consecutive pages, extract each range separately and merge the results with the Merge PDF tool."
+    },
+    {
+      "question": "Will the extracted pages keep their content?",
+      "answer": "Yes. All text, images, and layout are preserved exactly as in the original."
+    },
+    {
+      "question": "What if my PDF is password-protected?",
+      "answer": "Password-protected PDFs cannot be processed. Remove the password first using a PDF unlock tool, then split the file."
+    }
+  ]
 }

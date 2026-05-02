@@ -1,0 +1,16 @@
+{
+  "dropLabel": "Bestanden hier neerzetten of klikken om te bladeren",
+  "dropSublabel": "Elk bestand -- ze worden ingepakt in een ZIP-archief",
+  "remove": "Verwijderen",
+  "clearAll": "Alles verwijderen",
+  "fileCount": "{count} bestand",
+  "fileCountPlural": "{count} bestanden",
+  "totalSize": "Totaal",
+  "createButton": "ZIP maken ({count} bestanden)",
+  "creating": "Bezig met maken...",
+  "readyTitle": "ZIP gereed",
+  "downloadButton": "ZIP downloaden",
+  "errorTitle": "Fout",
+  "errorGeneric": "Er is iets misgegaan bij het maken van het archief.",
+  "privacyNote": "Je bestanden verlaten nooit je browser."
+}

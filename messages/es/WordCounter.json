@@ -1,0 +1,11 @@
+{
+  "placeholder": "Pega o escribe tu texto aqui...",
+  "words": "Palabras",
+  "characters": "Caracteres",
+  "charsNoSpaces": "Sin espacios",
+  "sentences": "Oraciones",
+  "paragraphs": "Parrafos",
+  "readingTime": "Tiempo de lectura",
+  "readingTimeValue": "~{min} min",
+  "privacyNote": "Tu texto nunca sale de tu navegador."
+}
