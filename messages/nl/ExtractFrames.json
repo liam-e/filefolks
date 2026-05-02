@@ -1,0 +1,16 @@
+{
+  "dropLabel": "Zet een video hier neer of klik om te bladeren",
+  "dropSublabel": "MP4, WebM of MOV",
+  "remove": "Verwijderen",
+  "intervalLabel": "Vastleggen elke",
+  "maxFramesLabel": "Max frames",
+  "extractButton": "Frames extraheren",
+  "capturing": "Vastleggen",
+  "encoding": "Coderen",
+  "processing": "Verwerken",
+  "framesLabel": "frames",
+  "downloadZip": "ZIP downloaden",
+  "errorTitle": "Fout",
+  "errorGeneric": "Er is iets misgegaan. Probeer een andere video.",
+  "privacyNote": "Je video verlaat je browser nooit."
+}

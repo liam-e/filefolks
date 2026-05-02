@@ -1,0 +1,473 @@
+{
+  "pdf-merge": {
+    "name": "PDF zusammenführen",
+    "description": "Mehrere PDF-Dateien zu einem Dokument zusammenführen",
+    "longDescription": "Ziehen Sie Ihre PDF-Dateien per Drag-and-Drop, um sie zu einem einzigen Dokument zusammenzuführen. Seiten durch Ziehen neu anordnen. Alles geschieht in Ihrem Browser - Ihre Dateien verlassen Ihr Gerät nie.",
+    "seoTitle": "PDF-Dateien online zusammenführen - kostenlos, privat, kein Upload | FileFolks",
+    "seoDescription": "Mehrere PDFs zu einer Datei zusammenführen. Läuft in Ihrem Browser ohne Upload. Ziehen, ablegen, neu anordnen und herunterladen.",
+    "faqs": [
+      {
+        "question": "Werden meine PDF-Dateien auf einen Server hochgeladen?",
+        "answer": "Nein. Das gesamte Zusammenführen erfolgt lokal in Ihrem Browser mithilfe der pdf-lib-Bibliothek. Ihre Dateien verlassen Ihr Gerät nie."
+      },
+      {
+        "question": "Gibt es eine Begrenzung für die Anzahl der PDFs, die ich zusammenführen kann?",
+        "answer": "Es gibt keine feste Begrenzung. Das praktische Limit hängt vom verfügbaren Arbeitsspeicher Ihres Geräts ab. Die meisten Benutzer können problemlos 50 oder mehr Dateien zusammenführen."
+      },
+      {
+        "question": "Kann ich die Seiten vor dem Zusammenführen neu anordnen?",
+        "answer": "Ja. Nachdem Sie Ihre Dateien abgelegt haben, können Sie diese in die gewünschte Reihenfolge ziehen. Das zusammengeführte PDF folgt dieser Reihenfolge."
+      },
+      {
+        "question": "Werden Lesezeichen und Links im zusammengeführten PDF beibehalten?",
+        "answer": "Grundlegender Seiteninhalt, Bilder und Text bleiben erhalten. Interaktive Elemente wie Lesezeichen und Formularfelder werden in manchen Fällen möglicherweise nicht übertragen."
+      }
+    ]
+  },
+  "compress-pdf": {
+    "name": "PDF komprimieren",
+    "description": "PDF-Dateigröße reduzieren und dabei den Inhalt erhalten",
+    "longDescription": "Legen Sie ein PDF ab, um dessen Dateigröße zu reduzieren. Das Tool entfernt eingebettete Metadaten und optimiert die interne Struktur vollständig in Ihrem Browser. Ihre Datei wird nie hochgeladen.",
+    "seoTitle": "PDF online komprimieren - kostenlos, privat, kein Upload | FileFolks",
+    "seoDescription": "PDF-Dateigröße im Browser reduzieren. Kein Upload erforderlich. Entfernt Metadaten und optimiert die interne Struktur für kleinere Dateien.",
+    "faqs": [
+      {
+        "question": "Wird mein PDF auf einen Server hochgeladen?",
+        "answer": "Nein. Die gesamte Komprimierung erfolgt in Ihrem Browser mithilfe der pdf-lib-Bibliothek. Ihre Datei verlässt Ihr Gerät nie."
+      },
+      {
+        "question": "Wie stark wird mein PDF verkleinert?",
+        "answer": "Das Tool entfernt eingebettete Metadaten und optimiert die interne Objektstruktur. Die Einsparungen variieren je nach Datei."
+      },
+      {
+        "question": "Ändert sich der Inhalt meines PDFs?",
+        "answer": "Nein. Es werden nur unsichtbare Metadaten und interner struktureller Overhead entfernt. Der Seiteninhalt bleibt exakt erhalten."
+      },
+      {
+        "question": "Was ist, wenn die komprimierte Datei größer als das Original ist?",
+        "answer": "Dies kann vorkommen, wenn das ursprüngliche PDF bereits eng optimiert war. In diesem Fall empfehlen wir, Ihr Original beizubehalten."
+      }
+    ]
+  },
+  "json-formatter": {
+    "name": "JSON-Formatierer",
+    "description": "JSON-Daten formatieren, validieren und minifizieren",
+    "longDescription": "Fügen Sie eine JSON-Datei ein oder legen Sie sie ab, um sie zu formatieren, zu validieren und zu untersuchen. Sehen Sie auf einen Blick Schlüsselanzahl, Verschachtelungstiefe und Dateigröße. Alles läuft in Ihrem Browser - es wird nichts hochgeladen.",
+    "seoTitle": "JSON-Formatierer und Validator - kostenlos, privat, kein Upload | FileFolks",
+    "seoDescription": "JSON online formatieren, validieren und minifizieren. Läuft vollständig in Ihrem Browser. Ihre Daten verlassen Ihr Gerät nie.",
+    "faqs": [
+      {
+        "question": "Werden meine JSON-Daten an einen Server gesendet?",
+        "answer": "Nein. Die gesamte Verarbeitung erfolgt in Ihrem Browser mithilfe von JavaScript. Ihre Daten verlassen Ihr Gerät nie."
+      },
+      {
+        "question": "Welche maximale JSON-Größe kann ich formatieren?",
+        "answer": "Es gibt keine feste Begrenzung, aber sehr große Dateien (über 50 MB) können dazu führen, dass Ihr Browser-Tab langsamer wird."
+      },
+      {
+        "question": "Kann ich JSON mit Kommentaren (JSONC) formatieren?",
+        "answer": "Standard-JSON unterstützt keine Kommentare. Wenn Ihre Eingabe Kommentare enthält, meldet der Validator einen Parse-Fehler."
+      },
+      {
+        "question": "Was ist der Unterschied zwischen Formatieren und Minifizieren?",
+        "answer": "Formatieren fügt Einzüge und Zeilenumbrüche hinzu, um JSON für Menschen lesbar zu machen. Minifizieren entfernt alle unnötigen Leerzeichen, um die Dateigröße zu reduzieren."
+      }
+    ]
+  },
+  "compress-image": {
+    "name": "Bild komprimieren",
+    "description": "Bilddateigröße mit minimaler Qualitätseinbuße reduzieren",
+    "longDescription": "Legen Sie ein PNG-, JPG- oder WebP-Bild ab, um es zu komprimieren. Die Dateigröße wird reduziert, während die visuelle Qualität erhalten bleibt — alles läuft in Ihrem Browser.",
+    "seoTitle": "Bild online komprimieren — Kostenlos, Privat, Kein Upload | FileFolks",
+    "seoDescription": "Bilddateigröße im Browser reduzieren. PNG, JPG, WebP. Kein Upload. Schnell und privat.",
+    "faqs": [
+      {
+        "question": "Werden meine Bilder auf einen Server hochgeladen?",
+        "answer": "Nein. Die Komprimierung läuft vollständig in Ihrem Browser. Ihre Bilder verlassen nie Ihr Gerät."
+      },
+      {
+        "question": "Welche Formate werden unterstützt?",
+        "answer": "PNG, JPG und WebP. Das Ausgabeformat entspricht Ihrer Eingabedatei."
+      },
+      {
+        "question": "Wie viel wird die Datei schrumpfen?",
+        "answer": "Die Einsparungen variieren je nach Bild. Fotos komprimieren sich typischerweise um 40-70 %."
+      },
+      {
+        "question": "Wird die Komprimierung die Qualität beeinflussen?",
+        "answer": "Das Tool zielt auf eine maximale Ausgabegröße von 1 MB ab und erhält dabei so viel Qualität wie möglich. Bei den meisten Fotos ist der Unterschied nicht wahrnehmbar."
+      }
+    ]
+  },
+  "image-convert": {
+    "name": "Bild konvertieren",
+    "description": "Bilder zwischen PNG, JPG und WebP konvertieren",
+    "longDescription": "Legen Sie ein Bild ab, um es in PNG, JPG oder WebP zu konvertieren. Verwendet die Canvas-API Ihres Browsers. Kein Upload, kein Konto erforderlich.",
+    "seoTitle": "Bild online konvertieren — PNG zu JPG, WebP und mehr | FileFolks",
+    "seoDescription": "PNG zu JPG, JPG zu WebP und mehr konvertieren. Kostenlos, privat, in Ihrem Browser. Kein Upload.",
+    "faqs": [
+      {
+        "question": "Werden meine Bilder hochgeladen?",
+        "answer": "Nein. Die Konvertierung verwendet die Canvas-API des Browsers auf Ihrem Gerät. Nichts wird an einen Server gesendet."
+      },
+      {
+        "question": "Was passiert mit Transparenz bei der Konvertierung zu JPG?",
+        "answer": "JPG unterstützt keine Transparenz. Transparente Bereiche werden automatisch mit weißem Hintergrund gefüllt."
+      },
+      {
+        "question": "Gibt es Qualitätsverluste bei der Konvertierung?",
+        "answer": "Die Konvertierung zu PNG ist verlustfrei. Die Konvertierung zu JPG oder WebP wendet leichte Komprimierung an (92 % Qualität standardmäßig), die visuell kaum wahrnehmbar ist."
+      },
+      {
+        "question": "Kann ich AVIF- oder GIF-Dateien konvertieren?",
+        "answer": "Derzeit unterstützt das Tool PNG, JPG und WebP. AVIF- und GIF-Unterstützung könnte in Zukunft hinzugefügt werden."
+      }
+    ]
+  },
+  "split-pdf": {
+    "name": "PDF teilen",
+    "description": "Einen Seitenbereich aus einem PDF in eine neue Datei extrahieren",
+    "longDescription": "Legen Sie ein PDF ab, wählen Sie einen Seitenbereich und laden Sie nur diese Seiten als neues Dokument herunter. Läuft mit pdf-lib in Ihrem Browser.",
+    "seoTitle": "PDF online teilen — Kostenlos, Privat, Kein Upload | FileFolks",
+    "seoDescription": "Seiten aus einem PDF in Ihrem Browser extrahieren. Bereich auswählen und sofort herunterladen. Kein Upload.",
+    "faqs": [
+      {
+        "question": "Wird mein PDF auf einen Server hochgeladen?",
+        "answer": "Nein. Alles passiert in Ihrem Browser mit der pdf-lib-Bibliothek. Ihre Datei verlässt nie Ihr Gerät."
+      },
+      {
+        "question": "Kann ich nicht zusammenhängende Seiten extrahieren?",
+        "answer": "Derzeit extrahiert das Tool einen zusammenhängenden Bereich. Für nicht zusammenhängende Seiten extrahieren Sie jeden Bereich separat und führen die Ergebnisse zusammen."
+      },
+      {
+        "question": "Behalten die extrahierten Seiten ihren Inhalt?",
+        "answer": "Ja. Alle Texte, Bilder und Layouts bleiben genau wie im Original erhalten."
+      },
+      {
+        "question": "Was, wenn mein PDF passwortgeschützt ist?",
+        "answer": "Passwortgeschützte PDFs können nicht verarbeitet werden. Entfernen Sie zuerst das Passwort mit einem Entsperrungstool."
+      }
+    ]
+  },
+  "base64-encode-decode": {
+    "name": "Base64 Kodieren / Dekodieren",
+    "description": "Text oder Dateien in Base64 kodieren oder Base64 in Text dekodieren",
+    "longDescription": "Fügen Sie Text ein oder laden Sie eine Datei, um sie als Base64 zu kodieren, oder fügen Sie eine Base64-Zeichenkette zum Dekodieren ein. Alles läuft in Ihrem Browser.",
+    "seoTitle": "Base64 Online Kodieren & Dekodieren — Kostenlos, Privat | FileFolks",
+    "seoDescription": "Text oder Dateien in Base64 kodieren oder Base64 in Text dekodieren. Im Browser. Kein Upload.",
+    "faqs": [
+      {
+        "question": "Werden meine Daten auf einen Server hochgeladen?",
+        "answer": "Nein. Base64-Kodierung und -Dekodierung sind reine JavaScript-Operationen, die vollständig in Ihrem Browser ausgeführt werden."
+      },
+      {
+        "question": "Wofür wird Base64 verwendet?",
+        "answer": "Base64 wird verwendet, um Binärdaten sicher als Text zu übertragen — in E-Mails, Daten-URLs, API-Payloads und Konfigurationsdateien."
+      },
+      {
+        "question": "Gibt es eine Größenbeschränkung?",
+        "answer": "Es gibt keine feste Grenze, aber sehr große Dateien (über 10 MB) können Ihren Browser-Tab verlangsamen. Die Base64-Ausgabe ist etwa 33 % größer als die Eingabe."
+      },
+      {
+        "question": "Verschlüsselt Base64 meine Daten?",
+        "answer": "Nein. Base64 ist ein Kodierungsschema, keine Verschlüsselung. Jeder mit der Base64-Zeichenkette kann sie sofort dekodieren."
+      }
+    ]
+  },
+  "image-to-pdf": {
+    "name": "Bild zu PDF",
+    "description": "Ein oder mehrere Bilder in ein einziges PDF-Dokument konvertieren",
+    "longDescription": "Legen Sie PNG-, JPG- oder WebP-Bilder ab und laden Sie sie als kombiniertes PDF herunter. Seiten per Drag & Drop neu anordnen. Alles läuft in Ihrem Browser.",
+    "seoTitle": "Bild zu PDF online — Kostenlos, Privat, Kein Upload | FileFolks",
+    "seoDescription": "JPG, PNG oder WebP in PDF konvertieren in Ihrem Browser. Seiten neu anordnen und herunterladen. Kein Upload.",
+    "faqs": [
+      {
+        "question": "Werden meine Bilder auf einen Server hochgeladen?",
+        "answer": "Nein. Alles verwendet pdf-lib in Ihrem Browser. Ihre Bilder verlassen nie Ihr Gerät."
+      },
+      {
+        "question": "Welche Bildformate werden unterstützt?",
+        "answer": "PNG, JPG und WebP. Jedes Bild wird zu einer Seite im Ausgabe-PDF."
+      },
+      {
+        "question": "Kann ich die Seitenreihenfolge steuern?",
+        "answer": "Ja. Nach dem Hinzufügen Ihrer Bilder können Sie sie in die gewünschte Reihenfolge ziehen."
+      },
+      {
+        "question": "Welche Größe haben die PDF-Seiten?",
+        "answer": "Jede Seite entspricht den Pixelabmessungen des Quellbilds."
+      }
+    ]
+  },
+  "pdf-rotate": {
+    "name": "PDF drehen",
+    "description": "Seiten in einem PDF um 90°, 180° oder 270° drehen",
+    "longDescription": "Legen Sie ein PDF ab und wählen Sie einen Drehwinkel. Alle Seiten werden gedreht und das Ergebnis wird sofort heruntergeladen — vollständig in Ihrem Browser.",
+    "seoTitle": "PDF online drehen — Kostenlos, Privat, Kein Upload | FileFolks",
+    "seoDescription": "Alle Seiten eines PDFs um 90°, 180° oder 270° drehen. In Ihrem Browser. Kein Upload.",
+    "faqs": [
+      {
+        "question": "Wird mein PDF auf einen Server hochgeladen?",
+        "answer": "Nein. Die Drehung erfolgt in Ihrem Browser mit pdf-lib. Ihre Datei verlässt nie Ihr Gerät."
+      },
+      {
+        "question": "Kann ich nur bestimmte Seiten drehen?",
+        "answer": "Derzeit dreht das Tool alle Seiten um denselben Betrag. Seitenweise Drehung könnte in einem zukünftigen Update hinzugefügt werden."
+      },
+      {
+        "question": "Welche Richtung ist 90° rechts?",
+        "answer": "90° rechts dreht jede Seite im Uhrzeigersinn. 90° links dreht gegen den Uhrzeigersinn. 180° dreht Seiten auf den Kopf."
+      },
+      {
+        "question": "Werden Text und Bilder beeinflusst?",
+        "answer": "Nein. Nur die Anzeigeausrichtung jeder Seite ändert sich. Alle Inhalte bleiben genau erhalten."
+      }
+    ]
+  },
+  "image-resize": {
+    "name": "Bild skalieren",
+    "description": "Bilder auf genaue Pixelabmessungen oder einen Prozentsatz skalieren",
+    "longDescription": "Drop an image, enter target dimensions or a percentage scale, and download the resized result. Aspect ratio lock keeps your image proportional. Runs entirely in your browser.",
+    "seoTitle": "Resize Image Online — Free, Private, No Upload | FileFolks",
+    "seoDescription": "Resize images to exact pixels or a percentage in your browser. PNG, JPG, WebP. No upload required.",
+    "faqs": [
+      {
+        "question": "Are my images uploaded?",
+        "answer": "No. Resizing uses the Canvas API in your browser. Nothing is sent to a server."
+      },
+      {
+        "question": "Will the image quality change?",
+        "answer": "PNG output is lossless. JPG and WebP output uses 92% quality, which is visually indistinguishable from the original for most images."
+      },
+      {
+        "question": "What does the aspect ratio lock do?",
+        "answer": "When locked, changing one dimension automatically scales the other to keep the image proportional. Unlock it to set width and height independently."
+      },
+      {
+        "question": "Can I enlarge an image?",
+        "answer": "Yes, you can scale up to 200% using percentage mode. Note that enlarging a raster image reduces sharpness — the pixels are simply stretched."
+      }
+    ]
+  },
+  "image-crop": {
+    "name": "Bild zuschneiden",
+    "description": "Bilder auf einen benutzerdefinierten Bereich oder ein voreingestelltes Seitenverhältnis zuschneiden",
+    "longDescription": "Drop an image, adjust the crop region using the visual preview and coordinate inputs, then download the cropped result. All processing stays in your browser.",
+    "seoTitle": "Crop Image Online — Free, Private, No Upload | FileFolks",
+    "seoDescription": "Crop images to any size or aspect ratio in your browser. PNG, JPG, WebP. No upload required.",
+    "faqs": [
+      {
+        "question": "Are my images uploaded?",
+        "answer": "No. Cropping uses the Canvas API in your browser. Nothing is sent to a server."
+      },
+      {
+        "question": "What aspect ratio presets are available?",
+        "answer": "Free (no constraint), 1:1 (square), 4:3, 16:9, and 3:2. The preset centres the crop region within the image."
+      },
+      {
+        "question": "Can I enter exact pixel coordinates?",
+        "answer": "Yes. Use the X, Y, Width, and Height inputs for precise control. The visual preview updates in real time."
+      },
+      {
+        "question": "What output format does the tool use?",
+        "answer": "The output format matches the input — PNG for PNG files, JPG for JPG files, and WebP for WebP files."
+      }
+    ]
+  },
+  "url-encode-decode": {
+    "name": "URL Kodieren / Dekodieren",
+    "description": "Encode and decode URL-safe strings and query parameters",
+    "longDescription": "Paste any text to URL-encode it for safe use in a browser address bar or API request, or paste a percent-encoded string to decode it back. Everything runs locally in your browser.",
+    "seoTitle": "URL Encode & Decode Online — Free, Private | FileFolks",
+    "seoDescription": "Encode or decode URLs and query strings instantly in your browser. No upload or account needed.",
+    "faqs": [
+      {
+        "question": "Is my data uploaded?",
+        "answer": "No. URL encoding and decoding are pure JavaScript operations that run entirely in your browser."
+      },
+      {
+        "question": "What is URL encoding?",
+        "answer": "URL encoding (percent-encoding) replaces special characters with a percent sign followed by two hex digits. For example, a space becomes %20 and an ampersand becomes %26."
+      },
+      {
+        "question": "What is the difference between encodeURIComponent and encodeURI?",
+        "answer": "This tool uses encodeURIComponent, which encodes everything except A–Z a–z 0–9 - _ . ! ~ * ' ( ). Use it for individual query parameter values. encodeURI preserves characters valid in a complete URL, such as slashes and colons."
+      },
+      {
+        "question": "Can I decode a full URL?",
+        "answer": "Yes. Paste the full percent-encoded URL into the Decode tab and the tool will decode all percent-sequences back to readable characters."
+      }
+    ]
+  },
+  "jwt-decoder": {
+    "name": "JWT Decoder",
+    "description": "Decode and inspect JSON Web Token headers and payloads",
+    "longDescription": "Paste a JSON Web Token to instantly see its decoded header, payload claims, and expiry date. The token never leaves your browser — no server call is made.",
+    "seoTitle": "JWT Decoder Online — Inspect Token Claims | FileFolks",
+    "seoDescription": "Decode and inspect a JWT header and payload instantly in your browser. Private and free.",
+    "faqs": [
+      {
+        "question": "Is my JWT sent to a server?",
+        "answer": "No. Decoding a JWT is a Base64 operation that runs entirely in your browser. Your token is never transmitted."
+      },
+      {
+        "question": "Does this tool verify the signature?",
+        "answer": "No. Signature verification requires your secret or public key, which you should never share with a third-party tool. This decoder shows the header and payload claims only."
+      },
+      {
+        "question": "What is a JWT?",
+        "answer": "A JSON Web Token (JWT) is a compact, URL-safe token made of three Base64-encoded parts separated by dots: a header (algorithm), a payload (claims), and a signature."
+      },
+      {
+        "question": "Can I see when the token expires?",
+        "answer": "Yes. If the payload contains an exp claim, the decoder shows it as a human-readable date and indicates whether the token is currently expired."
+      }
+    ]
+  },
+  "uuid-generator": {
+    "name": "UUID Generator",
+    "description": "Generate v4 UUIDs in bulk, with clipboard copy and download",
+    "longDescription": "Generate one or more RFC 4122 version 4 UUIDs using the browser's cryptographically secure random number generator. Copy individually, copy all, or download as a text file.",
+    "seoTitle": "UUID Generator Online — Generate v4 UUIDs Free | FileFolks",
+    "seoDescription": "Generate cryptographically secure v4 UUIDs in your browser. Bulk generate, copy, and download. Free and private.",
+    "faqs": [
+      {
+        "question": "Are these UUIDs cryptographically secure?",
+        "answer": "Yes. The tool uses the browser's built-in crypto.randomUUID() API, which uses a cryptographically secure pseudorandom number generator (CSPRNG)."
+      },
+      {
+        "question": "What is a UUID v4?",
+        "answer": "A version 4 UUID is a 128-bit random identifier formatted as 8-4-4-4-12 hex digits separated by hyphens. The version nibble is always 4 and the variant nibble is 8, 9, a, or b."
+      },
+      {
+        "question": "Can I generate UUIDs in bulk?",
+        "answer": "Yes. Set the count to any number between 1 and 100 and click Generate. Use Copy all or Download to get them all at once."
+      },
+      {
+        "question": "Are the UUIDs unique?",
+        "answer": "Yes with overwhelming probability. The chance of a v4 UUID collision is astronomically small — roughly 1 in 5.3 × 10³⁶ for any two random UUIDs."
+      }
+    ]
+  },
+  "hash-generator": {
+    "name": "Hash Generator",
+    "description": "Generate SHA-1, SHA-256, SHA-384, and SHA-512 hashes from text or files",
+    "longDescription": "Paste text or drop a file to compute its SHA-1, SHA-256, SHA-384, or SHA-512 hash. Everything runs in your browser using the built-in Web Crypto API. SHA-256 is recommended for security-critical applications.",
+    "seoTitle": "Hash Generator Online — SHA-256, SHA-512, SHA-1 | FileFolks",
+    "seoDescription": "Generate SHA-1, SHA-256, SHA-384, and SHA-512 hashes from text or files in your browser. Private and free.",
+    "faqs": [
+      {
+        "question": "Is my data uploaded?",
+        "answer": "No. Hashing uses the Web Crypto API, which runs entirely in your browser. Your text or file is never transmitted."
+      },
+      {
+        "question": "Which hash algorithm should I use?",
+        "answer": "Use SHA-256 or SHA-512 for security-critical work. SHA-1 is deprecated for security use — it is suitable only for non-security checksums. MD5 is not supported as it is cryptographically broken."
+      },
+      {
+        "question": "Can I hash a file?",
+        "answer": "Yes. Switch to File mode, drop or select any file, and the hash is computed from the file's raw bytes."
+      },
+      {
+        "question": "What is a hash?",
+        "answer": "A cryptographic hash is a fixed-length fingerprint of your data. The same input always produces the same hash, but even a one-character change produces a completely different output."
+      }
+    ]
+  },
+  "video-to-gif": {
+    "name": "Video zu GIF",
+    "description": "Convert a video clip to an animated GIF in your browser",
+    "longDescription": "Drop a video file, set the start time, duration, frame rate, and width, then download the resulting GIF. Processing happens entirely in your browser.",
+    "seoTitle": "Video to GIF Online — Free, Private, No Upload | FileFolks",
+    "seoDescription": "Convert any video clip to an animated GIF in your browser. No upload required. Set start time, duration, frame rate, and size.",
+    "faqs": [
+      {
+        "question": "Is my video uploaded?",
+        "answer": "No. The tool uses the Canvas API directly in your browser. Your video never leaves your device."
+      },
+      {
+        "question": "What video formats are supported?",
+        "answer": "Any format your browser can play, typically MP4 (H.264), WebM, and Ogg. MOV files may work depending on your browser."
+      },
+      {
+        "question": "Why is there a 15-second limit?",
+        "answer": "GIF files grow quickly with duration. A 15-second GIF at 10fps and 320px wide is already several megabytes. Longer clips are better shared as video."
+      },
+      {
+        "question": "How do I reduce the GIF file size?",
+        "answer": "Lower the frame rate (5fps instead of 15fps), reduce the width (240px instead of 480px), or shorten the duration."
+      }
+    ]
+  },
+  "extract-frames": {
+    "name": "Frames extrahieren",
+    "description": "Extract frames from a video as PNG images and download as a ZIP",
+    "longDescription": "Drop a video, choose a capture interval, and download all extracted frames as individual PNG files in a ZIP archive. Processing happens entirely in your browser.",
+    "seoTitle": "Extract Frames from Video Online — Free, No Upload | FileFolks",
+    "seoDescription": "Extract frames from any video as PNG images. Set the interval, preview thumbnails, and download a ZIP. Runs in your browser.",
+    "faqs": [
+      {
+        "question": "Is my video uploaded?",
+        "answer": "No. Frame extraction uses the Canvas API in your browser. Nothing is sent to a server."
+      },
+      {
+        "question": "What video formats are supported?",
+        "answer": "Any format your browser supports, typically MP4, WebM, and Ogg."
+      },
+      {
+        "question": "What resolution are the exported frames?",
+        "answer": "Frames are exported at 480px wide, maintaining the original aspect ratio."
+      },
+      {
+        "question": "How many frames can I extract?",
+        "answer": "Up to 100 frames per run. For a 60-second video at 1-second intervals that is 60 frames."
+      }
+    ]
+  },
+  "video-thumbnail": {
+    "name": "Video-Vorschaubild",
+    "description": "Capture a still frame from any video and save it as a JPEG",
+    "longDescription": "Drop a video, scrub to the exact moment you want, and download that frame as a JPEG or PNG. No upload needed.",
+    "seoTitle": "Video Thumbnail Generator — Capture Frame as Image | FileFolks",
+    "seoDescription": "Capture any frame from a video as a JPEG or PNG image. Set the exact timestamp, preview, and download. Runs in your browser.",
+    "faqs": [
+      {
+        "question": "Is my video uploaded?",
+        "answer": "No. The tool uses the Canvas API directly in your browser. Your video never leaves your device."
+      },
+      {
+        "question": "What video formats are supported?",
+        "answer": "Any format your browser can play, typically MP4, WebM, and Ogg."
+      },
+      {
+        "question": "What image format is the output?",
+        "answer": "JPEG by default, which gives a smaller file. PNG is also available for lossless output."
+      },
+      {
+        "question": "Can I capture a frame from any timestamp?",
+        "answer": "Yes. Enter any time in seconds or drag the slider to scrub through the video."
+      }
+    ]
+  },
+  "video-metadata": {
+    "name": "Video-Metadaten",
+    "description": "Inspect video properties: resolution, duration, file size, and more",
+    "longDescription": "Drop a video file to instantly see its resolution, duration, aspect ratio, estimated bitrate, and file type. No upload needed.",
+    "seoTitle": "Video Metadata Viewer — Inspect Video Properties | FileFolks",
+    "seoDescription": "View video properties including resolution, duration, aspect ratio, and file size. No upload. Runs in your browser.",
+    "faqs": [
+      {
+        "question": "Is my video uploaded?",
+        "answer": "No. The tool reads metadata using the browser's native video API. Nothing is sent to a server."
+      },
+      {
+        "question": "What properties can I see?",
+        "answer": "File name, file size, file type, duration, resolution (width and height), aspect ratio, and estimated bitrate."
+      },
+      {
+        "question": "Can I see the codec?",
+        "answer": "The tool shows the file's MIME type (e.g. video/mp4). Detailed codec info is not available from browser APIs alone."
+      }
+    ]
+  }
+}

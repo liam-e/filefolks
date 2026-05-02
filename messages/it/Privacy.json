@@ -1,0 +1,13 @@
+{
+  "title": "Informativa sulla privacy",
+  "metaDescription": "FileFolks elabora tutti i file localmente nel tuo browser. Nessun dato viene mai caricato o archiviato.",
+  "lastUpdated": "Ultimo aggiornamento: aprile 2026",
+  "s1Heading": "I tuoi file non lasciano mai il browser",
+  "s1Body": "Ogni strumento di FileFolks funziona interamente nel tuo browser utilizzando WebAssembly e API native del browser. Nessun dato di file, nome, contenuto o metadato viene mai inviato a un server. Apri la scheda Rete degli strumenti per sviluppatori mentre usi qualsiasi strumento e non vedrai alcuna richiesta di upload.",
+  "s2Heading": "Cosa raccogliamo",
+  "s2Body": "Nulla. FileFolks non imposta cookie, non carica script di analisi o tracciamento e non richiede un account. Non registriamo ne memorizziamo nulla su di te o sui tuoi file.",
+  "s3Heading": "Font",
+  "s3Body": "I font della pagina sono auto-ospitati al momento della compilazione. Non vengono effettuate richieste a Google Fonts o a provider esterni.",
+  "s4Heading": "Modifiche",
+  "s4Body": "Le modifiche sostanziali saranno riflesse da una data aggiornata in cima a questa pagina."
+}

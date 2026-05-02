@@ -1,0 +1,18 @@
+{
+  "dropLabel": "Déposez un PDF ici ou cliquez pour parcourir",
+  "dropSublabel": "Fichier unique — votre PDF ne quitte jamais votre navigateur",
+  "rotateLeft": "90° gauche",
+  "rotate180": "180°",
+  "rotateRight": "90° droite",
+  "rotationLabel": "Rotation",
+  "rotateButton": "Faire pivoter le PDF",
+  "rotating": "Rotation...",
+  "downloadAgain": "Télécharger à nouveau",
+  "clear": "Effacer",
+  "errorTitle": "Erreur",
+  "successTitle": "Pivoté avec succès. Vérifiez votre dossier de téléchargements.",
+  "privacyNote": "Votre fichier ne quitte jamais votre navigateur. Tout le traitement s'effectue localement.",
+  "removeFile": "Supprimer le fichier",
+  "loadingPages": "Chargement...",
+  "pageCount": "{count} pages"
+}

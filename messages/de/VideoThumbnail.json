@@ -1,0 +1,15 @@
+{
+  "dropLabel": "Video hier ablegen oder zum Durchsuchen klicken",
+  "dropSublabel": "MP4, WebM oder MOV",
+  "remove": "Entfernen",
+  "timestampLabel": "Zeitstempel",
+  "widthLabel": "Ausgabebreite",
+  "formatLabel": "Format",
+  "captureButton": "Frame aufnehmen",
+  "processing": "Aufnahme...",
+  "downloadButton": "Bild herunterladen",
+  "errorTitle": "Fehler",
+  "errorLoad": "Videometadaten konnten nicht gelesen werden. Versuche eine andere Datei.",
+  "errorGeneric": "Etwas ist schiefgelaufen. Versuche ein anderes Video.",
+  "privacyNote": "Dein Video verlasst nie deinen Browser."
+}

@@ -1,0 +1,16 @@
+{
+  "dropLabel": "Déposez des fichiers PDF ici, ou cliquez pour parcourir",
+  "dropSublabel": "Vous pouvez ajouter d'autres fichiers après le premier lot",
+  "mergeButton": "Fusionner {count} PDF",
+  "mergeButtonPlural": "Fusionner {count} PDF",
+  "merging": "Fusion en cours...",
+  "downloadAgain": "Télécharger à nouveau",
+  "clearAll": "Tout effacer",
+  "addMoreFiles": "Ajoutez au moins 2 fichiers PDF à fusionner.",
+  "success": "Fusion réussie. Vérifiez votre dossier de téléchargements.",
+  "errorTitle": "Erreur",
+  "privacyNote": "Vos fichiers ne quittent jamais votre navigateur. Toute la fusion s'effectue localement sur votre appareil.",
+  "moveUp": "Monter",
+  "moveDown": "Descendre",
+  "removeFile": "Supprimer le fichier"
+}

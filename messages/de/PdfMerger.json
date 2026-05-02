@@ -1,0 +1,16 @@
+{
+  "dropLabel": "PDF-Dateien hier ablegen oder zum Durchsuchen klicken",
+  "dropSublabel": "Sie können nach dem ersten Stapel weitere Dateien hinzufügen",
+  "mergeButton": "{count} PDF zusammenführen",
+  "mergeButtonPlural": "{count} PDFs zusammenführen",
+  "merging": "Wird zusammengeführt...",
+  "downloadAgain": "Erneut herunterladen",
+  "clearAll": "Alle entfernen",
+  "addMoreFiles": "Fügen Sie mindestens 2 PDF-Dateien zum Zusammenführen hinzu.",
+  "success": "Erfolgreich zusammengeführt. Prüfen Sie Ihren Download-Ordner.",
+  "errorTitle": "Fehler",
+  "privacyNote": "Ihre Dateien verlassen Ihren Browser nie. Die gesamte Verarbeitung erfolgt lokal auf Ihrem Gerät.",
+  "moveUp": "Nach oben",
+  "moveDown": "Nach unten",
+  "removeFile": "Datei entfernen"
+}

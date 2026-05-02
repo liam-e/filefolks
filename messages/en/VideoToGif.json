@@ -1,0 +1,15 @@
+{
+  "dropLabel": "Drop a video here, or click to browse",
+  "dropSublabel": "MP4, WebM, or MOV",
+  "remove": "Remove",
+  "startLabel": "Start time",
+  "durationLabel": "Duration",
+  "fpsLabel": "Frame rate (fps)",
+  "widthLabel": "Width",
+  "createButton": "Create GIF",
+  "processing": "Processing",
+  "downloadButton": "Download GIF",
+  "errorTitle": "Error",
+  "errorGeneric": "Something went wrong. Please try a different video.",
+  "privacyNote": "Your video never leaves your browser."
+}

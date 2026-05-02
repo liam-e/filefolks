@@ -1,0 +1,17 @@
+{
+  "dropLabel": "将图片拖放到此处，或点击浏览",
+  "dropSublabel": "PNG、JPG 或 WebP — 图片始终留在您的浏览器中",
+  "compressButton": "压缩图片",
+  "compressing": "压缩中...",
+  "downloadAgain": "重新下载",
+  "clear": "清除",
+  "errorTitle": "错误",
+  "successTitle": "压缩成功。请查看您的下载文件夹。",
+  "original": "原始",
+  "compressed": "已压缩",
+  "saved": "节省",
+  "alreadyOptimizedTitle": "文件已经优化良好。",
+  "alreadyOptimizedBody": "压缩版本（{compressedSize}）并不比原始版本（{originalSize}）小。请保留您的原始文件。",
+  "privacyNote": "您的图片始终留在您的浏览器中，所有压缩均在本地进行。",
+  "removeFile": "删除文件"
+}

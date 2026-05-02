@@ -1,0 +1,14 @@
+{
+  "dropLabel": "이미지를 여기에 드롭하거나 클릭하여 찾아보기",
+  "dropSublabel": "PNG, JPG 또는 WebP — 이미지는 브라우저를 절대 벗어나지 않습니다",
+  "convertTo": "변환 형식",
+  "convertButton": "변환",
+  "converting": "변환 중...",
+  "downloadAgain": "다시 다운로드",
+  "clear": "지우기",
+  "errorTitle": "오류",
+  "successTitle": "변환 성공. 다운로드 폴더를 확인하세요.",
+  "jpegNote": "투명한 영역은 흰색 배경으로 채워집니다.",
+  "privacyNote": "이미지는 브라우저를 절대 벗어나지 않습니다. 모든 변환은 로컬에서 수행됩니다.",
+  "removeFile": "파일 제거"
+}

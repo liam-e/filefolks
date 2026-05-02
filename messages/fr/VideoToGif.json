@@ -1,0 +1,15 @@
+{
+  "dropLabel": "Deposez une video ici ou cliquez pour parcourir",
+  "dropSublabel": "MP4, WebM ou MOV",
+  "remove": "Supprimer",
+  "startLabel": "Heure de debut",
+  "durationLabel": "Duree",
+  "fpsLabel": "Images par seconde",
+  "widthLabel": "Largeur",
+  "createButton": "Creer le GIF",
+  "processing": "Traitement",
+  "downloadButton": "Telecharger le GIF",
+  "errorTitle": "Erreur",
+  "errorGeneric": "Une erreur s'est produite. Essayez une autre video.",
+  "privacyNote": "Votre video ne quitte jamais votre navigateur."
+}

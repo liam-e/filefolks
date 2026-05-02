@@ -1,0 +1,17 @@
+{
+  "dropLabel": "将 PDF 拖放到此处，或点击浏览",
+  "dropSublabel": "单个文件 — 您的 PDF 不会离开您的浏览器",
+  "compressButton": "压缩 PDF",
+  "compressing": "压缩中...",
+  "downloadAgain": "重新下载",
+  "clear": "清除",
+  "errorTitle": "错误",
+  "successTitle": "压缩成功。请查看您的下载文件夹。",
+  "original": "原始",
+  "compressed": "压缩后",
+  "saved": "已节省",
+  "alreadyOptimizedTitle": "文件已经过良好优化。",
+  "alreadyOptimizedBody": "压缩后的版本（{compressedSize}）并不小于原始文件（{originalSize}）。建议保留您的原始文件。",
+  "privacyNote": "您的文件不会离开您的浏览器。所有压缩操作均在您的设备上本地完成。",
+  "removeFile": "移除文件"
+}

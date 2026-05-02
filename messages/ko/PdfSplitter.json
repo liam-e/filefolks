@@ -1,0 +1,17 @@
+{
+  "dropLabel": "PDF를 여기에 드롭하거나 클릭하여 찾아보기",
+  "dropSublabel": "단일 파일 — PDF는 브라우저를 절대 벗어나지 않습니다",
+  "fromPage": "시작 페이지",
+  "toPage": "끝 페이지",
+  "pageCount": "총 {count}페이지",
+  "extractCount": "{count}페이지 선택됨",
+  "extractButton": "페이지 추출",
+  "extracting": "추출 중...",
+  "downloadAgain": "다시 다운로드",
+  "clear": "지우기",
+  "errorTitle": "오류",
+  "successTitle": "추출 성공. 다운로드 폴더를 확인하세요.",
+  "privacyNote": "파일은 브라우저를 절대 벗어나지 않습니다. 모든 처리는 로컬에서 수행됩니다.",
+  "removeFile": "파일 제거",
+  "loadingPages": "로딩 중..."
+}

@@ -1,0 +1,13 @@
+{
+  "title": "Politica de Privacidade",
+  "metaDescription": "FileFolks processa todos os arquivos localmente no seu navegador. Nenhum dado e enviado ou armazenado.",
+  "lastUpdated": "Ultima atualizacao: abril de 2026",
+  "s1Heading": "Seus arquivos nunca saem do seu navegador",
+  "s1Body": "Todas as ferramentas do FileFolks rodam inteiramente no seu navegador usando WebAssembly e APIs nativas. Nenhum dado de arquivo, nome, conteudo ou metadado e enviado a um servidor. Abra a aba Rede das ferramentas do desenvolvedor enquanto usa qualquer ferramenta e voce nao vera nenhuma solicitacao de upload.",
+  "s2Heading": "O que coletamos",
+  "s2Body": "Nada. FileFolks nao define cookies, nao carrega scripts de analise ou rastreamento, e nao requer conta. Nao registramos nem armazenamos nada sobre voce ou seus arquivos.",
+  "s3Heading": "Fontes",
+  "s3Body": "As fontes da pagina sao auto-hospedadas no momento da compilacao. Nenhuma solicitacao e feita ao Google Fonts ou qualquer provedor externo.",
+  "s4Heading": "Alteracoes",
+  "s4Body": "Mudancas materiais serao refletidas por uma data atualizada no topo desta pagina."
+}

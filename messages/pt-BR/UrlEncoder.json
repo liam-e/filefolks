@@ -1,0 +1,16 @@
+{
+  "encode": "Codificar",
+  "decode": "Decodificar",
+  "inputLabel": "Entrada",
+  "outputLabel": "Saída",
+  "encodePlaceholder": "Cole uma URL ou texto para codificar...",
+  "decodePlaceholder": "Cole texto codificado em URL para decodificar...",
+  "encodeButton": "Codificar",
+  "decodeButton": "Decodificar",
+  "copy": "Copiar",
+  "copied": "Copiado",
+  "clear": "Limpar",
+  "privacyNote": "Todo o processamento ocorre localmente no seu navegador.",
+  "errorTitle": "Erro",
+  "invalidEncoding": "Codificação URL inválida — verifique sequências de percentagem incompletas."
+}

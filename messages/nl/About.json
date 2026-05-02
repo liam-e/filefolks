@@ -1,0 +1,9 @@
+{
+  "title": "Over FileFolks",
+  "metaDescription": "FileFolks is een gratis verzameling browsergebaseerde hulpmiddelen voor bestanden en ontwikkeling.",
+  "p1": "FileFolks is een gratis verzameling van {count} hulpmiddelen voor bestanden en ontwikkeling die volledig in je browser draaien. Geen uploads, geen accounts, geen tracking.",
+  "p2": "De meeste online hulpmiddelen laden je bestanden naar een externe server, verwerken ze en sturen ze terug. FileFolks hanteert een andere aanpak: elke bewerking vindt lokaal plaats met WebAssembly en native browser-API's. Je bestanden verlaten je apparaat nooit.",
+  "p3": "Het doel is een snel, privaat alternatief voor alledaagse bestandstaken. Geen aanmelding vereist, geen bestandsgroottebeperkingen, geen watermerken.",
+  "contactHeading": "Contact",
+  "contactBody": "Voor vragen, feedback of toolsuggesties, e-mail"
+}

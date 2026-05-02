@@ -1,0 +1,17 @@
+{
+  "dropLabel": "أسقط ملف PDF هنا أو انقر للتصفح",
+  "dropSublabel": "ملف واحد — ملفك لا يغادر متصفحك أبدًا",
+  "fromPage": "من الصفحة",
+  "toPage": "إلى الصفحة",
+  "pageCount": "{count} صفحات",
+  "extractCount": "{count} صفحة محددة",
+  "extractButton": "استخراج الصفحات",
+  "extracting": "جاري الاستخراج...",
+  "downloadAgain": "تنزيل مجددًا",
+  "clear": "مسح",
+  "errorTitle": "خطأ",
+  "successTitle": "تم الاستخراج بنجاح. تحقق من مجلد التنزيلات.",
+  "privacyNote": "ملفك لا يغادر متصفحك أبدًا. كل المعالجة تتم محليًا.",
+  "removeFile": "إزالة الملف",
+  "loadingPages": "جاري التحميل..."
+}

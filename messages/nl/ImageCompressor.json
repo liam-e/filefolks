@@ -1,0 +1,17 @@
+{
+  "dropLabel": "Sleep een afbeelding hierheen of klik om te bladeren",
+  "dropSublabel": "PNG, JPG of WebP — uw afbeelding verlaat nooit uw browser",
+  "compressButton": "Afbeelding comprimeren",
+  "compressing": "Comprimeren...",
+  "downloadAgain": "Opnieuw downloaden",
+  "clear": "Wissen",
+  "errorTitle": "Fout",
+  "successTitle": "Succesvol gecomprimeerd. Controleer uw downloadmap.",
+  "original": "Origineel",
+  "compressed": "Gecomprimeerd",
+  "saved": "Bespaard",
+  "alreadyOptimizedTitle": "Bestand is al goed geoptimaliseerd.",
+  "alreadyOptimizedBody": "De gecomprimeerde versie ({compressedSize}) is niet kleiner dan het origineel ({originalSize}). Bewaar uw originele bestand.",
+  "privacyNote": "Uw afbeelding verlaat nooit uw browser. Alle compressie vindt lokaal plaats.",
+  "removeFile": "Bestand verwijderen"
+}

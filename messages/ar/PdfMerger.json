@@ -1,0 +1,16 @@
+{
+  "dropLabel": "أسقط ملفات PDF هنا أو انقر للاستعراض",
+  "dropSublabel": "يمكنك إضافة المزيد من الملفات بعد الدفعة الأولى",
+  "mergeButton": "دمج {count} ملف PDF",
+  "mergeButtonPlural": "دمج {count} ملفات PDF",
+  "merging": "جارٍ الدمج...",
+  "downloadAgain": "تنزيل مجددًا",
+  "clearAll": "مسح الكل",
+  "addMoreFiles": "أضف ملفين PDF على الأقل للدمج.",
+  "success": "تم الدمج بنجاح. تحقق من مجلد التنزيلات.",
+  "errorTitle": "خطأ",
+  "privacyNote": "ملفاتك لا تغادر متصفحك. يتم الدمج محليًا على جهازك.",
+  "moveUp": "تحريك لأعلى",
+  "moveDown": "تحريك لأسفل",
+  "removeFile": "إزالة الملف"
+}

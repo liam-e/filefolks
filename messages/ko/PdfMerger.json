@@ -1,0 +1,16 @@
+{
+  "dropLabel": "PDF 파일을 여기에 드롭하거나 클릭하여 찾아보세요",
+  "dropSublabel": "첫 번째 배치 이후에도 더 많은 파일을 드롭할 수 있습니다",
+  "mergeButton": "PDF {count}개 병합",
+  "mergeButtonPlural": "PDF {count}개 병합",
+  "merging": "병합 중...",
+  "downloadAgain": "다시 다운로드",
+  "clearAll": "모두 지우기",
+  "addMoreFiles": "병합하려면 PDF 파일을 최소 2개 추가하세요.",
+  "success": "성공적으로 병합되었습니다. 다운로드 폴더를 확인하세요.",
+  "errorTitle": "오류",
+  "privacyNote": "파일이 브라우저를 떠나지 않습니다. 모든 병합은 기기에서 로컬로 이루어집니다.",
+  "moveUp": "위로 이동",
+  "moveDown": "아래로 이동",
+  "removeFile": "파일 제거"
+}

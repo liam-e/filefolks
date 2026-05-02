@@ -1,0 +1,15 @@
+{
+  "dropLabel": "أسقط فيديو هنا أو انقر للاستعراض",
+  "dropSublabel": "MP4 أو WebM أو MOV",
+  "remove": "إزالة",
+  "fileName": "اسم الملف",
+  "fileSize": "حجم الملف",
+  "fileType": "نوع الملف",
+  "duration": "المدة",
+  "resolution": "الدقة",
+  "aspectRatio": "نسبة العرض إلى الارتفاع",
+  "estimatedBitrate": "معدل البت المقدر",
+  "errorTitle": "خطأ",
+  "errorGeneric": "تعذر قراءة بيانات الفيديو الوصفية. قد لا يكون التنسيق مدعوماً في متصفحك.",
+  "privacyNote": "فيديوك لا يغادر متصفحك أبداً."
+}

@@ -1,0 +1,18 @@
+{
+  "inputLabel": "رمز JWT",
+  "inputPlaceholder": "الصق رمز JWT (مثال: eyJhbGci...)",
+  "decodeButton": "فك الترميز",
+  "header": "الترويسة",
+  "payload": "الحمولة",
+  "signature": "التوقيع",
+  "signatureNote": "التحقق من التوقيع يتطلب السر — تفك هذه الأداة ترميز الترويسة والحمولة فقط.",
+  "clear": "مسح",
+  "copy": "نسخ",
+  "copied": "تم النسخ",
+  "expiresLabel": "تنتهي صلاحيته",
+  "issuedAtLabel": "صدر في",
+  "expired": "منتهي الصلاحية",
+  "valid": "صالح",
+  "privacyNote": "رمزك لا يغادر متصفحك أبداً.",
+  "errorTitle": "خطأ"
+}

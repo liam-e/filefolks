@@ -1,0 +1,9 @@
+{
+  "title": "Informazioni su FileFolks",
+  "metaDescription": "FileFolks e una raccolta gratuita di strumenti per file e sviluppo basati sul browser.",
+  "p1": "FileFolks e una raccolta gratuita di {count} strumenti per file e sviluppo che funzionano interamente nel tuo browser. Nessun caricamento, nessun account, nessun tracciamento.",
+  "p2": "La maggior parte degli strumenti online carica i tuoi file su un server remoto, li elabora e li restituisce. FileFolks adotta un approccio diverso: ogni operazione avviene localmente usando WebAssembly e API native del browser. I tuoi file non lasciano mai il tuo dispositivo.",
+  "p3": "L'obiettivo e un'alternativa veloce e privata per le attivita quotidiane con i file. Nessuna registrazione richiesta, nessun limite di dimensione, nessuna filigrana.",
+  "contactHeading": "Contatti",
+  "contactBody": "Per domande, feedback o suggerimenti di strumenti, scrivi a"
+}

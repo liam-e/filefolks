@@ -1,0 +1,18 @@
+{
+  "inputLabel": "JWT 토큰",
+  "inputPlaceholder": "JWT 붙여넣기 (예: eyJhbGci...)",
+  "decodeButton": "디코딩",
+  "header": "헤더",
+  "payload": "페이로드",
+  "signature": "서명",
+  "signatureNote": "서명 검증은 시크릿이 필요합니다 — 이 도구는 헤더와 페이로드만 디코딩합니다.",
+  "clear": "지우기",
+  "copy": "복사",
+  "copied": "복사됨",
+  "expiresLabel": "만료",
+  "issuedAtLabel": "발행일시",
+  "expired": "만료됨",
+  "valid": "유효",
+  "privacyNote": "토큰은 브라우저를 벗어나지 않습니다.",
+  "errorTitle": "오류"
+}

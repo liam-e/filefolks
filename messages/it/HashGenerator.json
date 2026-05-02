@@ -1,0 +1,16 @@
+{
+  "algorithmLabel": "Algoritmo",
+  "inputLabel": "Input",
+  "outputLabel": "Hash",
+  "textMode": "Testo",
+  "fileMode": "File",
+  "loadFile": "Carica file",
+  "textPlaceholder": "Incolla testo da sottoporre ad hash...",
+  "hashButton": "Genera hash",
+  "hashing": "Calcolo in corso...",
+  "copy": "Copia",
+  "copied": "Copiato",
+  "clear": "Cancella",
+  "privacyNote": "Tutto il processo avviene localmente nel tuo browser.",
+  "errorTitle": "Errore"
+}

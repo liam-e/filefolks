@@ -1,0 +1,16 @@
+{
+  "dropLabel": "Drop PDF files here, or click to browse",
+  "dropSublabel": "You can drop more files after the first batch",
+  "mergeButton": "Merge {count} PDF",
+  "mergeButtonPlural": "Merge {count} PDFs",
+  "merging": "Merging...",
+  "downloadAgain": "Download again",
+  "clearAll": "Clear all",
+  "addMoreFiles": "Add at least 2 PDF files to merge.",
+  "success": "Merged successfully. Check your downloads folder.",
+  "errorTitle": "Error",
+  "privacyNote": "Your files never leave your browser. All merging happens locally on your device.",
+  "moveUp": "Move up",
+  "moveDown": "Move down",
+  "removeFile": "Remove file"
+}

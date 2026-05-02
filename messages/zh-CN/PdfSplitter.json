@@ -1,0 +1,17 @@
+{
+  "dropLabel": "将 PDF 拖放到此处，或点击浏览",
+  "dropSublabel": "单个文件 — PDF 始终留在您的浏览器中",
+  "fromPage": "起始页",
+  "toPage": "结束页",
+  "pageCount": "共 {count} 页",
+  "extractCount": "已选择 {count} 页",
+  "extractButton": "提取页面",
+  "extracting": "提取中...",
+  "downloadAgain": "重新下载",
+  "clear": "清除",
+  "errorTitle": "错误",
+  "successTitle": "提取成功。请查看您的下载文件夹。",
+  "privacyNote": "您的文件始终留在您的浏览器中，所有处理均在本地进行。",
+  "removeFile": "删除文件",
+  "loadingPages": "加载中..."
+}

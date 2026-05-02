@@ -1,0 +1,473 @@
+{
+  "pdf-merge": {
+    "name": "PDF 병합",
+    "description": "여러 PDF 파일을 하나의 문서로 결합",
+    "longDescription": "PDF 파일을 드래그 앤 드롭하여 단일 문서로 병합합니다. 드래그하여 페이지를 재정렬할 수 있습니다. 모든 작업이 브라우저에서 이루어집니다.",
+    "seoTitle": "PDF 파일 온라인 병합 — 무료, 개인 정보 보호, 업로드 없음 | FileFolks",
+    "seoDescription": "여러 PDF를 하나의 파일로 결합합니다. 업로드 없이 브라우저에서 실행됩니다.",
+    "faqs": [
+      {
+        "question": "내 PDF 파일이 서버에 업로드됩니까?",
+        "answer": "아니요. 모든 병합은 pdf-lib 라이브러리를 사용하여 브라우저 내에서 로컬로 이루어집니다. 파일이 기기를 떠나지 않습니다."
+      },
+      {
+        "question": "병합할 수 있는 PDF 수에 제한이 있습니까?",
+        "answer": "고정된 제한이 없습니다. 실제 제한은 기기의 사용 가능한 메모리에 따라 다릅니다. 대부분의 사용자는 50개 이상의 파일을 문제없이 병합할 수 있습니다."
+      },
+      {
+        "question": "병합 전에 페이지를 재정렬할 수 있습니까?",
+        "answer": "예. 파일을 드롭한 후 원하는 순서로 드래그할 수 있습니다."
+      },
+      {
+        "question": "병합된 PDF에 북마크와 링크가 유지됩니까?",
+        "answer": "기본 페이지 콘텐츠, 이미지, 텍스트는 보존됩니다. 북마크 및 양식 필드와 같은 대화형 요소는 모든 경우에 전달되지 않을 수 있습니다."
+      }
+    ]
+  },
+  "compress-pdf": {
+    "name": "PDF 압축",
+    "description": "콘텐츠를 보존하면서 PDF 파일 크기 줄이기",
+    "longDescription": "PDF를 드롭하여 파일 크기를 줄이세요. 도구가 브라우저에서 완전히 내장된 메타데이터를 제거하고 내부 구조를 최적화합니다.",
+    "seoTitle": "PDF 온라인 압축 — 무료, 개인 정보 보호, 업로드 없음 | FileFolks",
+    "seoDescription": "브라우저에서 PDF 파일 크기를 줄이세요. 업로드 필요 없습니다.",
+    "faqs": [
+      {
+        "question": "내 PDF가 서버에 업로드됩니까?",
+        "answer": "아니요. 모든 압축은 브라우저에서 pdf-lib 라이브러리를 사용하여 이루어집니다."
+      },
+      {
+        "question": "PDF가 얼마나 줄어듭니까?",
+        "answer": "절약량은 파일에 따라 다릅니다. 메타데이터가 많은 PDF는 10-40% 감소할 수 있습니다."
+      },
+      {
+        "question": "PDF 내용이 바뀝니까?",
+        "answer": "아니요. 보이지 않는 메타데이터만 제거됩니다. 페이지 콘텐츠는 정확히 보존됩니다."
+      },
+      {
+        "question": "압축 파일이 원본보다 크면 어떻게 됩니까?",
+        "answer": "원본 PDF가 이미 잘 최적화된 경우 발생할 수 있습니다. 그 경우 원본 파일을 보관하는 것이 좋습니다."
+      }
+    ]
+  },
+  "json-formatter": {
+    "name": "JSON 포매터",
+    "description": "JSON 데이터 형식화, 유효성 검사 및 최소화",
+    "longDescription": "JSON 파일을 붙여넣거나 드롭하여 형식화, 유효성 검사 및 검사합니다. 키 수, 중첩 깊이, 파일 크기를 한눈에 볼 수 있습니다.",
+    "seoTitle": "JSON 포매터 및 검사기 — 무료, 개인 정보 보호 | FileFolks",
+    "seoDescription": "JSON을 온라인으로 형식화, 유효성 검사 및 최소화합니다. 완전히 브라우저에서 실행됩니다.",
+    "faqs": [
+      {
+        "question": "내 JSON 데이터가 서버로 전송됩니까?",
+        "answer": "아니요. 모든 처리는 JavaScript를 사용하여 브라우저에서 이루어집니다."
+      },
+      {
+        "question": "형식화할 수 있는 JSON 크기에 제한이 있습니까?",
+        "answer": "고정된 제한은 없지만 50MB를 초과하는 파일은 브라우저 탭이 느려질 수 있습니다."
+      },
+      {
+        "question": "주석이 있는 JSON(JSONC)을 형식화할 수 있습니까?",
+        "answer": "표준 JSON은 주석을 지원하지 않습니다. 입력에 주석이 포함되어 있으면 파서 오류가 발생합니다."
+      },
+      {
+        "question": "형식화와 최소화의 차이는 무엇입니까?",
+        "answer": "형식화는 들여쓰기와 줄 바꿈을 추가하여 JSON을 읽기 쉽게 만듭니다. 최소화는 파일 크기를 줄이기 위해 불필요한 공백을 모두 제거합니다."
+      }
+    ]
+  },
+  "compress-image": {
+    "name": "이미지 압축",
+    "description": "최소한의 품질 손실로 이미지 파일 크기 줄이기",
+    "longDescription": "Drop a PNG, JPG, or WebP image to compress it. File size is reduced while preserving visual quality — everything runs in your browser. Nothing is uploaded.",
+    "seoTitle": "이미지 온라인 압축 — 무료, 개인정보 보호, 업로드 없음 | FileFolks",
+    "seoDescription": "브라우저에서 이미지 압축. PNG, JPG, WebP. 업로드 없음. 빠르고 개인적.",
+    "faqs": [
+      {
+        "question": "Are my images uploaded to a server?",
+        "answer": "No. Compression runs entirely in your browser using JavaScript. Your images never leave your device."
+      },
+      {
+        "question": "Which formats are supported?",
+        "answer": "PNG, JPG, and WebP. The output format matches your input file."
+      },
+      {
+        "question": "How much will the file shrink?",
+        "answer": "Savings vary by image. Photographs typically compress 40-70%. Images that are already heavily compressed will see smaller gains."
+      },
+      {
+        "question": "Will compression affect image quality?",
+        "answer": "The tool targets a maximum output size of 1 MB while preserving as much quality as possible. For most photos the difference is imperceptible."
+      }
+    ]
+  },
+  "image-convert": {
+    "name": "이미지 변환",
+    "description": "PNG, JPG, WebP 간 이미지 변환",
+    "longDescription": "Drop an image to convert it to PNG, JPG, or WebP. Uses your browser's built-in Canvas API. No upload, no account required.",
+    "seoTitle": "이미지 온라인 변환 — PNG to JPG, WebP 등 | FileFolks",
+    "seoDescription": "PNG to JPG, JPG to WebP 등 변환. 무료, 개인 정보 보호, 브라우저에서 실행. 업로드 없음.",
+    "faqs": [
+      {
+        "question": "Are my images uploaded?",
+        "answer": "No. Conversion uses the browser's Canvas API entirely on your device. Nothing is sent to a server."
+      },
+      {
+        "question": "What happens to transparency when converting to JPG?",
+        "answer": "JPG does not support transparency. Any transparent areas are filled with a white background automatically."
+      },
+      {
+        "question": "Is there quality loss when converting?",
+        "answer": "Converting to PNG is lossless. Converting to JPG or WebP applies light compression (92% quality by default), which is visually indistinguishable for most images."
+      },
+      {
+        "question": "Can I convert AVIF or GIF files?",
+        "answer": "Currently the tool supports PNG, JPG, and WebP input and output. AVIF and GIF support may be added in future."
+      }
+    ]
+  },
+  "split-pdf": {
+    "name": "PDF 분할",
+    "description": "PDF에서 페이지 범위를 새 파일로 추출",
+    "longDescription": "Drop a PDF, choose a page range, and download just those pages as a new document. Powered by pdf-lib in your browser. No upload required.",
+    "seoTitle": "PDF 온라인 분할 — 무료, 개인정보 보호, 업로드 없음 | FileFolks",
+    "seoDescription": "브라우저에서 PDF 페이지 추출. 범위 선택 후 즉시 다운로드.",
+    "faqs": [
+      {
+        "question": "Is my PDF uploaded to a server?",
+        "answer": "No. All splitting happens in your browser using the pdf-lib library. Your file never leaves your device."
+      },
+      {
+        "question": "Can I extract non-consecutive pages?",
+        "answer": "Currently the tool extracts a continuous range. For non-consecutive pages, extract each range separately and merge the results with the Merge PDF tool."
+      },
+      {
+        "question": "Will the extracted pages keep their content?",
+        "answer": "Yes. All text, images, and layout are preserved exactly as in the original."
+      },
+      {
+        "question": "What if my PDF is password-protected?",
+        "answer": "Password-protected PDFs cannot be processed. Remove the password first using a PDF unlock tool, then split the file."
+      }
+    ]
+  },
+  "base64-encode-decode": {
+    "name": "Base64 인코딩 / 디코딩",
+    "description": "텍스트나 파일을 Base64로 인코딩하거나 Base64를 텍스트로 디코딩",
+    "longDescription": "Paste text or load a file to encode it as Base64, or paste a Base64 string to decode it. All processing happens locally in your browser.",
+    "seoTitle": "Base64 온라인 인코딩 & 디코딩 — 무료, 개인정보 보호 | FileFolks",
+    "seoDescription": "텍스트나 파일을 Base64로 인코딩하거나 Base64를 텍스트로 디코딩. 브라우저에서 실행.",
+    "faqs": [
+      {
+        "question": "Is my data uploaded to a server?",
+        "answer": "No. Base64 encoding and decoding are pure JavaScript operations that run entirely in your browser."
+      },
+      {
+        "question": "What is Base64 used for?",
+        "answer": "Base64 is used to safely transmit binary data as text — in emails, data URLs, API payloads, and configuration files."
+      },
+      {
+        "question": "Is there a size limit?",
+        "answer": "There is no hard limit, but very large files (over 10 MB) may slow down your browser tab. The output Base64 string will be roughly 33% larger than the input."
+      },
+      {
+        "question": "Does Base64 encrypt my data?",
+        "answer": "No. Base64 is an encoding scheme, not encryption. Anyone with the Base64 string can decode it instantly. Do not use it to protect sensitive data."
+      }
+    ]
+  },
+  "image-to-pdf": {
+    "name": "이미지를 PDF로",
+    "description": "하나 이상의 이미지를 단일 PDF 문서로 변환",
+    "longDescription": "Drop PNG, JPG, or WebP images and download them combined into a single PDF. Reorder pages by dragging. Everything runs in your browser — nothing is uploaded.",
+    "seoTitle": "Image to PDF Online — Free, Private, No Upload | FileFolks",
+    "seoDescription": "Convert JPG, PNG, or WebP images to a PDF in your browser. Reorder pages, then download. No upload required.",
+    "faqs": [
+      {
+        "question": "Are my images uploaded to a server?",
+        "answer": "No. All processing uses pdf-lib in your browser. Your images never leave your device."
+      },
+      {
+        "question": "Which image formats are supported?",
+        "answer": "PNG, JPG, and WebP. Each image becomes one page in the output PDF."
+      },
+      {
+        "question": "Can I control the page order?",
+        "answer": "Yes. After adding your images, drag them into the order you want. The PDF pages will follow this order."
+      },
+      {
+        "question": "What size will the PDF pages be?",
+        "answer": "Each page matches the pixel dimensions of the source image. For very large images the PDF file size may be significant."
+      }
+    ]
+  },
+  "pdf-rotate": {
+    "name": "PDF 회전",
+    "description": "PDF 페이지를 90°, 180° 또는 270° 회전",
+    "longDescription": "Drop a PDF and choose a rotation amount. All pages are rotated and the result downloads instantly — entirely in your browser.",
+    "seoTitle": "Rotate PDF Online — Free, Private, No Upload | FileFolks",
+    "seoDescription": "Rotate all pages in a PDF by 90°, 180°, or 270°. Runs in your browser. No upload required.",
+    "faqs": [
+      {
+        "question": "Is my PDF uploaded to a server?",
+        "answer": "No. Rotation happens in your browser using pdf-lib. Your file never leaves your device."
+      },
+      {
+        "question": "Can I rotate only specific pages?",
+        "answer": "Currently the tool rotates all pages by the same amount. Per-page rotation may be added in a future update."
+      },
+      {
+        "question": "Which direction is 90° right?",
+        "answer": "90° right rotates each page clockwise. 90° left rotates counter-clockwise. 180° flips pages upside down."
+      },
+      {
+        "question": "Will the text and images be affected?",
+        "answer": "No. Only the viewing orientation of each page changes. All content is preserved exactly."
+      }
+    ]
+  },
+  "image-resize": {
+    "name": "이미지 크기 조정",
+    "description": "이미지를 정확한 픽셀 크기나 비율로 조정",
+    "longDescription": "Drop an image, enter target dimensions or a percentage scale, and download the resized result. Aspect ratio lock keeps your image proportional. Runs entirely in your browser.",
+    "seoTitle": "Resize Image Online — Free, Private, No Upload | FileFolks",
+    "seoDescription": "Resize images to exact pixels or a percentage in your browser. PNG, JPG, WebP. No upload required.",
+    "faqs": [
+      {
+        "question": "Are my images uploaded?",
+        "answer": "No. Resizing uses the Canvas API in your browser. Nothing is sent to a server."
+      },
+      {
+        "question": "Will the image quality change?",
+        "answer": "PNG output is lossless. JPG and WebP output uses 92% quality, which is visually indistinguishable from the original for most images."
+      },
+      {
+        "question": "What does the aspect ratio lock do?",
+        "answer": "When locked, changing one dimension automatically scales the other to keep the image proportional. Unlock it to set width and height independently."
+      },
+      {
+        "question": "Can I enlarge an image?",
+        "answer": "Yes, you can scale up to 200% using percentage mode. Note that enlarging a raster image reduces sharpness — the pixels are simply stretched."
+      }
+    ]
+  },
+  "image-crop": {
+    "name": "이미지 자르기",
+    "description": "이미지를 사용자 지정 영역이나 미리 설정된 비율로 자르기",
+    "longDescription": "Drop an image, adjust the crop region using the visual preview and coordinate inputs, then download the cropped result. All processing stays in your browser.",
+    "seoTitle": "Crop Image Online — Free, Private, No Upload | FileFolks",
+    "seoDescription": "Crop images to any size or aspect ratio in your browser. PNG, JPG, WebP. No upload required.",
+    "faqs": [
+      {
+        "question": "Are my images uploaded?",
+        "answer": "No. Cropping uses the Canvas API in your browser. Nothing is sent to a server."
+      },
+      {
+        "question": "What aspect ratio presets are available?",
+        "answer": "Free (no constraint), 1:1 (square), 4:3, 16:9, and 3:2. The preset centres the crop region within the image."
+      },
+      {
+        "question": "Can I enter exact pixel coordinates?",
+        "answer": "Yes. Use the X, Y, Width, and Height inputs for precise control. The visual preview updates in real time."
+      },
+      {
+        "question": "What output format does the tool use?",
+        "answer": "The output format matches the input — PNG for PNG files, JPG for JPG files, and WebP for WebP files."
+      }
+    ]
+  },
+  "url-encode-decode": {
+    "name": "URL 인코딩 / 디코딩",
+    "description": "Encode and decode URL-safe strings and query parameters",
+    "longDescription": "Paste any text to URL-encode it for safe use in a browser address bar or API request, or paste a percent-encoded string to decode it back. Everything runs locally in your browser.",
+    "seoTitle": "URL Encode & Decode Online — Free, Private | FileFolks",
+    "seoDescription": "Encode or decode URLs and query strings instantly in your browser. No upload or account needed.",
+    "faqs": [
+      {
+        "question": "Is my data uploaded?",
+        "answer": "No. URL encoding and decoding are pure JavaScript operations that run entirely in your browser."
+      },
+      {
+        "question": "What is URL encoding?",
+        "answer": "URL encoding (percent-encoding) replaces special characters with a percent sign followed by two hex digits. For example, a space becomes %20 and an ampersand becomes %26."
+      },
+      {
+        "question": "What is the difference between encodeURIComponent and encodeURI?",
+        "answer": "This tool uses encodeURIComponent, which encodes everything except A–Z a–z 0–9 - _ . ! ~ * ' ( ). Use it for individual query parameter values. encodeURI preserves characters valid in a complete URL, such as slashes and colons."
+      },
+      {
+        "question": "Can I decode a full URL?",
+        "answer": "Yes. Paste the full percent-encoded URL into the Decode tab and the tool will decode all percent-sequences back to readable characters."
+      }
+    ]
+  },
+  "jwt-decoder": {
+    "name": "JWT 디코더",
+    "description": "Decode and inspect JSON Web Token headers and payloads",
+    "longDescription": "Paste a JSON Web Token to instantly see its decoded header, payload claims, and expiry date. The token never leaves your browser — no server call is made.",
+    "seoTitle": "JWT Decoder Online — Inspect Token Claims | FileFolks",
+    "seoDescription": "Decode and inspect a JWT header and payload instantly in your browser. Private and free.",
+    "faqs": [
+      {
+        "question": "Is my JWT sent to a server?",
+        "answer": "No. Decoding a JWT is a Base64 operation that runs entirely in your browser. Your token is never transmitted."
+      },
+      {
+        "question": "Does this tool verify the signature?",
+        "answer": "No. Signature verification requires your secret or public key, which you should never share with a third-party tool. This decoder shows the header and payload claims only."
+      },
+      {
+        "question": "What is a JWT?",
+        "answer": "A JSON Web Token (JWT) is a compact, URL-safe token made of three Base64-encoded parts separated by dots: a header (algorithm), a payload (claims), and a signature."
+      },
+      {
+        "question": "Can I see when the token expires?",
+        "answer": "Yes. If the payload contains an exp claim, the decoder shows it as a human-readable date and indicates whether the token is currently expired."
+      }
+    ]
+  },
+  "uuid-generator": {
+    "name": "UUID 생성기",
+    "description": "Generate v4 UUIDs in bulk, with clipboard copy and download",
+    "longDescription": "Generate one or more RFC 4122 version 4 UUIDs using the browser's cryptographically secure random number generator. Copy individually, copy all, or download as a text file.",
+    "seoTitle": "UUID Generator Online — Generate v4 UUIDs Free | FileFolks",
+    "seoDescription": "Generate cryptographically secure v4 UUIDs in your browser. Bulk generate, copy, and download. Free and private.",
+    "faqs": [
+      {
+        "question": "Are these UUIDs cryptographically secure?",
+        "answer": "Yes. The tool uses the browser's built-in crypto.randomUUID() API, which uses a cryptographically secure pseudorandom number generator (CSPRNG)."
+      },
+      {
+        "question": "What is a UUID v4?",
+        "answer": "A version 4 UUID is a 128-bit random identifier formatted as 8-4-4-4-12 hex digits separated by hyphens. The version nibble is always 4 and the variant nibble is 8, 9, a, or b."
+      },
+      {
+        "question": "Can I generate UUIDs in bulk?",
+        "answer": "Yes. Set the count to any number between 1 and 100 and click Generate. Use Copy all or Download to get them all at once."
+      },
+      {
+        "question": "Are the UUIDs unique?",
+        "answer": "Yes with overwhelming probability. The chance of a v4 UUID collision is astronomically small — roughly 1 in 5.3 × 10³⁶ for any two random UUIDs."
+      }
+    ]
+  },
+  "hash-generator": {
+    "name": "해시 생성기",
+    "description": "Generate SHA-1, SHA-256, SHA-384, and SHA-512 hashes from text or files",
+    "longDescription": "Paste text or drop a file to compute its SHA-1, SHA-256, SHA-384, or SHA-512 hash. Everything runs in your browser using the built-in Web Crypto API. SHA-256 is recommended for security-critical applications.",
+    "seoTitle": "Hash Generator Online — SHA-256, SHA-512, SHA-1 | FileFolks",
+    "seoDescription": "Generate SHA-1, SHA-256, SHA-384, and SHA-512 hashes from text or files in your browser. Private and free.",
+    "faqs": [
+      {
+        "question": "Is my data uploaded?",
+        "answer": "No. Hashing uses the Web Crypto API, which runs entirely in your browser. Your text or file is never transmitted."
+      },
+      {
+        "question": "Which hash algorithm should I use?",
+        "answer": "Use SHA-256 or SHA-512 for security-critical work. SHA-1 is deprecated for security use — it is suitable only for non-security checksums. MD5 is not supported as it is cryptographically broken."
+      },
+      {
+        "question": "Can I hash a file?",
+        "answer": "Yes. Switch to File mode, drop or select any file, and the hash is computed from the file's raw bytes."
+      },
+      {
+        "question": "What is a hash?",
+        "answer": "A cryptographic hash is a fixed-length fingerprint of your data. The same input always produces the same hash, but even a one-character change produces a completely different output."
+      }
+    ]
+  },
+  "video-to-gif": {
+    "name": "동영상을 GIF로",
+    "description": "Convert a video clip to an animated GIF in your browser",
+    "longDescription": "Drop a video file, set the start time, duration, frame rate, and width, then download the resulting GIF. Processing happens entirely in your browser.",
+    "seoTitle": "Video to GIF Online — Free, Private, No Upload | FileFolks",
+    "seoDescription": "Convert any video clip to an animated GIF in your browser. No upload required. Set start time, duration, frame rate, and size.",
+    "faqs": [
+      {
+        "question": "Is my video uploaded?",
+        "answer": "No. The tool uses the Canvas API directly in your browser. Your video never leaves your device."
+      },
+      {
+        "question": "What video formats are supported?",
+        "answer": "Any format your browser can play, typically MP4 (H.264), WebM, and Ogg. MOV files may work depending on your browser."
+      },
+      {
+        "question": "Why is there a 15-second limit?",
+        "answer": "GIF files grow quickly with duration. A 15-second GIF at 10fps and 320px wide is already several megabytes. Longer clips are better shared as video."
+      },
+      {
+        "question": "How do I reduce the GIF file size?",
+        "answer": "Lower the frame rate (5fps instead of 15fps), reduce the width (240px instead of 480px), or shorten the duration."
+      }
+    ]
+  },
+  "extract-frames": {
+    "name": "프레임 추출",
+    "description": "Extract frames from a video as PNG images and download as a ZIP",
+    "longDescription": "Drop a video, choose a capture interval, and download all extracted frames as individual PNG files in a ZIP archive. Processing happens entirely in your browser.",
+    "seoTitle": "Extract Frames from Video Online — Free, No Upload | FileFolks",
+    "seoDescription": "Extract frames from any video as PNG images. Set the interval, preview thumbnails, and download a ZIP. Runs in your browser.",
+    "faqs": [
+      {
+        "question": "Is my video uploaded?",
+        "answer": "No. Frame extraction uses the Canvas API in your browser. Nothing is sent to a server."
+      },
+      {
+        "question": "What video formats are supported?",
+        "answer": "Any format your browser supports, typically MP4, WebM, and Ogg."
+      },
+      {
+        "question": "What resolution are the exported frames?",
+        "answer": "Frames are exported at 480px wide, maintaining the original aspect ratio."
+      },
+      {
+        "question": "How many frames can I extract?",
+        "answer": "Up to 100 frames per run. For a 60-second video at 1-second intervals that is 60 frames."
+      }
+    ]
+  },
+  "video-thumbnail": {
+    "name": "동영상 썸네일",
+    "description": "Capture a still frame from any video and save it as a JPEG",
+    "longDescription": "Drop a video, scrub to the exact moment you want, and download that frame as a JPEG or PNG. No upload needed.",
+    "seoTitle": "Video Thumbnail Generator — Capture Frame as Image | FileFolks",
+    "seoDescription": "Capture any frame from a video as a JPEG or PNG image. Set the exact timestamp, preview, and download. Runs in your browser.",
+    "faqs": [
+      {
+        "question": "Is my video uploaded?",
+        "answer": "No. The tool uses the Canvas API directly in your browser. Your video never leaves your device."
+      },
+      {
+        "question": "What video formats are supported?",
+        "answer": "Any format your browser can play, typically MP4, WebM, and Ogg."
+      },
+      {
+        "question": "What image format is the output?",
+        "answer": "JPEG by default, which gives a smaller file. PNG is also available for lossless output."
+      },
+      {
+        "question": "Can I capture a frame from any timestamp?",
+        "answer": "Yes. Enter any time in seconds or drag the slider to scrub through the video."
+      }
+    ]
+  },
+  "video-metadata": {
+    "name": "동영상 메타데이터",
+    "description": "Inspect video properties: resolution, duration, file size, and more",
+    "longDescription": "Drop a video file to instantly see its resolution, duration, aspect ratio, estimated bitrate, and file type. No upload needed.",
+    "seoTitle": "Video Metadata Viewer — Inspect Video Properties | FileFolks",
+    "seoDescription": "View video properties including resolution, duration, aspect ratio, and file size. No upload. Runs in your browser.",
+    "faqs": [
+      {
+        "question": "Is my video uploaded?",
+        "answer": "No. The tool reads metadata using the browser's native video API. Nothing is sent to a server."
+      },
+      {
+        "question": "What properties can I see?",
+        "answer": "File name, file size, file type, duration, resolution (width and height), aspect ratio, and estimated bitrate."
+      },
+      {
+        "question": "Can I see the codec?",
+        "answer": "The tool shows the file's MIME type (e.g. video/mp4). Detailed codec info is not available from browser APIs alone."
+      }
+    ]
+  }
+}

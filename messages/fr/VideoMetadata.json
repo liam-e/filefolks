@@ -1,0 +1,15 @@
+{
+  "dropLabel": "Déposez une vidéo ici ou cliquez pour parcourir",
+  "dropSublabel": "MP4, WebM ou MOV",
+  "remove": "Supprimer",
+  "fileName": "Nom du fichier",
+  "fileSize": "Taille du fichier",
+  "fileType": "Type de fichier",
+  "duration": "Durée",
+  "resolution": "Résolution",
+  "aspectRatio": "Format d'image",
+  "estimatedBitrate": "Débit estimé",
+  "errorTitle": "Erreur",
+  "errorGeneric": "Impossible de lire les métadonnées. Le format n'est peut-être pas pris en charge par votre navigateur.",
+  "privacyNote": "Votre vidéo ne quitte jamais votre navigateur."
+}

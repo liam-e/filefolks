@@ -1,0 +1,17 @@
+{
+  "dropLabel": "ここに画像をドロップ、またはクリックして参照",
+  "dropSublabel": "PNG、JPG、WebP — 画像はブラウザ内に留まります",
+  "compressButton": "画像を圧縮",
+  "compressing": "圧縮中...",
+  "downloadAgain": "再ダウンロード",
+  "clear": "クリア",
+  "errorTitle": "エラー",
+  "successTitle": "圧縮成功。ダウンロードフォルダをご確認ください。",
+  "original": "元のサイズ",
+  "compressed": "圧縮後",
+  "saved": "削減",
+  "alreadyOptimizedTitle": "ファイルはすでに最適化されています。",
+  "alreadyOptimizedBody": "圧縮版（{compressedSize}）は元のファイル（{originalSize}）より小さくありません。元のファイルを保持してください。",
+  "privacyNote": "画像はブラウザ外に送信されません。すべての処理はローカルで行われます。",
+  "removeFile": "ファイルを削除"
+}

@@ -1,0 +1,15 @@
+{
+  "dropLabel": "将视频拖放到此处，或点击浏览",
+  "dropSublabel": "MP4、WebM 或 MOV",
+  "remove": "移除",
+  "fileName": "文件名",
+  "fileSize": "文件大小",
+  "fileType": "文件类型",
+  "duration": "时长",
+  "resolution": "分辨率",
+  "aspectRatio": "宽高比",
+  "estimatedBitrate": "估计比特率",
+  "errorTitle": "错误",
+  "errorGeneric": "无法读取视频元数据。您的浏览器可能不支持该格式。",
+  "privacyNote": "您的视频永远不会离开浏览器。"
+}

@@ -1,0 +1,17 @@
+{
+  "dropLabel": "Sleep een PDF hierheen of klik om te bladeren",
+  "dropSublabel": "Eén bestand — uw PDF verlaat nooit uw browser",
+  "fromPage": "Van pagina",
+  "toPage": "Tot pagina",
+  "pageCount": "{count} pagina's",
+  "extractCount": "{count} {count, plural, one {pagina geselecteerd} other {pagina's geselecteerd}}",
+  "extractButton": "Pagina's extraheren",
+  "extracting": "Extraheren...",
+  "downloadAgain": "Opnieuw downloaden",
+  "clear": "Wissen",
+  "errorTitle": "Fout",
+  "successTitle": "Succesvol geëxtraheerd. Controleer uw downloadmap.",
+  "privacyNote": "Uw bestand verlaat nooit uw browser. Alle verwerking vindt lokaal plaats.",
+  "removeFile": "Bestand verwijderen",
+  "loadingPages": "Laden..."
+}

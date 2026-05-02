@@ -1,0 +1,17 @@
+{
+  "dropLabel": "Déposez un PDF ici ou cliquez pour parcourir",
+  "dropSublabel": "Fichier unique — votre PDF ne quitte jamais votre navigateur",
+  "fromPage": "De la page",
+  "toPage": "À la page",
+  "pageCount": "{count} pages",
+  "extractCount": "{count} {count, plural, one {page sélectionnée} other {pages sélectionnées}}",
+  "extractButton": "Extraire les pages",
+  "extracting": "Extraction...",
+  "downloadAgain": "Télécharger à nouveau",
+  "clear": "Effacer",
+  "errorTitle": "Erreur",
+  "successTitle": "Extrait avec succès. Vérifiez votre dossier de téléchargements.",
+  "privacyNote": "Votre fichier ne quitte jamais votre navigateur. Tout le traitement s'effectue localement.",
+  "removeFile": "Supprimer le fichier",
+  "loadingPages": "Chargement..."
+}

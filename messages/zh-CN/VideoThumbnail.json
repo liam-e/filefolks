@@ -1,0 +1,15 @@
+{
+  "dropLabel": "将视频拖放到此处，或点击浏览",
+  "dropSublabel": "MP4、WebM 或 MOV",
+  "remove": "移除",
+  "timestampLabel": "时间戳",
+  "widthLabel": "输出宽度",
+  "formatLabel": "格式",
+  "captureButton": "截取帧",
+  "processing": "截取中...",
+  "downloadButton": "下载图片",
+  "errorTitle": "错误",
+  "errorLoad": "无法读取视频元数据。请尝试其他文件。",
+  "errorGeneric": "发生错误，请尝试其他视频。",
+  "privacyNote": "您的视频永远不会离开浏览器。"
+}

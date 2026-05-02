@@ -1,0 +1,18 @@
+{
+  "inputLabel": "JWT-Token",
+  "inputPlaceholder": "JWT einfügen (z.B. eyJhbGci...)",
+  "decodeButton": "Dekodieren",
+  "header": "Header",
+  "payload": "Payload",
+  "signature": "Signatur",
+  "signatureNote": "Die Signaturverifizierung erfordert das Secret — dieses Tool dekodiert nur Header und Payload.",
+  "clear": "Löschen",
+  "copy": "Kopieren",
+  "copied": "Kopiert",
+  "expiresLabel": "Läuft ab",
+  "issuedAtLabel": "Ausgestellt am",
+  "expired": "Abgelaufen",
+  "valid": "Gültig",
+  "privacyNote": "Dein Token verlässt deinen Browser nicht.",
+  "errorTitle": "Fehler"
+}

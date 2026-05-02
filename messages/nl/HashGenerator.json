@@ -1,0 +1,16 @@
+{
+  "algorithmLabel": "Algoritme",
+  "inputLabel": "Invoer",
+  "outputLabel": "Hash",
+  "textMode": "Tekst",
+  "fileMode": "Bestand",
+  "loadFile": "Bestand laden",
+  "textPlaceholder": "Plak tekst om te hashen...",
+  "hashButton": "Hash genereren",
+  "hashing": "Berekenen...",
+  "copy": "Kopiëren",
+  "copied": "Gekopieerd",
+  "clear": "Wissen",
+  "privacyNote": "Alle verwerking vindt lokaal in je browser plaats.",
+  "errorTitle": "Fout"
+}

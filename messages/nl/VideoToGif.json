@@ -1,0 +1,15 @@
+{
+  "dropLabel": "Zet een video hier neer of klik om te bladeren",
+  "dropSublabel": "MP4, WebM of MOV",
+  "remove": "Verwijderen",
+  "startLabel": "Begintijd",
+  "durationLabel": "Duur",
+  "fpsLabel": "Frames per seconde",
+  "widthLabel": "Breedte",
+  "createButton": "GIF maken",
+  "processing": "Verwerken",
+  "downloadButton": "GIF downloaden",
+  "errorTitle": "Fout",
+  "errorGeneric": "Er is iets misgegaan. Probeer een andere video.",
+  "privacyNote": "Je video verlaat je browser nooit."
+}

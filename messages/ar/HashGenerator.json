@@ -1,0 +1,16 @@
+{
+  "algorithmLabel": "الخوارزمية",
+  "inputLabel": "الإدخال",
+  "outputLabel": "التجزئة",
+  "textMode": "نص",
+  "fileMode": "ملف",
+  "loadFile": "تحميل ملف",
+  "textPlaceholder": "الصق النص للتجزئة...",
+  "hashButton": "توليد التجزئة",
+  "hashing": "جارٍ الحساب...",
+  "copy": "نسخ",
+  "copied": "تم النسخ",
+  "clear": "مسح",
+  "privacyNote": "تتم جميع العمليات محلياً في متصفحك.",
+  "errorTitle": "خطأ"
+}

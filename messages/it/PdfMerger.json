@@ -1,0 +1,16 @@
+{
+  "dropLabel": "Trascina i file PDF qui o clicca per sfogliare",
+  "dropSublabel": "Puoi aggiungere altri file dopo il primo gruppo",
+  "mergeButton": "Unisci {count} PDF",
+  "mergeButtonPlural": "Unisci {count} PDF",
+  "merging": "Unione in corso...",
+  "downloadAgain": "Scarica di nuovo",
+  "clearAll": "Cancella tutto",
+  "addMoreFiles": "Aggiungi almeno 2 file PDF da unire.",
+  "success": "Unito con successo. Controlla la cartella download.",
+  "errorTitle": "Errore",
+  "privacyNote": "I tuoi file non lasciano mai il browser. Tutta l'unione avviene localmente sul tuo dispositivo.",
+  "moveUp": "Sposta su",
+  "moveDown": "Sposta giù",
+  "removeFile": "Rimuovi file"
+}

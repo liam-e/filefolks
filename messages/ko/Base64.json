@@ -1,0 +1,21 @@
+{
+  "encode": "인코딩",
+  "decode": "디코딩",
+  "textMode": "텍스트",
+  "fileMode": "파일",
+  "inputLabel": "입력",
+  "outputLabel": "출력",
+  "encodeButton": "Base64로 인코딩",
+  "decodeButton": "Base64에서 디코딩",
+  "encodePlaceholder": "인코딩할 텍스트를 입력하세요...",
+  "decodePlaceholder": "디코딩할 Base64를 붙여넣으세요...",
+  "outputPlaceholderEncode": "Base64 출력이 여기에 표시됩니다...",
+  "outputPlaceholderDecode": "디코딩된 텍스트가 여기에 표시됩니다...",
+  "copy": "복사",
+  "copied": "복사됨!",
+  "clear": "지우기",
+  "loadFile": "파일 불러오기",
+  "errorTitle": "오류",
+  "invalidBase64": "유효하지 않은 Base64 입력",
+  "privacyNote": "데이터는 브라우저를 절대 벗어나지 않습니다. 모든 인코딩은 로컬에서 수행됩니다."
+}

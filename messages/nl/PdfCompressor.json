@@ -1,0 +1,17 @@
+{
+  "dropLabel": "Sleep een PDF hier naartoe, of klik om te bladeren",
+  "dropSublabel": "Eén bestand — je PDF verlaat nooit je browser",
+  "compressButton": "PDF comprimeren",
+  "compressing": "Comprimeren...",
+  "downloadAgain": "Opnieuw downloaden",
+  "clear": "Wissen",
+  "errorTitle": "Fout",
+  "successTitle": "Succesvol gecomprimeerd. Controleer je downloadmap.",
+  "original": "Origineel",
+  "compressed": "Gecomprimeerd",
+  "saved": "Bespaard",
+  "alreadyOptimizedTitle": "Bestand is al goed geoptimaliseerd.",
+  "alreadyOptimizedBody": "De gecomprimeerde versie ({compressedSize}) is niet kleiner dan het origineel ({originalSize}). Bewaar je originele bestand.",
+  "privacyNote": "Je bestand verlaat nooit je browser. Alle compressie vindt lokaal op je apparaat plaats.",
+  "removeFile": "Bestand verwijderen"
+}

@@ -1,0 +1,13 @@
+{
+  "dropLabel": "Drop a ZIP file here, or click to browse",
+  "dropSublabel": ".zip archives only",
+  "remove": "Remove",
+  "loading": "Reading archive...",
+  "fileCount": "{count} file",
+  "fileCountPlural": "{count} files",
+  "folders": "folders",
+  "download": "Download",
+  "errorTitle": "Error",
+  "errorGeneric": "Could not read the archive. The file may be corrupted or password-protected.",
+  "privacyNote": "Your files never leave your browser."
+}

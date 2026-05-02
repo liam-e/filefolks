@@ -23,6 +23,15 @@ import { UuidGeneratorTool } from "@/components/tools/UuidGeneratorTool";
 import { HashGeneratorTool } from "@/components/tools/HashGeneratorTool";
 import { VideoToGifTool } from "@/components/tools/VideoToGifTool";
 import { ExtractFramesTool } from "@/components/tools/ExtractFramesTool";
+import { VideoThumbnailTool } from "@/components/tools/VideoThumbnailTool";
+import { VideoMetadataTool } from "@/components/tools/VideoMetadataTool";
+import { ZipFilesTool } from "@/components/tools/ZipFilesTool";
+import { UnzipFilesTool } from "@/components/tools/UnzipFilesTool";
+import { WordCounterTool } from "@/components/tools/WordCounterTool";
+import { CaseConverterTool } from "@/components/tools/CaseConverterTool";
+import { LoremIpsumTool } from "@/components/tools/LoremIpsumTool";
+import { DuplicateLineRemoverTool } from "@/components/tools/DuplicateLineRemoverTool";
+import { LineSorterTool } from "@/components/tools/LineSorterTool";
 
 type ToolComponentType = React.ComponentType;
 
@@ -44,6 +53,15 @@ const TOOL_COMPONENTS: Partial<Record<string, ToolComponentType>> = {
   "hash-generator": HashGeneratorTool,
   "video-to-gif": VideoToGifTool,
   "extract-frames": ExtractFramesTool,
+  "video-thumbnail": VideoThumbnailTool,
+  "video-metadata": VideoMetadataTool,
+  "zip-files": ZipFilesTool,
+  "unzip-files": UnzipFilesTool,
+  "word-counter": WordCounterTool,
+  "case-converter": CaseConverterTool,
+  "lorem-ipsum-generator": LoremIpsumTool,
+  "duplicate-line-remover": DuplicateLineRemoverTool,
+  "line-sorter": LineSorterTool,
 };
 
 interface Props {

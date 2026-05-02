@@ -1,0 +1,15 @@
+{
+  "dropLabel": "동영상을 여기에 드롭하거나 클릭하여 찾아보기",
+  "dropSublabel": "MP4, WebM 또는 MOV",
+  "remove": "제거",
+  "fileName": "파일 이름",
+  "fileSize": "파일 크기",
+  "fileType": "파일 유형",
+  "duration": "재생 시간",
+  "resolution": "해상도",
+  "aspectRatio": "화면 비율",
+  "estimatedBitrate": "예상 비트레이트",
+  "errorTitle": "오류",
+  "errorGeneric": "동영상 메타데이터를 읽을 수 없습니다. 브라우저가 지원하지 않는 형식일 수 있습니다.",
+  "privacyNote": "동영상은 브라우저를 벗어나지 않습니다."
+}

@@ -1,0 +1,15 @@
+{
+  "dropLabel": "Trascina un video qui o clicca per sfogliare",
+  "dropSublabel": "MP4, WebM o MOV",
+  "remove": "Rimuovi",
+  "fileName": "Nome file",
+  "fileSize": "Dimensione file",
+  "fileType": "Tipo file",
+  "duration": "Durata",
+  "resolution": "Risoluzione",
+  "aspectRatio": "Proporzioni",
+  "estimatedBitrate": "Bitrate stimato",
+  "errorTitle": "Errore",
+  "errorGeneric": "Impossibile leggere i metadati. Il formato potrebbe non essere supportato dal browser.",
+  "privacyNote": "Il tuo video non lascia mai il browser."
+}

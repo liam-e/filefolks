@@ -1,0 +1,18 @@
+{
+  "inputLabel": "Token JWT",
+  "inputPlaceholder": "Incolla un JWT (es. eyJhbGci...)",
+  "decodeButton": "Decodifica",
+  "header": "Intestazione",
+  "payload": "Payload",
+  "signature": "Firma",
+  "signatureNote": "La verifica della firma richiede il segreto — questo strumento decodifica solo intestazione e payload.",
+  "clear": "Cancella",
+  "copy": "Copia",
+  "copied": "Copiato",
+  "expiresLabel": "Scade",
+  "issuedAtLabel": "Emesso il",
+  "expired": "Scaduto",
+  "valid": "Valido",
+  "privacyNote": "Il tuo token non lascia mai il tuo browser.",
+  "errorTitle": "Errore"
+}

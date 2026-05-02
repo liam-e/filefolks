@@ -1,0 +1,17 @@
+{
+  "dropLabel": "Trascina un PDF qui o clicca per sfogliare",
+  "dropSublabel": "File singolo — il tuo PDF non lascia mai il browser",
+  "fromPage": "Dalla pagina",
+  "toPage": "Alla pagina",
+  "pageCount": "{count} pagine",
+  "extractCount": "{count} {count, plural, one {pagina selezionata} other {pagine selezionate}}",
+  "extractButton": "Estrai pagine",
+  "extracting": "Estrazione...",
+  "downloadAgain": "Scarica di nuovo",
+  "clear": "Cancella",
+  "errorTitle": "Errore",
+  "successTitle": "Estratto con successo. Controlla la cartella dei download.",
+  "privacyNote": "Il tuo file non lascia mai il browser. Tutta l'elaborazione avviene localmente.",
+  "removeFile": "Rimuovi file",
+  "loadingPages": "Caricamento..."
+}

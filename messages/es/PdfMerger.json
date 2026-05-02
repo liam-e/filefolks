@@ -1,0 +1,16 @@
+{
+  "dropLabel": "Arrastra archivos PDF aquí, o haz clic para buscar",
+  "dropSublabel": "Puedes agregar más archivos después del primer lote",
+  "mergeButton": "Combinar {count} PDF",
+  "mergeButtonPlural": "Combinar {count} PDFs",
+  "merging": "Combinando...",
+  "downloadAgain": "Descargar de nuevo",
+  "clearAll": "Limpiar todo",
+  "addMoreFiles": "Agrega al menos 2 archivos PDF para combinar.",
+  "success": "Combinado correctamente. Revisa tu carpeta de descargas.",
+  "errorTitle": "Error",
+  "privacyNote": "Tus archivos nunca salen de tu navegador. Todo el proceso de combinación ocurre localmente en tu dispositivo.",
+  "moveUp": "Subir",
+  "moveDown": "Bajar",
+  "removeFile": "Eliminar archivo"
+}

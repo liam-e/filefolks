@@ -1,0 +1,15 @@
+{
+  "dropLabel": "Déposez une vidéo ici ou cliquez pour parcourir",
+  "dropSublabel": "MP4, WebM ou MOV",
+  "remove": "Supprimer",
+  "timestampLabel": "Horodatage",
+  "widthLabel": "Largeur de sortie",
+  "formatLabel": "Format",
+  "captureButton": "Capturer l'image",
+  "processing": "Capture en cours...",
+  "downloadButton": "Télécharger l'image",
+  "errorTitle": "Erreur",
+  "errorLoad": "Impossible de lire les métadonnées. Essayez un autre fichier.",
+  "errorGeneric": "Une erreur s'est produite. Essayez une autre vidéo.",
+  "privacyNote": "Votre vidéo ne quitte jamais votre navigateur."
+}

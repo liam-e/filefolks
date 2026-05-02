@@ -1,0 +1,15 @@
+{
+  "dropLabel": "Перетащите видео сюда или нажмите для выбора",
+  "dropSublabel": "MP4, WebM или MOV",
+  "remove": "Удалить",
+  "startLabel": "Время начала",
+  "durationLabel": "Длительность",
+  "fpsLabel": "Кадров в секунду",
+  "widthLabel": "Ширина",
+  "createButton": "Создать GIF",
+  "processing": "Обработка",
+  "downloadButton": "Скачать GIF",
+  "errorTitle": "Ошибка",
+  "errorGeneric": "Что-то пошло не так. Попробуйте другое видео.",
+  "privacyNote": "Ваше видео никогда не покидает браузер."
+}

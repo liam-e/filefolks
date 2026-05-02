@@ -1,0 +1,17 @@
+{
+  "dropLabel": "Bild hier ablegen oder klicken zum Durchsuchen",
+  "dropSublabel": "PNG, JPG oder WebP — Ihr Bild verlässt nie Ihren Browser",
+  "compressButton": "Bild komprimieren",
+  "compressing": "Komprimierung...",
+  "downloadAgain": "Erneut herunterladen",
+  "clear": "Zurücksetzen",
+  "errorTitle": "Fehler",
+  "successTitle": "Erfolgreich komprimiert. Prüfen Sie Ihren Download-Ordner.",
+  "original": "Original",
+  "compressed": "Komprimiert",
+  "saved": "Gespart",
+  "alreadyOptimizedTitle": "Datei ist bereits gut optimiert.",
+  "alreadyOptimizedBody": "Die komprimierte Version ({compressedSize}) ist nicht kleiner als das Original ({originalSize}). Behalten Sie Ihre Originaldatei.",
+  "privacyNote": "Ihr Bild verlässt nie Ihren Browser. Die gesamte Komprimierung erfolgt lokal.",
+  "removeFile": "Datei entfernen"
+}

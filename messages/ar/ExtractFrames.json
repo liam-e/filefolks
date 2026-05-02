@@ -1,0 +1,16 @@
+{
+  "dropLabel": "اسقط مقطع فيديو هنا او انقر للتصفح",
+  "dropSublabel": "MP4 او WebM او MOV",
+  "remove": "ازالة",
+  "intervalLabel": "التقاط كل",
+  "maxFramesLabel": "الحد الاقصى للاطارات",
+  "extractButton": "استخراج الاطارات",
+  "capturing": "التقاط",
+  "encoding": "ترميز",
+  "processing": "جارٍ المعالجة",
+  "framesLabel": "اطارات",
+  "downloadZip": "تنزيل ZIP",
+  "errorTitle": "خطا",
+  "errorGeneric": "حدث خطا. يرجى تجربة مقطع فيديو اخر.",
+  "privacyNote": "الفيديو لا يغادر متصفحك ابدا."
+}

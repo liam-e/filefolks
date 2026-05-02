@@ -1,0 +1,16 @@
+{
+  "encode": "Kodieren",
+  "decode": "Dekodieren",
+  "inputLabel": "Eingabe",
+  "outputLabel": "Ausgabe",
+  "encodePlaceholder": "URL oder Text zum Kodieren einfügen...",
+  "decodePlaceholder": "URL-kodierten Text zum Dekodieren einfügen...",
+  "encodeButton": "Kodieren",
+  "decodeButton": "Dekodieren",
+  "copy": "Kopieren",
+  "copied": "Kopiert",
+  "clear": "Löschen",
+  "privacyNote": "Alle Verarbeitungen erfolgen lokal in deinem Browser.",
+  "errorTitle": "Fehler",
+  "invalidEncoding": "Ungültige URL-Kodierung — überprüfe unvollständige Prozentsequenzen."
+}

@@ -1,0 +1,16 @@
+{
+  "dropLabel": "Trascina un video qui o clicca per sfogliare",
+  "dropSublabel": "MP4, WebM o MOV",
+  "remove": "Rimuovi",
+  "intervalLabel": "Cattura ogni",
+  "maxFramesLabel": "Max fotogrammi",
+  "extractButton": "Estrai fotogrammi",
+  "capturing": "Acquisizione",
+  "encoding": "Codifica",
+  "processing": "Elaborazione",
+  "framesLabel": "fotogrammi",
+  "downloadZip": "Scarica ZIP",
+  "errorTitle": "Errore",
+  "errorGeneric": "Qualcosa e andato storto. Prova con un altro video.",
+  "privacyNote": "Il tuo video non lascia mai il tuo browser."
+}

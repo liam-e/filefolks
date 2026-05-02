@@ -1,0 +1,17 @@
+{
+  "dropLabel": "Solte um PDF aqui ou clique para procurar",
+  "dropSublabel": "Arquivo único — seu PDF nunca sai do seu navegador",
+  "fromPage": "Da página",
+  "toPage": "Até a página",
+  "pageCount": "{count} páginas",
+  "extractCount": "{count} {count, plural, one {página selecionada} other {páginas selecionadas}}",
+  "extractButton": "Extrair páginas",
+  "extracting": "Extraindo...",
+  "downloadAgain": "Baixar novamente",
+  "clear": "Limpar",
+  "errorTitle": "Erro",
+  "successTitle": "Extraído com sucesso. Verifique sua pasta de downloads.",
+  "privacyNote": "Seu arquivo nunca sai do seu navegador. Todo o processamento acontece localmente.",
+  "removeFile": "Remover arquivo",
+  "loadingPages": "Carregando..."
+}

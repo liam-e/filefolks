@@ -1,0 +1,19 @@
+{
+  "dropLabel": "Drop an image here, or click to browse",
+  "dropSublabel": "PNG, JPG, or WebP — your image never leaves your browser",
+  "pixels": "Pixels",
+  "percent": "Percentage",
+  "width": "Width",
+  "height": "Height",
+  "scaleLabel": "Scale",
+  "lockAspect": "Lock aspect ratio",
+  "unlockAspect": "Unlock aspect ratio",
+  "newSize": "New size: {width} × {height} px",
+  "resizeButton": "Resize Image",
+  "resizing": "Resizing...",
+  "clear": "Clear",
+  "errorTitle": "Error",
+  "successTitle": "Resized successfully. Check your downloads folder.",
+  "privacyNote": "Your image never leaves your browser. All processing happens locally.",
+  "removeFile": "Remove file"
+}

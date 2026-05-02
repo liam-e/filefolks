@@ -1,0 +1,12 @@
+{
+  "countLabel": "العدد",
+  "generateButton": "توليد",
+  "copyAll": "نسخ الكل",
+  "copiedAll": "تم النسخ",
+  "download": "تنزيل",
+  "copy": "نسخ",
+  "copied": "تم النسخ",
+  "clear": "مسح",
+  "privacyNote": "يتم التوليد في متصفحك باستخدام Web Crypto API.",
+  "placeholder": "انقر على توليد لإنشاء معرّفات UUID."
+}

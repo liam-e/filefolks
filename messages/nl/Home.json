@@ -1,0 +1,9 @@
+{
+  "badge": "Privacy by design",
+  "headline": "Bestandstools die blijven",
+  "headlineAccent": "op jouw apparaat.",
+  "subheadline": "Geen uploads. Geen accounts. Geen tracking. Alles draait in je browser.",
+  "privacyTitle": "Je bestanden blijven op je apparaat",
+  "privacyBody": "FileFolks gebruikt WebAssembly en browser-API's om bestanden lokaal te verwerken. Er wordt nooit iets naar een server gestuurd. Je kunt dit verifiëren door het tabblad Netwerk in de ontwikkelaarstools van je browser te controleren.",
+  "viewAll": "Alles bekijken"
+}

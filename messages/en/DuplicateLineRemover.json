@@ -1,0 +1,14 @@
+{
+  "inputPlaceholder": "Paste text with duplicate lines here...",
+  "caseSensitiveLabel": "Case-sensitive",
+  "trimLinesLabel": "Trim whitespace",
+  "removeEmptyLabel": "Remove empty lines",
+  "inputLabel": "Input",
+  "outputLabel": "Output",
+  "linesRemoved": "{count} duplicate removed",
+  "linesRemovedPlural": "{count} duplicates removed",
+  "copyButton": "Copy",
+  "copied": "Copied",
+  "downloadButton": "Download .txt",
+  "privacyNote": "Your text never leaves your browser."
+}

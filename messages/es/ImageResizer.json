@@ -1,0 +1,19 @@
+{
+  "dropLabel": "Suelta una imagen aquí o haz clic para buscar",
+  "dropSublabel": "PNG, JPG o WebP — tu imagen nunca sale de tu navegador",
+  "pixels": "Píxeles",
+  "percent": "Porcentaje",
+  "width": "Ancho",
+  "height": "Alto",
+  "scaleLabel": "Escala",
+  "lockAspect": "Bloquear proporción",
+  "unlockAspect": "Desbloquear proporción",
+  "newSize": "Nuevo tamaño: {width} × {height} px",
+  "resizeButton": "Redimensionar imagen",
+  "resizing": "Redimensionando...",
+  "clear": "Borrar",
+  "errorTitle": "Error",
+  "successTitle": "Redimensionado correctamente. Comprueba tu carpeta de descargas.",
+  "privacyNote": "Tu imagen nunca sale de tu navegador. Todo el procesamiento ocurre localmente.",
+  "removeFile": "Eliminar archivo"
+}

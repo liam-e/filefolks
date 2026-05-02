@@ -1,0 +1,9 @@
+{
+  "badge": "Privatsphäre by Design",
+  "headline": "Tools, die bleiben",
+  "headlineAccent": "auf deinem Gerät.",
+  "subheadline": "Kein Upload. Kein Konto. Kein Tracking. Alles läuft in deinem Browser.",
+  "privacyTitle": "Ihre Dateien bleiben auf Ihrem Gerät",
+  "privacyBody": "FileFolks verwendet WebAssembly und Browser-APIs, um Dateien lokal zu verarbeiten. Es wird nichts an einen Server gesendet. Sie können dies überprüfen, indem Sie den Network-Tab in den Entwicklertools Ihres Browsers öffnen.",
+  "viewAll": "Alle anzeigen"
+}

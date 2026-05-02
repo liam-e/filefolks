@@ -1,0 +1,18 @@
+{
+  "inputLabel": "JWT-token",
+  "inputPlaceholder": "Plak een JWT (bijv. eyJhbGci...)",
+  "decodeButton": "Decoderen",
+  "header": "Header",
+  "payload": "Payload",
+  "signature": "Handtekening",
+  "signatureNote": "Handtekeningverificatie vereist het geheim — dit hulpmiddel decodeert alleen de header en payload.",
+  "clear": "Wissen",
+  "copy": "Kopiëren",
+  "copied": "Gekopieerd",
+  "expiresLabel": "Verloopt",
+  "issuedAtLabel": "Uitgegeven op",
+  "expired": "Verlopen",
+  "valid": "Geldig",
+  "privacyNote": "Je token verlaat je browser nooit.",
+  "errorTitle": "Fout"
+}

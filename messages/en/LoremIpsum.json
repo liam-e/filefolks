@@ -1,0 +1,14 @@
+{
+  "countLabel": "Count",
+  "unitLabel": "Unit",
+  "unitParagraphs": "Paragraphs",
+  "unitSentences": "Sentences",
+  "unitWords": "Words",
+  "classicStartLabel": "Start with classic opening",
+  "generateButton": "Generate",
+  "regenerateButton": "Regenerate",
+  "outputLabel": "Output",
+  "copyButton": "Copy",
+  "copied": "Copied",
+  "privacyNote": "Generated entirely in your browser."
+}

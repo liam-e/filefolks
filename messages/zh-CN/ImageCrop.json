@@ -1,0 +1,16 @@
+{
+  "dropLabel": "Drop an image here, or click to browse",
+  "dropSublabel": "PNG, JPG, or WebP — your image never leaves your browser",
+  "x": "X",
+  "y": "Y",
+  "width": "Width",
+  "height": "Height",
+  "outputSize": "Output: {width} × {height} px",
+  "cropButton": "Crop Image",
+  "cropping": "Cropping...",
+  "clear": "Clear",
+  "errorTitle": "Error",
+  "successTitle": "Cropped successfully. Check your downloads folder.",
+  "privacyNote": "Your image never leaves your browser. All processing happens locally.",
+  "removeFile": "Remove file"
+}

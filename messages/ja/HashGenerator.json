@@ -1,0 +1,16 @@
+{
+  "algorithmLabel": "アルゴリズム",
+  "inputLabel": "入力",
+  "outputLabel": "ハッシュ",
+  "textMode": "テキスト",
+  "fileMode": "ファイル",
+  "loadFile": "ファイルを読み込む",
+  "textPlaceholder": "ハッシュ化するテキストを貼り付け...",
+  "hashButton": "ハッシュを生成",
+  "hashing": "計算中...",
+  "copy": "コピー",
+  "copied": "コピー済み",
+  "clear": "クリア",
+  "privacyNote": "すべての処理はブラウザ内でローカルに行われます。",
+  "errorTitle": "エラー"
+}

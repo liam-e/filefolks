@@ -214,6 +214,115 @@ function ExtractFramesIcon({ className }: SvgProps) {
   );
 }
 
+function VideoThumbnailIcon({ className }: SvgProps) {
+  return (
+    <Svg className={className}>
+      {/* Film strip */}
+      <rect x="2" y="7" width="15" height="10" rx="2" />
+      <path d="M7 7V17M12 7V17M2 12h2M13 12h4" />
+      {/* Camera shutter circle */}
+      <circle cx="19" cy="8" r="3" />
+      <circle cx="19" cy="8" r="1" fill="currentColor" stroke="none" />
+    </Svg>
+  );
+}
+
+function VideoMetadataIcon({ className }: SvgProps) {
+  return (
+    <Svg className={className}>
+      {/* Film strip */}
+      <rect x="2" y="7" width="14" height="10" rx="2" />
+      <path d="M7 7V17M11 7V17M2 12h2M12 12h4" />
+      {/* Info circle */}
+      <circle cx="19" cy="12" r="3" />
+      <line x1="19" y1="11" x2="19" y2="11" strokeWidth="2" strokeLinecap="round" />
+      <line x1="19" y1="12.5" x2="19" y2="14" />
+    </Svg>
+  );
+}
+
+function ZipFilesIcon({ className }: SvgProps) {
+  return (
+    <Svg className={className}>
+      <path d="M4 4h12l4 4v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z" />
+      <path d="M10 2v6M8 4h4" strokeDasharray="2 1" />
+      <polyline points="8 13 12 17 16 13" />
+      <line x1="12" y1="17" x2="12" y2="11" />
+    </Svg>
+  );
+}
+
+function UnzipFilesIcon({ className }: SvgProps) {
+  return (
+    <Svg className={className}>
+      <path d="M4 4h12l4 4v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z" />
+      <path d="M10 2v6M8 4h4" strokeDasharray="2 1" />
+      <polyline points="8 15 12 11 16 15" />
+      <line x1="12" y1="11" x2="12" y2="17" />
+    </Svg>
+  );
+}
+
+function WordCounterIcon({ className }: SvgProps) {
+  return (
+    <Svg className={className}>
+      <line x1="3" y1="6" x2="21" y2="6" />
+      <line x1="3" y1="11" x2="17" y2="11" />
+      <line x1="3" y1="16" x2="13" y2="16" />
+      <circle cx="19" cy="17" r="3" />
+      <line x1="19" y1="14" x2="19" y2="14" strokeWidth="2" strokeLinecap="round" />
+    </Svg>
+  );
+}
+
+function CaseConverterIcon({ className }: SvgProps) {
+  return (
+    <Svg className={className}>
+      <path d="M4 19L8 5l4 14" />
+      <line x1="5.5" y1="14" x2="10.5" y2="14" />
+      <path d="M14 12a3 3 0 1 1 6 0c0 2-3 4-3 7" />
+      <line x1="17" y1="21" x2="17" y2="21" strokeWidth="2" strokeLinecap="round" />
+    </Svg>
+  );
+}
+
+function LoremIpsumIcon({ className }: SvgProps) {
+  return (
+    <Svg className={className}>
+      <rect x="3" y="3" width="18" height="18" rx="2" />
+      <line x1="7" y1="8" x2="17" y2="8" strokeDasharray="2 2" />
+      <line x1="7" y1="12" x2="17" y2="12" strokeDasharray="2 2" />
+      <line x1="7" y1="16" x2="13" y2="16" strokeDasharray="2 2" />
+    </Svg>
+  );
+}
+
+function DuplicateLineRemoverIcon({ className }: SvgProps) {
+  return (
+    <Svg className={className}>
+      <line x1="3" y1="6" x2="16" y2="6" />
+      <line x1="3" y1="10" x2="16" y2="10" />
+      <line x1="3" y1="14" x2="12" y2="14" strokeOpacity="0.4" />
+      <line x1="3" y1="18" x2="16" y2="18" />
+      <line x1="19" y1="12" x2="23" y2="16" />
+      <line x1="19" y1="16" x2="23" y2="12" />
+    </Svg>
+  );
+}
+
+function LineSorterIcon({ className }: SvgProps) {
+  return (
+    <Svg className={className}>
+      <line x1="3" y1="6" x2="15" y2="6" />
+      <line x1="3" y1="11" x2="12" y2="11" />
+      <line x1="3" y1="16" x2="9" y2="16" />
+      <polyline points="18 3 21 6 18 9" />
+      <polyline points="18 15 21 18 18 21" />
+      <line x1="21" y1="6" x2="21" y2="18" />
+    </Svg>
+  );
+}
+
 // ── Category fallback icons ────────────────────────────────────
 
 function PdfCategoryIcon({ className }: SvgProps) {
@@ -264,6 +373,16 @@ function MediaCategoryIcon({ className }: SvgProps) {
   );
 }
 
+function ArchiveCategoryIcon({ className }: SvgProps) {
+  return (
+    <Svg className={className}>
+      <polyline points="21 8 21 21 3 21 3 8" />
+      <rect x="1" y="3" width="22" height="5" rx="1" />
+      <line x1="10" y1="12" x2="14" y2="12" />
+    </Svg>
+  );
+}
+
 // ── Lookup maps ────────────────────────────────────────────────
 
 type IconComponent = (props: SvgProps) => React.ReactElement;
@@ -286,6 +405,15 @@ const TOOL_ICONS: Record<string, IconComponent> = {
   "hash-generator": HashGeneratorIcon,
   "video-to-gif": VideoToGifIcon,
   "extract-frames": ExtractFramesIcon,
+  "video-thumbnail": VideoThumbnailIcon,
+  "video-metadata": VideoMetadataIcon,
+  "zip-files": ZipFilesIcon,
+  "unzip-files": UnzipFilesIcon,
+  "word-counter": WordCounterIcon,
+  "case-converter": CaseConverterIcon,
+  "lorem-ipsum-generator": LoremIpsumIcon,
+  "duplicate-line-remover": DuplicateLineRemoverIcon,
+  "line-sorter": LineSorterIcon,
 };
 
 const CATEGORY_ICONS: Record<string, IconComponent> = {
@@ -294,6 +422,7 @@ const CATEGORY_ICONS: Record<string, IconComponent> = {
   developer: DeveloperCategoryIcon,
   text: TextCategoryIcon,
   media: MediaCategoryIcon,
+  archive: ArchiveCategoryIcon,
 };
 
 // ── Public component ───────────────────────────────────────────

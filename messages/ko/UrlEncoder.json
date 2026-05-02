@@ -1,0 +1,16 @@
+{
+  "encode": "인코딩",
+  "decode": "디코딩",
+  "inputLabel": "입력",
+  "outputLabel": "출력",
+  "encodePlaceholder": "인코딩할 URL 또는 텍스트 붙여넣기...",
+  "decodePlaceholder": "디코딩할 URL 인코딩 텍스트 붙여넣기...",
+  "encodeButton": "인코딩",
+  "decodeButton": "디코딩",
+  "copy": "복사",
+  "copied": "복사됨",
+  "clear": "지우기",
+  "privacyNote": "모든 처리는 브라우저 내에서 로컬로 이루어집니다.",
+  "errorTitle": "오류",
+  "invalidEncoding": "잘못된 URL 인코딩 — 불완전한 퍼센트 시퀀스를 확인하세요."
+}

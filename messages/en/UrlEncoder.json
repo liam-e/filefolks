@@ -1,0 +1,16 @@
+{
+  "encode": "Encode",
+  "decode": "Decode",
+  "inputLabel": "Input",
+  "outputLabel": "Output",
+  "encodePlaceholder": "Paste a URL or text to encode...",
+  "decodePlaceholder": "Paste URL-encoded text to decode...",
+  "encodeButton": "Encode",
+  "decodeButton": "Decode",
+  "copy": "Copy",
+  "copied": "Copied",
+  "clear": "Clear",
+  "privacyNote": "All processing happens locally in your browser.",
+  "errorTitle": "Error",
+  "invalidEncoding": "Invalid URL encoding — check for incomplete percent-sequences."
+}

@@ -1,0 +1,18 @@
+{
+  "dropLabel": "Drop a PDF here, or click to browse",
+  "dropSublabel": "Single file — your PDF never leaves your browser",
+  "rotateLeft": "90° left",
+  "rotate180": "180°",
+  "rotateRight": "90° right",
+  "rotationLabel": "Rotation",
+  "rotateButton": "Rotate PDF",
+  "rotating": "Rotating...",
+  "downloadAgain": "Download again",
+  "clear": "Clear",
+  "errorTitle": "Error",
+  "successTitle": "Rotated successfully. Check your downloads folder.",
+  "privacyNote": "Your file never leaves your browser. All processing happens locally.",
+  "removeFile": "Remove file",
+  "loadingPages": "Loading...",
+  "pageCount": "{count} pages"
+}

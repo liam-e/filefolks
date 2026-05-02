@@ -1,0 +1,13 @@
+{
+  "title": "Privacybeleid",
+  "metaDescription": "FileFolks verwerkt alle bestanden lokaal in je browser. Er worden nooit gegevens geupload of opgeslagen.",
+  "lastUpdated": "Laatst bijgewerkt: april 2026",
+  "s1Heading": "Je bestanden verlaten nooit je browser",
+  "s1Body": "Elk hulpmiddel van FileFolks draait volledig in je browser via WebAssembly en native browser-API's. Er worden nooit bestandsgegevens, namen, inhoud of metadata naar een server verzonden. Open het tabblad Netwerk in de ontwikkelaarstools terwijl je een hulpmiddel gebruikt en je zult geen uploadverzoeken zien.",
+  "s2Heading": "Wat we verzamelen",
+  "s2Body": "Niets. FileFolks stelt geen cookies in, laadt geen analyse- of trackingscripts en vereist geen account. We registreren of slaan niets op over jou of je bestanden.",
+  "s3Heading": "Lettertypen",
+  "s3Body": "Paginalettertypen worden tijdens het bouwen zelf gehost. Er worden geen verzoeken gedaan aan Google Fonts of externe providers.",
+  "s4Heading": "Wijzigingen",
+  "s4Body": "Wezenlijke wijzigingen worden weerspiegeld door een bijgewerkte datum bovenaan deze pagina."
+}

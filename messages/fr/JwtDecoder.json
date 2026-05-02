@@ -1,0 +1,18 @@
+{
+  "inputLabel": "Jeton JWT",
+  "inputPlaceholder": "Colle un JWT (ex. eyJhbGci...)",
+  "decodeButton": "Décoder",
+  "header": "En-tête",
+  "payload": "Charge utile",
+  "signature": "Signature",
+  "signatureNote": "La vérification de la signature requiert le secret — cet outil décode uniquement l'en-tête et la charge utile.",
+  "clear": "Effacer",
+  "copy": "Copier",
+  "copied": "Copié",
+  "expiresLabel": "Expire",
+  "issuedAtLabel": "Émis le",
+  "expired": "Expiré",
+  "valid": "Valide",
+  "privacyNote": "Ton jeton ne quitte jamais ton navigateur.",
+  "errorTitle": "Erreur"
+}

@@ -1,0 +1,21 @@
+{
+  "encode": "Coderen",
+  "decode": "Decoderen",
+  "textMode": "Tekst",
+  "fileMode": "Bestand",
+  "inputLabel": "Invoer",
+  "outputLabel": "Uitvoer",
+  "encodeButton": "Coderen naar Base64",
+  "decodeButton": "Decoderen van Base64",
+  "encodePlaceholder": "Voer tekst in om te coderen...",
+  "decodePlaceholder": "Plak Base64 om te decoderen...",
+  "outputPlaceholderEncode": "Base64-uitvoer verschijnt hier...",
+  "outputPlaceholderDecode": "Gedecodeerde tekst verschijnt hier...",
+  "copy": "Kopiëren",
+  "copied": "Gekopieerd!",
+  "clear": "Wissen",
+  "loadFile": "Bestand laden",
+  "errorTitle": "Fout",
+  "invalidBase64": "Ongeldige Base64-invoer",
+  "privacyNote": "Uw gegevens verlaten nooit uw browser. Alle codering vindt lokaal plaats."
+}

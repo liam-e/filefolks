@@ -1,0 +1,14 @@
+{
+  "dropLabel": "Sleep een afbeelding hierheen of klik om te bladeren",
+  "dropSublabel": "PNG, JPG of WebP — uw afbeelding verlaat nooit uw browser",
+  "convertTo": "Converteren naar",
+  "convertButton": "Converteren",
+  "converting": "Converteren...",
+  "downloadAgain": "Opnieuw downloaden",
+  "clear": "Wissen",
+  "errorTitle": "Fout",
+  "successTitle": "Succesvol geconverteerd. Controleer uw downloadmap.",
+  "jpegNote": "Transparante gebieden worden gevuld met een witte achtergrond.",
+  "privacyNote": "Uw afbeelding verlaat nooit uw browser. Alle conversie vindt lokaal plaats.",
+  "removeFile": "Bestand verwijderen"
+}

@@ -1,0 +1,16 @@
+{
+  "encode": "Coderen",
+  "decode": "Decoderen",
+  "inputLabel": "Invoer",
+  "outputLabel": "Uitvoer",
+  "encodePlaceholder": "Plak een URL of tekst om te coderen...",
+  "decodePlaceholder": "Plak URL-gecodeerde tekst om te decoderen...",
+  "encodeButton": "Coderen",
+  "decodeButton": "Decoderen",
+  "copy": "Kopiëren",
+  "copied": "Gekopieerd",
+  "clear": "Wissen",
+  "privacyNote": "Alle verwerking vindt lokaal in je browser plaats.",
+  "errorTitle": "Fout",
+  "invalidEncoding": "Ongeldige URL-codering — controleer onvolledige procentsequenties."
+}

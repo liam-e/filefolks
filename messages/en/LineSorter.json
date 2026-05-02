@@ -1,0 +1,15 @@
+{
+  "inputPlaceholder": "Paste text to sort...",
+  "orderAZ": "A → Z",
+  "orderZA": "Z → A",
+  "orderShortest": "Shortest",
+  "orderLongest": "Longest",
+  "orderRandom": "Shuffle",
+  "caseSensitiveLabel": "Case-sensitive",
+  "inputLabel": "Input",
+  "outputLabel": "Output",
+  "copyButton": "Copy",
+  "copied": "Copied",
+  "downloadButton": "Download .txt",
+  "privacyNote": "Your text never leaves your browser."
+}

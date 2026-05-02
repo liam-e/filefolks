@@ -1,0 +1,16 @@
+{
+  "dropLabel": "Bild hier ablegen oder klicken zum Durchsuchen",
+  "dropSublabel": "PNG, JPG oder WebP — Ihr Bild verlässt nie Ihren Browser",
+  "x": "X",
+  "y": "Y",
+  "width": "Breite",
+  "height": "Höhe",
+  "outputSize": "Ergebnis: {width} × {height} px",
+  "cropButton": "Bild zuschneiden",
+  "cropping": "Zuschneiden...",
+  "clear": "Zurücksetzen",
+  "errorTitle": "Fehler",
+  "successTitle": "Erfolgreich zugeschnitten. Prüfen Sie Ihren Download-Ordner.",
+  "privacyNote": "Ihr Bild verlässt nie Ihren Browser. Die gesamte Verarbeitung erfolgt lokal.",
+  "removeFile": "Datei entfernen"
+}

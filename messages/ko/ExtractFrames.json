@@ -1,0 +1,16 @@
+{
+  "dropLabel": "동영상을 여기에 드롭하거나 클릭하여 찾아보기",
+  "dropSublabel": "MP4, WebM 또는 MOV",
+  "remove": "제거",
+  "intervalLabel": "캡처 간격",
+  "maxFramesLabel": "최대 프레임",
+  "extractButton": "프레임 추출",
+  "capturing": "캡처 중",
+  "encoding": "인코딩 중",
+  "processing": "처리 중",
+  "framesLabel": "프레임",
+  "downloadZip": "ZIP 다운로드",
+  "errorTitle": "오류",
+  "errorGeneric": "오류가 발생했습니다. 다른 동영상을 시도해 주세요.",
+  "privacyNote": "동영상은 브라우저를 벗어나지 않습니다."
+}

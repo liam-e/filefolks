@@ -1,0 +1,16 @@
+{
+  "dropLabel": "Déposez une image ici ou cliquez pour parcourir",
+  "dropSublabel": "PNG, JPG ou WebP — votre image ne quitte jamais votre navigateur",
+  "x": "X",
+  "y": "Y",
+  "width": "Largeur",
+  "height": "Hauteur",
+  "outputSize": "Résultat : {width} × {height} px",
+  "cropButton": "Recadrer l'image",
+  "cropping": "Recadrage...",
+  "clear": "Effacer",
+  "errorTitle": "Erreur",
+  "successTitle": "Recadré avec succès. Vérifiez votre dossier de téléchargements.",
+  "privacyNote": "Votre image ne quitte jamais votre navigateur. Tout le traitement s'effectue localement.",
+  "removeFile": "Supprimer le fichier"
+}

@@ -1,0 +1,18 @@
+{
+  "inputLabel": "JWTトークン",
+  "inputPlaceholder": "JWTを貼り付け（例: eyJhbGci...）",
+  "decodeButton": "デコード",
+  "header": "ヘッダー",
+  "payload": "ペイロード",
+  "signature": "署名",
+  "signatureNote": "署名の検証にはシークレットが必要です — このツールはヘッダーとペイロードのみをデコードします。",
+  "clear": "クリア",
+  "copy": "コピー",
+  "copied": "コピー済み",
+  "expiresLabel": "有効期限",
+  "issuedAtLabel": "発行日時",
+  "expired": "期限切れ",
+  "valid": "有効",
+  "privacyNote": "トークンはブラウザから外に出ません。",
+  "errorTitle": "エラー"
+}

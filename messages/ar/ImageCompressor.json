@@ -1,0 +1,17 @@
+{
+  "dropLabel": "أسقط صورة هنا أو انقر للتصفح",
+  "dropSublabel": "PNG أو JPG أو WebP — صورتك لا تغادر متصفحك أبدًا",
+  "compressButton": "ضغط الصورة",
+  "compressing": "جاري الضغط...",
+  "downloadAgain": "تنزيل مجددًا",
+  "clear": "مسح",
+  "errorTitle": "خطأ",
+  "successTitle": "تم الضغط بنجاح. تحقق من مجلد التنزيلات.",
+  "original": "الأصلي",
+  "compressed": "مضغوط",
+  "saved": "تم التوفير",
+  "alreadyOptimizedTitle": "الملف محسّن بالفعل.",
+  "alreadyOptimizedBody": "النسخة المضغوطة ({compressedSize}) ليست أصغر من الأصلية ({originalSize}). احتفظ بملفك الأصلي.",
+  "privacyNote": "صورتك لا تغادر متصفحك أبدًا. كل الضغط يتم محليًا.",
+  "removeFile": "إزالة الملف"
+}

@@ -1,0 +1,14 @@
+{
+  "dropLabel": "Drop images here, or click to browse",
+  "dropSublabel": "PNG, JPG, or WebP — add as many as you need",
+  "convertButton": "Convert {count} image to PDF",
+  "convertButtonPlural": "Convert {count} images to PDF",
+  "converting": "Converting...",
+  "clearAll": "Clear all",
+  "success": "Converted successfully. Check your downloads folder.",
+  "errorTitle": "Error",
+  "privacyNote": "Your images never leave your browser. All processing happens locally.",
+  "moveUp": "Move up",
+  "moveDown": "Move down",
+  "removeFile": "Remove file"
+}

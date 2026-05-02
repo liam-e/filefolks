@@ -1,0 +1,16 @@
+{
+  "algorithmLabel": "알고리즘",
+  "inputLabel": "입력",
+  "outputLabel": "해시",
+  "textMode": "텍스트",
+  "fileMode": "파일",
+  "loadFile": "파일 불러오기",
+  "textPlaceholder": "해시할 텍스트 붙여넣기...",
+  "hashButton": "해시 생성",
+  "hashing": "계산 중...",
+  "copy": "복사",
+  "copied": "복사됨",
+  "clear": "지우기",
+  "privacyNote": "모든 처리는 브라우저 내에서 로컬로 이루어집니다.",
+  "errorTitle": "오류"
+}

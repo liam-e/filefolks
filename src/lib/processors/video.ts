@@ -83,6 +83,72 @@ export function encodeGif(frames: CapturedFrame[], fps: number): Uint8Array {
   return gif.bytes();
 }
 
+export interface VideoInfo {
+  duration: number;
+  width: number;
+  height: number;
+}
+
+export async function getVideoInfo(file: File): Promise<VideoInfo> {
+  return new Promise((resolve, reject) => {
+    const video = document.createElement("video");
+    const url = URL.createObjectURL(file);
+    video.src = url;
+    video.addEventListener("loadedmetadata", () => {
+      URL.revokeObjectURL(url);
+      resolve({ duration: video.duration, width: video.videoWidth, height: video.videoHeight });
+    });
+    video.addEventListener("error", () => {
+      URL.revokeObjectURL(url);
+      reject(new Error("Could not load video. The format may not be supported by your browser."));
+    });
+    video.load();
+  });
+}
+
+export async function captureVideoFrameAsBlob(
+  file: File,
+  timestamp: number,
+  width: number,
+  format: "image/jpeg" | "image/png" = "image/jpeg",
+  quality = 0.92,
+): Promise<Blob> {
+  return new Promise((resolve, reject) => {
+    const video = document.createElement("video");
+    const url = URL.createObjectURL(file);
+    video.src = url;
+    video.muted = true;
+    video.playsInline = true;
+    const canvas = document.createElement("canvas");
+
+    video.addEventListener("loadedmetadata", () => {
+      const aspect = video.videoHeight / video.videoWidth;
+      canvas.width = width;
+      canvas.height = Math.round(width * aspect);
+      video.currentTime = Math.max(0, Math.min(timestamp, video.duration - 0.001));
+    });
+
+    video.addEventListener("seeked", () => {
+      const ctx = canvas.getContext("2d");
+      if (!ctx) { reject(new Error("Canvas not available")); return; }
+      ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
+      URL.revokeObjectURL(url);
+      canvas.toBlob(
+        (blob) => (blob ? resolve(blob) : reject(new Error("Failed to encode image."))),
+        format,
+        quality,
+      );
+    });
+
+    video.addEventListener("error", () => {
+      URL.revokeObjectURL(url);
+      reject(new Error("Could not load video. The format may not be supported by your browser."));
+    });
+
+    video.load();
+  });
+}
+
 export async function framesToPngBlobs(
   frames: CapturedFrame[],
   onProgress?: (current: number, total: number) => void,

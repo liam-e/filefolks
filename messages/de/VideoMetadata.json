@@ -1,0 +1,15 @@
+{
+  "dropLabel": "Video hier ablegen oder zum Durchsuchen klicken",
+  "dropSublabel": "MP4, WebM oder MOV",
+  "remove": "Entfernen",
+  "fileName": "Dateiname",
+  "fileSize": "Dateigröße",
+  "fileType": "Dateityp",
+  "duration": "Dauer",
+  "resolution": "Auflösung",
+  "aspectRatio": "Seitenverhältnis",
+  "estimatedBitrate": "Gesch. Bitrate",
+  "errorTitle": "Fehler",
+  "errorGeneric": "Videometadaten konnten nicht gelesen werden. Das Format wird möglicherweise von Ihrem Browser nicht unterstützt.",
+  "privacyNote": "Dein Video verlasst nie deinen Browser."
+}

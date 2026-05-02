@@ -1,0 +1,17 @@
+{
+  "dropLabel": "Перетащите изображение сюда или нажмите для выбора",
+  "dropSublabel": "PNG, JPG или WebP — изображение никогда не покидает браузер",
+  "compressButton": "Сжать изображение",
+  "compressing": "Сжатие...",
+  "downloadAgain": "Скачать снова",
+  "clear": "Очистить",
+  "errorTitle": "Ошибка",
+  "successTitle": "Сжато успешно. Проверьте папку загрузок.",
+  "original": "Оригинал",
+  "compressed": "Сжато",
+  "saved": "Сэкономлено",
+  "alreadyOptimizedTitle": "Файл уже хорошо оптимизирован.",
+  "alreadyOptimizedBody": "Сжатая версия ({compressedSize}) не меньше оригинала ({originalSize}). Оставьте исходный файл.",
+  "privacyNote": "Ваше изображение никогда не покидает браузер. Всё сжатие происходит локально.",
+  "removeFile": "Удалить файл"
+}

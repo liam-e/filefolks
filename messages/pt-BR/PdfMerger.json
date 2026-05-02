@@ -1,0 +1,16 @@
+{
+  "dropLabel": "Solte arquivos PDF aqui ou clique para procurar",
+  "dropSublabel": "Você pode adicionar mais arquivos após o primeiro lote",
+  "mergeButton": "Unir {count} PDF",
+  "mergeButtonPlural": "Unir {count} PDFs",
+  "merging": "Unindo...",
+  "downloadAgain": "Baixar novamente",
+  "clearAll": "Limpar tudo",
+  "addMoreFiles": "Adicione pelo menos 2 arquivos PDF para unir.",
+  "success": "Unido com sucesso. Verifique sua pasta de downloads.",
+  "errorTitle": "Erro",
+  "privacyNote": "Seus arquivos nunca saem do seu navegador. Todo o processo ocorre localmente no seu dispositivo.",
+  "moveUp": "Mover para cima",
+  "moveDown": "Mover para baixo",
+  "removeFile": "Remover arquivo"
+}

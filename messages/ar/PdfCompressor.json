@@ -1,0 +1,17 @@
+{
+  "dropLabel": "أسقط ملف PDF هنا أو انقر للاستعراض",
+  "dropSublabel": "ملف واحد فقط — لن يغادر ملف PDF متصفحك",
+  "compressButton": "ضغط PDF",
+  "compressing": "جارٍ الضغط...",
+  "downloadAgain": "تنزيل مجددًا",
+  "clear": "مسح",
+  "errorTitle": "خطأ",
+  "successTitle": "تم الضغط بنجاح. تحقق من مجلد التنزيلات.",
+  "original": "الأصلي",
+  "compressed": "مضغوط",
+  "saved": "تم توفير",
+  "alreadyOptimizedTitle": "الملف محسَّن بالفعل.",
+  "alreadyOptimizedBody": "النسخة المضغوطة ({compressedSize}) ليست أصغر من الأصلية ({originalSize}). نوصي بالاحتفاظ بالملف الأصلي.",
+  "privacyNote": "ملفك لا يغادر متصفحك. يتم الضغط محليًا على جهازك.",
+  "removeFile": "إزالة الملف"
+}

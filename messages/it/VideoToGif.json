@@ -1,0 +1,15 @@
+{
+  "dropLabel": "Trascina un video qui o clicca per sfogliare",
+  "dropSublabel": "MP4, WebM o MOV",
+  "remove": "Rimuovi",
+  "startLabel": "Ora di inizio",
+  "durationLabel": "Durata",
+  "fpsLabel": "Fotogrammi al secondo",
+  "widthLabel": "Larghezza",
+  "createButton": "Crea GIF",
+  "processing": "Elaborazione",
+  "downloadButton": "Scarica GIF",
+  "errorTitle": "Errore",
+  "errorGeneric": "Qualcosa e andato storto. Prova con un altro video.",
+  "privacyNote": "Il tuo video non lascia mai il tuo browser."
+}

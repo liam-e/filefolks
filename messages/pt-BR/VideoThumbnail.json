@@ -1,0 +1,15 @@
+{
+  "dropLabel": "Solte um vídeo aqui ou clique para procurar",
+  "dropSublabel": "MP4, WebM ou MOV",
+  "remove": "Remover",
+  "timestampLabel": "Timestamp",
+  "widthLabel": "Largura de saída",
+  "formatLabel": "Formato",
+  "captureButton": "Capturar quadro",
+  "processing": "Capturando...",
+  "downloadButton": "Baixar imagem",
+  "errorTitle": "Erro",
+  "errorLoad": "Não foi possível ler os metadados do vídeo. Tente outro arquivo.",
+  "errorGeneric": "Algo deu errado. Tente outro vídeo.",
+  "privacyNote": "Seu vídeo nunca sai do seu navegador."
+}

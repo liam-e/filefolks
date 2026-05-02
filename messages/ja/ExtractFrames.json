@@ -1,0 +1,16 @@
+{
+  "dropLabel": "動画をここにドロップ、またはクリックして参照",
+  "dropSublabel": "MP4、WebM、または MOV",
+  "remove": "削除",
+  "intervalLabel": "キャプチャ間隔",
+  "maxFramesLabel": "最大フレーム数",
+  "extractButton": "フレームを抽出",
+  "capturing": "キャプチャ中",
+  "encoding": "エンコード中",
+  "processing": "処理中",
+  "framesLabel": "フレーム",
+  "downloadZip": "ZIP をダウンロード",
+  "errorTitle": "エラー",
+  "errorGeneric": "エラーが発生しました。別の動画をお試しください。",
+  "privacyNote": "動画はブラウザから外に出ません。"
+}

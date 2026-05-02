@@ -1,0 +1,18 @@
+{
+  "dropLabel": "PDF hier ablegen oder klicken zum Durchsuchen",
+  "dropSublabel": "Einzelne Datei — Ihr PDF verlässt nie Ihren Browser",
+  "rotateLeft": "90° links",
+  "rotate180": "180°",
+  "rotateRight": "90° rechts",
+  "rotationLabel": "Drehung",
+  "rotateButton": "PDF drehen",
+  "rotating": "Drehen...",
+  "downloadAgain": "Erneut herunterladen",
+  "clear": "Zurücksetzen",
+  "errorTitle": "Fehler",
+  "successTitle": "Erfolgreich gedreht. Prüfen Sie Ihren Download-Ordner.",
+  "privacyNote": "Ihre Datei verlässt nie Ihren Browser. Die gesamte Verarbeitung erfolgt lokal.",
+  "removeFile": "Datei entfernen",
+  "loadingPages": "Laden...",
+  "pageCount": "{count} Seiten"
+}

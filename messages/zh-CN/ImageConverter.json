@@ -1,0 +1,14 @@
+{
+  "dropLabel": "将图片拖放到此处，或点击浏览",
+  "dropSublabel": "PNG、JPG 或 WebP — 图片始终留在您的浏览器中",
+  "convertTo": "转换为",
+  "convertButton": "转换",
+  "converting": "转换中...",
+  "downloadAgain": "重新下载",
+  "clear": "清除",
+  "errorTitle": "错误",
+  "successTitle": "转换成功。请查看您的下载文件夹。",
+  "jpegNote": "透明区域将填充为白色背景。",
+  "privacyNote": "您的图片始终留在您的浏览器中，所有转换均在本地进行。",
+  "removeFile": "删除文件"
+}

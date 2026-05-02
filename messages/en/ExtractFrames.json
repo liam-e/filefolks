@@ -1,0 +1,16 @@
+{
+  "dropLabel": "Drop a video here, or click to browse",
+  "dropSublabel": "MP4, WebM, or MOV",
+  "remove": "Remove",
+  "intervalLabel": "Capture every",
+  "maxFramesLabel": "Max frames",
+  "extractButton": "Extract Frames",
+  "capturing": "Capturing",
+  "encoding": "Encoding",
+  "processing": "Processing",
+  "framesLabel": "frames",
+  "downloadZip": "Download ZIP",
+  "errorTitle": "Error",
+  "errorGeneric": "Something went wrong. Please try a different video.",
+  "privacyNote": "Your video never leaves your browser."
+}

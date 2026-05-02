@@ -1,0 +1,15 @@
+{
+  "dropLabel": "Arrastra un video aquí o haz clic para buscar",
+  "dropSublabel": "MP4, WebM o MOV",
+  "remove": "Eliminar",
+  "timestampLabel": "Marca de tiempo",
+  "widthLabel": "Ancho de salida",
+  "formatLabel": "Formato",
+  "captureButton": "Capturar fotograma",
+  "processing": "Capturando...",
+  "downloadButton": "Descargar imagen",
+  "errorTitle": "Error",
+  "errorLoad": "No se pudieron leer los metadatos del video. Prueba con otro archivo.",
+  "errorGeneric": "Algo salió mal. Prueba con otro video.",
+  "privacyNote": "Tu video nunca sale de tu navegador."
+}

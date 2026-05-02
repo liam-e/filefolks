@@ -1,0 +1,16 @@
+{
+  "dropLabel": "将 PDF 文件拖放到此处，或点击浏览",
+  "dropSublabel": "首批文件上传后，您还可以继续添加更多文件",
+  "mergeButton": "合并 {count} 个 PDF",
+  "mergeButtonPlural": "合并 {count} 个 PDF",
+  "merging": "合并中...",
+  "downloadAgain": "重新下载",
+  "clearAll": "清除全部",
+  "addMoreFiles": "请至少添加 2 个 PDF 文件以进行合并。",
+  "success": "合并成功。请查看您的下载文件夹。",
+  "errorTitle": "错误",
+  "privacyNote": "您的文件不会离开您的浏览器。所有合并操作均在您的设备上本地完成。",
+  "moveUp": "上移",
+  "moveDown": "下移",
+  "removeFile": "移除文件"
+}

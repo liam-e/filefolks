@@ -1,0 +1,17 @@
+{
+  "dropLabel": "PDF hier ablegen oder zum Durchsuchen klicken",
+  "dropSublabel": "Einzelne Datei - Ihr PDF verlässt Ihren Browser nie",
+  "compressButton": "PDF komprimieren",
+  "compressing": "Wird komprimiert...",
+  "downloadAgain": "Erneut herunterladen",
+  "clear": "Entfernen",
+  "errorTitle": "Fehler",
+  "successTitle": "Erfolgreich komprimiert. Prüfen Sie Ihren Download-Ordner.",
+  "original": "Original",
+  "compressed": "Komprimiert",
+  "saved": "Gespart",
+  "alreadyOptimizedTitle": "Datei ist bereits gut optimiert.",
+  "alreadyOptimizedBody": "Die komprimierte Version ({compressedSize}) ist nicht kleiner als das Original ({originalSize}). Behalten Sie Ihre Originaldatei.",
+  "privacyNote": "Ihre Datei verlässt Ihren Browser nie. Die gesamte Komprimierung erfolgt lokal auf Ihrem Gerät.",
+  "removeFile": "Datei entfernen"
+}

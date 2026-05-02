@@ -1,0 +1,15 @@
+{
+  "dropLabel": "Sleep een video hierheen of klik om te bladeren",
+  "dropSublabel": "MP4, WebM of MOV",
+  "remove": "Verwijderen",
+  "fileName": "Bestandsnaam",
+  "fileSize": "Bestandsgrootte",
+  "fileType": "Bestandstype",
+  "duration": "Duur",
+  "resolution": "Resolutie",
+  "aspectRatio": "Beeldverhouding",
+  "estimatedBitrate": "Gesch. bitrate",
+  "errorTitle": "Fout",
+  "errorGeneric": "Kan videometadata niet lezen. Het formaat wordt mogelijk niet ondersteund door je browser.",
+  "privacyNote": "Je video verlaat je browser nooit."
+}

@@ -1,0 +1,15 @@
+{
+  "dropLabel": "동영상을 여기에 드롭하거나 클릭하여 찾아보기",
+  "dropSublabel": "MP4, WebM 또는 MOV",
+  "remove": "제거",
+  "startLabel": "시작 시간",
+  "durationLabel": "길이",
+  "fpsLabel": "초당 프레임(fps)",
+  "widthLabel": "너비",
+  "createButton": "GIF 만들기",
+  "processing": "처리 중",
+  "downloadButton": "GIF 다운로드",
+  "errorTitle": "오류",
+  "errorGeneric": "오류가 발생했습니다. 다른 동영상을 시도해 주세요.",
+  "privacyNote": "동영상은 브라우저를 벗어나지 않습니다."
+}

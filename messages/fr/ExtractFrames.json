@@ -1,0 +1,16 @@
+{
+  "dropLabel": "Deposez une video ici ou cliquez pour parcourir",
+  "dropSublabel": "MP4, WebM ou MOV",
+  "remove": "Supprimer",
+  "intervalLabel": "Capturer toutes les",
+  "maxFramesLabel": "Max images",
+  "extractButton": "Extraire les images",
+  "capturing": "Capture",
+  "encoding": "Encodage",
+  "processing": "Traitement",
+  "framesLabel": "images",
+  "downloadZip": "Telecharger ZIP",
+  "errorTitle": "Erreur",
+  "errorGeneric": "Une erreur s'est produite. Essayez une autre video.",
+  "privacyNote": "Votre video ne quitte jamais votre navigateur."
+}

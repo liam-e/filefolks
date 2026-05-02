@@ -1,0 +1,16 @@
+{
+  "dropLabel": "PDF ファイルをここにドロップするか、クリックして参照",
+  "dropSublabel": "最初のバッチの後にさらにファイルを追加できます",
+  "mergeButton": "{count} 件の PDF を結合",
+  "mergeButtonPlural": "{count} 件の PDF を結合",
+  "merging": "結合中...",
+  "downloadAgain": "再ダウンロード",
+  "clearAll": "すべてクリア",
+  "addMoreFiles": "結合するには PDF ファイルを 2 つ以上追加してください。",
+  "success": "結合完了。ダウンロードフォルダを確認してください。",
+  "errorTitle": "エラー",
+  "privacyNote": "ファイルはブラウザ外に出ません。すべての処理はデバイス上でローカルに行われます。",
+  "moveUp": "上へ移動",
+  "moveDown": "下へ移動",
+  "removeFile": "ファイルを削除"
+}

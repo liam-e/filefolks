@@ -1,0 +1,16 @@
+{
+  "dropLabel": "Перетащите видео сюда или нажмите для выбора",
+  "dropSublabel": "MP4, WebM или MOV",
+  "remove": "Удалить",
+  "intervalLabel": "Захватывать каждые",
+  "maxFramesLabel": "Макс. кадров",
+  "extractButton": "Извлечь кадры",
+  "capturing": "Захват",
+  "encoding": "Кодирование",
+  "processing": "Обработка",
+  "framesLabel": "кадров",
+  "downloadZip": "Скачать ZIP",
+  "errorTitle": "Ошибка",
+  "errorGeneric": "Что-то пошло не так. Попробуйте другое видео.",
+  "privacyNote": "Ваше видео никогда не покидает браузер."
+}

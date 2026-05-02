@@ -1,0 +1,9 @@
+{
+  "badge": "Privado por design",
+  "headline": "Ferramentas que ficam",
+  "headlineAccent": "no seu dispositivo.",
+  "subheadline": "Sem uploads. Sem contas. Sem rastreamento. Tudo roda no seu navegador.",
+  "privacyTitle": "Seus arquivos ficam no seu dispositivo",
+  "privacyBody": "O FileFolks usa WebAssembly e APIs do navegador para processar arquivos localmente. Nada é enviado a um servidor. Você pode verificar isso abrindo a aba Rede nas ferramentas de desenvolvedor do seu navegador.",
+  "viewAll": "Ver tudo"
+}

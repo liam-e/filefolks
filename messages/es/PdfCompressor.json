@@ -1,0 +1,17 @@
+{
+  "dropLabel": "Arrastra un PDF aquí, o haz clic para buscar",
+  "dropSublabel": "Un solo archivo — tu PDF nunca sale de tu navegador",
+  "compressButton": "Comprimir PDF",
+  "compressing": "Comprimiendo...",
+  "downloadAgain": "Descargar de nuevo",
+  "clear": "Limpiar",
+  "errorTitle": "Error",
+  "successTitle": "Comprimido correctamente. Revisa tu carpeta de descargas.",
+  "original": "Original",
+  "compressed": "Comprimido",
+  "saved": "Ahorrado",
+  "alreadyOptimizedTitle": "El archivo ya está bien optimizado.",
+  "alreadyOptimizedBody": "La versión comprimida ({compressedSize}) no es más pequeña que el original ({originalSize}). Conserva tu archivo original.",
+  "privacyNote": "Tu archivo nunca sale de tu navegador. Todo el proceso de compresión ocurre localmente en tu dispositivo.",
+  "removeFile": "Eliminar archivo"
+}

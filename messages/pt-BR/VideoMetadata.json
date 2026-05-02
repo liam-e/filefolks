@@ -1,0 +1,15 @@
+{
+  "dropLabel": "Solte um vídeo aqui ou clique para procurar",
+  "dropSublabel": "MP4, WebM ou MOV",
+  "remove": "Remover",
+  "fileName": "Nome do arquivo",
+  "fileSize": "Tamanho do arquivo",
+  "fileType": "Tipo de arquivo",
+  "duration": "Duração",
+  "resolution": "Resolução",
+  "aspectRatio": "Proporção",
+  "estimatedBitrate": "Taxa de bits est.",
+  "errorTitle": "Erro",
+  "errorGeneric": "Não foi possível ler os metadados. O formato pode não ser compatível com o seu navegador.",
+  "privacyNote": "Seu vídeo nunca sai do seu navegador."
+}

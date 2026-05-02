@@ -1,0 +1,16 @@
+{
+  "encode": "ترميز",
+  "decode": "فك الترميز",
+  "inputLabel": "الإدخال",
+  "outputLabel": "الإخراج",
+  "encodePlaceholder": "الصق رابطاً أو نصاً للترميز...",
+  "decodePlaceholder": "الصق النص المُرمَّز بـ URL لفك ترميزه...",
+  "encodeButton": "ترميز",
+  "decodeButton": "فك الترميز",
+  "copy": "نسخ",
+  "copied": "تم النسخ",
+  "clear": "مسح",
+  "privacyNote": "تتم جميع العمليات محلياً في متصفحك.",
+  "errorTitle": "خطأ",
+  "invalidEncoding": "ترميز URL غير صالح — تحقق من تسلسلات النسبة المئوية غير المكتملة."
+}

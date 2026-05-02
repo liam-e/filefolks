@@ -1,0 +1,16 @@
+{
+  "algorithmLabel": "算法",
+  "inputLabel": "输入",
+  "outputLabel": "哈希值",
+  "textMode": "文本",
+  "fileMode": "文件",
+  "loadFile": "加载文件",
+  "textPlaceholder": "粘贴要哈希的文本...",
+  "hashButton": "生成哈希",
+  "hashing": "计算中...",
+  "copy": "复制",
+  "copied": "已复制",
+  "clear": "清除",
+  "privacyNote": "所有处理均在您的浏览器本地进行。",
+  "errorTitle": "错误"
+}

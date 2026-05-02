@@ -1,0 +1,18 @@
+{
+  "inputLabel": "Token JWT",
+  "inputPlaceholder": "Cole um JWT (ex. eyJhbGci...)",
+  "decodeButton": "Decodificar",
+  "header": "Cabeçalho",
+  "payload": "Carga útil",
+  "signature": "Assinatura",
+  "signatureNote": "A verificação de assinatura requer o segredo — esta ferramenta apenas decodifica o cabeçalho e a carga útil.",
+  "clear": "Limpar",
+  "copy": "Copiar",
+  "copied": "Copiado",
+  "expiresLabel": "Expira",
+  "issuedAtLabel": "Emitido em",
+  "expired": "Expirado",
+  "valid": "Válido",
+  "privacyNote": "Seu token nunca sai do seu navegador.",
+  "errorTitle": "Erro"
+}

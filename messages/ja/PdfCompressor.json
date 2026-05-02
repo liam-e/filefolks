@@ -1,0 +1,17 @@
+{
+  "dropLabel": "PDF をここにドロップするか、クリックして参照",
+  "dropSublabel": "1 ファイルのみ — PDF はブラウザ外に出ません",
+  "compressButton": "PDF を圧縮",
+  "compressing": "圧縮中...",
+  "downloadAgain": "再ダウンロード",
+  "clear": "クリア",
+  "errorTitle": "エラー",
+  "successTitle": "圧縮完了。ダウンロードフォルダを確認してください。",
+  "original": "元のサイズ",
+  "compressed": "圧縮後",
+  "saved": "削減量",
+  "alreadyOptimizedTitle": "ファイルはすでに最適化されています。",
+  "alreadyOptimizedBody": "圧縮版（{compressedSize}）は元のファイル（{originalSize}）より小さくありません。元のファイルを保持することをお勧めします。",
+  "privacyNote": "ファイルはブラウザ外に出ません。すべての圧縮処理はデバイス上でローカルに行われます。",
+  "removeFile": "ファイルを削除"
+}

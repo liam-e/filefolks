@@ -1,0 +1,17 @@
+{
+  "dropLabel": "PDF hier ablegen oder klicken zum Durchsuchen",
+  "dropSublabel": "Einzelne Datei — Ihr PDF verlässt nie Ihren Browser",
+  "fromPage": "Von Seite",
+  "toPage": "Bis Seite",
+  "pageCount": "{count} Seiten",
+  "extractCount": "{count} {count, plural, one {Seite ausgewählt} other {Seiten ausgewählt}}",
+  "extractButton": "Seiten extrahieren",
+  "extracting": "Extrahierung...",
+  "downloadAgain": "Erneut herunterladen",
+  "clear": "Zurücksetzen",
+  "errorTitle": "Fehler",
+  "successTitle": "Erfolgreich extrahiert. Prüfen Sie Ihren Download-Ordner.",
+  "privacyNote": "Ihre Datei verlässt nie Ihren Browser. Die gesamte Verarbeitung erfolgt lokal.",
+  "removeFile": "Datei entfernen",
+  "loadingPages": "Laden..."
+}

@@ -1,0 +1,15 @@
+{
+  "dropLabel": "Video hier ablegen oder zum Durchsuchen klicken",
+  "dropSublabel": "MP4, WebM oder MOV",
+  "remove": "Entfernen",
+  "startLabel": "Startzeit",
+  "durationLabel": "Dauer",
+  "fpsLabel": "Bilder pro Sekunde",
+  "widthLabel": "Breite",
+  "createButton": "GIF erstellen",
+  "processing": "Verarbeitung",
+  "downloadButton": "GIF herunterladen",
+  "errorTitle": "Fehler",
+  "errorGeneric": "Etwas ist schiefgelaufen. Versuche ein anderes Video.",
+  "privacyNote": "Dein Video verlasst nie deinen Browser."
+}

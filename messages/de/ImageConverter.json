@@ -1,0 +1,14 @@
+{
+  "dropLabel": "Bild hier ablegen oder klicken zum Durchsuchen",
+  "dropSublabel": "PNG, JPG oder WebP — Ihr Bild verlässt nie Ihren Browser",
+  "convertTo": "Konvertieren zu",
+  "convertButton": "Konvertieren",
+  "converting": "Konvertierung...",
+  "downloadAgain": "Erneut herunterladen",
+  "clear": "Zurücksetzen",
+  "errorTitle": "Fehler",
+  "successTitle": "Erfolgreich konvertiert. Prüfen Sie Ihren Download-Ordner.",
+  "jpegNote": "Transparente Bereiche werden mit weißem Hintergrund gefüllt.",
+  "privacyNote": "Ihr Bild verlässt nie Ihren Browser. Die gesamte Konvertierung erfolgt lokal.",
+  "removeFile": "Datei entfernen"
+}

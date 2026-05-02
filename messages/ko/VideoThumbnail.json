@@ -1,0 +1,15 @@
+{
+  "dropLabel": "동영상을 여기에 드롭하거나 클릭하여 찾아보기",
+  "dropSublabel": "MP4, WebM 또는 MOV",
+  "remove": "제거",
+  "timestampLabel": "타임스탬프",
+  "widthLabel": "출력 너비",
+  "formatLabel": "형식",
+  "captureButton": "프레임 캡처",
+  "processing": "캡처 중...",
+  "downloadButton": "이미지 다운로드",
+  "errorTitle": "오류",
+  "errorLoad": "동영상 메타데이터를 읽을 수 없습니다. 다른 파일을 사용해 보세요.",
+  "errorGeneric": "오류가 발생했습니다. 다른 동영상을 사용해 보세요.",
+  "privacyNote": "동영상은 브라우저를 벗어나지 않습니다."
+}

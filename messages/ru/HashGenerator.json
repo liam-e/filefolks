@@ -1,0 +1,16 @@
+{
+  "algorithmLabel": "Алгоритм",
+  "inputLabel": "Ввод",
+  "outputLabel": "Хэш",
+  "textMode": "Текст",
+  "fileMode": "Файл",
+  "loadFile": "Загрузить файл",
+  "textPlaceholder": "Вставьте текст для хэширования...",
+  "hashButton": "Сгенерировать хэш",
+  "hashing": "Вычисление...",
+  "copy": "Копировать",
+  "copied": "Скопировано",
+  "clear": "Очистить",
+  "privacyNote": "Все вычисления выполняются локально в вашем браузере.",
+  "errorTitle": "Ошибка"
+}

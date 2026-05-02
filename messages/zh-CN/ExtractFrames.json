@@ -1,0 +1,16 @@
+{
+  "dropLabel": "将视频拖放到此处，或点击浏览",
+  "dropSublabel": "MP4、WebM 或 MOV",
+  "remove": "移除",
+  "intervalLabel": "每隔",
+  "maxFramesLabel": "最大帧数",
+  "extractButton": "提取帧",
+  "capturing": "捕获中",
+  "encoding": "编码中",
+  "processing": "处理中",
+  "framesLabel": "帧",
+  "downloadZip": "下载 ZIP",
+  "errorTitle": "错误",
+  "errorGeneric": "出现错误，请尝试其他视频。",
+  "privacyNote": "您的视频永远不会离开浏览器。"
+}

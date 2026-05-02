@@ -1,0 +1,17 @@
+{
+  "dropLabel": "이미지를 여기에 드롭하거나 클릭하여 찾아보기",
+  "dropSublabel": "PNG, JPG 또는 WebP — 이미지는 브라우저를 절대 벗어나지 않습니다",
+  "compressButton": "이미지 압축",
+  "compressing": "압축 중...",
+  "downloadAgain": "다시 다운로드",
+  "clear": "지우기",
+  "errorTitle": "오류",
+  "successTitle": "압축 성공. 다운로드 폴더를 확인하세요.",
+  "original": "원본",
+  "compressed": "압축됨",
+  "saved": "절약",
+  "alreadyOptimizedTitle": "파일이 이미 잘 최적화되어 있습니다.",
+  "alreadyOptimizedBody": "압축된 버전({compressedSize})이 원본({originalSize})보다 작지 않습니다. 원본 파일을 유지하세요.",
+  "privacyNote": "이미지는 브라우저를 절대 벗어나지 않습니다. 모든 압축은 로컬에서 수행됩니다.",
+  "removeFile": "파일 제거"
+}

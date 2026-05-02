@@ -1,0 +1,14 @@
+{
+  "dropLabel": "Bilder hier ablegen oder klicken zum Durchsuchen",
+  "dropSublabel": "PNG, JPG oder WebP — fügen Sie so viele wie nötig hinzu",
+  "convertButton": "{count} Bild in PDF konvertieren",
+  "convertButtonPlural": "{count} Bilder in PDF konvertieren",
+  "converting": "Konvertierung...",
+  "clearAll": "Alles zurücksetzen",
+  "success": "Erfolgreich konvertiert. Prüfen Sie Ihren Download-Ordner.",
+  "errorTitle": "Fehler",
+  "privacyNote": "Ihre Bilder verlassen nie Ihren Browser. Die gesamte Verarbeitung erfolgt lokal.",
+  "moveUp": "Nach oben",
+  "moveDown": "Nach unten",
+  "removeFile": "Datei entfernen"
+}

@@ -1,0 +1,15 @@
+{
+  "dropLabel": "将视频拖放到此处，或点击浏览",
+  "dropSublabel": "MP4、WebM 或 MOV",
+  "remove": "移除",
+  "startLabel": "开始时间",
+  "durationLabel": "时长",
+  "fpsLabel": "帧率（fps）",
+  "widthLabel": "宽度",
+  "createButton": "创建 GIF",
+  "processing": "处理中",
+  "downloadButton": "下载 GIF",
+  "errorTitle": "错误",
+  "errorGeneric": "出现错误，请尝试其他视频。",
+  "privacyNote": "您的视频永远不会离开浏览器。"
+}

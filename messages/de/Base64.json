@@ -1,0 +1,21 @@
+{
+  "encode": "Kodieren",
+  "decode": "Dekodieren",
+  "textMode": "Text",
+  "fileMode": "Datei",
+  "inputLabel": "Eingabe",
+  "outputLabel": "Ausgabe",
+  "encodeButton": "Als Base64 kodieren",
+  "decodeButton": "Aus Base64 dekodieren",
+  "encodePlaceholder": "Text zum Kodieren eingeben...",
+  "decodePlaceholder": "Base64 zum Dekodieren einfügen...",
+  "outputPlaceholderEncode": "Base64-Ausgabe erscheint hier...",
+  "outputPlaceholderDecode": "Dekodierter Text erscheint hier...",
+  "copy": "Kopieren",
+  "copied": "Kopiert!",
+  "clear": "Zurücksetzen",
+  "loadFile": "Datei laden",
+  "errorTitle": "Fehler",
+  "invalidBase64": "Ungültige Base64-Eingabe",
+  "privacyNote": "Ihre Daten verlassen nie Ihren Browser. Die gesamte Kodierung erfolgt lokal."
+}

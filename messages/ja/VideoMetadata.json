@@ -1,0 +1,15 @@
+{
+  "dropLabel": "動画をここにドロップ、またはクリックして参照",
+  "dropSublabel": "MP4、WebM、または MOV",
+  "remove": "削除",
+  "fileName": "ファイル名",
+  "fileSize": "ファイルサイズ",
+  "fileType": "ファイルタイプ",
+  "duration": "再生時間",
+  "resolution": "解像度",
+  "aspectRatio": "アスペクト比",
+  "estimatedBitrate": "推定ビットレート",
+  "errorTitle": "エラー",
+  "errorGeneric": "動画のメタデータを読み込めませんでした。ブラウザが対応していない形式かもしれません。",
+  "privacyNote": "動画はブラウザから外に出ません。"
+}

@@ -1,0 +1,21 @@
+{
+  "encode": "エンコード",
+  "decode": "デコード",
+  "textMode": "テキスト",
+  "fileMode": "ファイル",
+  "inputLabel": "入力",
+  "outputLabel": "出力",
+  "encodeButton": "Base64にエンコード",
+  "decodeButton": "Base64からデコード",
+  "encodePlaceholder": "エンコードするテキストを入力...",
+  "decodePlaceholder": "デコードするBase64を貼り付け...",
+  "outputPlaceholderEncode": "Base64出力がここに表示されます...",
+  "outputPlaceholderDecode": "デコードされたテキストがここに表示されます...",
+  "copy": "コピー",
+  "copied": "コピー済み！",
+  "clear": "クリア",
+  "loadFile": "ファイルを読み込む",
+  "errorTitle": "エラー",
+  "invalidBase64": "無効なBase64入力",
+  "privacyNote": "データはブラウザ外に送信されません。すべての処理はローカルで行われます。"
+}

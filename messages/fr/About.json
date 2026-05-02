@@ -1,0 +1,9 @@
+{
+  "title": "A propos de FileFolks",
+  "metaDescription": "FileFolks est une collection gratuite d'outils de fichiers et de developpement bases sur le navigateur.",
+  "p1": "FileFolks est une collection gratuite de {count} outils de fichiers et de developpement qui s'executent entierement dans votre navigateur. Aucun telechargement, aucun compte, aucun suivi.",
+  "p2": "La plupart des outils en ligne telechargent vos fichiers vers un serveur distant, les traitent et vous les renvoient. FileFolks adopte une approche differente: chaque operation se deroule localement grace a WebAssembly et aux API natives du navigateur. Vos fichiers ne quittent jamais votre appareil.",
+  "p3": "L'objectif est une alternative rapide et privee pour les taches quotidiennes avec des fichiers. Aucune inscription requise, pas de limites de taille, pas de filigranes.",
+  "contactHeading": "Contact",
+  "contactBody": "Pour toute question, commentaire ou suggestion d'outil, ecrivez a"
+}

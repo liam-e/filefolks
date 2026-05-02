@@ -1,0 +1,15 @@
+{
+  "dropLabel": "أسقط فيديو هنا أو انقر للاستعراض",
+  "dropSublabel": "MP4 أو WebM أو MOV",
+  "remove": "إزالة",
+  "timestampLabel": "الطابع الزمني",
+  "widthLabel": "عرض الإخراج",
+  "formatLabel": "التنسيق",
+  "captureButton": "التقاط الإطار",
+  "processing": "جاري الالتقاط...",
+  "downloadButton": "تنزيل الصورة",
+  "errorTitle": "خطأ",
+  "errorLoad": "تعذر قراءة بيانات الفيديو الوصفية. جرب ملفاً آخر.",
+  "errorGeneric": "حدث خطأ ما. جرب فيديو آخر.",
+  "privacyNote": "فيديوك لا يغادر متصفحك أبداً."
+}

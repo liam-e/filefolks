@@ -1,0 +1,17 @@
+{
+  "dropLabel": "ここにPDFをドロップ、またはクリックして参照",
+  "dropSublabel": "1ファイル — PDFはブラウザ内に留まります",
+  "fromPage": "開始ページ",
+  "toPage": "終了ページ",
+  "pageCount": "全 {count} ページ",
+  "extractCount": "{count} ページ選択中",
+  "extractButton": "ページを抽出",
+  "extracting": "抽出中...",
+  "downloadAgain": "再ダウンロード",
+  "clear": "クリア",
+  "errorTitle": "エラー",
+  "successTitle": "抽出成功。ダウンロードフォルダをご確認ください。",
+  "privacyNote": "ファイルはブラウザ外に送信されません。すべての処理はローカルで行われます。",
+  "removeFile": "ファイルを削除",
+  "loadingPages": "読み込み中..."
+}

@@ -1,0 +1,16 @@
+{
+  "dropLabel": "Video hier ablegen oder zum Durchsuchen klicken",
+  "dropSublabel": "MP4, WebM oder MOV",
+  "remove": "Entfernen",
+  "intervalLabel": "Alle erfassen",
+  "maxFramesLabel": "Max Frames",
+  "extractButton": "Frames extrahieren",
+  "capturing": "Erfassen",
+  "encoding": "Kodieren",
+  "processing": "Verarbeitung",
+  "framesLabel": "Frames",
+  "downloadZip": "ZIP herunterladen",
+  "errorTitle": "Fehler",
+  "errorGeneric": "Etwas ist schiefgelaufen. Versuche ein anderes Video.",
+  "privacyNote": "Dein Video verlasst nie deinen Browser."
+}

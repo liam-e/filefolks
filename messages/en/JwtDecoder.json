@@ -1,0 +1,18 @@
+{
+  "inputLabel": "JWT Token",
+  "inputPlaceholder": "Paste a JWT (e.g. eyJhbGci...)",
+  "decodeButton": "Decode",
+  "header": "Header",
+  "payload": "Payload",
+  "signature": "Signature",
+  "signatureNote": "Signature verification requires the secret — this tool only decodes the header and payload.",
+  "clear": "Clear",
+  "copy": "Copy",
+  "copied": "Copied",
+  "expiresLabel": "Expires",
+  "issuedAtLabel": "Issued at",
+  "expired": "Expired",
+  "valid": "Valid",
+  "privacyNote": "Your token never leaves your browser.",
+  "errorTitle": "Error"
+}

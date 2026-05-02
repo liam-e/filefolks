@@ -1,0 +1,16 @@
+{
+  "encode": "Encoder",
+  "decode": "Décoder",
+  "inputLabel": "Entrée",
+  "outputLabel": "Sortie",
+  "encodePlaceholder": "Colle une URL ou du texte à encoder...",
+  "decodePlaceholder": "Colle du texte encodé en URL à décoder...",
+  "encodeButton": "Encoder",
+  "decodeButton": "Décoder",
+  "copy": "Copier",
+  "copied": "Copié",
+  "clear": "Effacer",
+  "privacyNote": "Tout le traitement se fait localement dans ton navigateur.",
+  "errorTitle": "Erreur",
+  "invalidEncoding": "Encodage URL invalide — vérifie les séquences de pourcentage incomplètes."
+}

@@ -1,0 +1,17 @@
+{
+  "dropLabel": "Drop a PDF here, or click to browse",
+  "dropSublabel": "Single file — your PDF never leaves your browser",
+  "fromPage": "From page",
+  "toPage": "To page",
+  "pageCount": "{count} pages",
+  "extractCount": "{count} {count, plural, one {page} other {pages}} selected",
+  "extractButton": "Extract pages",
+  "extracting": "Extracting...",
+  "downloadAgain": "Download again",
+  "clear": "Clear",
+  "errorTitle": "Error",
+  "successTitle": "Extracted successfully. Check your downloads folder.",
+  "privacyNote": "Your file never leaves your browser. All processing happens locally.",
+  "removeFile": "Remove file",
+  "loadingPages": "Loading..."
+}

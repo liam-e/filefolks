@@ -1,0 +1,12 @@
+{
+  "countLabel": "개수",
+  "generateButton": "생성",
+  "copyAll": "전체 복사",
+  "copiedAll": "복사됨",
+  "download": "다운로드",
+  "copy": "복사",
+  "copied": "복사됨",
+  "clear": "지우기",
+  "privacyNote": "Web Crypto API를 사용하여 브라우저에서 생성됩니다.",
+  "placeholder": "생성 버튼을 클릭하여 UUID를 만드세요."
+}

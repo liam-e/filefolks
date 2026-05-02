@@ -1,0 +1,12 @@
+{
+  "countLabel": "個数",
+  "generateButton": "生成",
+  "copyAll": "全てコピー",
+  "copiedAll": "コピー済み",
+  "download": "ダウンロード",
+  "copy": "コピー",
+  "copied": "コピー済み",
+  "clear": "クリア",
+  "privacyNote": "Web Crypto APIを使用してブラウザ内で生成されます。",
+  "placeholder": "「生成」をクリックしてUUIDを作成します。"
+}

@@ -1,0 +1,15 @@
+{
+  "dropLabel": "動画をここにドロップ、またはクリックして参照",
+  "dropSublabel": "MP4、WebM、または MOV",
+  "remove": "削除",
+  "timestampLabel": "タイムスタンプ",
+  "widthLabel": "出力幅",
+  "formatLabel": "フォーマット",
+  "captureButton": "フレームをキャプチャ",
+  "processing": "キャプチャ中...",
+  "downloadButton": "画像をダウンロード",
+  "errorTitle": "エラー",
+  "errorLoad": "動画のメタデータを読み込めませんでした。別のファイルをお試しください。",
+  "errorGeneric": "エラーが発生しました。別の動画をお試しください。",
+  "privacyNote": "動画はブラウザから外に出ません。"
+}

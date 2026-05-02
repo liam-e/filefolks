@@ -2,7 +2,7 @@
 
 // ─── Categories ────────────────────────────────────────────────
 
-export type ToolCategory = "pdf" | "image" | "developer" | "text" | "media";
+export type ToolCategory = "pdf" | "image" | "developer" | "text" | "media" | "archive";
 
 export interface CategoryColors {
   /** Icon background */
@@ -48,7 +48,7 @@ export const CATEGORIES: Record<ToolCategory, CategoryMeta> = {
         "Free browser-based image tools. Convert between PNG, JPG, WebP, and AVIF. Compress and resize images privately.",
     icon: "/icons/category-image.svg",
     colors: { bg: "bg-violet-50", text: "text-violet-600", badge: "bg-violet-100 text-violet-700" },
-    displayOrder: 2,
+    displayOrder: 3,
   },
   developer: {
     slug: "developer",
@@ -58,7 +58,7 @@ export const CATEGORIES: Record<ToolCategory, CategoryMeta> = {
         "Free developer utilities that run locally. Format JSON, decode JWTs, generate hashes, encode Base64, and more.",
     icon: "/icons/category-developer.svg",
     colors: { bg: "bg-sky-50", text: "text-sky-600", badge: "bg-sky-100 text-sky-700" },
-    displayOrder: 3,
+    displayOrder: 4,
   },
   text: {
     slug: "text",
@@ -68,17 +68,27 @@ export const CATEGORIES: Record<ToolCategory, CategoryMeta> = {
         "Free text manipulation tools. Word counter, diff checker, case converter, and text formatting utilities.",
     icon: "/icons/category-text.svg",
     colors: { bg: "bg-amber-50", text: "text-amber-600", badge: "bg-amber-100 text-amber-700" },
-    displayOrder: 4,
+    displayOrder: 5,
   },
   media: {
     slug: "media",
     name: "Media tools",
-    description: "Convert and compress audio and video files",
+    description: "Convert and process video files",
     metaDescription:
-        "Free browser-based media tools. Convert video and audio formats, extract audio from video, and compress media files.",
+        "Free browser-based video tools. Convert video to GIF, extract frames, capture thumbnails, and inspect video metadata.",
     icon: "/icons/category-media.svg",
     colors: { bg: "bg-emerald-50", text: "text-emerald-600", badge: "bg-emerald-100 text-emerald-700" },
-    displayOrder: 5,
+    displayOrder: 2,
+  },
+  archive: {
+    slug: "archive",
+    name: "Archive tools",
+    description: "Create and extract ZIP archives in your browser",
+    metaDescription:
+        "Free browser-based archive tools. Create ZIP files from multiple files, or browse and extract the contents of any ZIP archive.",
+    icon: "/icons/category-archive.svg",
+    colors: { bg: "bg-orange-50", text: "text-orange-600", badge: "bg-orange-100 text-orange-700" },
+    displayOrder: 6,
   },
 };
 
@@ -721,6 +731,211 @@ export const TOOLS: ToolMeta[] = [
       { question: "How many frames can I extract?", answer: "Up to 100 frames per run. For a 60-second video at 1-second intervals that is 60 frames." },
     ],
     icon: "/icons/extract-frames.svg",
+  },
+
+  {
+    slug: "video-thumbnail",
+    name: "Video Thumbnail",
+    description: "Capture a still frame from any video and save it as a JPEG",
+    longDescription:
+      "Drop a video, scrub to the exact moment you want, and download that frame as a JPEG or PNG. No upload needed.",
+    category: "media",
+    tags: ["extract", "no-upload"],
+    popularity: 3,
+    seoTitle: "Video Thumbnail Generator — Capture Frame as Image | FileFolks",
+    seoDescription:
+      "Capture any frame from a video as a JPEG or PNG image. Set the exact timestamp, preview, and download. Runs in your browser.",
+    keywords: ["video thumbnail generator", "capture frame from video", "video screenshot online", "video to image", "grab frame from video", "screenshot from video online"],
+    searchQueries: ["how to take a screenshot of a video online", "capture frame from video as image", "video thumbnail maker free no upload"],
+    faqs: [
+      { question: "Is my video uploaded?", answer: "No. The tool uses the Canvas API directly in your browser. Your video never leaves your device." },
+      { question: "What video formats are supported?", answer: "Any format your browser can play, typically MP4, WebM, and Ogg." },
+      { question: "What image format is the output?", answer: "JPEG by default, which gives a smaller file. PNG is also available for lossless output." },
+      { question: "Can I capture a frame from any timestamp?", answer: "Yes. Enter any time in seconds or drag the slider to scrub through the video." },
+    ],
+    icon: "/icons/video-thumbnail.svg",
+  },
+
+  {
+    slug: "video-metadata",
+    name: "Video Metadata",
+    description: "Inspect video properties: resolution, duration, file size, and more",
+    longDescription:
+      "Drop a video file to instantly see its resolution, duration, aspect ratio, estimated bitrate, and file type. No upload needed.",
+    category: "media",
+    tags: ["no-upload"],
+    popularity: 4,
+    seoTitle: "Video Metadata Viewer — Inspect Video Properties | FileFolks",
+    seoDescription:
+      "View video properties including resolution, duration, aspect ratio, and file size. No upload. Runs in your browser.",
+    keywords: ["video metadata viewer", "check video resolution online", "video properties viewer", "video info online", "get video dimensions online"],
+    searchQueries: ["how to check video resolution online free", "video metadata viewer online", "check video properties without installing software"],
+    faqs: [
+      { question: "Is my video uploaded?", answer: "No. The tool reads metadata using the browser's native video API. Nothing is sent to a server." },
+      { question: "What properties can I see?", answer: "File name, file size, file type, duration, resolution (width and height), aspect ratio, and estimated bitrate." },
+      { question: "Can I see the codec?", answer: "The tool shows the file's MIME type (e.g. video/mp4). Detailed codec info is not available from browser APIs alone." },
+    ],
+    icon: "/icons/video-metadata.svg",
+  },
+
+  // ── Archive ──
+
+  {
+    slug: "zip-files",
+    name: "Create ZIP",
+    description: "Compress multiple files into a ZIP archive in your browser",
+    longDescription:
+      "Drop any files to pack them into a downloadable ZIP archive. All processing happens in your browser using JSZip — nothing is uploaded.",
+    category: "archive",
+    tags: ["compress", "merge", "no-upload"],
+    popularity: 1,
+    seoTitle: "Create ZIP File Online — Free, No Upload | FileFolks",
+    seoDescription:
+      "Compress multiple files into a ZIP archive. Drop your files and download. Runs entirely in your browser.",
+    keywords: ["create zip file online", "zip files online free", "compress files to zip", "make zip archive online", "zip creator online"],
+    searchQueries: ["how to create a zip file online free", "zip multiple files online no upload", "create zip archive in browser"],
+    faqs: [
+      { question: "Are my files uploaded?", answer: "No. ZIP creation uses the JSZip library running entirely in your browser. Your files never leave your device." },
+      { question: "How many files can I add?", answer: "There is no hard limit. The practical limit depends on your device memory and the total uncompressed size." },
+      { question: "What compression does it use?", answer: "DEFLATE compression at level 6, the same algorithm used by most ZIP tools." },
+      { question: "Can I add more files after the initial drop?", answer: "Yes. Drop more files onto the drop zone at any time before clicking Create ZIP." },
+    ],
+    icon: "/icons/zip-files.svg",
+  },
+
+  {
+    slug: "unzip-files",
+    name: "Extract ZIP",
+    description: "Browse and extract files from a ZIP archive in your browser",
+    longDescription:
+      "Drop a ZIP file to see its contents. Browse the file list and download individual files. Everything runs in your browser.",
+    category: "archive",
+    tags: ["extract", "no-upload"],
+    popularity: 2,
+    seoTitle: "Extract ZIP File Online — Browse & Download | FileFolks",
+    seoDescription:
+      "Browse and extract files from any ZIP archive in your browser. Preview contents and download individual files. Fully private.",
+    keywords: ["extract zip file online", "unzip files online free", "open zip file online", "zip extractor online", "unzip without software"],
+    searchQueries: ["how to extract zip files online free", "open zip file without software", "unzip online no upload"],
+    faqs: [
+      { question: "Are my files uploaded?", answer: "No. ZIP extraction uses the JSZip library running entirely in your browser. Your files never leave your device." },
+      { question: "What archive formats are supported?", answer: "ZIP (.zip) files only. Formats like .tar, .gz, or .rar are not currently supported." },
+      { question: "Can I extract individual files?", answer: "Yes. Click any file in the list to download it individually." },
+      { question: "Is there a size limit?", answer: "No fixed limit, but very large archives may be slow to process depending on your device." },
+    ],
+    icon: "/icons/unzip-files.svg",
+  },
+
+  // ── Text ──
+
+  {
+    slug: "word-counter",
+    name: "Word Counter",
+    description: "Count words, characters, sentences, paragraphs, and reading time",
+    longDescription:
+      "Paste or type text to instantly see word count, character count (with and without spaces), sentence count, paragraph count, and estimated reading time. All processing happens locally.",
+    category: "text",
+    tags: ["no-upload"],
+    popularity: 1,
+    seoTitle: "Word Counter Online — Free Character & Word Count | FileFolks",
+    seoDescription:
+      "Count words, characters, sentences, and paragraphs instantly. Paste your text and see reading time too. Free and private.",
+    keywords: ["word counter", "character counter", "word count online", "count words online free", "character count", "reading time calculator"],
+    searchQueries: ["word counter online free", "count words in text online", "character counter online"],
+    faqs: [
+      { question: "Does this count spaces as characters?", answer: "Both counts are shown: characters including spaces and characters excluding spaces." },
+      { question: "How is reading time calculated?", answer: "Based on 238 words per minute, which is the commonly cited average adult silent reading rate." },
+      { question: "Is my text stored or sent anywhere?", answer: "No. All counting happens locally in your browser. Your text is never transmitted." },
+    ],
+    icon: "/icons/word-counter.svg",
+  },
+
+  {
+    slug: "case-converter",
+    name: "Case Converter",
+    description: "Convert text between camelCase, snake_case, kebab-case, Title Case, and more",
+    longDescription:
+      "Paste text and see it instantly converted to all common casing styles: camelCase, PascalCase, snake_case, kebab-case, SCREAMING_SNAKE_CASE, Title Case, UPPER CASE, and lower case.",
+    category: "text",
+    tags: ["convert", "no-upload"],
+    popularity: 2,
+    seoTitle: "Case Converter — camelCase, snake_case, kebab-case Online | FileFolks",
+    seoDescription:
+      "Convert text between camelCase, PascalCase, snake_case, kebab-case, Title Case, and more. Instant, free, and private.",
+    keywords: ["case converter", "camelcase converter", "snake case converter", "kebab case converter", "text case converter online", "pascal case converter"],
+    searchQueries: ["convert text to camelCase online", "snake_case to camelCase converter", "text case converter free"],
+    faqs: [
+      { question: "What case formats are supported?", answer: "camelCase, PascalCase, snake_case, kebab-case, SCREAMING_SNAKE_CASE, Title Case, UPPER CASE, and lower case." },
+      { question: "Does it handle multi-word input?", answer: "Yes. The tool detects word boundaries from spaces, hyphens, underscores, and camelCase transitions." },
+      { question: "Is my text stored?", answer: "No. All conversion happens in your browser. Nothing is sent to a server." },
+    ],
+    icon: "/icons/case-converter.svg",
+  },
+
+  {
+    slug: "lorem-ipsum-generator",
+    name: "Lorem Ipsum Generator",
+    description: "Generate placeholder text by paragraph, sentence, or word count",
+    longDescription:
+      "Generate lorem ipsum placeholder text in any quantity. Choose paragraphs, sentences, or words. Optionally start with the classic opening sentence.",
+    category: "text",
+    tags: ["generate", "no-upload"],
+    popularity: 3,
+    seoTitle: "Lorem Ipsum Generator — Free Placeholder Text | FileFolks",
+    seoDescription:
+      "Generate lorem ipsum placeholder text by paragraph, sentence, or word count. Free, instant, and customizable.",
+    keywords: ["lorem ipsum generator", "placeholder text generator", "lorem ipsum online", "dummy text generator", "lorem ipsum copy paste"],
+    searchQueries: ["lorem ipsum generator online free", "generate placeholder text online", "lorem ipsum paragraph generator"],
+    faqs: [
+      { question: "What is lorem ipsum?", answer: "Lorem ipsum is scrambled Latin text derived from Cicero's de Finibus, used as typographic placeholder text since the 1960s." },
+      { question: "Can I start with the classic opening?", answer: "Yes. Toggle the option to begin with the famous 'Lorem ipsum dolor sit amet...' sentence." },
+      { question: "Is the text random?", answer: "Yes. Each generation produces a different arrangement of words drawn from the standard lorem ipsum vocabulary." },
+    ],
+    icon: "/icons/lorem-ipsum-generator.svg",
+  },
+
+  {
+    slug: "duplicate-line-remover",
+    name: "Remove Duplicate Lines",
+    description: "Paste text and instantly remove duplicate lines",
+    longDescription:
+      "Paste any block of text to remove duplicate lines. Options include case-sensitive matching, trimming whitespace, and stripping empty lines.",
+    category: "text",
+    tags: ["no-upload"],
+    popularity: 4,
+    seoTitle: "Remove Duplicate Lines Online — Free Text Deduplication | FileFolks",
+    seoDescription:
+      "Remove duplicate lines from text instantly. Options for case-sensitive matching, whitespace trimming, and empty line removal. Free and private.",
+    keywords: ["remove duplicate lines", "deduplicate text online", "remove duplicate lines online free", "delete duplicate lines text", "unique lines extractor"],
+    searchQueries: ["remove duplicate lines from text online free", "deduplicate text online tool", "remove repeated lines online"],
+    faqs: [
+      { question: "Is matching case-sensitive?", answer: "Configurable. By default it is case-insensitive, so 'Apple' and 'apple' count as duplicates." },
+      { question: "Does it handle blank lines?", answer: "Blank lines can be stripped with the 'Remove empty lines' option." },
+      { question: "Is my text stored?", answer: "No. All processing happens in your browser. Nothing is sent to a server." },
+    ],
+    icon: "/icons/duplicate-line-remover.svg",
+  },
+
+  {
+    slug: "line-sorter",
+    name: "Line Sorter",
+    description: "Sort lines of text alphabetically, by length, or randomly",
+    longDescription:
+      "Paste any block of text to sort its lines alphabetically, reverse alphabetically, by shortest, by longest, or randomly. Toggle case-sensitive sorting.",
+    category: "text",
+    tags: ["no-upload"],
+    popularity: 5,
+    seoTitle: "Line Sorter Online — Sort Text Lines Alphabetically | FileFolks",
+    seoDescription:
+      "Sort lines of text alphabetically, by length, or randomly. Case-sensitive option. Free and runs in your browser.",
+    keywords: ["sort lines online", "line sorter", "alphabetize lines online free", "sort text lines", "random line sorter"],
+    searchQueries: ["sort lines of text online free", "alphabetize lines online", "sort text alphabetically online"],
+    faqs: [
+      { question: "What sort orders are available?", answer: "A to Z, Z to A, shortest to longest, longest to shortest, and random shuffle." },
+      { question: "Is sorting case-sensitive?", answer: "Configurable. Case-insensitive by default." },
+      { question: "Is my text stored?", answer: "No. All processing happens in your browser. Nothing is sent to a server." },
+    ],
+    icon: "/icons/line-sorter.svg",
   },
 
   // ... add more tools following this pattern

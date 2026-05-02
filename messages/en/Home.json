@@ -1,0 +1,9 @@
+{
+  "badge": "Private by design",
+  "headline": "File tools that stay",
+  "headlineAccent": "on your machine.",
+  "subheadline": "No uploads. No accounts. No tracking. Everything runs in your browser using WebAssembly and native APIs.",
+  "privacyTitle": "Your files stay on your device",
+  "privacyBody": "FileFolks uses WebAssembly and browser APIs to process files locally. Nothing is ever sent to a server. You can verify this by checking the Network tab in your browser's developer tools.",
+  "viewAll": "View all"
+}

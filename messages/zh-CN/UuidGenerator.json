@@ -1,0 +1,12 @@
+{
+  "countLabel": "数量",
+  "generateButton": "生成",
+  "copyAll": "全部复制",
+  "copiedAll": "已复制",
+  "download": "下载",
+  "copy": "复制",
+  "copied": "已复制",
+  "clear": "清除",
+  "privacyNote": "使用 Web Crypto API 在您的浏览器中生成。",
+  "placeholder": "点击生成以创建 UUID。"
+}

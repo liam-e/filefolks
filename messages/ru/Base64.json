@@ -1,0 +1,21 @@
+{
+  "encode": "Кодировать",
+  "decode": "Декодировать",
+  "textMode": "Текст",
+  "fileMode": "Файл",
+  "inputLabel": "Ввод",
+  "outputLabel": "Вывод",
+  "encodeButton": "Кодировать в Base64",
+  "decodeButton": "Декодировать из Base64",
+  "encodePlaceholder": "Введите текст для кодирования...",
+  "decodePlaceholder": "Вставьте Base64 для декодирования...",
+  "outputPlaceholderEncode": "Вывод Base64 появится здесь...",
+  "outputPlaceholderDecode": "Декодированный текст появится здесь...",
+  "copy": "Копировать",
+  "copied": "Скопировано!",
+  "clear": "Очистить",
+  "loadFile": "Загрузить файл",
+  "errorTitle": "Ошибка",
+  "invalidBase64": "Недопустимый ввод Base64",
+  "privacyNote": "Ваши данные никогда не покидают браузер. Всё кодирование происходит локально."
+}

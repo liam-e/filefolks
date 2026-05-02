@@ -1,0 +1,13 @@
+{
+  "title": "Datenschutzrichtlinie",
+  "metaDescription": "FileFolks verarbeitet alle Dateien lokal in deinem Browser. Es werden keine Daten hochgeladen oder gespeichert.",
+  "lastUpdated": "Zuletzt aktualisiert: April 2026",
+  "s1Heading": "Deine Dateien verlassen nie deinen Browser",
+  "s1Body": "Jedes Tool von FileFolks lauft vollstandig in deinem Browser uber WebAssembly und native Browser-APIs. Keine Dateidaten, Namen, Inhalte oder Metadaten werden jemals an einen Server gesendet. Offne den Netzwerk-Tab deines Browsers wahrend du ein Tool verwendest und du wirst keine Upload-Anfragen sehen.",
+  "s2Heading": "Was wir sammeln",
+  "s2Body": "Nichts. FileFolks setzt keine Cookies, ladt keine Analyse- oder Tracking-Skripte und erfordert kein Konto. Wir protokollieren oder speichern nichts uber dich oder deine Dateien.",
+  "s3Heading": "Schriften",
+  "s3Body": "Seitenschriften werden zur Build-Zeit selbst gehostet. Es werden keine Anfragen an Google Fonts oder externe Anbieter gestellt.",
+  "s4Heading": "Anderungen",
+  "s4Body": "Wesentliche Anderungen werden durch ein aktualisiertes Datum oben auf dieser Seite reflektiert."
+}

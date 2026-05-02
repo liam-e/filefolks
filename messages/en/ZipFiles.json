@@ -1,0 +1,16 @@
+{
+  "dropLabel": "Drop files here, or click to browse",
+  "dropSublabel": "Any files — they will be packed into a ZIP archive",
+  "remove": "Remove",
+  "clearAll": "Clear all",
+  "fileCount": "{count} file",
+  "fileCountPlural": "{count} files",
+  "totalSize": "Total",
+  "createButton": "Create ZIP ({count} files)",
+  "creating": "Creating...",
+  "readyTitle": "ZIP ready",
+  "downloadButton": "Download ZIP",
+  "errorTitle": "Error",
+  "errorGeneric": "Something went wrong creating the archive.",
+  "privacyNote": "Your files never leave your browser."
+}

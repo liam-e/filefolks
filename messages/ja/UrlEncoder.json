@@ -1,0 +1,16 @@
+{
+  "encode": "エンコード",
+  "decode": "デコード",
+  "inputLabel": "入力",
+  "outputLabel": "出力",
+  "encodePlaceholder": "エンコードするURLまたはテキストを貼り付け...",
+  "decodePlaceholder": "デコードするURLエンコードテキストを貼り付け...",
+  "encodeButton": "エンコード",
+  "decodeButton": "デコード",
+  "copy": "コピー",
+  "copied": "コピー済み",
+  "clear": "クリア",
+  "privacyNote": "すべての処理はブラウザ内でローカルに行われます。",
+  "errorTitle": "エラー",
+  "invalidEncoding": "無効なURLエンコード — 不完全なパーセントシーケンスを確認してください。"
+}

@@ -1,0 +1,19 @@
+{
+  "dropLabel": "Bild hier ablegen oder klicken zum Durchsuchen",
+  "dropSublabel": "PNG, JPG oder WebP — Ihr Bild verlässt nie Ihren Browser",
+  "pixels": "Pixel",
+  "percent": "Prozent",
+  "width": "Breite",
+  "height": "Höhe",
+  "scaleLabel": "Skalierung",
+  "lockAspect": "Seitenverhältnis sperren",
+  "unlockAspect": "Seitenverhältnis entsperren",
+  "newSize": "Neue Größe: {width} × {height} px",
+  "resizeButton": "Bild skalieren",
+  "resizing": "Skalierung...",
+  "clear": "Zurücksetzen",
+  "errorTitle": "Fehler",
+  "successTitle": "Erfolgreich skaliert. Prüfen Sie Ihren Download-Ordner.",
+  "privacyNote": "Ihr Bild verlässt nie Ihren Browser. Die gesamte Verarbeitung erfolgt lokal.",
+  "removeFile": "Datei entfernen"
+}

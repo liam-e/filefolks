@@ -1,0 +1,21 @@
+{
+  "encode": "编码",
+  "decode": "解码",
+  "textMode": "文本",
+  "fileMode": "文件",
+  "inputLabel": "输入",
+  "outputLabel": "输出",
+  "encodeButton": "编码为 Base64",
+  "decodeButton": "从 Base64 解码",
+  "encodePlaceholder": "输入要编码的文本...",
+  "decodePlaceholder": "粘贴要解码的 Base64...",
+  "outputPlaceholderEncode": "Base64 输出将显示在此处...",
+  "outputPlaceholderDecode": "解码文本将显示在此处...",
+  "copy": "复制",
+  "copied": "已复制！",
+  "clear": "清除",
+  "loadFile": "加载文件",
+  "errorTitle": "错误",
+  "invalidBase64": "无效的 Base64 输入",
+  "privacyNote": "您的数据始终留在您的浏览器中，所有编码均在本地进行。"
+}

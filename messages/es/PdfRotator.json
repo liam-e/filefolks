@@ -1,0 +1,18 @@
+{
+  "dropLabel": "Suelta un PDF aquí o haz clic para buscar",
+  "dropSublabel": "Un solo archivo — tu PDF nunca sale de tu navegador",
+  "rotateLeft": "90° izquierda",
+  "rotate180": "180°",
+  "rotateRight": "90° derecha",
+  "rotationLabel": "Rotación",
+  "rotateButton": "Rotar PDF",
+  "rotating": "Rotando...",
+  "downloadAgain": "Descargar de nuevo",
+  "clear": "Borrar",
+  "errorTitle": "Error",
+  "successTitle": "Rotado correctamente. Comprueba tu carpeta de descargas.",
+  "privacyNote": "Tu archivo nunca sale de tu navegador. Todo el procesamiento ocurre localmente.",
+  "removeFile": "Eliminar archivo",
+  "loadingPages": "Cargando...",
+  "pageCount": "{count} páginas"
+}

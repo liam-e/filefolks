@@ -1,0 +1,14 @@
+{
+  "dropLabel": "ここに画像をドロップ、またはクリックして参照",
+  "dropSublabel": "PNG、JPG、WebP — 画像はブラウザ内に留まります",
+  "convertTo": "変換形式",
+  "convertButton": "変換",
+  "converting": "変換中...",
+  "downloadAgain": "再ダウンロード",
+  "clear": "クリア",
+  "errorTitle": "エラー",
+  "successTitle": "変換成功。ダウンロードフォルダをご確認ください。",
+  "jpegNote": "透明な領域は白い背景で塗りつぶされます。",
+  "privacyNote": "画像はブラウザ外に送信されません。すべての処理はローカルで行われます。",
+  "removeFile": "ファイルを削除"
+}

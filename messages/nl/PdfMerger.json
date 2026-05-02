@@ -1,0 +1,16 @@
+{
+  "dropLabel": "Sleep PDF-bestanden hier naartoe, of klik om te bladeren",
+  "dropSublabel": "Je kunt meer bestanden toevoegen na de eerste batch",
+  "mergeButton": "{count} PDF samenvoegen",
+  "mergeButtonPlural": "{count} PDF's samenvoegen",
+  "merging": "Samenvoegen...",
+  "downloadAgain": "Opnieuw downloaden",
+  "clearAll": "Alles wissen",
+  "addMoreFiles": "Voeg ten minste 2 PDF-bestanden toe om samen te voegen.",
+  "success": "Succesvol samengevoegd. Controleer je downloadmap.",
+  "errorTitle": "Fout",
+  "privacyNote": "Je bestanden verlaten nooit je browser. Alle samenvoeging vindt lokaal op je apparaat plaats.",
+  "moveUp": "Omhoog",
+  "moveDown": "Omlaag",
+  "removeFile": "Bestand verwijderen"
+}

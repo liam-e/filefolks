@@ -1,0 +1,21 @@
+{
+  "encode": "ترميز",
+  "decode": "فك الترميز",
+  "textMode": "نص",
+  "fileMode": "ملف",
+  "inputLabel": "الإدخال",
+  "outputLabel": "الإخراج",
+  "encodeButton": "ترميز إلى Base64",
+  "decodeButton": "فك ترميز Base64",
+  "encodePlaceholder": "أدخل النص المراد ترميزه...",
+  "decodePlaceholder": "الصق Base64 لفك ترميزه...",
+  "outputPlaceholderEncode": "ستظهر نتيجة Base64 هنا...",
+  "outputPlaceholderDecode": "سيظهر النص المفكوك هنا...",
+  "copy": "نسخ",
+  "copied": "تم النسخ!",
+  "clear": "مسح",
+  "loadFile": "تحميل ملف",
+  "errorTitle": "خطأ",
+  "invalidBase64": "إدخال Base64 غير صالح",
+  "privacyNote": "بياناتك لا تغادر متصفحك أبدًا. كل الترميز يتم محليًا."
+}

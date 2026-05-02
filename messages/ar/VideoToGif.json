@@ -1,0 +1,15 @@
+{
+  "dropLabel": "اسقط مقطع فيديو هنا او انقر للتصفح",
+  "dropSublabel": "MP4 او WebM او MOV",
+  "remove": "ازالة",
+  "startLabel": "وقت البدء",
+  "durationLabel": "المدة",
+  "fpsLabel": "الاطارات في الثانية",
+  "widthLabel": "العرض",
+  "createButton": "انشاء GIF",
+  "processing": "جارٍ المعالجة",
+  "downloadButton": "تنزيل GIF",
+  "errorTitle": "خطا",
+  "errorGeneric": "حدث خطا. يرجى تجربة مقطع فيديو اخر.",
+  "privacyNote": "الفيديو لا يغادر متصفحك ابدا."
+}

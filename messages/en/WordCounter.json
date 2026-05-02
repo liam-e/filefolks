@@ -1,0 +1,11 @@
+{
+  "placeholder": "Paste or type your text here...",
+  "words": "Words",
+  "characters": "Characters",
+  "charsNoSpaces": "No spaces",
+  "sentences": "Sentences",
+  "paragraphs": "Paragraphs",
+  "readingTime": "Reading time",
+  "readingTimeValue": "~{min} min",
+  "privacyNote": "Your text never leaves your browser."
+}

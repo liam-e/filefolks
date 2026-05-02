@@ -1,0 +1,12 @@
+{
+  "countLabel": "Count",
+  "generateButton": "Generate",
+  "copyAll": "Copy all",
+  "copiedAll": "Copied",
+  "download": "Download",
+  "copy": "Copy",
+  "copied": "Copied",
+  "clear": "Clear",
+  "privacyNote": "Generated in your browser using the Web Crypto API.",
+  "placeholder": "Click Generate to create UUIDs."
+}

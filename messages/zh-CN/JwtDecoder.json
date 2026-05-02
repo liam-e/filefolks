@@ -1,0 +1,18 @@
+{
+  "inputLabel": "JWT 令牌",
+  "inputPlaceholder": "粘贴 JWT（例如 eyJhbGci...）",
+  "decodeButton": "解码",
+  "header": "标头",
+  "payload": "载荷",
+  "signature": "签名",
+  "signatureNote": "签名验证需要密钥 — 本工具仅解码标头和载荷。",
+  "clear": "清除",
+  "copy": "复制",
+  "copied": "已复制",
+  "expiresLabel": "过期时间",
+  "issuedAtLabel": "签发时间",
+  "expired": "已过期",
+  "valid": "有效",
+  "privacyNote": "您的令牌不会离开浏览器。",
+  "errorTitle": "错误"
+}

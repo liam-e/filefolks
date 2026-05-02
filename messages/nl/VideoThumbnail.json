@@ -1,0 +1,15 @@
+{
+  "dropLabel": "Sleep een video hierheen of klik om te bladeren",
+  "dropSublabel": "MP4, WebM of MOV",
+  "remove": "Verwijderen",
+  "timestampLabel": "Tijdstempel",
+  "widthLabel": "Uitvoerbreedte",
+  "formatLabel": "Formaat",
+  "captureButton": "Frame vastleggen",
+  "processing": "Vastleggen...",
+  "downloadButton": "Afbeelding downloaden",
+  "errorTitle": "Fout",
+  "errorLoad": "Kan videometadata niet lezen. Probeer een ander bestand.",
+  "errorGeneric": "Er is iets misgegaan. Probeer een andere video.",
+  "privacyNote": "Je video verlaat je browser nooit."
+}
