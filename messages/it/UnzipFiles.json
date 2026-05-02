@@ -9,5 +9,28 @@
   "download": "Scarica",
   "errorTitle": "Errore",
   "errorGeneric": "Impossibile leggere l'archivio. Il file potrebbe essere corrotto o protetto da password.",
-  "privacyNote": "I tuoi file non lasciano mai il tuo browser."
+  "privacyNote": "I tuoi file non lasciano mai il tuo browser.",
+  "name": "Extract ZIP",
+  "description": "Browse and extract files from a ZIP archive in your browser",
+  "longDescription": "Drop a ZIP file to see its contents. Browse the file list and download individual files. Everything runs in your browser.",
+  "seoTitle": "Extract ZIP File Online — Browse & Download | FileFolks",
+  "seoDescription": "Browse and extract files from any ZIP archive in your browser. Preview contents and download individual files. Fully private.",
+  "faqs": [
+    {
+      "question": "Are my files uploaded?",
+      "answer": "No. ZIP extraction uses the JSZip library running entirely in your browser. Your files never leave your device."
+    },
+    {
+      "question": "What archive formats are supported?",
+      "answer": "ZIP (.zip) files only. Formats like .tar, .gz, or .rar are not currently supported."
+    },
+    {
+      "question": "Can I extract individual files?",
+      "answer": "Yes. Click any file in the list to download it individually."
+    },
+    {
+      "question": "Is there a size limit?",
+      "answer": "No fixed limit, but very large archives may be slow to process depending on your device."
+    }
+  ]
 }

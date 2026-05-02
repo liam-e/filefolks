@@ -7,5 +7,24 @@
   "paragraphs": "단락",
   "readingTime": "읽기 시간",
   "readingTimeValue": "약 {min}분",
-  "privacyNote": "텍스트는 브라우저 밖으로 전송되지 않습니다."
+  "privacyNote": "텍스트는 브라우저 밖으로 전송되지 않습니다.",
+  "name": "Word Counter",
+  "description": "Count words, characters, sentences, paragraphs, and reading time",
+  "longDescription": "Paste or type text to instantly see word count, character count (with and without spaces), sentence count, paragraph count, and estimated reading time. All processing happens locally.",
+  "seoTitle": "Word Counter Online — Free Character & Word Count | FileFolks",
+  "seoDescription": "Count words, characters, sentences, and paragraphs instantly. Paste your text and see reading time too. Free and private.",
+  "faqs": [
+    {
+      "question": "Does this count spaces as characters?",
+      "answer": "Both counts are shown: characters including spaces and characters excluding spaces."
+    },
+    {
+      "question": "How is reading time calculated?",
+      "answer": "Based on 238 words per minute, the commonly cited average adult silent reading rate."
+    },
+    {
+      "question": "Is my text stored or sent anywhere?",
+      "answer": "No. All counting happens locally in your browser. Your text is never transmitted."
+    }
+  ]
 }

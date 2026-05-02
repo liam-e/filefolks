@@ -11,5 +11,24 @@
   "copyButton": "نسخ",
   "copied": "تم النسخ",
   "downloadButton": "تنزيل .txt",
-  "privacyNote": "نصك لا يغادر متصفحك ابدا."
+  "privacyNote": "نصك لا يغادر متصفحك ابدا.",
+  "name": "Line Sorter",
+  "description": "Sort lines of text alphabetically, by length, or randomly",
+  "longDescription": "Paste any block of text to sort its lines alphabetically, reverse alphabetically, by shortest, by longest, or randomly. Toggle case-sensitive sorting.",
+  "seoTitle": "Line Sorter Online — Sort Text Lines Alphabetically | FileFolks",
+  "seoDescription": "Sort lines of text alphabetically, by length, or randomly. Case-sensitive option. Free and runs in your browser.",
+  "faqs": [
+    {
+      "question": "What sort orders are available?",
+      "answer": "A to Z, Z to A, shortest to longest, longest to shortest, and random shuffle."
+    },
+    {
+      "question": "Is sorting case-sensitive?",
+      "answer": "Configurable. Case-insensitive by default."
+    },
+    {
+      "question": "Is my text stored?",
+      "answer": "No. All processing happens in your browser. Nothing is sent to a server."
+    }
+  ]
 }

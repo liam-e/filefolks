@@ -12,5 +12,28 @@
   "downloadButton": "ZIPをダウンロード",
   "errorTitle": "エラー",
   "errorGeneric": "アーカイブの作成中にエラーが発生しました。",
-  "privacyNote": "ファイルはブラウザの外に送信されません。"
+  "privacyNote": "ファイルはブラウザの外に送信されません。",
+  "name": "Create ZIP",
+  "description": "Compress multiple files into a ZIP archive in your browser",
+  "longDescription": "Drop any files to pack them into a downloadable ZIP archive. All processing happens in your browser using JSZip — nothing is uploaded.",
+  "seoTitle": "Create ZIP File Online — Free, No Upload | FileFolks",
+  "seoDescription": "Compress multiple files into a ZIP archive. Drop your files and download. Runs entirely in your browser.",
+  "faqs": [
+    {
+      "question": "Are my files uploaded?",
+      "answer": "No. ZIP creation uses the JSZip library running entirely in your browser. Your files never leave your device."
+    },
+    {
+      "question": "How many files can I add?",
+      "answer": "There is no hard limit. The practical limit depends on your device memory and the total uncompressed size."
+    },
+    {
+      "question": "What compression does it use?",
+      "answer": "DEFLATE compression at level 6, the same algorithm used by most ZIP tools."
+    },
+    {
+      "question": "Can I add more files after the initial drop?",
+      "answer": "Yes. Drop more files onto the drop zone at any time before clicking Create ZIP."
+    }
+  ]
 }

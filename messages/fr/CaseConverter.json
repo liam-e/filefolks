@@ -10,5 +10,24 @@
   "lower": "lower case",
   "copy": "Copier",
   "copied": "Copie",
-  "privacyNote": "Votre texte ne quitte jamais votre navigateur."
+  "privacyNote": "Votre texte ne quitte jamais votre navigateur.",
+  "name": "Case Converter",
+  "description": "Convert text between camelCase, snake_case, kebab-case, Title Case, and more",
+  "longDescription": "Paste text and see it instantly converted to all common casing styles: camelCase, PascalCase, snake_case, kebab-case, SCREAMING_SNAKE_CASE, Title Case, UPPER CASE, and lower case.",
+  "seoTitle": "Case Converter — camelCase, snake_case, kebab-case Online | FileFolks",
+  "seoDescription": "Convert text between camelCase, PascalCase, snake_case, kebab-case, Title Case, and more. Instant, free, and private.",
+  "faqs": [
+    {
+      "question": "What case formats are supported?",
+      "answer": "camelCase, PascalCase, snake_case, kebab-case, SCREAMING_SNAKE_CASE, Title Case, UPPER CASE, and lower case."
+    },
+    {
+      "question": "Does it handle multi-word input?",
+      "answer": "Yes. Word boundaries are detected from spaces, hyphens, underscores, and camelCase transitions."
+    },
+    {
+      "question": "Is my text stored?",
+      "answer": "No. All conversion happens in your browser. Nothing is sent to a server."
+    }
+  ]
 }

@@ -10,5 +10,24 @@
   "copyButton": "Копировать",
   "copied": "Скопировано",
   "downloadButton": "Скачать .txt",
-  "privacyNote": "Ваш текст никогда не покидает браузер."
+  "privacyNote": "Ваш текст никогда не покидает браузер.",
+  "name": "Remove Duplicate Lines",
+  "description": "Paste text and instantly remove duplicate lines",
+  "longDescription": "Paste any block of text to remove duplicate lines. Options include case-sensitive matching, trimming whitespace, and stripping empty lines.",
+  "seoTitle": "Remove Duplicate Lines Online — Free Text Deduplication | FileFolks",
+  "seoDescription": "Remove duplicate lines from text instantly. Options for case-sensitive matching and whitespace trimming. Free and private.",
+  "faqs": [
+    {
+      "question": "Is matching case-sensitive?",
+      "answer": "Configurable. By default it is case-insensitive, so 'Apple' and 'apple' count as duplicates."
+    },
+    {
+      "question": "Does it handle blank lines?",
+      "answer": "Blank lines can be stripped with the 'Remove empty lines' option."
+    },
+    {
+      "question": "Is my text stored?",
+      "answer": "No. All processing happens in your browser. Nothing is sent to a server."
+    }
+  ]
 }
