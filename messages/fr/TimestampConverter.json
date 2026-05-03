@@ -1,6 +1,6 @@
 {
   "currentLabel": "Horodatage Unix actuel",
-  "copy": "Copy",
+  "copy": "Copier",
   "copied": "Copié !",
   "unixToDateLabel": "Horodatage Unix vers date",
   "unixPlaceholder": "Saisir un horodatage Unix (ex. 1700000000)",

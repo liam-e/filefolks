@@ -1,6 +1,6 @@
 {
   "currentLabel": "現在のUnixタイムスタンプ",
-  "copy": "Copy",
+  "copy": "コピー",
   "copied": "コピーしました！",
   "unixToDateLabel": "Unixタイムスタンプを日時に変換",
   "unixPlaceholder": "Unixタイムスタンプを入力 (例: 1700000000)",

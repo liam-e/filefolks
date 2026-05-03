@@ -1,6 +1,6 @@
 {
   "currentLabel": "현재 Unix 타임스탬프",
-  "copy": "Copy",
+  "copy": "복사",
   "copied": "복사됨!",
   "unixToDateLabel": "Unix 타임스탬프를 날짜로",
   "unixPlaceholder": "Unix 타임스탬프 입력 (예: 1700000000)",

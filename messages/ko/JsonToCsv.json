@@ -7,7 +7,7 @@
   "copied": "복사됨!",
   "rowCount": "{count}개 행",
   "columnCount": "{count}개 열",
-  "errorTitle": "Error",
+  "errorTitle": "오류",
   "privacyNote": "데이터가 브라우저를 벗어나지 않습니다. 모든 변환이 로컬에서 이루어집니다.",
   "name": "JSON to CSV",
   "description": "Convert a JSON array of objects to a downloadable CSV file",

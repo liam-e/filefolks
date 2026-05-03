@@ -1,6 +1,6 @@
 {
   "currentLabel": "Timestamp Unix atual",
-  "copy": "Copy",
+  "copy": "Copiar",
   "copied": "Copiado!",
   "unixToDateLabel": "Timestamp Unix para data",
   "unixPlaceholder": "Insira timestamp Unix (ex. 1700000000)",

@@ -7,7 +7,7 @@
   "copied": "Gekopieerd!",
   "rowCount": "{count} rijen",
   "columnCount": "{count} kolommen",
-  "errorTitle": "Error",
+  "errorTitle": "Fout",
   "privacyNote": "Je gegevens verlaten nooit je browser. Alle conversie gebeurt lokaal.",
   "name": "JSON to CSV",
   "description": "Convert a JSON array of objects to a downloadable CSV file",

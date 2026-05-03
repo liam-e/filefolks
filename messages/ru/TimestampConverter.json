@@ -1,6 +1,6 @@
 {
   "currentLabel": "Текущая метка времени Unix",
-  "copy": "Copy",
+  "copy": "Копировать",
   "copied": "Скопировано!",
   "unixToDateLabel": "Метка времени Unix в дату",
   "unixPlaceholder": "Введите метку времени Unix (напр. 1700000000)",

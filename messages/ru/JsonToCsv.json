@@ -7,7 +7,7 @@
   "copied": "Скопировано!",
   "rowCount": "{count} строк",
   "columnCount": "{count} столбцов",
-  "errorTitle": "Error",
+  "errorTitle": "Ошибка",
   "privacyNote": "Данные не покидают браузер. Конвертация происходит локально.",
   "name": "JSON to CSV",
   "description": "Convert a JSON array of objects to a downloadable CSV file",

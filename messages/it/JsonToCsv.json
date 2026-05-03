@@ -7,7 +7,7 @@
   "copied": "Copiato!",
   "rowCount": "{count} righe",
   "columnCount": "{count} colonne",
-  "errorTitle": "Error",
+  "errorTitle": "Errore",
   "privacyNote": "I tuoi dati non lasciano mai il browser. La conversione avviene localmente.",
   "name": "JSON to CSV",
   "description": "Convert a JSON array of objects to a downloadable CSV file",

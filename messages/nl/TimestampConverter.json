@@ -1,6 +1,6 @@
 {
   "currentLabel": "Huidige Unix-tijdstempel",
-  "copy": "Copy",
+  "copy": "Kopiëren",
   "copied": "Gekopieerd!",
   "unixToDateLabel": "Unix-tijdstempel naar datum",
   "unixPlaceholder": "Unix-tijdstempel invoeren (bijv. 1700000000)",

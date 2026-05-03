@@ -7,7 +7,7 @@
   "copied": "コピーしました！",
   "rowCount": "{count}行",
   "columnCount": "{count}列",
-  "errorTitle": "Error",
+  "errorTitle": "エラー",
   "privacyNote": "データはブラウザの外に出ません。変換はすべてローカルで行われます。",
   "name": "JSON to CSV",
   "description": "Convert a JSON array of objects to a downloadable CSV file",

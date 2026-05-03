@@ -1,6 +1,6 @@
 {
   "currentLabel": "Aktueller Unix-Zeitstempel",
-  "copy": "Copy",
+  "copy": "Kopieren",
   "copied": "Kopiert!",
   "unixToDateLabel": "Unix-Zeitstempel in Datum",
   "unixPlaceholder": "Unix-Zeitstempel eingeben (z. B. 1700000000)",

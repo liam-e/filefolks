@@ -7,7 +7,7 @@
   "copied": "已复制！",
   "rowCount": "{count} 行",
   "columnCount": "{count} 列",
-  "errorTitle": "Error",
+  "errorTitle": "错误",
   "privacyNote": "您的数据不会离开浏览器。所有转换均在本地进行。",
   "name": "JSON to CSV",
   "description": "Convert a JSON array of objects to a downloadable CSV file",
