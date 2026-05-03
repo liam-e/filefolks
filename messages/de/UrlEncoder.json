@@ -13,27 +13,27 @@
   "privacyNote": "Alle Verarbeitungen erfolgen lokal in deinem Browser.",
   "errorTitle": "Fehler",
   "invalidEncoding": "Ungültige URL-Kodierung — überprüfe unvollständige Prozentsequenzen.",
-  "name": "URL Kodieren / Dekodieren",
-  "description": "Encode and decode URL-safe strings and query parameters",
-  "longDescription": "Paste any text to URL-encode it for safe use in a browser address bar or API request, or paste a percent-encoded string to decode it back. Everything runs locally in your browser.",
-  "seoTitle": "URL Encode & Decode Online — Free, Private | FileFolks",
-  "seoDescription": "Encode or decode URLs and query strings instantly in your browser. No upload or account needed.",
+  "name": "URL kodieren / dekodieren",
+  "description": "URL-sichere Zeichenfolgen und Query-Parameter kodieren und dekodieren",
+  "longDescription": "Füge beliebigen Text ein, um ihn für die sichere Verwendung in einer Browser-Adressleiste oder einem API-Request URL-zu kodieren, oder füge eine prozentkodierte Zeichenfolge ein, um sie zu dekodieren. Alles läuft lokal in deinem Browser.",
+  "seoTitle": "URL online kodieren und dekodieren — Kostenlos, privat | FileFolks",
+  "seoDescription": "URLs und Query-Strings sofort im Browser kodieren oder dekodieren. Kein Upload oder Konto erforderlich.",
   "faqs": [
     {
-      "question": "Is my data uploaded?",
-      "answer": "No. URL encoding and decoding are pure JavaScript operations that run entirely in your browser."
+      "question": "Werden meine Daten hochgeladen?",
+      "answer": "Nein. URL-Kodierung und -Dekodierung sind reine JavaScript-Operationen, die vollständig in deinem Browser laufen."
     },
     {
-      "question": "What is URL encoding?",
-      "answer": "URL encoding (percent-encoding) replaces special characters with a percent sign followed by two hex digits. For example, a space becomes %20 and an ampersand becomes %26."
+      "question": "Was ist URL-Kodierung?",
+      "answer": "URL-Kodierung (Prozent-Kodierung) ersetzt Sonderzeichen durch ein Prozentzeichen gefolgt von zwei Hexadezimalziffern. Zum Beispiel wird ein Leerzeichen zu %20 und ein kaufmännisches Und zu %26."
     },
     {
-      "question": "What is the difference between encodeURIComponent and encodeURI?",
-      "answer": "This tool uses encodeURIComponent, which encodes everything except A–Z a–z 0–9 - _ . ! ~ * ' ( ). Use it for individual query parameter values. encodeURI preserves characters valid in a complete URL, such as slashes and colons."
+      "question": "Was ist der Unterschied zwischen encodeURIComponent und encodeURI?",
+      "answer": "Dieses Tool verwendet encodeURIComponent, das alles außer A-Z a-z 0-9 - _ . ! ~ * ' ( ) kodiert. Verwende es für einzelne Query-Parameter-Werte. encodeURI behält Zeichen bei, die in einer vollständigen URL gültig sind, wie Schrägstriche und Doppelpunkte."
     },
     {
-      "question": "Can I decode a full URL?",
-      "answer": "Yes. Paste the full percent-encoded URL into the Decode tab and the tool will decode all percent-sequences back to readable characters."
+      "question": "Kann ich eine vollständige URL dekodieren?",
+      "answer": "Ja. Füge die vollständig prozentkodierte URL auf dem Tab Dekodieren ein, und das Tool dekodiert alle Prozentsequenzen zurück in lesbare Zeichen."
     }
   ]
 }

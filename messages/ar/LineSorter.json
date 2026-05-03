@@ -12,23 +12,23 @@
   "copied": "تم النسخ",
   "downloadButton": "تنزيل .txt",
   "privacyNote": "نصك لا يغادر متصفحك ابدا.",
-  "name": "Line Sorter",
-  "description": "Sort lines of text alphabetically, by length, or randomly",
-  "longDescription": "Paste any block of text to sort its lines alphabetically, reverse alphabetically, by shortest, by longest, or randomly. Toggle case-sensitive sorting.",
-  "seoTitle": "Line Sorter Online — Sort Text Lines Alphabetically | FileFolks",
-  "seoDescription": "Sort lines of text alphabetically, by length, or randomly. Case-sensitive option. Free and runs in your browser.",
+  "name": "ترتيب الأسطر",
+  "description": "ترتيب أسطر النص أبجديًا أو حسب الطول أو عشوائيًا",
+  "longDescription": "الصق أي مقطع نصي لترتيب أسطره أبجديًا أو عكس الأبجدية أو حسب الأقصر أو الأطول أو عشوائيًا. يتوفر خيار الترتيب مع مراعاة حالة الأحرف.",
+  "seoTitle": "ترتيب الأسطر عبر الإنترنت — ترتيب أسطر النص أبجديًا | FileFolks",
+  "seoDescription": "ترتيب أسطر النص أبجديًا أو حسب الطول أو عشوائيًا. خيار حساسية حالة الأحرف. مجاني ويعمل في متصفحك.",
   "faqs": [
     {
-      "question": "What sort orders are available?",
-      "answer": "A to Z, Z to A, shortest to longest, longest to shortest, and random shuffle."
+      "question": "ما أوضاع الترتيب المتاحة؟",
+      "answer": "من الألف إلى الياء، من الياء إلى الألف، من الأقصر إلى الأطول، من الأطول إلى الأقصر، وخلط عشوائي."
     },
     {
-      "question": "Is sorting case-sensitive?",
-      "answer": "Configurable. Case-insensitive by default."
+      "question": "هل الترتيب حساس لحالة الأحرف؟",
+      "answer": "قابل للتخصيص. غير حساس لحالة الأحرف افتراضيًا."
     },
     {
-      "question": "Is my text stored?",
-      "answer": "No. All processing happens in your browser. Nothing is sent to a server."
+      "question": "هل يتم تخزين نصي؟",
+      "answer": "لا. تتم جميع العمليات في متصفحك. لا يُرسل شيء إلى أي خادم."
     }
   ]
 }

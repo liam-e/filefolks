@@ -11,23 +11,23 @@
   "copied": "تم النسخ",
   "downloadButton": "تنزيل .txt",
   "privacyNote": "نصك لا يغادر متصفحك ابدا.",
-  "name": "Remove Duplicate Lines",
-  "description": "Paste text and instantly remove duplicate lines",
-  "longDescription": "Paste any block of text to remove duplicate lines. Options include case-sensitive matching, trimming whitespace, and stripping empty lines.",
-  "seoTitle": "Remove Duplicate Lines Online — Free Text Deduplication | FileFolks",
-  "seoDescription": "Remove duplicate lines from text instantly. Options for case-sensitive matching and whitespace trimming. Free and private.",
+  "name": "إزالة الأسطر المكررة",
+  "description": "الصق النص وأزل الأسطر المكررة على الفور",
+  "longDescription": "الصق أي مقطع نصي لإزالة الأسطر المكررة. تتضمن الخيارات المطابقة مع مراعاة حالة الأحرف، وإزالة المسافات الزائدة، وحذف الأسطر الفارغة.",
+  "seoTitle": "إزالة الأسطر المكررة عبر الإنترنت — إلغاء تكرار النص مجانًا | FileFolks",
+  "seoDescription": "أزل الأسطر المكررة من النص فورًا. خيارات للمطابقة مع مراعاة حالة الأحرف وإزالة المسافات. مجاني وخاص.",
   "faqs": [
     {
-      "question": "Is matching case-sensitive?",
-      "answer": "Configurable. By default it is case-insensitive, so 'Apple' and 'apple' count as duplicates."
+      "question": "هل المطابقة حساسة لحالة الأحرف؟",
+      "answer": "قابل للتخصيص. افتراضيًا غير حساسة، لذا تُعدّ «Apple» و«apple» تكرارًا."
     },
     {
-      "question": "Does it handle blank lines?",
-      "answer": "Blank lines can be stripped with the 'Remove empty lines' option."
+      "question": "هل يتعامل مع الأسطر الفارغة؟",
+      "answer": "يمكن حذف الأسطر الفارغة باستخدام خيار «إزالة الأسطر الفارغة»."
     },
     {
-      "question": "Is my text stored?",
-      "answer": "No. All processing happens in your browser. Nothing is sent to a server."
+      "question": "هل يتم تخزين نصي؟",
+      "answer": "لا. تتم جميع العمليات في متصفحك. لا يُرسل شيء إلى أي خادم."
     }
   ]
 }

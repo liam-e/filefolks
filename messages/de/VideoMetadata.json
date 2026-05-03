@@ -13,22 +13,22 @@
   "errorGeneric": "Videometadaten konnten nicht gelesen werden. Das Format wird möglicherweise von Ihrem Browser nicht unterstützt.",
   "privacyNote": "Dein Video verlasst nie deinen Browser.",
   "name": "Video-Metadaten",
-  "description": "Inspect video properties: resolution, duration, file size, and more",
-  "longDescription": "Drop a video file to instantly see its resolution, duration, aspect ratio, estimated bitrate, and file type. No upload needed.",
-  "seoTitle": "Video Metadata Viewer — Inspect Video Properties | FileFolks",
-  "seoDescription": "View video properties including resolution, duration, aspect ratio, and file size. No upload. Runs in your browser.",
+  "description": "Videoeigenschaften prüfen: Auflösung, Dauer, Dateigröße und mehr",
+  "longDescription": "Lade eine Videodatei hoch, um sofort Auflösung, Dauer, Seitenverhältnis, geschätzte Bitrate und Dateityp anzuzeigen. Kein Upload erforderlich.",
+  "seoTitle": "Video-Metadaten-Viewer — Videoeigenschaften prüfen | FileFolks",
+  "seoDescription": "Videoeigenschaften wie Auflösung, Dauer, Seitenverhältnis und Dateigröße anzeigen. Kein Upload. Läuft in deinem Browser.",
   "faqs": [
     {
-      "question": "Is my video uploaded?",
-      "answer": "No. The tool reads metadata using the browser's native video API. Nothing is sent to a server."
+      "question": "Wird mein Video hochgeladen?",
+      "answer": "Nein. Das Tool liest Metadaten über die native Video-API des Browsers. Es wird nichts an einen Server gesendet."
     },
     {
-      "question": "What properties can I see?",
-      "answer": "File name, file size, file type, duration, resolution (width and height), aspect ratio, and estimated bitrate."
+      "question": "Welche Eigenschaften kann ich sehen?",
+      "answer": "Dateiname, Dateigröße, Dateityp, Dauer, Auflösung (Breite und Höhe), Seitenverhältnis und geschätzte Bitrate."
     },
     {
-      "question": "Can I see the codec?",
-      "answer": "The tool shows the file's MIME type (e.g. video/mp4). Detailed codec info is not available from browser APIs alone."
+      "question": "Kann ich den Codec sehen?",
+      "answer": "Das Tool zeigt den MIME-Typ der Datei an (z. B. video/mp4). Detaillierte Codec-Informationen sind über Browser-APIs allein nicht verfügbar."
     }
   ]
 }

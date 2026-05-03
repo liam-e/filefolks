@@ -15,27 +15,27 @@
   "valid": "Gültig",
   "privacyNote": "Dein Token verlässt deinen Browser nicht.",
   "errorTitle": "Fehler",
-  "name": "JWT Decoder",
-  "description": "Decode and inspect JSON Web Token headers and payloads",
-  "longDescription": "Paste a JSON Web Token to instantly see its decoded header, payload claims, and expiry date. The token never leaves your browser — no server call is made.",
-  "seoTitle": "JWT Decoder Online — Inspect Token Claims | FileFolks",
-  "seoDescription": "Decode and inspect a JWT header and payload instantly in your browser. Private and free.",
+  "name": "JWT-Decoder",
+  "description": "JSON-Web-Token-Header und -Payloads dekodieren und prüfen",
+  "longDescription": "Füge ein JSON-Web-Token ein, um sofort seinen dekodierten Header, die Payload-Claims und das Ablaufdatum zu sehen. Das Token verlässt deinen Browser nie — es wird kein Server aufgerufen.",
+  "seoTitle": "JWT-Decoder online — Token-Claims prüfen | FileFolks",
+  "seoDescription": "JWT-Header und -Payload sofort im Browser dekodieren und prüfen. Privat und kostenlos.",
   "faqs": [
     {
-      "question": "Is my JWT sent to a server?",
-      "answer": "No. Decoding a JWT is a Base64 operation that runs entirely in your browser. Your token is never transmitted."
+      "question": "Wird mein JWT an einen Server gesendet?",
+      "answer": "Nein. Das Dekodieren eines JWT ist eine Base64-Operation, die vollständig in deinem Browser läuft. Dein Token wird nie übertragen."
     },
     {
-      "question": "Does this tool verify the signature?",
-      "answer": "No. Signature verification requires your secret or public key, which you should never share with a third-party tool. This decoder shows the header and payload claims only."
+      "question": "Überprüft dieses Tool die Signatur?",
+      "answer": "Nein. Die Signaturüberprüfung erfordert deinen geheimen oder öffentlichen Schlüssel, den du niemals mit einem Drittanbieter-Tool teilen solltest. Dieser Decoder zeigt nur die Header- und Payload-Claims."
     },
     {
-      "question": "What is a JWT?",
-      "answer": "A JSON Web Token (JWT) is a compact, URL-safe token made of three Base64-encoded parts separated by dots: a header (algorithm), a payload (claims), and a signature."
+      "question": "Was ist ein JWT?",
+      "answer": "Ein JSON Web Token (JWT) ist ein kompaktes, URL-sicheres Token aus drei Base64-kodierten Teilen, getrennt durch Punkte: ein Header (Algorithmus), ein Payload (Claims) und eine Signatur."
     },
     {
-      "question": "Can I see when the token expires?",
-      "answer": "Yes. If the payload contains an exp claim, the decoder shows it as a human-readable date and indicates whether the token is currently expired."
+      "question": "Kann ich sehen, wann das Token abläuft?",
+      "answer": "Ja. Wenn der Payload einen exp-Claim enthält, zeigt der Decoder ihn als lesbares Datum an und gibt an, ob das Token aktuell abgelaufen ist."
     }
   ]
 }

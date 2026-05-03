@@ -11,23 +11,23 @@
   "copyButton": "نسخ",
   "copied": "تم النسخ",
   "privacyNote": "يتم التوليد بالكامل في متصفحك.",
-  "name": "Lorem Ipsum Generator",
-  "description": "Generate placeholder text by paragraph, sentence, or word count",
-  "longDescription": "Generate lorem ipsum placeholder text in any quantity. Choose paragraphs, sentences, or words. Optionally start with the classic opening sentence.",
-  "seoTitle": "Lorem Ipsum Generator — Free Placeholder Text | FileFolks",
-  "seoDescription": "Generate lorem ipsum placeholder text by paragraph, sentence, or word count. Free, instant, and customizable.",
+  "name": "مولّد نص Lorem Ipsum",
+  "description": "توليد نص عشوائي بالفقرات أو الجمل أو عدد الكلمات",
+  "longDescription": "توليد نص Lorem Ipsum بأي كمية. اختر الفقرات أو الجمل أو الكلمات. اختياريًا ابدأ بالجملة الافتتاحية الكلاسيكية.",
+  "seoTitle": "مولّد Lorem Ipsum — نص عشوائي مجاني | FileFolks",
+  "seoDescription": "توليد نص Lorem Ipsum عشوائي بالفقرات أو الجمل أو عدد الكلمات. مجاني وفوري وقابل للتخصيص.",
   "faqs": [
     {
-      "question": "What is lorem ipsum?",
-      "answer": "Lorem ipsum is scrambled Latin text derived from Cicero's de Finibus, used as typographic placeholder text since the 1960s."
+      "question": "ما هو Lorem Ipsum؟",
+      "answer": "Lorem Ipsum هو نص لاتيني مبعثر مشتق من كتاب Cicero «de Finibus»، يُستخدم كنص عشوائي للتصميم منذ الستينيات."
     },
     {
-      "question": "Can I start with the classic opening?",
-      "answer": "Yes. Toggle the option to begin with the famous 'Lorem ipsum dolor sit amet...' sentence."
+      "question": "هل يمكنني البدء بالافتتاحية الكلاسيكية؟",
+      "answer": "نعم. فعّل الخيار للبدء بجملة «Lorem ipsum dolor sit amet...» الشهيرة."
     },
     {
-      "question": "Is the text random?",
-      "answer": "Yes. Each generation produces a different arrangement of words drawn from the standard lorem ipsum vocabulary."
+      "question": "هل النص عشوائي؟",
+      "answer": "نعم. كل عملية توليد تُنتج ترتيبًا مختلفًا من الكلمات المأخوذة من مفردات Lorem Ipsum القياسية."
     }
   ]
 }

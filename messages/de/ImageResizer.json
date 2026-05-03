@@ -16,27 +16,27 @@
   "successTitle": "Erfolgreich skaliert. Prüfen Sie Ihren Download-Ordner.",
   "privacyNote": "Ihr Bild verlässt nie Ihren Browser. Die gesamte Verarbeitung erfolgt lokal.",
   "removeFile": "Datei entfernen",
-  "name": "Bild skalieren",
-  "description": "Bilder auf genaue Pixelabmessungen oder einen Prozentsatz skalieren",
-  "longDescription": "Drop an image, enter target dimensions or a percentage scale, and download the resized result. Aspect ratio lock keeps your image proportional. Runs entirely in your browser.",
-  "seoTitle": "Resize Image Online — Free, Private, No Upload | FileFolks",
-  "seoDescription": "Resize images to exact pixels or a percentage in your browser. PNG, JPG, WebP. No upload required.",
+  "name": "Bildgröße ändern",
+  "description": "Bilder auf genaue Pixelmaße oder einen Prozentsatz skalieren",
+  "longDescription": "Lade ein Bild hoch, gib Zielmaße oder einen prozentualen Maßstab ein und lade das skalierte Ergebnis herunter. Die Seitenverhältnis-Sperre hält das Bild proportional. Läuft vollständig in deinem Browser.",
+  "seoTitle": "Bildgröße online ändern — Kostenlos, privat, kein Upload | FileFolks",
+  "seoDescription": "Bildgröße auf genaue Pixel oder einen Prozentsatz im Browser ändern. PNG, JPG, WebP. Kein Upload erforderlich.",
   "faqs": [
     {
-      "question": "Are my images uploaded?",
-      "answer": "No. Resizing uses the Canvas API in your browser. Nothing is sent to a server."
+      "question": "Werden meine Bilder hochgeladen?",
+      "answer": "Nein. Die Größenänderung verwendet die Canvas-API in deinem Browser. Es wird nichts an einen Server gesendet."
     },
     {
-      "question": "Will the image quality change?",
-      "answer": "PNG output is lossless. JPG and WebP output uses 92% quality, which is visually indistinguishable from the original for most images."
+      "question": "Ändert sich die Bildqualität?",
+      "answer": "PNG-Ausgabe ist verlustfrei. JPG- und WebP-Ausgabe verwendet 92 % Qualität, was für die meisten Bilder visuell nicht vom Original zu unterscheiden ist."
     },
     {
-      "question": "What does the aspect ratio lock do?",
-      "answer": "When locked, changing one dimension automatically scales the other to keep the image proportional. Unlock it to set width and height independently."
+      "question": "Was bewirkt die Seitenverhältnis-Sperre?",
+      "answer": "Wenn gesperrt, skaliert die Änderung einer Dimension automatisch die andere, um das Bild proportional zu halten. Entsperren, um Breite und Höhe unabhängig festzulegen."
     },
     {
-      "question": "Can I enlarge an image?",
-      "answer": "Yes, you can scale up to 200% using percentage mode. Note that enlarging a raster image reduces sharpness — the pixels are simply stretched."
+      "question": "Kann ich ein Bild vergrößern?",
+      "answer": "Ja, du kannst im Prozentmodus auf bis zu 200 % hochskalieren. Beachte, dass die Vergrößerung eines Rasterbilds die Schärfe verringert — die Pixel werden einfach gestreckt."
     }
   ]
 }

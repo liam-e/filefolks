@@ -13,27 +13,27 @@
   "errorTitle": "Fehler",
   "errorGeneric": "Beim Erstellen des Archivs ist ein Fehler aufgetreten.",
   "privacyNote": "Deine Dateien verlassen nie deinen Browser.",
-  "name": "Create ZIP",
-  "description": "Compress multiple files into a ZIP archive in your browser",
-  "longDescription": "Drop any files to pack them into a downloadable ZIP archive. All processing happens in your browser using JSZip — nothing is uploaded.",
-  "seoTitle": "Create ZIP File Online — Free, No Upload | FileFolks",
-  "seoDescription": "Compress multiple files into a ZIP archive. Drop your files and download. Runs entirely in your browser.",
+  "name": "ZIP erstellen",
+  "description": "Mehrere Dateien im Browser in ein ZIP-Archiv komprimieren",
+  "longDescription": "Lege beliebige Dateien ab, um sie in ein herunterladbares ZIP-Archiv zu packen. Die gesamte Verarbeitung erfolgt in deinem Browser mit JSZip — es wird nichts hochgeladen.",
+  "seoTitle": "ZIP-Datei online erstellen — Kostenlos, kein Upload | FileFolks",
+  "seoDescription": "Mehrere Dateien in ein ZIP-Archiv komprimieren. Dateien ablegen und herunterladen. Läuft vollständig in deinem Browser.",
   "faqs": [
     {
-      "question": "Are my files uploaded?",
-      "answer": "No. ZIP creation uses the JSZip library running entirely in your browser. Your files never leave your device."
+      "question": "Werden meine Dateien hochgeladen?",
+      "answer": "Nein. Die ZIP-Erstellung verwendet die JSZip-Bibliothek, die vollständig in deinem Browser läuft. Deine Dateien verlassen dein Gerät nie."
     },
     {
-      "question": "How many files can I add?",
-      "answer": "There is no hard limit. The practical limit depends on your device memory and the total uncompressed size."
+      "question": "Wie viele Dateien kann ich hinzufügen?",
+      "answer": "Es gibt keine feste Grenze. Die praktische Grenze hängt von deinem Gerätespeicher und der gesamten unkomprimierten Größe ab."
     },
     {
-      "question": "What compression does it use?",
-      "answer": "DEFLATE compression at level 6, the same algorithm used by most ZIP tools."
+      "question": "Welche Komprimierung wird verwendet?",
+      "answer": "DEFLATE-Komprimierung auf Stufe 6, derselbe Algorithmus wie bei den meisten ZIP-Tools."
     },
     {
-      "question": "Can I add more files after the initial drop?",
-      "answer": "Yes. Drop more files onto the drop zone at any time before clicking Create ZIP."
+      "question": "Kann ich nach dem ersten Ablegen weitere Dateien hinzufügen?",
+      "answer": "Ja. Lege jederzeit weitere Dateien in die Ablagezone, bevor du auf 'ZIP erstellen' klickst."
     }
   ]
 }

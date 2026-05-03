@@ -13,27 +13,27 @@
   "privacyNote": "تتم جميع العمليات محلياً في متصفحك.",
   "errorTitle": "خطأ",
   "invalidEncoding": "ترميز URL غير صالح — تحقق من تسلسلات النسبة المئوية غير المكتملة.",
-  "name": "ترميز / فك ترميز URL",
-  "description": "Encode and decode URL-safe strings and query parameters",
-  "longDescription": "Paste any text to URL-encode it for safe use in a browser address bar or API request, or paste a percent-encoded string to decode it back. Everything runs locally in your browser.",
-  "seoTitle": "URL Encode & Decode Online — Free, Private | FileFolks",
-  "seoDescription": "Encode or decode URLs and query strings instantly in your browser. No upload or account needed.",
+  "name": "ترميز / فكّ ترميز URL",
+  "description": "ترميز وفكّ ترميز السلاسل الآمنة للعناوين ومعاملات الاستعلام",
+  "longDescription": "الصق أي نص لترميز URL لاستخدام آمن في شريط العناوين أو طلب API، أو الصق سلسلة مرمّزة بالنسبة المئوية لفكّ ترميزها. كل شيء يعمل محليًا في متصفحك.",
+  "seoTitle": "ترميز وفكّ ترميز URL عبر الإنترنت — مجاني، خاص | FileFolks",
+  "seoDescription": "ترميز أو فكّ ترميز عناوين URL وسلاسل الاستعلام فورًا في متصفحك. بدون رفع أو حساب.",
   "faqs": [
     {
-      "question": "Is my data uploaded?",
-      "answer": "No. URL encoding and decoding are pure JavaScript operations that run entirely in your browser."
+      "question": "هل يتم رفع بياناتي؟",
+      "answer": "لا. ترميز وفكّ ترميز URL هي عمليات JavaScript خالصة تعمل بالكامل في متصفحك."
     },
     {
-      "question": "What is URL encoding?",
-      "answer": "URL encoding (percent-encoding) replaces special characters with a percent sign followed by two hex digits. For example, a space becomes %20 and an ampersand becomes %26."
+      "question": "ما هو ترميز URL؟",
+      "answer": "ترميز URL (الترميز بالنسبة المئوية) يستبدل الأحرف الخاصة بعلامة النسبة المئوية متبوعة برقمين سداسيين عشريين. على سبيل المثال، المسافة تصبح %20 والعلامة & تصبح %26."
     },
     {
-      "question": "What is the difference between encodeURIComponent and encodeURI?",
-      "answer": "This tool uses encodeURIComponent, which encodes everything except A–Z a–z 0–9 - _ . ! ~ * ' ( ). Use it for individual query parameter values. encodeURI preserves characters valid in a complete URL, such as slashes and colons."
+      "question": "ما الفرق بين encodeURIComponent و encodeURI؟",
+      "answer": "تستخدم هذه الأداة encodeURIComponent التي تشفّر كل شيء ما عدا A–Z a–z 0–9 - _ . ! ~ * ' ( ). استخدمها لقيم معاملات الاستعلام الفردية. تحتفظ encodeURI بالأحرف الصالحة في URL كامل كالشرطات المائلة والنقطتين."
     },
     {
-      "question": "Can I decode a full URL?",
-      "answer": "Yes. Paste the full percent-encoded URL into the Decode tab and the tool will decode all percent-sequences back to readable characters."
+      "question": "هل يمكنني فكّ ترميز URL كامل؟",
+      "answer": "نعم. الصق عنوان URL المرمّز بالكامل في علامة تبويب فكّ الترميز وستقوم الأداة بفكّ ترميز جميع التسلسلات المئوية إلى أحرف قابلة للقراءة."
     }
   ]
 }

@@ -15,27 +15,27 @@
   "valid": "صالح",
   "privacyNote": "رمزك لا يغادر متصفحك أبداً.",
   "errorTitle": "خطأ",
-  "name": "مفكك JWT",
-  "description": "Decode and inspect JSON Web Token headers and payloads",
-  "longDescription": "Paste a JSON Web Token to instantly see its decoded header, payload claims, and expiry date. The token never leaves your browser — no server call is made.",
-  "seoTitle": "JWT Decoder Online — Inspect Token Claims | FileFolks",
-  "seoDescription": "Decode and inspect a JWT header and payload instantly in your browser. Private and free.",
+  "name": "فكّ تشفير JWT",
+  "description": "فكّ تشفير وفحص ترويسات وحمولات رموز JSON Web Token",
+  "longDescription": "الصق رمز JSON Web Token لرؤية ترويسته المفككة وادعاءات الحمولة وتاريخ الانتهاء فورًا. لا يغادر الرمز متصفحك — لا يتم استدعاء أي خادم.",
+  "seoTitle": "فكّ تشفير JWT عبر الإنترنت — فحص ادعاءات الرمز | FileFolks",
+  "seoDescription": "فكّ تشفير وفحص ترويسة وحمولة JWT فورًا في متصفحك. خاص ومجاني.",
   "faqs": [
     {
-      "question": "Is my JWT sent to a server?",
-      "answer": "No. Decoding a JWT is a Base64 operation that runs entirely in your browser. Your token is never transmitted."
+      "question": "هل يتم إرسال رمز JWT إلى خادم؟",
+      "answer": "لا. فكّ تشفير JWT هو عملية Base64 تعمل بالكامل في متصفحك. لا يُنقل رمزك أبدًا."
     },
     {
-      "question": "Does this tool verify the signature?",
-      "answer": "No. Signature verification requires your secret or public key, which you should never share with a third-party tool. This decoder shows the header and payload claims only."
+      "question": "هل تتحقق هذه الأداة من التوقيع؟",
+      "answer": "لا. التحقق من التوقيع يتطلب مفتاحك السري أو العام، الذي لا يجب مشاركته أبدًا مع أدوات طرف ثالث. يعرض هذا الفكّ للتشفير ادعاءات الترويسة والحمولة فقط."
     },
     {
-      "question": "What is a JWT?",
-      "answer": "A JSON Web Token (JWT) is a compact, URL-safe token made of three Base64-encoded parts separated by dots: a header (algorithm), a payload (claims), and a signature."
+      "question": "ما هو JWT؟",
+      "answer": "رمز JSON Web Token هو رمز مدمج وآمن للعناوين مكوّن من ثلاثة أجزاء مشفّرة بـ Base64 مفصولة بنقاط: ترويسة (الخوارزمية)، وحمولة (الادعاءات)، وتوقيع."
     },
     {
-      "question": "Can I see when the token expires?",
-      "answer": "Yes. If the payload contains an exp claim, the decoder shows it as a human-readable date and indicates whether the token is currently expired."
+      "question": "هل يمكنني رؤية متى ينتهي الرمز؟",
+      "answer": "نعم. إذا كانت الحمولة تحتوي على ادعاء exp، يعرضه الفكّ للتشفير كتاريخ قابل للقراءة ويشير إلى ما إذا كان الرمز منتهي الصلاحية حاليًا."
     }
   ]
 }

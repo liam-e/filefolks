@@ -9,27 +9,27 @@
   "columnCount": "{count} Spalten",
   "errorTitle": "Fehler",
   "privacyNote": "Deine Daten verlassen deinen Browser nie. Die Konvertierung erfolgt lokal.",
-  "name": "JSON to CSV",
-  "description": "Convert a JSON array of objects to a downloadable CSV file",
-  "longDescription": "Paste a JSON array of objects and instantly preview and download it as a CSV. Column headers are inferred from object keys. Runs entirely in your browser — nothing is uploaded.",
-  "seoTitle": "JSON to CSV Converter — Free, No Upload | FileFolks",
-  "seoDescription": "Convert JSON arrays to CSV online. Paste your JSON, preview the table, and download the CSV. Free, private, runs in your browser.",
+  "name": "JSON zu CSV",
+  "description": "Ein JSON-Array von Objekten in eine herunterladbare CSV-Datei konvertieren",
+  "longDescription": "Füge ein JSON-Array von Objekten ein und lade es sofort als CSV in der Vorschau an und herunter. Spaltenüberschriften werden aus den Objektschlüsseln abgeleitet. Läuft vollständig in deinem Browser — es wird nichts hochgeladen.",
+  "seoTitle": "JSON-zu-CSV-Konverter — Kostenlos, kein Upload | FileFolks",
+  "seoDescription": "JSON-Arrays online in CSV konvertieren. JSON einfügen, Tabelle in der Vorschau anzeigen und CSV herunterladen. Kostenlos, privat, läuft in deinem Browser.",
   "faqs": [
     {
-      "question": "What JSON structure does this support?",
-      "answer": "The input must be a JSON array of objects, for example [{\"name\":\"Alice\",\"age\":30}]. Each object becomes a row; the keys become column headers."
+      "question": "Welche JSON-Struktur wird unterstützt?",
+      "answer": "Die Eingabe muss ein JSON-Array von Objekten sein, z. B. [{\"name\":\"Alice\",\"age\":30}]. Jedes Objekt wird zu einer Zeile; die Schlüssel werden zu Spaltenüberschriften."
     },
     {
-      "question": "What if objects have different keys?",
-      "answer": "All unique keys across all objects are used as column headers. Objects missing a key will produce an empty cell for that column."
+      "question": "Was passiert, wenn Objekte unterschiedliche Schlüssel haben?",
+      "answer": "Alle eindeutigen Schlüssel über alle Objekte werden als Spaltenüberschriften verwendet. Objekte ohne einen Schlüssel erzeugen eine leere Zelle für diese Spalte."
     },
     {
-      "question": "Is my data uploaded anywhere?",
-      "answer": "No. Conversion runs entirely in your browser. Your data never leaves your device."
+      "question": "Werden meine Daten irgendwo hochgeladen?",
+      "answer": "Nein. Die Konvertierung läuft vollständig in deinem Browser. Deine Daten verlassen dein Gerät nie."
     },
     {
-      "question": "Can I convert CSV back to JSON?",
-      "answer": "Not currently, but a CSV to JSON converter is on the roadmap."
+      "question": "Kann ich CSV zurück in JSON konvertieren?",
+      "answer": "Derzeit nicht, aber ein CSV-zu-JSON-Konverter ist in Planung."
     }
   ]
 }

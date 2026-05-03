@@ -13,26 +13,26 @@
   "errorGeneric": "Etwas ist schiefgelaufen. Versuche ein anderes Video.",
   "privacyNote": "Dein Video verlasst nie deinen Browser.",
   "name": "Video zu GIF",
-  "description": "Convert a video clip to an animated GIF in your browser",
-  "longDescription": "Drop a video file, set the start time, duration, frame rate, and width, then download the resulting GIF. Processing happens entirely in your browser.",
-  "seoTitle": "Video to GIF Online — Free, Private, No Upload | FileFolks",
-  "seoDescription": "Convert any video clip to an animated GIF in your browser. No upload required. Set start time, duration, frame rate, and size.",
+  "description": "Einen Videoclip im Browser in ein animiertes GIF konvertieren",
+  "longDescription": "Lade eine Videodatei hoch, lege Startzeit, Dauer, Bildrate und Breite fest und lade das resultierende GIF herunter. Die Verarbeitung erfolgt vollständig in deinem Browser.",
+  "seoTitle": "Video zu GIF online — Kostenlos, privat, kein Upload | FileFolks",
+  "seoDescription": "Beliebigen Videoclip im Browser in ein animiertes GIF konvertieren. Kein Upload erforderlich. Startzeit, Dauer, Bildrate und Größe festlegen.",
   "faqs": [
     {
-      "question": "Is my video uploaded?",
-      "answer": "No. The tool uses the Canvas API directly in your browser. Your video never leaves your device."
+      "question": "Wird mein Video hochgeladen?",
+      "answer": "Nein. Das Tool verwendet die Canvas-API direkt in deinem Browser. Dein Video verlässt dein Gerät nie."
     },
     {
-      "question": "What video formats are supported?",
-      "answer": "Any format your browser can play, typically MP4 (H.264), WebM, and Ogg. MOV files may work depending on your browser."
+      "question": "Welche Videoformate werden unterstützt?",
+      "answer": "Alle Formate, die dein Browser abspielen kann, in der Regel MP4 (H.264), WebM und Ogg. MOV-Dateien können je nach Browser funktionieren."
     },
     {
-      "question": "Why is there a 15-second limit?",
-      "answer": "GIF files grow quickly with duration. A 15-second GIF at 10fps and 320px wide is already several megabytes. Longer clips are better shared as video."
+      "question": "Warum gibt es ein 15-Sekunden-Limit?",
+      "answer": "GIF-Dateien wachsen schnell mit der Dauer. Ein 15-sekündiges GIF bei 10 fps und 320 px Breite ist bereits mehrere Megabyte groß. Längere Clips werden besser als Video geteilt."
     },
     {
-      "question": "How do I reduce the GIF file size?",
-      "answer": "Lower the frame rate (5fps instead of 15fps), reduce the width (240px instead of 480px), or shorten the duration."
+      "question": "Wie kann ich die GIF-Dateigröße reduzieren?",
+      "answer": "Reduziere die Bildrate (5 fps statt 15 fps), verringere die Breite (240 px statt 480 px) oder kürze die Dauer."
     }
   ]
 }

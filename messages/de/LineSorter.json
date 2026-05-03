@@ -12,23 +12,23 @@
   "copied": "Kopiert",
   "downloadButton": "Als .txt herunterladen",
   "privacyNote": "Dein Text verlasst nie deinen Browser.",
-  "name": "Line Sorter",
-  "description": "Sort lines of text alphabetically, by length, or randomly",
-  "longDescription": "Paste any block of text to sort its lines alphabetically, reverse alphabetically, by shortest, by longest, or randomly. Toggle case-sensitive sorting.",
-  "seoTitle": "Line Sorter Online — Sort Text Lines Alphabetically | FileFolks",
-  "seoDescription": "Sort lines of text alphabetically, by length, or randomly. Case-sensitive option. Free and runs in your browser.",
+  "name": "Zeilensortierer",
+  "description": "Textzeilen alphabetisch, nach Länge oder zufällig sortieren",
+  "longDescription": "Füge einen beliebigen Textblock ein, um seine Zeilen alphabetisch, in umgekehrter Reihenfolge, nach kürzester, nach längster oder zufällig zu sortieren. Groß-/Kleinschreibung-sensitives Sortieren umschaltbar.",
+  "seoTitle": "Zeilen online sortieren — Textzeilen alphabetisch sortieren | FileFolks",
+  "seoDescription": "Textzeilen alphabetisch, nach Länge oder zufällig sortieren. Option für Groß-/Kleinschreibung. Kostenlos und läuft in deinem Browser.",
   "faqs": [
     {
-      "question": "What sort orders are available?",
-      "answer": "A to Z, Z to A, shortest to longest, longest to shortest, and random shuffle."
+      "question": "Welche Sortierreihenfolgen sind verfügbar?",
+      "answer": "A bis Z, Z bis A, kürzeste bis längste, längste bis kürzeste und zufällige Mischung."
     },
     {
-      "question": "Is sorting case-sensitive?",
-      "answer": "Configurable. Case-insensitive by default."
+      "question": "Ist die Sortierung Groß-/Kleinschreibung-sensitiv?",
+      "answer": "Konfigurierbar. Standardmäßig nicht Groß-/Kleinschreibung-sensitiv."
     },
     {
-      "question": "Is my text stored?",
-      "answer": "No. All processing happens in your browser. Nothing is sent to a server."
+      "question": "Wird mein Text gespeichert?",
+      "answer": "Nein. Alle Verarbeitungen erfolgen in deinem Browser. Es wird nichts an einen Server gesendet."
     }
   ]
 }

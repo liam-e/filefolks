@@ -11,23 +11,23 @@
   "copyButton": "Kopieren",
   "copied": "Kopiert",
   "privacyNote": "Vollstandig in deinem Browser generiert.",
-  "name": "Lorem Ipsum Generator",
-  "description": "Generate placeholder text by paragraph, sentence, or word count",
-  "longDescription": "Generate lorem ipsum placeholder text in any quantity. Choose paragraphs, sentences, or words. Optionally start with the classic opening sentence.",
-  "seoTitle": "Lorem Ipsum Generator — Free Placeholder Text | FileFolks",
-  "seoDescription": "Generate lorem ipsum placeholder text by paragraph, sentence, or word count. Free, instant, and customizable.",
+  "name": "Lorem-Ipsum-Generator",
+  "description": "Platzhaltertext nach Absatz-, Satz- oder Wortanzahl generieren",
+  "longDescription": "Lorem-Ipsum-Platzhaltertext in beliebiger Menge generieren. Absätze, Sätze oder Wörter wählen. Optional mit dem klassischen Eröffnungssatz beginnen.",
+  "seoTitle": "Lorem-Ipsum-Generator — Kostenloser Platzhaltertext | FileFolks",
+  "seoDescription": "Lorem-Ipsum-Platzhaltertext nach Absatz-, Satz- oder Wortanzahl generieren. Kostenlos, sofort und anpassbar.",
   "faqs": [
     {
-      "question": "What is lorem ipsum?",
-      "answer": "Lorem ipsum is scrambled Latin text derived from Cicero's de Finibus, used as typographic placeholder text since the 1960s."
+      "question": "Was ist Lorem Ipsum?",
+      "answer": "Lorem Ipsum ist ein verwürfelter lateinischer Text, der aus Ciceros de Finibus abgeleitet ist und seit den 1960er Jahren als typografischer Platzhaltertext verwendet wird."
     },
     {
-      "question": "Can I start with the classic opening?",
-      "answer": "Yes. Toggle the option to begin with the famous 'Lorem ipsum dolor sit amet...' sentence."
+      "question": "Kann ich mit dem klassischen Eröffnungssatz beginnen?",
+      "answer": "Ja. Schalte die Option ein, um mit dem berühmten Satz 'Lorem ipsum dolor sit amet...' zu beginnen."
     },
     {
-      "question": "Is the text random?",
-      "answer": "Yes. Each generation produces a different arrangement of words drawn from the standard lorem ipsum vocabulary."
+      "question": "Ist der Text zufällig?",
+      "answer": "Ja. Jede Generierung erzeugt eine andere Anordnung von Wörtern aus dem Standard-Lorem-Ipsum-Wortschatz."
     }
   ]
 }

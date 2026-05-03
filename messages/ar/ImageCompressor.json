@@ -16,25 +16,25 @@
   "removeFile": "إزالة الملف",
   "name": "ضغط الصورة",
   "description": "تقليل حجم ملف الصورة مع الحد الأدنى من فقدان الجودة",
-  "longDescription": "Drop a PNG, JPG, or WebP image to compress it. File size is reduced while preserving visual quality — everything runs in your browser. Nothing is uploaded.",
-  "seoTitle": "ضغط الصورة عبر الإنترنت — مجاني، خاص، بدون رفع | FileFolks",
-  "seoDescription": "قلل حجم الصورة في متصفحك. PNG وJPG وWebP. بدون رفع. سريع وخاص.",
+  "longDescription": "أسقط صورة PNG أو JPG أو WebP لضغطها. يتم تقليل حجم الملف مع الحفاظ على الجودة البصرية — كل شيء يعمل في متصفحك. لا يتم رفع أي شيء.",
+  "seoTitle": "ضغط الصور عبر الإنترنت — مجاني، خاص، بدون رفع | FileFolks",
+  "seoDescription": "ضغط الصور بدون رفع. تقليل حجم ملفات JPG و PNG و WebP في متصفحك. خاص ومجاني وبدون تسجيل.",
   "faqs": [
     {
-      "question": "Are my images uploaded to a server?",
-      "answer": "No. Compression runs entirely in your browser using JavaScript. Your images never leave your device."
+      "question": "هل يتم رفع صوري إلى خادم؟",
+      "answer": "لا. يعمل الضغط بالكامل في متصفحك باستخدام JavaScript. صورك لا تغادر جهازك أبدًا."
     },
     {
-      "question": "Which formats are supported?",
-      "answer": "PNG, JPG, and WebP. The output format matches your input file."
+      "question": "ما التنسيقات المدعومة؟",
+      "answer": "PNG و JPG و WebP. يطابق تنسيق المخرجات ملف المدخل."
     },
     {
-      "question": "How much will the file shrink?",
-      "answer": "Savings vary by image. Photographs typically compress 40-70%. Images that are already heavily compressed will see smaller gains."
+      "question": "بكم سيتقلص الملف؟",
+      "answer": "تتفاوت النتائج حسب الصورة. تنضغط الصور الفوتوغرافية عادةً بنسبة 40-70%. الصور المضغوطة مسبقًا ستشهد مكاسب أقل."
     },
     {
-      "question": "Will compression affect image quality?",
-      "answer": "The tool targets a maximum output size of 1 MB while preserving as much quality as possible. For most photos the difference is imperceptible."
+      "question": "هل سيؤثر الضغط على جودة الصورة؟",
+      "answer": "تستهدف الأداة حجمًا أقصى للمخرجات يبلغ 1 ميغابايت مع الحفاظ على أعلى جودة ممكنة. بالنسبة لمعظم الصور الفوتوغرافية، الفرق غير ملحوظ."
     }
   ]
 }

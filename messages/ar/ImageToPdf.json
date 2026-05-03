@@ -11,27 +11,27 @@
   "moveUp": "تحريك للأعلى",
   "moveDown": "تحريك للأسفل",
   "removeFile": "إزالة الملف",
-  "name": "صورة إلى PDF",
-  "description": "تحويل صورة أو أكثر إلى مستند PDF واحد",
-  "longDescription": "Drop PNG, JPG, or WebP images and download them combined into a single PDF. Reorder pages by dragging. Everything runs in your browser — nothing is uploaded.",
-  "seoTitle": "Image to PDF Online — Free, Private, No Upload | FileFolks",
-  "seoDescription": "Convert JPG, PNG, or WebP images to a PDF in your browser. Reorder pages, then download. No upload required.",
+  "name": "تحويل الصورة إلى PDF",
+  "description": "تحويل صورة واحدة أو أكثر إلى مستند PDF واحد",
+  "longDescription": "أسقط صور PNG أو JPG أو WebP وحمّلها مجمّعة في ملف PDF واحد. أعد ترتيب الصفحات بالسحب. كل شيء يعمل في متصفحك — لا يتم رفع أي شيء.",
+  "seoTitle": "تحويل الصورة إلى PDF عبر الإنترنت — مجاني، خاص، بدون رفع | FileFolks",
+  "seoDescription": "تحويل صور JPG و PNG و WebP إلى PDF في متصفحك. أعد ترتيب الصفحات ثم حمّل. بدون رفع.",
   "faqs": [
     {
-      "question": "Are my images uploaded to a server?",
-      "answer": "No. All processing uses pdf-lib in your browser. Your images never leave your device."
+      "question": "هل يتم رفع صوري إلى خادم؟",
+      "answer": "لا. تستخدم جميع العمليات مكتبة pdf-lib في متصفحك. صورك لا تغادر جهازك أبدًا."
     },
     {
-      "question": "Which image formats are supported?",
-      "answer": "PNG, JPG, and WebP. Each image becomes one page in the output PDF."
+      "question": "ما تنسيقات الصور المدعومة؟",
+      "answer": "PNG و JPG و WebP. تصبح كل صورة صفحة واحدة في ملف PDF الناتج."
     },
     {
-      "question": "Can I control the page order?",
-      "answer": "Yes. After adding your images, drag them into the order you want. The PDF pages will follow this order."
+      "question": "هل يمكنني التحكم في ترتيب الصفحات؟",
+      "answer": "نعم. بعد إضافة صورك، اسحبها بالترتيب الذي تريده. ستتبع صفحات PDF هذا الترتيب."
     },
     {
-      "question": "What size will the PDF pages be?",
-      "answer": "Each page matches the pixel dimensions of the source image. For very large images the PDF file size may be significant."
+      "question": "ما حجم صفحات PDF؟",
+      "answer": "تطابق كل صفحة الأبعاد بالبكسل للصورة المصدر. بالنسبة للصور الكبيرة جدًا قد يكون حجم ملف PDF كبيرًا."
     }
   ]
 }

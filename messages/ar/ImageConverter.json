@@ -12,26 +12,26 @@
   "privacyNote": "صورتك لا تغادر متصفحك أبدًا. كل التحويل يتم محليًا.",
   "removeFile": "إزالة الملف",
   "name": "تحويل الصورة",
-  "description": "تحويل الصور بين PNG وJPG وWebP",
-  "longDescription": "Drop an image to convert it to PNG, JPG, or WebP. Uses your browser's built-in Canvas API. No upload, no account required.",
-  "seoTitle": "تحويل الصورة عبر الإنترنت — PNG إلى JPG وWebP والمزيد | FileFolks",
-  "seoDescription": "حول PNG إلى JPG وJPG إلى WebP والمزيد. مجاني، خاص، يعمل في متصفحك.",
+  "description": "تحويل الصور بين PNG و JPG و WebP",
+  "longDescription": "أسقط صورة لتحويلها إلى PNG أو JPG أو WebP. يستخدم واجهة Canvas API المدمجة في متصفحك. بدون رفع وبدون حساب.",
+  "seoTitle": "تحويل الصور إلى WebP و JPG و PNG عبر الإنترنت — مجاني، بدون رفع | FileFolks",
+  "seoDescription": "تحويل الصور بين WebP و JPG و PNG — مجاني، خاص، بدون رفع. يعمل في متصفحك بدون حساب.",
   "faqs": [
     {
-      "question": "Are my images uploaded?",
-      "answer": "No. Conversion uses the browser's Canvas API entirely on your device. Nothing is sent to a server."
+      "question": "هل يتم رفع صوري؟",
+      "answer": "لا. يستخدم التحويل Canvas API للمتصفح بالكامل على جهازك. لا يُرسل شيء إلى خادم."
     },
     {
-      "question": "What happens to transparency when converting to JPG?",
-      "answer": "JPG does not support transparency. Any transparent areas are filled with a white background automatically."
+      "question": "ماذا يحدث للشفافية عند التحويل إلى JPG؟",
+      "answer": "لا يدعم JPG الشفافية. يتم ملء أي مناطق شفافة بخلفية بيضاء تلقائيًا."
     },
     {
-      "question": "Is there quality loss when converting?",
-      "answer": "Converting to PNG is lossless. Converting to JPG or WebP applies light compression (92% quality by default), which is visually indistinguishable for most images."
+      "question": "هل هناك فقدان في الجودة عند التحويل؟",
+      "answer": "التحويل إلى PNG بدون فقدان. التحويل إلى JPG أو WebP يطبق ضغطًا خفيفًا (92% جودة افتراضيًا)، وهو غير قابل للتمييز بصريًا لمعظم الصور."
     },
     {
-      "question": "Can I convert AVIF or GIF files?",
-      "answer": "Currently the tool supports PNG, JPG, and WebP input and output. AVIF and GIF support may be added in future."
+      "question": "هل يمكنني تحويل ملفات AVIF أو GIF؟",
+      "answer": "حاليًا تدعم الأداة مدخلات ومخرجات PNG و JPG و WebP. قد يُضاف دعم AVIF و GIF مستقبلًا."
     }
   ]
 }

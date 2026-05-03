@@ -13,27 +13,27 @@
   "clear": "Löschen",
   "privacyNote": "Alle Verarbeitungen erfolgen lokal in deinem Browser.",
   "errorTitle": "Fehler",
-  "name": "Hash Generator",
-  "description": "Generate SHA-1, SHA-256, SHA-384, and SHA-512 hashes from text or files",
-  "longDescription": "Paste text or drop a file to compute its SHA-1, SHA-256, SHA-384, or SHA-512 hash. Everything runs in your browser using the built-in Web Crypto API. SHA-256 is recommended for security-critical applications.",
-  "seoTitle": "Hash Generator Online — SHA-256, SHA-512, SHA-1 | FileFolks",
-  "seoDescription": "Generate SHA-1, SHA-256, SHA-384, and SHA-512 hashes from text or files in your browser. Private and free.",
+  "name": "Hash-Generator",
+  "description": "SHA-1-, SHA-256-, SHA-384- und SHA-512-Hashes aus Text oder Dateien generieren",
+  "longDescription": "Text einfügen oder eine Datei ablegen, um deren SHA-1-, SHA-256-, SHA-384- oder SHA-512-Hash zu berechnen. Alles läuft in deinem Browser über die integrierte Web Crypto API. SHA-256 wird für sicherheitskritische Anwendungen empfohlen.",
+  "seoTitle": "Hash-Generator online — SHA-256, SHA-512, SHA-1 | FileFolks",
+  "seoDescription": "SHA-1-, SHA-256-, SHA-384- und SHA-512-Hashes aus Text oder Dateien im Browser generieren. Privat und kostenlos.",
   "faqs": [
     {
-      "question": "Is my data uploaded?",
-      "answer": "No. Hashing uses the Web Crypto API, which runs entirely in your browser. Your text or file is never transmitted."
+      "question": "Werden meine Daten hochgeladen?",
+      "answer": "Nein. Das Hashing verwendet die Web Crypto API, die vollständig in deinem Browser läuft. Dein Text oder deine Datei wird nie übertragen."
     },
     {
-      "question": "Which hash algorithm should I use?",
-      "answer": "Use SHA-256 or SHA-512 for security-critical work. SHA-1 is deprecated for security use — it is suitable only for non-security checksums. MD5 is not supported as it is cryptographically broken."
+      "question": "Welchen Hash-Algorithmus sollte ich verwenden?",
+      "answer": "Verwende SHA-256 oder SHA-512 für sicherheitskritische Aufgaben. SHA-1 ist für Sicherheitszwecke veraltet — er eignet sich nur für nicht sicherheitskritische Prüfsummen. MD5 wird nicht unterstützt, da es kryptografisch gebrochen ist."
     },
     {
-      "question": "Can I hash a file?",
-      "answer": "Yes. Switch to File mode, drop or select any file, and the hash is computed from the file's raw bytes."
+      "question": "Kann ich eine Datei hashen?",
+      "answer": "Ja. Wechsle in den Datei-Modus, lege eine beliebige Datei ab oder wähle sie aus, und der Hash wird aus den rohen Bytes der Datei berechnet."
     },
     {
-      "question": "What is a hash?",
-      "answer": "A cryptographic hash is a fixed-length fingerprint of your data. The same input always produces the same hash, but even a one-character change produces a completely different output."
+      "question": "Was ist ein Hash?",
+      "answer": "Ein kryptografischer Hash ist ein Fingerabdruck deiner Daten mit fester Länge. Dieselbe Eingabe erzeugt immer denselben Hash, aber selbst eine Änderung um ein Zeichen erzeugt eine völlig andere Ausgabe."
     }
   ]
 }

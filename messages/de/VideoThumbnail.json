@@ -12,27 +12,27 @@
   "errorLoad": "Videometadaten konnten nicht gelesen werden. Versuche eine andere Datei.",
   "errorGeneric": "Etwas ist schiefgelaufen. Versuche ein anderes Video.",
   "privacyNote": "Dein Video verlasst nie deinen Browser.",
-  "name": "Video-Vorschaubild",
-  "description": "Capture a still frame from any video and save it as a JPEG",
-  "longDescription": "Drop a video, scrub to the exact moment you want, and download that frame as a JPEG or PNG. No upload needed.",
-  "seoTitle": "Video Thumbnail Generator — Capture Frame as Image | FileFolks",
-  "seoDescription": "Capture any frame from a video as a JPEG or PNG image. Set the exact timestamp, preview, and download. Runs in your browser.",
+  "name": "Video-Thumbnail",
+  "description": "Ein Standbild aus einem beliebigen Video aufnehmen und als JPEG speichern",
+  "longDescription": "Lade ein Video hoch, springe zum gewünschten Moment und lade diesen Frame als JPEG oder PNG herunter. Kein Upload erforderlich.",
+  "seoTitle": "Video-Thumbnail-Generator — Frame als Bild aufnehmen | FileFolks",
+  "seoDescription": "Beliebigen Frame aus einem Video als JPEG- oder PNG-Bild aufnehmen. Genauen Zeitstempel festlegen, Vorschau anzeigen und herunterladen. Läuft in deinem Browser.",
   "faqs": [
     {
-      "question": "Is my video uploaded?",
-      "answer": "No. The tool uses the Canvas API directly in your browser. Your video never leaves your device."
+      "question": "Wird mein Video hochgeladen?",
+      "answer": "Nein. Das Tool verwendet die Canvas-API direkt in deinem Browser. Dein Video verlässt dein Gerät nie."
     },
     {
-      "question": "What video formats are supported?",
-      "answer": "Any format your browser can play, typically MP4, WebM, and Ogg."
+      "question": "Welche Videoformate werden unterstützt?",
+      "answer": "Alle Formate, die dein Browser abspielen kann, in der Regel MP4, WebM und Ogg."
     },
     {
-      "question": "What image format is the output?",
-      "answer": "JPEG by default, which gives a smaller file. PNG is also available for lossless output."
+      "question": "Welches Bildformat hat die Ausgabe?",
+      "answer": "Standardmäßig JPEG, was eine kleinere Datei ergibt. PNG ist auch für verlustfreie Ausgabe verfügbar."
     },
     {
-      "question": "Can I capture a frame from any timestamp?",
-      "answer": "Yes. Enter any time in seconds or drag the slider to scrub through the video."
+      "question": "Kann ich einen Frame von einem beliebigen Zeitstempel aufnehmen?",
+      "answer": "Ja. Gib eine beliebige Zeit in Sekunden ein oder ziehe den Schieberegler, um durch das Video zu scrubben."
     }
   ]
 }
